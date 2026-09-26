@@ -23,4 +23,4 @@ Inherits from [Pathfinder.Event.PathfinderEvent](../Classes/class_pathfinder_1_1
 
 -------------------------------
 
-Updated on 2026-09-26 at 01:20:07 +0000
+Updated on 2026-09-26 at 01:50:00 +0000

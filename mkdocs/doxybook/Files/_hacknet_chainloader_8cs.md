@@ -79,7 +79,7 @@ public class HacknetChainloader : BaseChainloader<HacknetPlugin>
             "BepInEx/core/BepInEx.Hacknet.dll"
         );
 
-    public const string VERSION = "5.4.0";
+    public const string VERSION = "5.4.1";
     public static readonly Version Version = Version.Parse(VERSION);
         
     public static HacknetChainloader Instance;
@@ -370,4 +370,4 @@ internal static class LogWriteLineToDisk
 
 -------------------------------
 
-Updated on 2026-09-26 at 01:20:08 +0000
+Updated on 2026-09-26 at 01:50:00 +0000

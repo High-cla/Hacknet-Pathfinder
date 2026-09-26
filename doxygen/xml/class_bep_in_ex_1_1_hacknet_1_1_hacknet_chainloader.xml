@@ -31,7 +31,7 @@
         <argsstring></argsstring>
         <name>VERSION</name>
         <qualifiedname>BepInEx.Hacknet.HacknetChainloader.VERSION</qualifiedname>
-        <initializer>= &quot;5.4.0&quot;</initializer>
+        <initializer>= &quot;5.4.1&quot;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
