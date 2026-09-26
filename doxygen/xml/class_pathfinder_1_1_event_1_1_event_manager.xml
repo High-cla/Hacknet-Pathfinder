@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_event_manager" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::EventManager</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_event_manager_1a0d8ad9c3e1e94ee98ce341886db400f2" prot="package" static="yes" mutable="no">
+        <type>readonly List&lt; object &gt;</type>
+        <definition>readonly List&lt;object&gt; Pathfinder.Event.EventManager&lt; T &gt;.Instances</definition>
+        <argsstring></argsstring>
+        <name>Instances</name>
+        <qualifiedname>Pathfinder.Event.EventManager.Instances</qualifiedname>
+        <initializer>= new List&lt;object&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="39" column="35" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_pathfinder_1_1_event_1_1_event_manager_1ace373ceeb2380f14c88945ae2dd5cd3f" prot="package" static="yes" add="no" remove="no" raise="no">
+        <type>RemoveOnUnload</type>
+        <definition>RemoveOnUnload Pathfinder.Event.EventManager&lt; T &gt;.onPluginUnload</definition>
+        <argsstring></argsstring>
+        <name>onPluginUnload</name>
+        <qualifiedname>Pathfinder.Event.EventManager.onPluginUnload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="45" column="42" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_event_manager_1a18dae413ce964bcd6bfcde6bb81c10ce" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_pathfinder_1_1_util_1_1_assembly_associated_list" kindref="compound">AssemblyAssociatedList</ref>&lt; EventHandler&lt; T &gt; &gt;</type>
+        <definition>readonly AssemblyAssociatedList&lt;EventHandler&lt;T&gt; &gt; Pathfinder.Event.EventManager&lt; T &gt;.handlers</definition>
+        <argsstring></argsstring>
+        <name>handlers</name>
+        <qualifiedname>Pathfinder.Event.EventManager.handlers</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_util_1_1_assembly_associated_list" kindref="compound">AssemblyAssociatedList</ref>&lt;EventHandler&lt;T&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="95" column="45" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_event_manager_1a26dd668e1a79f847e6c3e24c11cd1b66" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_event_1_1_event_manager" kindref="compound">EventManager</ref>&lt; T &gt;</type>
+        <definition>EventManager&lt;T&gt; Pathfinder.Event.EventManager&lt; T &gt;._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <qualifiedname>Pathfinder.Event.EventManager._instance</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="97" column="33" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_event_manager_1a720a512674b6e3f0ad317e8375e7f334" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_pathfinder_1_1_event_1_1_event_manager" kindref="compound">EventManager</ref>&lt; T &gt;</type>
+        <definition>EventManager&lt;T&gt; Pathfinder.Event.EventManager&lt; T &gt;.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>Pathfinder.Event.EventManager.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="99" column="32" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_event_manager_1a1a0b064c614ac19289a09570f46e0b01" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Event.EventManager&lt; T &gt;.HandlerCount</definition>
+        <argsstring></argsstring>
+        <name>HandlerCount</name>
+        <qualifiedname>Pathfinder.Event.EventManager.HandlerCount</qualifiedname>
+        <briefdescription>
+<para>Number of event handlers attached to this event type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="140" column="23" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1a4aa35f318e2a2946f1225dc1145b2432" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Event.EventManager&lt; T &gt;.AddEventManagerInstance</definition>
+        <argsstring>(object managerObj)</argsstring>
+        <name>AddEventManagerInstance</name>
+        <qualifiedname>Pathfinder.Event.EventManager.AddEventManagerInstance</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>managerObj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="40" column="26" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1a9d7d0a7aca119f59032ac9bc355be0f5" prot="package" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Event.EventManager&lt; T &gt;.InvokeOnPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>InvokeOnPluginUnload</name>
+        <qualifiedname>Pathfinder.Event.EventManager.InvokeOnPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="46" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1ac6decbc0605e560dbb05193df0887892" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Pathfinder.Event.EventManager&lt; T &gt;.RemoveOnUnload</definition>
+        <argsstring>(Assembly unloadedAssembly)</argsstring>
+        <name>RemoveOnUnload</name>
+        <qualifiedname>Pathfinder.Event.EventManager.RemoveOnUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>unloadedAssembly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="44" column="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1ae618c750bfa30c979fe89b3d7d81e96c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Event.EventManager&lt; T &gt;.AddHandler</definition>
+        <argsstring>(Type pathfinderEvent, MethodInfo handler, EventHandlerOptions options=default)</argsstring>
+        <name>AddHandler</name>
+        <qualifiedname>Pathfinder.Event.EventManager.AddHandler</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>pathfinderEvent</declname>
+        </param>
+        <param>
+          <type>MethodInfo</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_pathfinder_1_1_event_1_1_event_handler_options" kindref="compound">EventHandlerOptions</ref></type>
+          <declname>options</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>USE IS HEAVILY DISCOURAGED! Use the generic EventManager class instead unless you absolutely need to evaluate the type at runtime. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pathfinderEvent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of event to subscribe to, must inherit from PathfinderEvent&gt;</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>MethodInfo of the handler method</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Options to use for the handler</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="57" column="24" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="57" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1a36c6044f4cca5209b1a990a7dffa5028" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Event.EventManager&lt; T &gt;.AddHandler</definition>
+        <argsstring>(Action&lt; T &gt; handler, EventHandlerOptions options=default)</argsstring>
+        <name>AddHandler</name>
+        <qualifiedname>Pathfinder.Event.EventManager.AddHandler</qualifiedname>
+        <param>
+          <type>Action&lt; T &gt;</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_pathfinder_1_1_event_1_1_event_handler_options" kindref="compound">EventHandlerOptions</ref></type>
+          <declname>options</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Adds an event handler, optionally with custom settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The event handler to add</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Options to use with the handler</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="113" column="24" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1a0af46fab845fb5c45dacdf297d23c7b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Event.EventManager&lt; T &gt;.RemoveHandler</definition>
+        <argsstring>(Action&lt; T &gt; handler, Assembly eventAssembly=null)</argsstring>
+        <name>RemoveHandler</name>
+        <qualifiedname>Pathfinder.Event.EventManager.RemoveHandler</qualifiedname>
+        <param>
+          <type>Action&lt; T &gt;</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>eventAssembly</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Removes a handler based on the handler method and its containing assembly. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Handler method for the event</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventAssembly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Assembly associated with the event, by default the calling assembly</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="128" column="24" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1a28fe5b808e19e961eeb9c3e6807a6221" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T Pathfinder.Event.EventManager&lt; T &gt;.InvokeAll</definition>
+        <argsstring>(T eventArgs)</argsstring>
+        <name>InvokeAll</name>
+        <qualifiedname>Pathfinder.Event.EventManager.InvokeAll</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>eventArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="166" column="21" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="166" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1ae2c482f53ee430aa4933cc0ab5abdf7c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T Pathfinder.Event.EventManager&lt; T &gt;.InvokeAssembly</definition>
+        <argsstring>(Assembly asm, T eventArgs)</argsstring>
+        <name>InvokeAssembly</name>
+        <qualifiedname>Pathfinder.Event.EventManager.InvokeAssembly</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>asm</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>eventArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="173" column="21" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="173" bodyend="178"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1ac57ce09020ebc7e88cd302af18b41016" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.EventManager&lt; T &gt;.EventManager</definition>
+        <argsstring>()</argsstring>
+        <name>EventManager</name>
+        <qualifiedname>Pathfinder.Event.EventManager.EventManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="101" column="13" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="101" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1a44ed72fde40a46ddde6c480624d54f4c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Event.EventManager&lt; T &gt;.AddHandlerInternal</definition>
+        <argsstring>(EventHandler&lt; T &gt; handler, Assembly eventAssembly)</argsstring>
+        <name>AddHandlerInternal</name>
+        <qualifiedname>Pathfinder.Event.EventManager.AddHandlerInternal</qualifiedname>
+        <param>
+          <type>EventHandler&lt; T &gt;</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>eventAssembly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="117" column="18" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1a6de2617fc9c6b1cb8f26837bb2bdd4e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Event.EventManager&lt; T &gt;.RemoveHandlerInternal</definition>
+        <argsstring>(MethodInfo handler, Assembly eventAssembly)</argsstring>
+        <name>RemoveHandlerInternal</name>
+        <qualifiedname>Pathfinder.Event.EventManager.RemoveHandlerInternal</qualifiedname>
+        <param>
+          <type>MethodInfo</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>eventAssembly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="132" column="18" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1ada72cf97dca2c291dbd044c72cd1039b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Event.EventManager&lt; T &gt;.OnPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.Event.EventManager.OnPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="142" column="18" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="142" bodyend="145"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_manager_1ad19a1f12337f0a99cf5b716545b3d338" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T Pathfinder.Event.EventManager&lt; T &gt;.InvokeOn</definition>
+        <argsstring>(IEnumerable&lt; EventHandler&lt; T &gt; &gt; list, T eventArgs)</argsstring>
+        <name>InvokeOn</name>
+        <qualifiedname>Pathfinder.Event.EventManager.InvokeOn</qualifiedname>
+        <param>
+          <type>IEnumerable&lt; EventHandler&lt; T &gt; &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>eventArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="147" column="22" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="147" bodyend="164"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Manager for PathfinderEvent handlers. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of PathfinderEvent</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/EventManager.cs" line="37" column="15" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="94" bodyend="179"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a26dd668e1a79f847e6c3e24c11cd1b66" prot="private" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>_instance</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a4aa35f318e2a2946f1225dc1145b2432" prot="package" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>AddEventManagerInstance</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1ae618c750bfa30c979fe89b3d7d81e96c" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>AddHandler</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a36c6044f4cca5209b1a990a7dffa5028" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>AddHandler</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a44ed72fde40a46ddde6c480624d54f4c" prot="private" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>AddHandlerInternal</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1ac57ce09020ebc7e88cd302af18b41016" prot="private" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>EventManager</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a1a0b064c614ac19289a09570f46e0b01" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>HandlerCount</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a18dae413ce964bcd6bfcde6bb81c10ce" prot="private" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>handlers</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a720a512674b6e3f0ad317e8375e7f334" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>Instance</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a0d8ad9c3e1e94ee98ce341886db400f2" prot="package" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>Instances</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a28fe5b808e19e961eeb9c3e6807a6221" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>InvokeAll</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1ae2c482f53ee430aa4933cc0ab5abdf7c" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>InvokeAssembly</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1ad19a1f12337f0a99cf5b716545b3d338" prot="private" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>InvokeOn</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a9d7d0a7aca119f59032ac9bc355be0f5" prot="package" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>InvokeOnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1ada72cf97dca2c291dbd044c72cd1039b" prot="private" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1ace373ceeb2380f14c88945ae2dd5cd3f" prot="package" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>onPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a0af46fab845fb5c45dacdf297d23c7b0" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>RemoveHandler</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1a6de2617fc9c6b1cb8f26837bb2bdd4e8" prot="private" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>RemoveHandlerInternal</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_manager_1ac6decbc0605e560dbb05193df0887892" prot="package" virt="non-virtual"><scope>Pathfinder::Event::EventManager</scope><name>RemoveOnUnload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

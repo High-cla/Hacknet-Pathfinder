@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_hacknet_plugin_extensions_8cs" kind="file" language="C#">
+    <compoundname>HacknetPluginExtensions.cs</compoundname>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions" prot="public">Pathfinder::Meta::Load::HacknetPluginExtensions</innerclass>
+    <innernamespace refid="namespace_pathfinder">Pathfinder</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_meta">Pathfinder::Meta</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_meta_1_1_load">Pathfinder::Meta::Load</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_bep_in_ex_1_1_hacknet" kindref="compound">BepInEx.Hacknet</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_meta_1_1_load" kindref="compound">Pathfinder.Meta.Load</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions" kindref="compound">HacknetPluginExtensions</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions_1ad5359f7bf3be0e5df5f20c533f68938d" kindref="member">GetOptionsTag</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref><sp/>plugin)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute" kindref="compound">OptionsTabAttribute</ref>.pluginToOptionsTag.TryGetValue(plugin,<sp/>out<sp/>var<sp/>tag))</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tag;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions_1ae0a7ddf863b388d9685db1ffe6ea828b" kindref="member">HasOptionsTag</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref><sp/>plugin)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute" kindref="compound">OptionsTabAttribute</ref>.pluginToOptionsTag.ContainsKey(plugin);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderAPI/Meta/Load/HacknetPluginExtensions.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Meta::Load::ExtensionInfoExecutorAttribute</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.BaseAttribute</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute_1ac5d538214c888bb60432bdfe1023e5aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute.Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <qualifiedname>Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute.Element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs" line="11" column="19" bodyfile="PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute_1a8053d113320d157f2e5b5f66c403b7ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+        <definition>ParseOption Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute.ParseOptions</definition>
+        <argsstring></argsstring>
+        <name>ParseOptions</name>
+        <qualifiedname>Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute.ParseOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs" line="12" column="24" bodyfile="PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute_1aee5e1cce4389eab105b2489b5aa44e7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute.ExtensionInfoExecutorAttribute</definition>
+        <argsstring>(string element, ParseOption parseOptions=ParseOption.None)</argsstring>
+        <name>ExtensionInfoExecutorAttribute</name>
+        <qualifiedname>Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute.ExtensionInfoExecutorAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>element</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+          <declname>parseOptions</declname>
+          <defval>ParseOption.None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs" line="14" column="12" bodyfile="PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs" bodystart="14" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute_1a94050ea6d7416d16226026fbc8558181" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute.CallOn</definition>
+        <argsstring>(HacknetPlugin plugin, MemberInfo targettedInfo)</argsstring>
+        <name>CallOn</name>
+        <qualifiedname>Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute.CallOn</qualifiedname>
+        <param>
+          <type><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>targettedInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs" line="20" column="38" bodyfile="PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs" line="9" column="7" bodyfile="PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs" bodystart="10" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute_1a94050ea6d7416d16226026fbc8558181" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::ExtensionInfoExecutorAttribute</scope><name>CallOn</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute_1ac5d538214c888bb60432bdfe1023e5aa" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::ExtensionInfoExecutorAttribute</scope><name>Element</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute_1aee5e1cce4389eab105b2489b5aa44e7c" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::ExtensionInfoExecutorAttribute</scope><name>ExtensionInfoExecutorAttribute</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute_1a8053d113320d157f2e5b5f66c403b7ce" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::ExtensionInfoExecutorAttribute</scope><name>ParseOptions</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute_1aa664b7e6caa44645ea2dce2999066d75" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::ExtensionInfoExecutorAttribute</scope><name>ThrowOnInvalidOperation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

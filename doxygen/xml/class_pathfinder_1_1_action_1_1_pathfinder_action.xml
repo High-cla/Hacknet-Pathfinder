@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_action_1_1_pathfinder_action" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Action::PathfinderAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SerializableAction</basecompoundref>
+    <basecompoundref refid="interface_pathfinder_1_1_util_1_1_i_xml_name" prot="public" virt="non-virtual">Pathfinder.Util.IXmlName</basecompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action" prot="public" virt="non-virtual">Pathfinder.Action.DelayablePathfinderAction</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_action_1_1_pathfinder_action_1a63c7af8e1f65039066b336e0898cc259" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Action.PathfinderAction.XmlName</definition>
+        <argsstring></argsstring>
+        <name>XmlName</name>
+        <qualifiedname>Pathfinder.Action.PathfinderAction.XmlName</qualifiedname>
+        <reimplements refid="interface_pathfinder_1_1_util_1_1_i_xml_name_1a24234a830cba81c9782f3396fc7db61b">XmlName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/PathfinderAction.cs" line="11" column="19" bodyfile="PathfinderAPI/Action/PathfinderAction.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_pathfinder_action_1a637969830847847e2560c81ea5d66e50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>XElement</type>
+        <definition>virtual XElement Pathfinder.Action.PathfinderAction.GetSaveElement</definition>
+        <argsstring>()</argsstring>
+        <name>GetSaveElement</name>
+        <qualifiedname>Pathfinder.Action.PathfinderAction.GetSaveElement</qualifiedname>
+        <reimplementedby refid="class_pathfinder_1_1_action_1_1_action_delay_decorator_1aa09c1bb3217ea661264cb8e4d5d31245">GetSaveElement</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/PathfinderAction.cs" line="13" column="29" bodyfile="PathfinderAPI/Action/PathfinderAction.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_pathfinder_action_1a9aa2ddf00c4c8baf289ab880a88c2bbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Action.PathfinderAction.LoadFromXml</definition>
+        <argsstring>(ElementInfo info)</argsstring>
+        <name>LoadFromXml</name>
+        <qualifiedname>Pathfinder.Action.PathfinderAction.LoadFromXml</qualifiedname>
+        <reimplementedby refid="class_example_mod2_1_1_test_action_1a9498c23d0daece705b0714bb7020040e">LoadFromXml</reimplementedby>
+        <reimplementedby refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action_1a37a9a6e1577d97e036a6f9ca3da04a43">LoadFromXml</reimplementedby>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/PathfinderAction.cs" line="18" column="25" bodyfile="PathfinderAPI/Action/PathfinderAction.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>ExampleMod2.TestAction</label>
+        <link refid="class_example_mod2_1_1_test_action"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Action.PathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Pathfinder.Action.ActionDelayDecorator</label>
+        <link refid="class_pathfinder_1_1_action_1_1_action_delay_decorator"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Pathfinder.Action.DelayablePathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SerializableAction</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Action.PathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SerializableAction</label>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Action/PathfinderAction.cs" line="8" column="17" bodyfile="PathfinderAPI/Action/PathfinderAction.cs" bodystart="9" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_action_1a637969830847847e2560c81ea5d66e50" prot="public" virt="virtual"><scope>Pathfinder::Action::PathfinderAction</scope><name>GetSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_action_1a9aa2ddf00c4c8baf289ab880a88c2bbe" prot="public" virt="virtual"><scope>Pathfinder::Action::PathfinderAction</scope><name>LoadFromXml</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_action_1a63c7af8e1f65039066b336e0898cc259" prot="public" virt="non-virtual"><scope>Pathfinder::Action::PathfinderAction</scope><name>XmlName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_updater_attribute_8cs" kind="file" language="C#">
+    <compoundname>UpdaterAttribute.cs</compoundname>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_updater_attribute" prot="public">Pathfinder::Meta::UpdaterAttribute</innerclass>
+    <innernamespace refid="namespace_pathfinder">Pathfinder</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_meta">Pathfinder::Meta</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_meta" kindref="compound">Pathfinder.Meta</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_pathfinder_1_1_meta_1_1_updater_attribute" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pathfinder_1_1_meta_1_1_updater_attribute" kindref="compound">UpdaterAttribute</ref><sp/>:<sp/>Attribute</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1a14c78d8fac8b304686ac0c2a633bf4e9" kindref="member">GithubApiUrl</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1a6bad7d3f89f1d9191de20838cf57ca3f" kindref="member">AssetFileName</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1a55438bf41386c2c17318b159bb3217aa" kindref="member">ZipEntryPath</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1ac39f67494056bcb67637f71c578a1f9a" kindref="member">IncludePrerelease</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_meta_1_1_updater_attribute" kindref="compound">UpdaterAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>apiUrl,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>assetName,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>zipPath<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>includePrerlease<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1a14c78d8fac8b304686ac0c2a633bf4e9" kindref="member">GithubApiUrl</ref><sp/>=<sp/>apiUrl;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1a6bad7d3f89f1d9191de20838cf57ca3f" kindref="member">AssetFileName</ref><sp/>=<sp/>assetName;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1a55438bf41386c2c17318b159bb3217aa" kindref="member">ZipEntryPath</ref><sp/>=<sp/>zipPath;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1ac39f67494056bcb67637f71c578a1f9a" kindref="member">IncludePrerelease</ref><sp/>=<sp/>includePrerlease;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderAPI/Meta/UpdaterAttribute.cs"/>
+  </compounddef>
+</doxygen>

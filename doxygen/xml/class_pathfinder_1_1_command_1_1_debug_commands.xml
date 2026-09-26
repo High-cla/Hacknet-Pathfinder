@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_command_1_1_debug_commands" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::Command::DebugCommands</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_debug_commands_1a2e61b73445e438802db08c9ca1293798" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.DebugCommands.AddCommands</definition>
+        <argsstring>()</argsstring>
+        <name>AddCommands</name>
+        <qualifiedname>Pathfinder.Command.DebugCommands.AddCommands</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/DebugCommands.cs" line="8" column="26" bodyfile="PathfinderAPI/Command/DebugCommands.cs" bodystart="8" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_debug_commands_1a340cc2e2597761b8a94756eb884f815f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.DebugCommands.LoadMission</definition>
+        <argsstring>(OS os, string[] args)</argsstring>
+        <name>LoadMission</name>
+        <qualifiedname>Pathfinder.Command.DebugCommands.LoadMission</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/DebugCommands.cs" line="15" column="25" bodyfile="PathfinderAPI/Command/DebugCommands.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_debug_commands_1aa44c584d5d5d768a80aa6c9c18a02a7a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.DebugCommands.LoadActions</definition>
+        <argsstring>(OS os, string[] args)</argsstring>
+        <name>LoadActions</name>
+        <qualifiedname>Pathfinder.Command.DebugCommands.LoadActions</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/DebugCommands.cs" line="21" column="25" bodyfile="PathfinderAPI/Command/DebugCommands.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_debug_commands_1a8875739aa5783743083d6eaff89576bf" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.DebugCommands.DScanReplacement</definition>
+        <argsstring>(OS os, string[] args)</argsstring>
+        <name>DScanReplacement</name>
+        <qualifiedname>Pathfinder.Command.DebugCommands.DScanReplacement</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/DebugCommands.cs" line="26" column="25" bodyfile="PathfinderAPI/Command/DebugCommands.cs" bodystart="26" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Command/DebugCommands.cs" line="6" column="17" bodyfile="PathfinderAPI/Command/DebugCommands.cs" bodystart="7" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_command_1_1_debug_commands_1a2e61b73445e438802db08c9ca1293798" prot="package" virt="non-virtual"><scope>Pathfinder::Command::DebugCommands</scope><name>AddCommands</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_debug_commands_1a8875739aa5783743083d6eaff89576bf" prot="private" virt="non-virtual"><scope>Pathfinder::Command::DebugCommands</scope><name>DScanReplacement</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_debug_commands_1aa44c584d5d5d768a80aa6c9c18a02a7a" prot="private" virt="non-virtual"><scope>Pathfinder::Command::DebugCommands</scope><name>LoadActions</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_debug_commands_1a340cc2e2597761b8a94756eb884f815f" prot="private" virt="non-virtual"><scope>Pathfinder::Command::DebugCommands</scope><name>LoadMission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_x_m_l_storage_attribute_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Util/XMLStorageAttribute.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Util/XMLStorageAttribute.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_x_m_l_storage_attribute_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_x_m_l_storage_attribute_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Util/XMLStorageAttribute.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapiutilxmlstorageattributecs">PathfinderAPI/Util/XMLStorageAttribute.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_util/">Pathfinder::Util</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute/">Pathfinder::Util::XMLStorageAttribute</a></strong></td>
+</tr>
+<tr>
+<td>interface</td>
+<td><strong><a href="../Classes/interface_pathfinder_1_1_util_1_1_i_xml_name/">Pathfinder::Util::IXmlName</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Reflection;
+using System.Xml.Linq;
+using BepInEx.Logging;
+using Pathfinder.Util.XML;
+
+namespace Pathfinder.Util;
+
+[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false)]
+public class XMLStorageAttribute : Attribute
+{
+    public bool IsContent { get; set; } = false;
+    public Type Converter { get; set; } = null;
+
+    private const BindingFlags Flags = BindingFlags.Instance | BindingFlags.Public;
+    public static XElement WriteToElement(IXmlName obj)
+    {
+        var element = new XElement(obj.XmlName);
+        WriteElementContent(obj, element);
+        return element;
+    }
+
+    public static XElement WriteToElement(object obj)
+    {
+        var element = new XElement(obj.GetType().Name);
+        WriteElementContent(obj, element);
+        return element;
+    }
+
+    private static void WriteElementContent(object obj, XElement element) 
+    {
+        var thisType = obj.GetType();
+        var attribType = typeof(XMLStorageAttribute);
+
+        bool hasSetContent = false;
+
+        foreach (var fieldInfo in thisType.GetFields(Flags))
+        {
+            var attribs = fieldInfo.GetCustomAttributes(attribType, false);
+            if (attribs.Length &lt; 1)
+                continue;
+            var attrib = (XMLStorageAttribute)attribs[0];
+            if (fieldInfo.IsStatic)
+            {
+                Logger.Log(LogLevel.Error, $&quot;Field cannot be static for XML storage: {fieldInfo.Name}&quot;);
+                continue;
+            }
+
+            string val = XMLTypeConverter.ConvertToString(fieldInfo.GetValue(obj), attrib.Converter);
+            if (attrib.IsContent)
+            {
+                if (hasSetContent)
+                {
+                    Logger.Log(LogLevel.Error, $&quot;Already set the content of element {element.Name}&quot;);
+                    continue;
+                }
+
+                element.SetValue(val);
+                hasSetContent = true;
+            }
+            else
+            {
+                element.SetAttributeValue(fieldInfo.Name, val);
+            }
+        }
+        foreach (var propertyInfo in thisType.GetProperties(Flags))
+        {
+            var attribs = propertyInfo.GetCustomAttributes(attribType, false);
+            if (attribs.Length &lt; 1)
+                continue;
+            var attrib = (XMLStorageAttribute)attribs[0];
+
+            var getMethod = propertyInfo.GetGetMethod();
+            var setMethod = propertyInfo.GetSetMethod();
+            if ((getMethod?.IsStatic ?? true) || (setMethod?.IsStatic ?? true))
+            {
+                Logger.Log(LogLevel.Error, $&quot;Property cannot be static for XML storage: {propertyInfo.Name}&quot;);
+                continue;
+            }
+
+            string val = XMLTypeConverter.ConvertToString(getMethod.Invoke(obj, null), attrib.Converter);
+            if (attrib.IsContent)
+            {
+                if (hasSetContent)
+                {
+                    Logger.Log(LogLevel.Error, $&quot;Already set the content of element {element.Name}&quot;);
+                    continue;
+                }
+
+                element.SetValue(val);
+                hasSetContent = true;
+            }
+            else
+            {
+                element.SetAttributeValue(propertyInfo.Name, val);
+            }
+        }
+    }
+
+    public static void ReadFromElement(ElementInfo info, object obj)
+    {
+        var thisType = obj.GetType();
+        var attribType = typeof(XMLStorageAttribute);
+
+        bool hasSetContent = false;
+
+        foreach (var fieldInfo in thisType.GetFields(Flags))
+        {
+            var attribs = fieldInfo.GetCustomAttributes(attribType, false);
+            if (attribs.Length &lt; 1)
+                continue;
+
+            var attrib = (XMLStorageAttribute)attribs[0];
+
+            info.Attributes.TryGetValue(fieldInfo.Name, out var val);
+            val = attrib.IsContent ? info.Content : val;
+
+            if (val == null)
+                continue;
+
+            object trueVal = XMLTypeConverter.ConvertToType(fieldInfo.FieldType, val);
+
+            if (attrib.IsContent)
+            {
+                if (hasSetContent)
+                {
+                    Logger.Log(LogLevel.Error, $&quot;Already got the content of element {info.Name}&quot;);
+                    continue;
+                }
+
+                fieldInfo.SetValue(obj, trueVal);
+                hasSetContent = true;
+            }
+            else
+            {
+                fieldInfo.SetValue(obj, trueVal);
+            }
+        }
+        foreach (var propertyInfo in thisType.GetProperties(Flags))
+        {
+            var attribs = propertyInfo.GetCustomAttributes(attribType, false);
+            if (attribs.Length &lt; 1)
+                continue;
+            var attrib = (XMLStorageAttribute)attribs[0];
+
+            var getMethod = propertyInfo.GetGetMethod();
+            var setMethod = propertyInfo.GetSetMethod();
+            if ((getMethod?.IsStatic ?? true) || (setMethod?.IsStatic ?? true))
+            {
+                Logger.Log(LogLevel.Error, $&quot;Property cannot be static for XML storage: {propertyInfo.Name}&quot;);
+                continue;
+            }
+
+            info.Attributes.TryGetValue(propertyInfo.Name, out var val);
+            val = attrib.IsContent ? info.Content : val;
+
+            if (val == null)
+                continue;
+
+            object trueVal = XMLTypeConverter.ConvertToType(propertyInfo.PropertyType, val);
+
+            if (attrib.IsContent)
+            {
+                if (hasSetContent)
+                {
+                    Logger.Log(LogLevel.Error, $&quot;Already got the content of element {info.Name}&quot;);
+                    continue;
+                }
+
+                setMethod.Invoke(obj, new object[] { trueVal });
+                hasSetContent = true;
+            }
+            else
+            {
+                setMethod.Invoke(obj, new object[] { trueVal });
+            }
+        }
+    }
+}
+
+public interface IXmlName
+{
+    string XmlName { get; }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

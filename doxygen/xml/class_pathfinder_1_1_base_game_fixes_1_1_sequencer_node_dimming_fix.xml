@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_sequencer_node_dimming_fix" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::BaseGameFixes::SequencerNodeDimmingFix</compoundname>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_sequencer_node_dimming_fix_1a7c1ecb2f0eb0c632de89ccf8e81e5b79" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.SequencerNodeDimmingFix.FixSequencerNodeDimming</definition>
+        <argsstring>(ExtensionSequencerExe __instance)</argsstring>
+        <name>FixSequencerNodeDimming</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.SequencerNodeDimmingFix.FixSequencerNodeDimming</qualifiedname>
+        <param>
+          <type>ExtensionSequencerExe</type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/SequencerNodeDimmingFix.cs" line="12" column="17" bodyfile="PathfinderAPI/BaseGameFixes/SequencerNodeDimmingFix.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/SequencerNodeDimmingFix.cs" line="8" column="7" bodyfile="PathfinderAPI/BaseGameFixes/SequencerNodeDimmingFix.cs" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_sequencer_node_dimming_fix_1a7c1ecb2f0eb0c632de89ccf8e81e5b79" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::SequencerNodeDimmingFix</scope><name>FixSequencerNodeDimming</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

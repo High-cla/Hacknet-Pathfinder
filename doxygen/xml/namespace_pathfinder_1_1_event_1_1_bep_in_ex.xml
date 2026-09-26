@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_event_1_1_bep_in_ex" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Event::BepInEx</compoundname>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_load_event" prot="public">Pathfinder::Event::BepInEx::LoadEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_post_load_event" prot="public">Pathfinder::Event::BepInEx::PostLoadEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_unload_event" prot="public">Pathfinder::Event::BepInEx::UnloadEvent</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/BepInEx/LoadEvent.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

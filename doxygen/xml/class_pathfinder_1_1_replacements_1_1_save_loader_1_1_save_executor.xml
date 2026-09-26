@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Replacements::SaveLoader::SaveExecutor</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_1a2775b356448ca2df3edecdf391dc091e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Replacements.SaveLoader.SaveExecutor.Os</definition>
+        <argsstring></argsstring>
+        <name>Os</name>
+        <qualifiedname>Pathfinder.Replacements.SaveLoader.SaveExecutor.Os</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveLoader.cs" line="21" column="19" bodyfile="PathfinderAPI/Replacements/SaveLoader.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_1aed7b3cf948b2f771a613527c4f25b66a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Replacements.SaveLoader.SaveExecutor.Init</definition>
+        <argsstring>(OS os)</argsstring>
+        <name>Init</name>
+        <qualifiedname>Pathfinder.Replacements.SaveLoader.SaveExecutor.Init</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveLoader.cs" line="23" column="29" bodyfile="PathfinderAPI/Replacements/SaveLoader.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_1a8a6c058767b2c43e2e81fba059498d51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Replacements.SaveLoader.SaveExecutor.Execute</definition>
+        <argsstring>(EventExecutor exec, ElementInfo info)</argsstring>
+        <name>Execute</name>
+        <qualifiedname>Pathfinder.Replacements.SaveLoader.SaveExecutor.Execute</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref></type>
+          <declname>exec</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveLoader.cs" line="28" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/SaveLoader.cs" line="19" column="21" bodyfile="PathfinderAPI/Replacements/SaveLoader.cs" bodystart="20" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_1a8a6c058767b2c43e2e81fba059498d51" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveLoader::SaveExecutor</scope><name>Execute</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_1aed7b3cf948b2f771a613527c4f25b66a" prot="public" virt="virtual"><scope>Pathfinder::Replacements::SaveLoader::SaveExecutor</scope><name>Init</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_1a2775b356448ca2df3edecdf391dc091e" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveLoader::SaveExecutor</scope><name>Os</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

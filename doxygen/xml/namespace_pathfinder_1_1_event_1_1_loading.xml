@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_event_1_1_loading" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Event::Loading</compoundname>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_loading_1_1_extension_load_event" prot="public">Pathfinder::Event::Loading::ExtensionLoadEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event" prot="public">Pathfinder::Event::Loading::OSLoadedEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event" prot="public">Pathfinder::Event::Loading::SaveComputerLoadedEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_loading_1_1_text_replace_event" prot="public">Pathfinder::Event::Loading::TextReplaceEvent</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/Loading/ExtensionLoadEvent.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

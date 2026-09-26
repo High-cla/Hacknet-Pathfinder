@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_example_mod2_1_1_test_condition" kind="class" language="C#" prot="public">
+    <compoundname>ExampleMod2::TestCondition</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_action_1_1_pathfinder_condition" prot="public" virt="non-virtual">Pathfinder.Action.PathfinderCondition</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_condition_1a67b8183a7483fa850fb9c9a6567a0ae0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ExampleMod2.TestCondition.Computer</definition>
+        <argsstring></argsstring>
+        <name>Computer</name>
+        <qualifiedname>ExampleMod2.TestCondition.Computer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="133" column="19" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_condition_1a974a77d3f283440b3038e04104e4aa77" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ExampleMod2.TestCondition.Directory</definition>
+        <argsstring></argsstring>
+        <name>Directory</name>
+        <qualifiedname>ExampleMod2.TestCondition.Directory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="135" column="19" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_condition_1af537da9ac392ad697ab2076b249d2548" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ExampleMod2.TestCondition.File</definition>
+        <argsstring></argsstring>
+        <name>File</name>
+        <qualifiedname>ExampleMod2.TestCondition.File</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="137" column="19" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_condition_1a5b85ec0e3069d5d31f89b1868c7c5cb0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_example_mod2_1_1_test_condition_1a67b8183a7483fa850fb9c9a6567a0ae0" kindref="member">Computer</ref></type>
+        <definition>Computer ExampleMod2.TestCondition.Comp</definition>
+        <argsstring></argsstring>
+        <name>Comp</name>
+        <qualifiedname>ExampleMod2.TestCondition.Comp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="139" column="22" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_example_mod2_1_1_test_condition_1a8a74b651260cd1f8b536fe7fd652bb39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ExampleMod2.TestCondition.Check</definition>
+        <argsstring>(object os_obj)</argsstring>
+        <name>Check</name>
+        <qualifiedname>ExampleMod2.TestCondition.Check</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>os_obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="141" column="26" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="141" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ExampleMod2.TestCondition</label>
+        <link refid="class_example_mod2_1_1_test_condition"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="2">
+        <label>PathfinderCondition</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_condition"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SerializableCondition</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ExampleMod2.TestCondition</label>
+        <link refid="class_example_mod2_1_1_test_condition"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="2">
+        <label>PathfinderCondition</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_condition"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SerializableCondition</label>
+      </node>
+    </collaborationgraph>
+    <location file="ExampleMod/ExampleModPlugin.cs" line="130" column="7" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="131" bodyend="158"/>
+    <listofallmembers>
+      <member refid="class_example_mod2_1_1_test_condition_1a8a74b651260cd1f8b536fe7fd652bb39" prot="public" virt="non-virtual"><scope>ExampleMod2::TestCondition</scope><name>Check</name></member>
+      <member refid="class_example_mod2_1_1_test_condition_1a5b85ec0e3069d5d31f89b1868c7c5cb0" prot="private" virt="non-virtual"><scope>ExampleMod2::TestCondition</scope><name>Comp</name></member>
+      <member refid="class_example_mod2_1_1_test_condition_1a67b8183a7483fa850fb9c9a6567a0ae0" prot="public" virt="non-virtual"><scope>ExampleMod2::TestCondition</scope><name>Computer</name></member>
+      <member refid="class_example_mod2_1_1_test_condition_1a974a77d3f283440b3038e04104e4aa77" prot="public" virt="non-virtual"><scope>ExampleMod2::TestCondition</scope><name>Directory</name></member>
+      <member refid="class_example_mod2_1_1_test_condition_1af537da9ac392ad697ab2076b249d2548" prot="public" virt="non-virtual"><scope>ExampleMod2::TestCondition</scope><name>File</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_condition_1a42179aaf35c166a1bca7913a4e2c1351" prot="public" virt="virtual"><scope>ExampleMod2::TestCondition</scope><name>GetSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_condition_1a644171e2250bb4be6b18fa42b00d923e" prot="public" virt="virtual"><scope>ExampleMod2::TestCondition</scope><name>LoadFromXml</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_condition_1abc66aeeb5bbde09071662c8fe94b765c" prot="public" virt="non-virtual"><scope>ExampleMod2::TestCondition</scope><name>XmlName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

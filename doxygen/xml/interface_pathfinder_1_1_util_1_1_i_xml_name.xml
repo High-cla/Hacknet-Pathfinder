@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_pathfinder_1_1_util_1_1_i_xml_name" kind="interface" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::IXmlName</compoundname>
+    <derivedcompoundref refid="class_pathfinder_1_1_action_1_1_pathfinder_action" prot="public" virt="non-virtual">Pathfinder.Action.PathfinderAction</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_action_1_1_pathfinder_condition" prot="public" virt="non-virtual">Pathfinder.Action.PathfinderCondition</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_administrator_1_1_base_administrator" prot="public" virt="non-virtual">Pathfinder.Administrator.BaseAdministrator</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pathfinder_1_1_util_1_1_i_xml_name_1a24234a830cba81c9782f3396fc7db61b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Util.IXmlName.XmlName</definition>
+        <argsstring></argsstring>
+        <name>XmlName</name>
+        <qualifiedname>Pathfinder.Util.IXmlName.XmlName</qualifiedname>
+        <reimplementedby refid="class_pathfinder_1_1_action_1_1_pathfinder_action_1a63c7af8e1f65039066b336e0898cc259">XmlName</reimplementedby>
+        <reimplementedby refid="class_pathfinder_1_1_action_1_1_pathfinder_condition_1abc66aeeb5bbde09071662c8fe94b765c">XmlName</reimplementedby>
+        <reimplementedby refid="class_pathfinder_1_1_administrator_1_1_base_administrator_1a811d03d7887d47a0de0c7a8f58c63a24">XmlName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XMLStorageAttribute.cs" line="182" column="12" bodyfile="PathfinderAPI/Util/XMLStorageAttribute.cs" bodystart="182" bodyend="182"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>ExampleMod2.TestAction</label>
+        <link refid="class_example_mod2_1_1_test_action"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>ExampleMod2.TestAdministrator</label>
+        <link refid="class_example_mod2_1_1_test_administrator"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ExampleMod2.TestCondition</label>
+        <link refid="class_example_mod2_1_1_test_condition"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Util.IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="5">
+        <label>Pathfinder.Action.ActionDelayDecorator</label>
+        <link refid="class_pathfinder_1_1_action_1_1_action_delay_decorator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Pathfinder.Action.DelayablePathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pathfinder.Action.PathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_action"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Pathfinder.Action.PathfinderCondition</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_condition"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Pathfinder.Administrator.BaseAdministrator</label>
+        <link refid="class_pathfinder_1_1_administrator_1_1_base_administrator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="PathfinderAPI/Util/XMLStorageAttribute.cs" line="180" column="18" bodyfile="PathfinderAPI/Util/XMLStorageAttribute.cs" bodystart="181" bodyend="183"/>
+    <listofallmembers>
+      <member refid="interface_pathfinder_1_1_util_1_1_i_xml_name_1a24234a830cba81c9782f3396fc7db61b" prot="public" virt="non-virtual"><scope>Pathfinder::Util::IXmlName</scope><name>XmlName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

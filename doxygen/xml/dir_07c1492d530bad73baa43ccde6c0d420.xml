@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_07c1492d530bad73baa43ccde6c0d420" kind="dir">
+    <compoundname>PathfinderAPI/GUI</compoundname>
+    <innerfile refid="_arbitrary_code_warning_8cs">ArbitraryCodeWarning.cs</innerfile>
+    <innerfile refid="_extension_list_scroll_8cs">ExtensionListScroll.cs</innerfile>
+    <innerfile refid="_p_f_button_8cs">PFButton.cs</innerfile>
+    <innerfile refid="_plugin_info_8cs">PluginInfo.cs</innerfile>
+    <innerfile refid="_plugin_list_screen_8cs">PluginListScreen.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/GUI/"/>
+  </compounddef>
+</doxygen>

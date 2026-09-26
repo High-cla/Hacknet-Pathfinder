@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_1f3f6a993741855a0ecbd5fe837ebe0e" kind="dir">
+    <compoundname>PathfinderAPI/Event/Menu</compoundname>
+    <innerfile refid="_draw_main_menu_button_event_8cs">DrawMainMenuButtonEvent.cs</innerfile>
+    <innerfile refid="_draw_main_menu_event_8cs">DrawMainMenuEvent.cs</innerfile>
+    <innerfile refid="_draw_main_menu_titles_event_8cs">DrawMainMenuTitlesEvent.cs</innerfile>
+    <innerfile refid="_main_menu_event_8cs">MainMenuEvent.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/Menu/"/>
+  </compounddef>
+</doxygen>

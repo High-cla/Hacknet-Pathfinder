@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_base_game_fixes_1_1_performance" kind="namespace" language="C#">
+    <compoundname>Pathfinder::BaseGameFixes::Performance</compoundname>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering" prot="package">Pathfinder::BaseGameFixes::Performance::CatModuleRendering</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup" prot="package">Pathfinder::BaseGameFixes::Performance::NodeLookup</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching" prot="public">Pathfinder::BaseGameFixes::Performance::ThemeCaching</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

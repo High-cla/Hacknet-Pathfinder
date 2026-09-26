@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_node_lookup_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_node_lookup_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_node_lookup_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapibasegamefixesperformancenodelookupcs">PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_base_game_fixes/">Pathfinder::BaseGameFixes</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_base_game_fixes_1_1_performance/">Pathfinder::BaseGameFixes::Performance</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using Hacknet;
+using Hacknet.Extensions;
+using Hacknet.Misc;
+using HarmonyLib;
+using Mono.Cecil.Cil;
+using MonoMod.Cil;
+using Pathfinder.Util;
+
+namespace Pathfinder.BaseGameFixes.Performance;
+
+[HarmonyPatch]
+internal static class NodeLookup
+{
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(ComputerLoader), nameof(ComputerLoader.findComp))]
+    internal static bool ModifyComputerLoaderLookup(out Computer __result, string target)
+    {
+        __result = ComputerLookup.FindById(target);
+        return false;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Programs), nameof(Programs.getComputer))]
+    internal static bool ModifyProgramsLookup(out Computer __result, string ip_Or_ID_or_Name)
+    {
+        __result = ComputerLookup.Find(ip_Or_ID_or_Name);
+        return false;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(SAChangeIP), nameof(SAChangeIP.Trigger))]
+    internal static void OnChangeIPTrigger(SAChangeIP __instance, out string __state)
+    {
+        __state = ComputerLookup.Find(__instance.TargetComp)?.ip;
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(SAChangeIP), nameof(SAChangeIP.Trigger))]
+    internal static void OnChangeIPTrigger2(SAChangeIP __instance, string __state)
+    {
+        var comp = ComputerLookup.Find(__instance.TargetComp);
+        if (comp != null &amp;&amp; comp.ip != __state)
+        {
+            ComputerLookup.RebuildLookups();
+        }
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(AircraftDaemon), nameof(AircraftDaemon.CrashAircraft))]
+    internal static void OnAircraftDaemonChangeIP()
+    {
+        ComputerLookup.RebuildLookups();
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(ExtensionLoader), nameof(ExtensionLoader.LoadNewExtensionSession))]
+    [HarmonyPatch(typeof(OS), nameof(OS.loadMissionNodes))]
+    internal static void RebuildBeforePostLoad(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.AfterLabel, x =&gt; x.MatchLdsfld(typeof(ComputerLoader), nameof(ComputerLoader.postAllLoadedActions)));
+
+        c.Emit(OpCodes.Ldnull);
+        c.Emit(OpCodes.Call, AccessTools.Method(typeof(ComputerLookup), nameof(ComputerLookup.RebuildLookups)));
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(SaveFixHacks), nameof(SaveFixHacks.FixSavesWithTerribleHacks))]
+    internal static void RebuildBeforePostLoadDLC(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchLdsfld(typeof(ComputerLoader), nameof(ComputerLoader.postAllLoadedActions)),
+            x =&gt; x.MatchCallOrCallvirt(typeof(System.Action), nameof(System.Action.Invoke))
+        );
+
+        c.Emit(OpCodes.Ldnull);
+        c.Emit(OpCodes.Call, AccessTools.Method(typeof(ComputerLookup), nameof(ComputerLookup.RebuildLookups)));
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(NetworkMap), nameof(NetworkMap.generateGameNodes))]
+    internal static void RebuildAfterNodeGen()
+    {
+        ComputerLookup.RebuildLookups();
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(OS), nameof(OS.LoadContent))]
+    internal static void RebuildOnEndLoad(OS __instance)
+    {
+        ComputerLookup.RebuildLookups();
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(OS), nameof(OS.quitGame))]
+    internal static void ClearOnQuitGame()
+    {
+        ComputerLookup.ClearLookups();
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(ProgramRunner), nameof(ProgramRunner.ExecuteProgram))]
+    internal static void RebuildInDebugCommand(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchLdstr(&quot;practiceServer&quot;),
+            x =&gt; x.MatchCallOrCallvirt(AccessTools.Method(typeof(NetworkMap), nameof(NetworkMap.discoverNode), new Type[] { typeof(string) }))
+        );
+
+        c.Emit(OpCodes.Ldnull);
+        c.Emit(OpCodes.Call, AccessTools.Method(typeof(ComputerLookup), nameof(ComputerLookup.RebuildLookups)));
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(MissionGenerator), nameof(MissionGenerator.generateComputer))]
+    private static void AddMissionGenComputer(object __result)
+    {
+        var comp = (Computer)__result;
+        comp.idName = &quot;Gen&quot; + MissionGenerator.generationCount;
+        ComputerLookup.Add(comp);
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(ISPDaemon), nameof(ISPDaemon.DrawIPEntryScreen))]
+    internal static void ModifyISPDaemonDrawIPEntryScreen(ILContext il)
+    {
+        ILCursor c = new(il);
+
+        ILLabel loopHead = null;
+        c.GotoNext(MoveType.Before,
+            // flag = false;
+            x =&gt; x.MatchLdcI4(0),
+            x =&gt; x.MatchStloc(2),
+            // for (int i = 0; i &lt; os.netMap.nodes.Count; i++)
+            x =&gt; x.MatchLdcI4(0),
+            x =&gt; x.MatchStloc(3),
+            // (no C# code)
+            x =&gt; x.MatchBr(out loopHead)
+        );
+        int i = c.Index;
+
+        c.GotoLabel(loopHead);
+        c.GotoNext(MoveType.After,
+            // for (int i = 0; i &lt; os.netMap.nodes.Count; i++)
+            // ...
+            // for (int i = 0; i &lt; os.netMap.nodes.Count; i++)
+            // ...
+            x =&gt; x.MatchBrtrue(out _)
+        );
+        int j = c.Index;
+
+        c.Index = i;
+        c.RemoveRange(j-i);
+
+        c.Emit(OpCodes.Ldarg_0);
+        c.EmitDelegate&lt;Func&lt;ISPDaemon, bool&gt;&gt;(__instance =&gt; {
+            Computer c = ComputerLookup.FindByIp(__instance.scannedComputer.ip, false);
+
+            return (c != null) &amp;&amp; (c.idName != __instance.scannedComputer.idName);
+        });
+        c.Emit(OpCodes.Stloc_2);
+
+        c.Emit(OpCodes.Ldnull);
+        c.Emit(OpCodes.Call, AccessTools.Method(typeof(ComputerLookup), nameof(ComputerLookup.RebuildLookups)));
+    }
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(ISPDaemon), nameof(ISPDaemon.DrawLoadingScreen))]
+    internal static void ModifyISPDaemonDrawLoadingScreen(ILContext il)
+    {
+        ILCursor c = new(il);
+
+        ILLabel loopHead = null;
+        c.GotoNext(MoveType.Before,
+            // scannedComputer = null;
+            x =&gt; x.MatchNop(),
+            x =&gt; x.MatchLdarg(0),
+            x =&gt; x.MatchLdnull(),
+            x =&gt; x.MatchStfld(AccessTools.Field(typeof(ISPDaemon), nameof(ISPDaemon.scannedComputer))),
+            // for (int i = 0; i &lt; os.netMap.nodes.Count; i++)
+            x =&gt; x.MatchLdcI4(0),
+            x =&gt; x.MatchStloc(1),
+            // (no C# code)
+            x =&gt; x.MatchBr(out loopHead)
+        );
+        int i = ++c.Index;
+
+        c.GotoLabel(loopHead);
+        c.GotoNext(MoveType.After,
+            // for (int i = 0; i &lt; os.netMap.nodes.Count; i++)
+            // ...
+            // for (int i = 0; i &lt; os.netMap.nodes.Count; i++)
+            // ...
+            x =&gt; x.MatchBrtrue(out ILLabel _)
+        );
+        int j = c.Index;
+
+        c.Index = i;
+        c.RemoveRange(j-i);
+
+        c.Emit(OpCodes.Ldarg_0);
+        c.EmitDelegate&lt;Action&lt;ISPDaemon&gt;&gt;(__instance =&gt;
+            __instance.scannedComputer = ComputerLookup.FindByIp(__instance.ipSearch, false));
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(MissionFunctions), nameof(MissionFunctions.findComp))]
+    internal static bool ModifyMissionFunctionsFindComp(string target, ref Computer __result)
+    {
+        __result = ComputerLookup.FindById(target);
+        return false;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Multiplayer), nameof(Multiplayer.getComp))]
+    internal static bool ModifyMultiplayerGetComp(string ip, OS os, ref Computer __result)
+    {
+        __result = ComputerLookup.FindByIp(ip, false);
+        return false;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(NetworkMap), nameof(NetworkMap.discoverNode), new Type[]{ typeof(string) })]
+    internal static bool ModifyNetworkMapDiscoverNodeString(NetworkMap __instance, string cName)
+    {
+        Computer c = ComputerLookup.FindById(cName);
+        if (c != null)
+            __instance.discoverNode(c);
+
+        return false;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Programs), nameof(Programs.computerExists))]
+    internal static bool ModifyProgramsComputerExists(OS os, string ip, ref bool __result)
+    {
+        __result = ComputerLookup.Find(ip, SearchType.Ip | SearchType.Name) != null;
+        return false;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Programs), nameof(Programs.scan))]
+    internal static bool ScanReplacement(string[] args, OS os)
+    {
+        if (args.Length &gt; 1)
+        {
+            Computer computer = ComputerLookup.Find(args[1], SearchType.Ip | SearchType.Name);
+            if (computer != null)
+            {
+                os.netMap.discoverNode(computer);
+                os.write(&quot;Found Terminal : &quot; + computer.name + &quot;@&quot; + computer.ip);
+            }
+            return false;
+        }
+        return true;
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(Programs), nameof(Programs.connect))]
+    internal static void ConnectILManipulator(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+        ILLabel incrementLabel = null;
+
+        // Remove from here
+        // for (int i = 0; i &lt; os.netMap.nodes.Count; i++)
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchNop(),
+            x =&gt; x.MatchLdcI4(0),
+            x =&gt; x.MatchStloc(1),
+            x =&gt; x.MatchBr(out ILLabel _)
+        );
+        int i = c.Index;
+
+        // if (!os.netMap.nodes[i].ip.Equals(args[1]) &amp;&amp; !os.netMap.nodes[i].name.Equals(args[1]))
+        // {
+        //     continue;   
+        // }
+        // To here
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchLdcI4(0),
+            x =&gt; x.MatchNop(),
+            x =&gt; x.MatchStloc(10),
+            x =&gt; x.MatchLdloc(10),
+            x =&gt; x.MatchBrtrue(out incrementLabel)
+        );
+        int j = c.Index;
+
+        c.Index = i;
+        c.RemoveRange(j-i);
+
+        // Now before if (os.netMap.nodes[i].connect(os.thisComputer.ip))
+
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldarg_1);
+        c.EmitDelegate&lt;Func&lt;string[], OS, int&gt;&gt;((args, os) =&gt; 
+            os.netMap.nodes.IndexOf(ComputerLookup.Find(args[1], SearchType.Ip | SearchType.Name))
+        );
+        c.Emit(OpCodes.Stloc_1);
+
+        c.Emit(OpCodes.Ldloc_1);
+        c.Emit(OpCodes.Ldc_I4_M1);
+        c.Emit(OpCodes.Ceq);
+        // incrementLabel will be preserved but loop behavior removed
+        c.Emit(OpCodes.Brtrue, incrementLabel);
+
+        // Remove remaining loop behavior
+        c.GotoLabel(incrementLabel);
+        i = ++c.Index; // preserve label on nop
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchStloc(10),
+            x =&gt; x.MatchLdloc(10),
+            x =&gt; x.MatchBrtrue(out ILLabel _)
+        );
+        j = c.Index;
+
+        c.Index = i;
+        c.RemoveRange(j-i);
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

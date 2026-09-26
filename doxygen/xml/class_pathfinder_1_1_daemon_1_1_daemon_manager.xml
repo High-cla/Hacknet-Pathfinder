@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_daemon_1_1_daemon_manager" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Daemon::DaemonManager</compoundname>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_daemon_1_1_daemon_manager_1ad925d3419edaa35df380c4c20ab55a94" prot="package" static="yes" mutable="no">
+        <type>readonly List&lt; Type &gt;</type>
+        <definition>readonly List&lt;Type&gt; Pathfinder.Daemon.DaemonManager.CustomDaemons</definition>
+        <argsstring></argsstring>
+        <name>CustomDaemons</name>
+        <qualifiedname>Pathfinder.Daemon.DaemonManager.CustomDaemons</qualifiedname>
+        <initializer>= new List&lt;Type&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/DaemonManager.cs" line="11" column="35" bodyfile="PathfinderAPI/Daemon/DaemonManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_daemon_manager_1aa3285521214d0476f581dc3bb2303d8e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Daemon.DaemonManager.DaemonManager</definition>
+        <argsstring>()</argsstring>
+        <name>DaemonManager</name>
+        <qualifiedname>Pathfinder.Daemon.DaemonManager.DaemonManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/DaemonManager.cs" line="13" column="12" bodyfile="PathfinderAPI/Daemon/DaemonManager.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_daemon_manager_1a96f3654a34fae4933d3c85b6f4da646a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Daemon.DaemonManager.onPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>onPluginUnload</name>
+        <qualifiedname>Pathfinder.Daemon.DaemonManager.onPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/DaemonManager.cs" line="32" column="25" bodyfile="PathfinderAPI/Daemon/DaemonManager.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_daemon_manager_1a23281c668df70f81de959e85caa5079a" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Daemon.DaemonManager.TryLoadCustomDaemon</definition>
+        <argsstring>(ElementInfo info, Computer comp, OS os)</argsstring>
+        <name>TryLoadCustomDaemon</name>
+        <qualifiedname>Pathfinder.Daemon.DaemonManager.TryLoadCustomDaemon</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/DaemonManager.cs" line="18" column="26" bodyfile="PathfinderAPI/Daemon/DaemonManager.cs" bodystart="18" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_daemon_manager_1a3e98f184a4525a81ef6bfe358ac4f2ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Daemon.DaemonManager.RegisterDaemon&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>RegisterDaemon&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Daemon.DaemonManager.RegisterDaemon&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/DaemonManager.cs" line="37" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_daemon_manager_1a7381f98eae6e598f8570cd9e8e1eb20e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Daemon.DaemonManager.RegisterDaemon</definition>
+        <argsstring>(Type daemonType)</argsstring>
+        <name>RegisterDaemon</name>
+        <qualifiedname>Pathfinder.Daemon.DaemonManager.RegisterDaemon</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>daemonType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/DaemonManager.cs" line="38" column="24" bodyfile="PathfinderAPI/Daemon/DaemonManager.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_daemon_manager_1a91d45e6398f9a194cb61936ef9259a61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Daemon.DaemonManager.UnregisterDaemon&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>UnregisterDaemon&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Daemon.DaemonManager.UnregisterDaemon&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/DaemonManager.cs" line="44" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_daemon_manager_1ab89f32e6b7dc9b448fbb1bf00d05574b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Daemon.DaemonManager.UnregisterDaemon</definition>
+        <argsstring>(Type daemonType)</argsstring>
+        <name>UnregisterDaemon</name>
+        <qualifiedname>Pathfinder.Daemon.DaemonManager.UnregisterDaemon</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>daemonType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/DaemonManager.cs" line="45" column="24" bodyfile="PathfinderAPI/Daemon/DaemonManager.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Daemon/DaemonManager.cs" line="9" column="15" bodyfile="PathfinderAPI/Daemon/DaemonManager.cs" bodystart="10" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_daemon_1_1_daemon_manager_1ad925d3419edaa35df380c4c20ab55a94" prot="package" virt="non-virtual"><scope>Pathfinder::Daemon::DaemonManager</scope><name>CustomDaemons</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_daemon_manager_1aa3285521214d0476f581dc3bb2303d8e" prot="private" virt="non-virtual"><scope>Pathfinder::Daemon::DaemonManager</scope><name>DaemonManager</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_daemon_manager_1a96f3654a34fae4933d3c85b6f4da646a" prot="private" virt="non-virtual"><scope>Pathfinder::Daemon::DaemonManager</scope><name>onPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_daemon_manager_1a7381f98eae6e598f8570cd9e8e1eb20e" prot="public" virt="non-virtual"><scope>Pathfinder::Daemon::DaemonManager</scope><name>RegisterDaemon</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_daemon_manager_1a3e98f184a4525a81ef6bfe358ac4f2ea" prot="public" virt="non-virtual"><scope>Pathfinder::Daemon::DaemonManager</scope><name>RegisterDaemon&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_daemon_manager_1a23281c668df70f81de959e85caa5079a" prot="package" virt="non-virtual"><scope>Pathfinder::Daemon::DaemonManager</scope><name>TryLoadCustomDaemon</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_daemon_manager_1ab89f32e6b7dc9b448fbb1bf00d05574b" prot="public" virt="non-virtual"><scope>Pathfinder::Daemon::DaemonManager</scope><name>UnregisterDaemon</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_daemon_manager_1a91d45e6398f9a194cb61936ef9259a61" prot="public" virt="non-virtual"><scope>Pathfinder::Daemon::DaemonManager</scope><name>UnregisterDaemon&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

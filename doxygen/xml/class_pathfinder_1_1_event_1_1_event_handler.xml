@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_event_handler" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::Event::EventHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IComparable&lt; EventHandler&lt; T &gt; &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable&lt; EventHandler&lt; T &gt; &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable&lt; MethodInfo &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_event_handler_1accde7a31bbb38ccdc76b4d4b095a8702" prot="package" static="no" mutable="no">
+        <type>readonly Action&lt; T &gt;</type>
+        <definition>readonly Action&lt;T&gt; Pathfinder.Event.EventHandler&lt; T &gt;.HandlerAction</definition>
+        <argsstring></argsstring>
+        <name>HandlerAction</name>
+        <qualifiedname>Pathfinder.Event.EventHandler.HandlerAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="18" column="30" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_event_handler_1a93e209afb36c167981ebf27d20d59084" prot="package" static="no" mutable="no">
+        <type>readonly MethodInfo</type>
+        <definition>readonly MethodInfo Pathfinder.Event.EventHandler&lt; T &gt;.HandlerInfo</definition>
+        <argsstring></argsstring>
+        <name>HandlerInfo</name>
+        <qualifiedname>Pathfinder.Event.EventHandler.HandlerInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="19" column="34" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_event_handler_1ac11ccad5be6828403597d1fcc8f1fe87" prot="package" static="no" mutable="no">
+        <type>readonly <ref refid="struct_pathfinder_1_1_event_1_1_event_handler_options" kindref="compound">EventHandlerOptions</ref></type>
+        <definition>readonly EventHandlerOptions Pathfinder.Event.EventHandler&lt; T &gt;.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <qualifiedname>Pathfinder.Event.EventHandler.Options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="20" column="43" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_handler_1a1c7ae7da6d514f8f9a0d18b533bc508f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.EventHandler&lt; T &gt;.EventHandler</definition>
+        <argsstring>(Action&lt; T &gt; handlerAction, EventHandlerOptions options)</argsstring>
+        <name>EventHandler</name>
+        <qualifiedname>Pathfinder.Event.EventHandler.EventHandler</qualifiedname>
+        <param>
+          <type>Action&lt; T &gt;</type>
+          <declname>handlerAction</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_pathfinder_1_1_event_1_1_event_handler_options" kindref="compound">EventHandlerOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="22" column="14" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="22" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_handler_1a40f75a75e307a7013a59c74936977abd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Pathfinder.Event.EventHandler&lt; T &gt;.CompareTo</definition>
+        <argsstring>(EventHandler&lt; T &gt; other)</argsstring>
+        <name>CompareTo</name>
+        <qualifiedname>Pathfinder.Event.EventHandler.CompareTo</qualifiedname>
+        <param>
+          <type>EventHandler&lt; T &gt;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="30" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_handler_1a02d51387f32322626c8ede8d96a727d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pathfinder.Event.EventHandler&lt; T &gt;.Equals</definition>
+        <argsstring>(EventHandler&lt; T &gt; other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>Pathfinder.Event.EventHandler.Equals</qualifiedname>
+        <param>
+          <type>EventHandler&lt; T &gt;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="32" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_event_handler_1a43bcc142b219c3ecda98be8fedac5e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pathfinder.Event.EventHandler&lt; T &gt;.Equals</definition>
+        <argsstring>(MethodInfo other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>Pathfinder.Event.EventHandler.Equals</qualifiedname>
+        <param>
+          <type>MethodInfo</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="34" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IComparable&lt; EventHandler&lt; T &gt; &gt;</label>
+      </node>
+      <node id="3">
+        <label>IEquatable&lt; EventHandler&lt; T &gt; &gt;</label>
+      </node>
+      <node id="4">
+        <label>IEquatable&lt; MethodInfo &gt;</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Event.EventHandler&lt; T &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Action&lt; T &gt;</label>
+      </node>
+      <node id="2">
+        <label>IComparable&lt; EventHandler&lt; T &gt; &gt;</label>
+      </node>
+      <node id="3">
+        <label>IEquatable&lt; EventHandler&lt; T &gt; &gt;</label>
+      </node>
+      <node id="4">
+        <label>IEquatable&lt; MethodInfo &gt;</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Event.EventHandler&lt; T &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>HandlerAction</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>Options</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Pathfinder.Event.EventHandlerOptions</label>
+        <link refid="struct_pathfinder_1_1_event_1_1_event_handler_options"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/EventManager.cs" line="16" column="9" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="17" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_event_handler_1a40f75a75e307a7013a59c74936977abd" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventHandler</scope><name>CompareTo</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_handler_1a02d51387f32322626c8ede8d96a727d1" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventHandler</scope><name>Equals</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_handler_1a43bcc142b219c3ecda98be8fedac5e76" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventHandler</scope><name>Equals</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_handler_1a1c7ae7da6d514f8f9a0d18b533bc508f" prot="package" virt="non-virtual"><scope>Pathfinder::Event::EventHandler</scope><name>EventHandler</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_handler_1accde7a31bbb38ccdc76b4d4b095a8702" prot="package" virt="non-virtual"><scope>Pathfinder::Event::EventHandler</scope><name>HandlerAction</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_handler_1a93e209afb36c167981ebf27d20d59084" prot="package" virt="non-virtual"><scope>Pathfinder::Event::EventHandler</scope><name>HandlerInfo</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_event_handler_1ac11ccad5be6828403597d1fcc8f1fe87" prot="package" virt="non-virtual"><scope>Pathfinder::Event::EventHandler</scope><name>Options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

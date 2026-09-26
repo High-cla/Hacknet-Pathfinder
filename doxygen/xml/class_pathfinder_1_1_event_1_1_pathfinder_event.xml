@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_pathfinder_event" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Event::PathfinderEvent</compoundname>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_load_event" prot="public" virt="non-virtual">Pathfinder.Event.BepInEx.LoadEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_post_load_event" prot="public" virt="non-virtual">Pathfinder.Event.BepInEx.PostLoadEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_unload_event" prot="public" virt="non-virtual">Pathfinder.Event.BepInEx.UnloadEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event" prot="public" virt="non-virtual">Pathfinder.Event.Gameplay.CommandExecuteEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_execute_event" prot="public" virt="non-virtual">Pathfinder.Event.Gameplay.ExecutableExecuteEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event" prot="public" virt="non-virtual">Pathfinder.Event.Gameplay.ExecutableListEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event" prot="public" virt="non-virtual">Pathfinder.Event.Gameplay.OSUpdateEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_loading_1_1_extension_load_event" prot="public" virt="non-virtual">Pathfinder.Event.Loading.ExtensionLoadEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event" prot="public" virt="non-virtual">Pathfinder.Event.Loading.OSLoadedEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event" prot="public" virt="non-virtual">Pathfinder.Event.Loading.SaveComputerLoadedEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_loading_1_1_text_replace_event" prot="public" virt="non-virtual">Pathfinder.Event.Loading.TextReplaceEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event" prot="public" virt="non-virtual">Pathfinder.Event.Menu.MainMenuEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_options_1_1_custom_options_save_event" prot="public" virt="non-virtual">Pathfinder.Event.Options.CustomOptionsSaveEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_1_1_build_autocompletes_event" prot="public" virt="non-virtual">Pathfinder.Event.Pathfinder.BuildAutocompletesEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event" prot="public" virt="non-virtual">Pathfinder.Event.Saving.SaveComputerEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event" prot="public" virt="non-virtual">Pathfinder.Event.Saving.SaveEvent</derivedcompoundref>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Event.PathfinderEvent.cancelled</definition>
+        <argsstring></argsstring>
+        <name>cancelled</name>
+        <qualifiedname>Pathfinder.Event.PathfinderEvent.cancelled</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/PathfinderEvent.cs" line="5" column="19" bodyfile="PathfinderAPI/Event/PathfinderEvent.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Event.PathfinderEvent.Cancelled</definition>
+        <argsstring></argsstring>
+        <name>Cancelled</name>
+        <qualifiedname>Pathfinder.Event.PathfinderEvent.Cancelled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/PathfinderEvent.cs" line="6" column="17" bodyfile="PathfinderAPI/Event/PathfinderEvent.cs" bodystart="6" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Event.PathfinderEvent.Thrown</definition>
+        <argsstring></argsstring>
+        <name>Thrown</name>
+        <qualifiedname>Pathfinder.Event.PathfinderEvent.Thrown</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/PathfinderEvent.cs" line="16" column="17" bodyfile="PathfinderAPI/Event/PathfinderEvent.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+      <node id="2">
+        <label>Pathfinder.Event.BepInEx.LoadEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_load_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Pathfinder.Event.BepInEx.PostLoadEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_post_load_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Pathfinder.Event.BepInEx.UnloadEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_unload_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Pathfinder.Event.Gameplay.CommandExecuteEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Pathfinder.Event.Gameplay.ExecutableExecuteEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_execute_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Pathfinder.Event.Gameplay.ExecutableListEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Pathfinder.Event.Gameplay.OSUpdateEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Pathfinder.Event.Loading.ExtensionLoadEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_loading_1_1_extension_load_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Pathfinder.Event.Loading.OSLoadedEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Pathfinder.Event.Loading.SaveComputerLoadedEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Pathfinder.Event.Loading.TextReplaceEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_loading_1_1_text_replace_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Pathfinder.Event.Menu.DrawMainMenuButtonEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Pathfinder.Event.Menu.DrawMainMenuEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Pathfinder.Event.Menu.MainMenuEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>Pathfinder.Event.Options.CustomOptionsSaveEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_options_1_1_custom_options_save_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>Pathfinder.Event.Pathfinder.BuildAutocompletesEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_1_1_build_autocompletes_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Pathfinder.Event.Saving.SaveComputerEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Pathfinder.Event.Saving.SaveEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="PathfinderAPI/Event/PathfinderEvent.cs" line="3" column="17" bodyfile="PathfinderAPI/Event/PathfinderEvent.cs" bodystart="4" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::PathfinderEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::PathfinderEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::PathfinderEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

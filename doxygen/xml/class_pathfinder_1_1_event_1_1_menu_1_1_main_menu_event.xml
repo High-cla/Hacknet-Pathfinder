@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Event::Menu::MainMenuEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public" virt="non-virtual">Pathfinder.Event.PathfinderEvent</basecompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event" prot="public" virt="non-virtual">Pathfinder.Event.Menu.DrawMainMenuButtonEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event" prot="public" virt="non-virtual">Pathfinder.Event.Menu.DrawMainMenuEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event" prot="public" virt="non-virtual">Pathfinder.Event.Menu.DrawMainMenuTitlesEvent</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1aedef0c5fa6ff3d39495c831f8310d4b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>MainMenu</type>
+        <definition>MainMenu Pathfinder.Event.Menu.MainMenuEvent.MainMenu</definition>
+        <argsstring></argsstring>
+        <name>MainMenu</name>
+        <qualifiedname>Pathfinder.Event.Menu.MainMenuEvent.MainMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/MainMenuEvent.cs" line="7" column="21" bodyfile="PathfinderAPI/Event/Menu/MainMenuEvent.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1a95d54f59bc389fe1dc4885f03a1cdc53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Menu.MainMenuEvent.MainMenuEvent</definition>
+        <argsstring>(MainMenu mainMenu)</argsstring>
+        <name>MainMenuEvent</name>
+        <qualifiedname>Pathfinder.Event.Menu.MainMenuEvent.MainMenuEvent</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1aedef0c5fa6ff3d39495c831f8310d4b1" kindref="member">MainMenu</ref></type>
+          <declname>mainMenu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/MainMenuEvent.cs" line="8" column="12" bodyfile="PathfinderAPI/Event/Menu/MainMenuEvent.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.Menu.MainMenuEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Pathfinder.Event.Menu.DrawMainMenuButtonEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Pathfinder.Event.Menu.DrawMainMenuEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Event.Menu.MainMenuEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/Menu/MainMenuEvent.cs" line="5" column="17" bodyfile="PathfinderAPI/Event/Menu/MainMenuEvent.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::Menu::MainMenuEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::MainMenuEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1aedef0c5fa6ff3d39495c831f8310d4b1" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::MainMenuEvent</scope><name>MainMenu</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1a95d54f59bc389fe1dc4885f03a1cdc53" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::MainMenuEvent</scope><name>MainMenuEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::MainMenuEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

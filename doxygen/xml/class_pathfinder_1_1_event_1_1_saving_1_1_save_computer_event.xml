@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::Saving::SaveComputerEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public" virt="non-virtual">Pathfinder.Event.PathfinderEvent</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event_1a7fae136f3032b17ba161620da03afbeb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Event.Saving.SaveComputerEvent.Os</definition>
+        <argsstring></argsstring>
+        <name>Os</name>
+        <qualifiedname>Pathfinder.Event.Saving.SaveComputerEvent.Os</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" line="8" column="15" bodyfile="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event_1accfb3bac9f5171289b098308b9ec8b94" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Computer</type>
+        <definition>Computer Pathfinder.Event.Saving.SaveComputerEvent.Comp</definition>
+        <argsstring></argsstring>
+        <name>Comp</name>
+        <qualifiedname>Pathfinder.Event.Saving.SaveComputerEvent.Comp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" line="9" column="21" bodyfile="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event_1aad49f2f206b0000f3eeb8dab76ecaa85" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>XElement</type>
+        <definition>XElement Pathfinder.Event.Saving.SaveComputerEvent.Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <qualifiedname>Pathfinder.Event.Saving.SaveComputerEvent.Element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" line="10" column="21" bodyfile="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event_1a5412cb90b90dc4e4ecf429c32ff6141a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Saving.SaveComputerEvent.SaveComputerEvent</definition>
+        <argsstring>(OS os, Computer comp, XElement element)</argsstring>
+        <name>SaveComputerEvent</name>
+        <qualifiedname>Pathfinder.Event.Saving.SaveComputerEvent.SaveComputerEvent</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>XElement</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" line="12" column="12" bodyfile="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.Saving.SaveComputerEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Event.Saving.SaveComputerEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" line="6" column="7" bodyfile="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveComputerEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveComputerEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event_1accfb3bac9f5171289b098308b9ec8b94" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveComputerEvent</scope><name>Comp</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event_1aad49f2f206b0000f3eeb8dab76ecaa85" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveComputerEvent</scope><name>Element</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event_1a7fae136f3032b17ba161620da03afbeb" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveComputerEvent</scope><name>Os</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event_1a5412cb90b90dc4e4ecf429c32ff6141a" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveComputerEvent</scope><name>SaveComputerEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveComputerEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

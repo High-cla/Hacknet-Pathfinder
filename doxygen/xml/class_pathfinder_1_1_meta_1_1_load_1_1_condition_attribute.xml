@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Meta::Load::ConditionAttribute</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.BaseAttribute</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute_1ab198c581ed3d48c2e28f80d398810c49" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.Load.ConditionAttribute.XmlName</definition>
+        <argsstring></argsstring>
+        <name>XmlName</name>
+        <qualifiedname>Pathfinder.Meta.Load.ConditionAttribute.XmlName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/ConditionAttribute.cs" line="10" column="19" bodyfile="PathfinderAPI/Meta/Load/ConditionAttribute.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute_1a0bdf70619c7133c1656a5d43cde3c2c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Meta.Load.ConditionAttribute.ConditionAttribute</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>ConditionAttribute</name>
+        <qualifiedname>Pathfinder.Meta.Load.ConditionAttribute.ConditionAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/ConditionAttribute.cs" line="12" column="12" bodyfile="PathfinderAPI/Meta/Load/ConditionAttribute.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute_1a999710b35edcd660022a807da15bf3d9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Meta.Load.ConditionAttribute.CallOn</definition>
+        <argsstring>(HacknetPlugin plugin, MemberInfo targettedInfo)</argsstring>
+        <name>CallOn</name>
+        <qualifiedname>Pathfinder.Meta.Load.ConditionAttribute.CallOn</qualifiedname>
+        <param>
+          <type><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>targettedInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/ConditionAttribute.cs" line="17" column="38" bodyfile="PathfinderAPI/Meta/Load/ConditionAttribute.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.ConditionAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.ConditionAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Meta/Load/ConditionAttribute.cs" line="8" column="7" bodyfile="PathfinderAPI/Meta/Load/ConditionAttribute.cs" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute_1a999710b35edcd660022a807da15bf3d9" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::ConditionAttribute</scope><name>CallOn</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute_1a0bdf70619c7133c1656a5d43cde3c2c7" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::ConditionAttribute</scope><name>ConditionAttribute</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute_1aa664b7e6caa44645ea2dce2999066d75" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::ConditionAttribute</scope><name>ThrowOnInvalidOperation</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute_1ab198c581ed3d48c2e28f80d398810c49" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::ConditionAttribute</scope><name>XmlName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_16ddb36905f0610e7a591793d4974e9b" kind="dir">
+    <compoundname>PathfinderAPI/Port</compoundname>
+    <innerfile refid="_computer_extensions_8cs">ComputerExtensions.cs</innerfile>
+    <innerfile refid="_port_manager_8cs">PortManager.cs</innerfile>
+    <innerfile refid="_port_record_8cs">PortRecord.cs</innerfile>
+    <innerfile refid="_port_state_8cs">PortState.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Port/"/>
+  </compounddef>
+</doxygen>

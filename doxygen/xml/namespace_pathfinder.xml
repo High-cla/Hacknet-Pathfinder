@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder" kind="namespace" language="C#">
+    <compoundname>Pathfinder</compoundname>
+    <innerclass refid="class_pathfinder_1_1_logger" prot="package">Pathfinder::Logger</innerclass>
+    <innerclass refid="class_pathfinder_1_1_misc_patches" prot="package">Pathfinder::MiscPatches</innerclass>
+    <innerclass refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin" prot="public">Pathfinder::PathfinderAPIPlugin</innerclass>
+    <innerclass refid="class_pathfinder_1_1_steam_patches" prot="public">Pathfinder::SteamPatches</innerclass>
+    <innernamespace refid="namespace_pathfinder_1_1_action">Pathfinder::Action</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_administrator">Pathfinder::Administrator</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_base_game_fixes">Pathfinder::BaseGameFixes</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_command">Pathfinder::Command</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_daemon">Pathfinder::Daemon</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event">Pathfinder::Event</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_executable">Pathfinder::Executable</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_g_u_i">Pathfinder::GUI</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_meta">Pathfinder::Meta</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_mission">Pathfinder::Mission</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_options">Pathfinder::Options</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_port">Pathfinder::Port</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_replacements">Pathfinder::Replacements</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_util">Pathfinder::Util</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Action/ActionDelayDecorator.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

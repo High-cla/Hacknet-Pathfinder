@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_action_1_1_action_delay_decorator" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>Pathfinder::Action::ActionDelayDecorator</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action" prot="public" virt="non-virtual">Pathfinder.Action.DelayablePathfinderAction</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_action_1_1_action_delay_decorator_1a3562c887fd16884cf7c1536b96d5e449" prot="private" static="no" mutable="no">
+        <type>SerializableAction</type>
+        <definition>SerializableAction Pathfinder.Action.ActionDelayDecorator.targetAction</definition>
+        <argsstring></argsstring>
+        <name>targetAction</name>
+        <qualifiedname>Pathfinder.Action.ActionDelayDecorator.targetAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionDelayDecorator.cs" line="18" column="24" bodyfile="PathfinderAPI/Action/ActionDelayDecorator.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_delay_decorator_1a2b50ae3b68dc549dc42db103e547a8f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializableAction</type>
+        <definition>static SerializableAction Pathfinder.Action.ActionDelayDecorator.Create</definition>
+        <argsstring>(ElementInfo info, SerializableAction action)</argsstring>
+        <name>Create</name>
+        <qualifiedname>Pathfinder.Action.ActionDelayDecorator.Create</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>SerializableAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionDelayDecorator.cs" line="10" column="38" bodyfile="PathfinderAPI/Action/ActionDelayDecorator.cs" bodystart="10" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_delay_decorator_1a00183d04c19b55dc2e33e9183987edeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Action.ActionDelayDecorator.ActionDelayDecorator</definition>
+        <argsstring>(ElementInfo info, SerializableAction action)</argsstring>
+        <name>ActionDelayDecorator</name>
+        <qualifiedname>Pathfinder.Action.ActionDelayDecorator.ActionDelayDecorator</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>SerializableAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionDelayDecorator.cs" line="20" column="12" bodyfile="PathfinderAPI/Action/ActionDelayDecorator.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_delay_decorator_1a7422df6994918b5be4ca2a42e1de563e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Action.ActionDelayDecorator.Trigger</definition>
+        <argsstring>(OS os)</argsstring>
+        <name>Trigger</name>
+        <qualifiedname>Pathfinder.Action.ActionDelayDecorator.Trigger</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionDelayDecorator.cs" line="26" column="26" bodyfile="PathfinderAPI/Action/ActionDelayDecorator.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_delay_decorator_1aa09c1bb3217ea661264cb8e4d5d31245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override XElement</type>
+        <definition>override XElement Pathfinder.Action.ActionDelayDecorator.GetSaveElement</definition>
+        <argsstring>()</argsstring>
+        <name>GetSaveElement</name>
+        <qualifiedname>Pathfinder.Action.ActionDelayDecorator.GetSaveElement</qualifiedname>
+        <reimplements refid="class_pathfinder_1_1_action_1_1_pathfinder_action_1a637969830847847e2560c81ea5d66e50">GetSaveElement</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionDelayDecorator.cs" line="31" column="30" bodyfile="PathfinderAPI/Action/ActionDelayDecorator.cs" bodystart="31" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DelayablePathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Action.ActionDelayDecorator</label>
+        <link refid="class_pathfinder_1_1_action_1_1_action_delay_decorator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_action"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SerializableAction</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DelayablePathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Action.ActionDelayDecorator</label>
+        <link refid="class_pathfinder_1_1_action_1_1_action_delay_decorator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_action"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SerializableAction</label>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Action/ActionDelayDecorator.cs" line="8" column="7" bodyfile="PathfinderAPI/Action/ActionDelayDecorator.cs" bodystart="9" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_action_1_1_action_delay_decorator_1a00183d04c19b55dc2e33e9183987edeb" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionDelayDecorator</scope><name>ActionDelayDecorator</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_delay_decorator_1a2b50ae3b68dc549dc42db103e547a8f8" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionDelayDecorator</scope><name>Create</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action_1a23ac37f5f78a0cb6ee50fc9316f7b742" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionDelayDecorator</scope><name>Delay</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action_1a6fab93fe64fce106339149d0c631a02c" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionDelayDecorator</scope><name>DelayHost</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_delay_decorator_1aa09c1bb3217ea661264cb8e4d5d31245" prot="public" virt="virtual"><scope>Pathfinder::Action::ActionDelayDecorator</scope><name>GetSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action_1a37a9a6e1577d97e036a6f9ca3da04a43" prot="public" virt="virtual"><scope>Pathfinder::Action::ActionDelayDecorator</scope><name>LoadFromXml</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_delay_decorator_1a3562c887fd16884cf7c1536b96d5e449" prot="private" virt="non-virtual"><scope>Pathfinder::Action::ActionDelayDecorator</scope><name>targetAction</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_delay_decorator_1a7422df6994918b5be4ca2a42e1de563e" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionDelayDecorator</scope><name>Trigger</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action_1a576a2d62e67adcf55a1db925df51fdc4" prot="public" virt="non-virtual" ambiguityscope="Pathfinder::Action::DelayablePathfinderAction."><scope>Pathfinder::Action::ActionDelayDecorator</scope><name>Trigger</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_action_1a63c7af8e1f65039066b336e0898cc259" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionDelayDecorator</scope><name>XmlName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

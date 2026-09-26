@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_base_executable_8cs" kind="file" language="C#">
+    <compoundname>BaseExecutable.cs</compoundname>
+    <innerclass refid="class_pathfinder_1_1_executable_1_1_base_executable" prot="public">Pathfinder::Executable::BaseExecutable</innerclass>
+    <innernamespace refid="namespace_pathfinder">Pathfinder</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_executable">Pathfinder::Executable</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Microsoft.Xna.Framework;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_pathfinder_1_1_executable" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_executable" kindref="compound">Pathfinder.Executable</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_pathfinder_1_1_executable_1_1_base_executable" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pathfinder_1_1_executable_1_1_base_executable" kindref="compound">BaseExecutable</ref><sp/>:<sp/>ExeModule</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>[Obsolete(</highlight><highlight class="stringliteral">&quot;To<sp/>be<sp/>removed<sp/>in<sp/>6.0.0&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_executable_1_1_base_executable_1a23717a2e6bf0e5301fc861eebada2c7b" kindref="member">GetIdentifier</ref>()<sp/>=&gt;<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[]<sp/><ref refid="class_pathfinder_1_1_executable_1_1_base_executable_1af32dafdcbb5ec900be0c9d99e451defe" kindref="member">Args</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_executable_1_1_base_executable" kindref="compound">BaseExecutable</ref>(Rectangle<sp/>location,<sp/>OS<sp/>operatingSystem,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[]<sp/>args)<sp/>:<sp/>base(location,<sp/>operatingSystem)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_executable_1_1_base_executable_1af32dafdcbb5ec900be0c9d99e451defe" kindref="member">Args</ref><sp/>=<sp/>args;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderAPI/Executable/BaseExecutable.cs"/>
+  </compounddef>
+</doxygen>

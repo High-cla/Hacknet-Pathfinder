@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_auto_clear_missions_on_single_complete" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::AutoClearMissionsOnSingleComplete</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_auto_clear_missions_on_single_complete_1a57e8d0a7372b4d92a492e524021cf353" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.AutoClearMissionsOnSingleComplete.DontClearMissionsOnCompleteIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>DontClearMissionsOnCompleteIL</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.AutoClearMissionsOnSingleComplete.DontClearMissionsOnCompleteIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/AutoClearMissionsOnSingleComplete.cs" line="13" column="26" bodyfile="PathfinderAPI/BaseGameFixes/AutoClearMissionsOnSingleComplete.cs" bodystart="13" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/AutoClearMissionsOnSingleComplete.cs" line="9" column="17" bodyfile="PathfinderAPI/BaseGameFixes/AutoClearMissionsOnSingleComplete.cs" bodystart="10" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_auto_clear_missions_on_single_complete_1a57e8d0a7372b4d92a492e524021cf353" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::AutoClearMissionsOnSingleComplete</scope><name>DontClearMissionsOnCompleteIL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

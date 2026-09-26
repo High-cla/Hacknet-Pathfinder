@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::Gameplay::CommandExecuteEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public" virt="non-virtual">Pathfinder.Event.PathfinderEvent</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1a4b2d5f4fe7d4b67868f1be0f8e3ef079" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Event.Gameplay.CommandExecuteEvent.Os</definition>
+        <argsstring></argsstring>
+        <name>Os</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.CommandExecuteEvent.Os</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" line="9" column="15" bodyfile="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1a69f32c1fc2b5d4af0e8b2f3de47d4263" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string[]</type>
+        <definition>string [] Pathfinder.Event.Gameplay.CommandExecuteEvent.Args</definition>
+        <argsstring></argsstring>
+        <name>Args</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.CommandExecuteEvent.Args</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" line="10" column="19" bodyfile="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1a5045679ac12de7367c53ae2f0299f34a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Event.Gameplay.CommandExecuteEvent.Found</definition>
+        <argsstring></argsstring>
+        <name>Found</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.CommandExecuteEvent.Found</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" line="12" column="17" bodyfile="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1abc7105f57c663eb5d3316c76f3f6b3e0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Event.Gameplay.CommandExecuteEvent.found</definition>
+        <argsstring></argsstring>
+        <name>found</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.CommandExecuteEvent.found</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" line="11" column="18" bodyfile="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1a30a47ad506cb1b3f339af793411b096c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Gameplay.CommandExecuteEvent.CommandExecuteEvent</definition>
+        <argsstring>(OS os, string[] args)</argsstring>
+        <name>CommandExecuteEvent</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.CommandExecuteEvent.CommandExecuteEvent</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" line="18" column="12" bodyfile="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1a01e805093b07bfc6f94089d8e615cfac" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Event.Gameplay.CommandExecuteEvent.OnCommandExecutePrefix</definition>
+        <argsstring>(ref object os_object, ref string[] arguments, ref bool __result)</argsstring>
+        <name>OnCommandExecutePrefix</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.CommandExecuteEvent.OnCommandExecutePrefix</qualifiedname>
+        <param>
+          <type>ref object</type>
+          <declname>os_object</declname>
+        </param>
+        <param>
+          <type>ref string[]</type>
+          <declname>arguments</declname>
+        </param>
+        <param>
+          <type>ref bool</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" line="26" column="25" bodyfile="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" bodystart="26" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.Gameplay.CommandExecuteEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Event.Gameplay.CommandExecuteEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" line="7" column="7" bodyfile="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" bodystart="8" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1a69f32c1fc2b5d4af0e8b2f3de47d4263" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::CommandExecuteEvent</scope><name>Args</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::CommandExecuteEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::CommandExecuteEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1a30a47ad506cb1b3f339af793411b096c" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::CommandExecuteEvent</scope><name>CommandExecuteEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1abc7105f57c663eb5d3316c76f3f6b3e0" prot="private" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::CommandExecuteEvent</scope><name>found</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1a5045679ac12de7367c53ae2f0299f34a" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::CommandExecuteEvent</scope><name>Found</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1a01e805093b07bfc6f94089d8e615cfac" prot="private" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::CommandExecuteEvent</scope><name>OnCommandExecutePrefix</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event_1a4b2d5f4fe7d4b67868f1be0f8e3ef079" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::CommandExecuteEvent</scope><name>Os</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::CommandExecuteEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_base_game_fixes" kind="namespace" language="C#">
+    <compoundname>Pathfinder::BaseGameFixes</compoundname>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_auto_clear_missions_on_single_complete" prot="package">Pathfinder::BaseGameFixes::AutoClearMissionsOnSingleComplete</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_avoid_null_deref_on_theme_change" prot="package">Pathfinder::BaseGameFixes::AvoidNullDerefOnThemeChange</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_clear_post_load_actions" prot="package">Pathfinder::BaseGameFixes::ClearPostLoadActions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_dont_lose_player_comp_admin" prot="package">Pathfinder::BaseGameFixes::DontLosePlayerCompAdmin</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_fix_extension_tests" prot="public">Pathfinder::BaseGameFixes::FixExtensionTests</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_fix_tutorial_startup" prot="public">Pathfinder::BaseGameFixes::FixTutorialStartup</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_flickering_text_report_null" prot="public">Pathfinder::BaseGameFixes::FlickeringTextReportNull</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s" prot="package">Pathfinder::BaseGameFixes::HHBS</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_keep_branches_on_mail_mission_completion" prot="public">Pathfinder::BaseGameFixes::KeepBranchesOnMailMissionCompletion</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_kill_exe_check_identifier_name" prot="public">Pathfinder::BaseGameFixes::KillExeCheckIdentifierName</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_listing_server_fixes" prot="package">Pathfinder::BaseGameFixes::ListingServerFixes</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_load_builtin_themes" prot="package">Pathfinder::BaseGameFixes::LoadBuiltinThemes</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_mission_listing_server_load_time" prot="package">Pathfinder::BaseGameFixes::MissionListingServerLoadTime</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_needs_mission_complete" prot="package">Pathfinder::BaseGameFixes::NeedsMissionComplete</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_prevent_skipping_e_t_a_s" prot="package">Pathfinder::BaseGameFixes::PreventSkippingETAS</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_random_i_p_no_repeats" prot="package">Pathfinder::BaseGameFixes::RandomIPNoRepeats</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_reload_extension_nodes" prot="package">Pathfinder::BaseGameFixes::ReloadExtensionNodes</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_self_authenticating_host_whitelist_display" prot="package">Pathfinder::BaseGameFixes::SelfAuthenticatingHostWhitelistDisplay</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_send_email_mission" prot="package">Pathfinder::BaseGameFixes::SendEmailMission</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_sequencer_node_dimming_fix" prot="public">Pathfinder::BaseGameFixes::SequencerNodeDimmingFix</innerclass>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_starting_actions_after_nodes" prot="package">Pathfinder::BaseGameFixes::StartingActionsAfterNodes</innerclass>
+    <innernamespace refid="namespace_pathfinder_1_1_base_game_fixes_1_1_performance">Pathfinder::BaseGameFixes::Performance</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/AutoClearMissionsOnSingleComplete.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

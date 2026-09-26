@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_example_mod2_1_1_example_mod_plugin2" kind="class" language="C#" prot="public">
+    <compoundname>ExampleMod2::ExampleModPlugin2</compoundname>
+    <basecompoundref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" prot="public" virt="non-virtual">BepInEx.Hacknet.HacknetPlugin</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_example_mod2_1_1_example_mod_plugin2_1a875deb7e078ec52955492e5403dbac6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ExampleMod2.ExampleModPlugin2.Load</definition>
+        <argsstring>()</argsstring>
+        <name>Load</name>
+        <qualifiedname>ExampleMod2.ExampleModPlugin2.Load</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="19" column="26" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="19" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_example_mod2_1_1_example_mod_plugin2_1a57181fcf1a553203be4797a6e7c27d08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool ExampleMod2.ExampleModPlugin2.Unload</definition>
+        <argsstring>()</argsstring>
+        <name>Unload</name>
+        <qualifiedname>ExampleMod2.ExampleModPlugin2.Unload</qualifiedname>
+        <reimplements refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ade785474c706e87a1bd6ea47cc2c4499">Unload</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="36" column="26" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_example_mod2_1_1_example_mod_plugin2_1af00c46b991dcd7394053c7fa5932396a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ExampleMod2.ExampleModPlugin2.TestCommand</definition>
+        <argsstring>(OS os, string[] args)</argsstring>
+        <name>TestCommand</name>
+        <qualifiedname>ExampleMod2.ExampleModPlugin2.TestCommand</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="44" column="24" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BepInEx::Hacknet::HacknetPlugin</label>
+        <link refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin"/>
+      </node>
+      <node id="1">
+        <label>ExampleMod2.ExampleModPlugin2</label>
+        <link refid="class_example_mod2_1_1_example_mod_plugin2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BepInEx::Hacknet::HacknetPlugin</label>
+        <link refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin"/>
+      </node>
+      <node id="1">
+        <label>ExampleMod2.ExampleModPlugin2</label>
+        <link refid="class_example_mod2_1_1_example_mod_plugin2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ExampleMod/ExampleModPlugin.cs" line="17" column="7" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="18" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0a9258e921c4aff625f3cb7b500a0b05" prot="public" virt="non-virtual"><scope>ExampleMod2::ExampleModPlugin2</scope><name>Config</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ad3526bb7b58ceecb7f761110158f70da" prot="protected" virt="non-virtual"><scope>ExampleMod2::ExampleModPlugin2</scope><name>HacknetPlugin</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1aca912b7edb13ad33099d62935a18426a" prot="public" virt="non-virtual"><scope>ExampleMod2::ExampleModPlugin2</scope><name>HarmonyInstance</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0d55b507fbd084fc64acd800452d379e" prot="public" virt="non-virtual"><scope>ExampleMod2::ExampleModPlugin2</scope><name>InstalledGlobally</name></member>
+      <member refid="class_example_mod2_1_1_example_mod_plugin2_1a875deb7e078ec52955492e5403dbac6a" prot="public" virt="non-virtual"><scope>ExampleMod2::ExampleModPlugin2</scope><name>Load</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a6aeff5c672bbe03e3a612ae2cb1e6c0d" prot="public" virt="non-virtual"><scope>ExampleMod2::ExampleModPlugin2</scope><name>Log</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a07ec0303c5ed5dff6ec3a9a8316defe7" prot="public" virt="virtual"><scope>ExampleMod2::ExampleModPlugin2</scope><name>PostLoad</name></member>
+      <member refid="class_example_mod2_1_1_example_mod_plugin2_1af00c46b991dcd7394053c7fa5932396a" prot="public" virt="non-virtual"><scope>ExampleMod2::ExampleModPlugin2</scope><name>TestCommand</name></member>
+      <member refid="class_example_mod2_1_1_example_mod_plugin2_1a57181fcf1a553203be4797a6e7c27d08" prot="public" virt="virtual"><scope>ExampleMod2::ExampleModPlugin2</scope><name>Unload</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0dba3e1a3dc58eaa2b51011d77ad97e2" prot="public" virt="non-virtual"><scope>ExampleMod2::ExampleModPlugin2</scope><name>UserConfig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

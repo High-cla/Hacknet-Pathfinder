@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_actions_loader_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Replacements/ActionsLoader.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Replacements/ActionsLoader.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_actions_loader_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_actions_loader_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Replacements/ActionsLoader.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapireplacementsactionsloadercs">PathfinderAPI/Replacements/ActionsLoader.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_replacements/">Pathfinder::Replacements</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_actions_loader/">Pathfinder::Replacements::ActionsLoader</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Reflection;
+using System.Xml;
+using Hacknet;
+using HarmonyLib;
+using MonoMod.Cil;
+using Pathfinder.Action;
+using Pathfinder.Util;
+using Pathfinder.Util.XML;
+
+namespace Pathfinder.Replacements;
+
+[HarmonyPatch]
+public static class ActionsLoader
+{
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(RunnableConditionalActions), nameof(RunnableConditionalActions.LoadIntoOS))]
+    private static bool LoadActionsIntoOSPrefix(string filepath, object OSobj)
+    {
+        OS os = (OS)OSobj;
+
+        var executor = new EventExecutor(filepath.ContentFilePath(), true);
+
+        executor.RegisterExecutor(&quot;ConditionalActions&quot;, (exec, info) =&gt; os.ConditionalActions.Actions.AddRange(LoadActionSets(info).Actions), ParseOption.ParseInterior);
+
+        if (!executor.TryParse(out var ex))
+        {
+            throw new FormatException($&quot;{filepath}: {ex.Message}&quot;, ex);
+        }
+
+        if (!os.ConditionalActions.IsUpdating)
+            os.ConditionalActions.Update(0f, os);
+
+        return false;
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(DelayableActionSystem), nameof(DelayableActionSystem.Update))]
+    [HarmonyPatch(typeof(FastDelayableActionSystem), nameof(FastDelayableActionSystem.DeserializeActions))]
+    private static void ReplaceDASDeserializeIL(ILContext il, MethodBase method)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchLdloc(7),
+            x =&gt; x.MatchCallOrCallvirt(AccessTools.Method(typeof(XmlReader), nameof(XmlReader.Create), new Type[] { typeof(Stream) })),
+            x =&gt; x.MatchStloc(8),
+            x =&gt; x.MatchLdloc(8),
+            x =&gt; x.MatchCallOrCallvirt(AccessTools.Method(typeof(SerializableAction), nameof(SerializableAction.Deserialize)))
+        );
+
+        c.Index++;
+        c.RemoveRange(4);
+        c.EmitDelegate&lt;Func&lt;Stream, SerializableAction&gt;&gt;(stream =&gt;
+        {
+            var executor = new EventExecutor(new StreamReader(stream).ReadToEnd(), false);
+            ElementInfo actionInfo = null;
+            executor.RegisterExecutor(&quot;*&quot;, (exec, info) =&gt;
+            {
+                actionInfo = info;
+            }, ParseOption.ParseInterior);
+            executor.Parse();
+            return ReadAction(actionInfo);
+        });
+
+        if (method.Name == nameof(DelayableActionSystem.Update))
+        {
+            c.GotoNext(MoveType.Before,
+                x =&gt; x.MatchLdloc(8),
+                x =&gt; x.MatchCallOrCallvirt(AccessTools.Method(typeof(XmlReader), nameof(XmlReader.Close)))
+            );
+
+            c.RemoveRange(2);
+        }
+    }
+
+    public static RunnableConditionalActions LoadActionSets(ElementInfo root)
+    {
+        var ret = new RunnableConditionalActions();
+
+        if (root.Name != &quot;ConditionalActions&quot;)
+            throw new FormatException(&quot;Condtional actions root element wasn't named \&quot;ConditionalActions\&quot;!&quot;);
+
+        foreach (var conditionInfo in root.Children)
+        {
+            var set = new SerializableConditionalActionSet();
+
+            set.Condition = ReadCondition(conditionInfo);
+
+            set.Actions.AddRange(conditionInfo.Children.Select(ReadAction));
+
+            ret.Actions.Add(set);
+        }
+
+        return ret;
+    }
+
+    public static SerializableCondition ReadCondition(ElementInfo conditionInfo)
+    {
+        if (ConditionManager.TryLoadCustomCondition(conditionInfo, out var customCondition))
+        {
+            return customCondition;
+        }
+
+        switch (conditionInfo.Name)
+        {
+            case &quot;OnAdminGained&quot;:
+                return new SCOnAdminGained()
+                {
+                    target = conditionInfo.Attributes.GetOrThrow(&quot;target&quot;, &quot;No target found for OnAdminGained condition!&quot;)
+                };
+            case &quot;OnConnect&quot;:
+                return new SCOnConnect()
+                {
+                    target = conditionInfo.Attributes.GetOrThrow(&quot;target&quot;, &quot;No target found for OnConnect condition!&quot;),
+                    requiredFlags = conditionInfo.Attributes.GetString(&quot;requiredFlags&quot;, null),
+                    needsMissionComplete = conditionInfo.Attributes.GetBool(&quot;needsMissionComplete&quot;)
+                };
+            case &quot;HasFlags&quot;:
+                return new SCHasFlags()
+                {
+                    requiredFlags = conditionInfo.Attributes.GetString(&quot;requiredFlags&quot;, null)
+                };
+            case &quot;Instantly&quot;:
+                return new SCInstantly()
+                {
+                    needsMissionComplete = conditionInfo.Attributes.GetBool(&quot;needsMissionComplete&quot;)
+                };
+            case &quot;OnDisconnect&quot;:
+                return new SCOnDisconnect()
+                {
+                    target = conditionInfo.Attributes.GetOrDefault(&quot;target&quot;)
+                };
+            case &quot;DoesNotHaveFlags&quot;:
+                return new SCDoesNotHaveFlags()
+                {
+                    Flags = conditionInfo.Attributes.GetString(&quot;Flags&quot;, null)
+                };
+            default:
+                throw new FormatException($&quot;Condition {conditionInfo.Name} could not be found!&quot;);
+        }
+    }
+
+    public static SerializableAction ReadAction(ElementInfo actionInfo)
+    {
+        if (ActionManager.TryLoadCustomAction(actionInfo, out var customAction))
+        {
+            return customAction;
+        }
+
+        switch (actionInfo.Name)
+        {
+            case &quot;LoadMission&quot;:
+                return ActionDelayDecorator.Create(actionInfo, new SALoadMission()
+                {
+                    MissionName = actionInfo.Attributes.GetOrThrow(&quot;MissionName&quot;, &quot;Invalid mission for LoadMission action&quot;, StringExtensions.ContentFileExists)
+                });
+            case &quot;RunFunction&quot;:
+                return new SARunFunction()
+                {
+                    FunctionName = actionInfo.Attributes.GetOrThrow(&quot;FunctionName&quot;, &quot;No function given for RunFunction action&quot;),
+                    FunctionValue = actionInfo.Attributes.GetInt(&quot;FunctionValue&quot;),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;AddAsset&quot;:
+                return ActionDelayDecorator.Create(actionInfo, new SAAddAsset()
+                {
+                    TargetComp = actionInfo.Attributes.GetString(&quot;TargetComp&quot;, null),
+                    TargetFolderpath = actionInfo.Attributes.GetString(&quot;TargetFolderpath&quot;, null),
+                    FileName = actionInfo.Attributes.GetString(&quot;FileName&quot;, null),
+                    FileContents = actionInfo.Attributes.GetString(&quot;FileContents&quot;, null)
+                });
+            case &quot;AddMissionToHubServer&quot;:
+                var tag = actionInfo.Attributes.GetString(&quot;AssignmentTag&quot;);
+                if (string.IsNullOrWhiteSpace(tag))
+                    tag = null;
+                return ActionDelayDecorator.Create(actionInfo, new SAAddMissionToHubServer()
+                {
+                    MissionFilepath = actionInfo.Attributes.GetOrWarn(&quot;MissionFilepath&quot;, &quot;Invalid mission file path for AddMissionToHubServer&quot;, StringExtensions.ContentFileExists),
+                    TargetComp = actionInfo.Attributes.GetOrThrow(&quot;TargetComp&quot;, &quot;Invalid target computer for AddMissionToHubServer&quot;, StringExtensions.HasContent),
+                    AssignmentTag = tag,
+                    StartsComplete = actionInfo.Attributes.GetBool(&quot;StartsComplete&quot;)
+                });
+            case &quot;RemoveMissionFromHubServer&quot;:
+                return ActionDelayDecorator.Create(actionInfo, new SARemoveMissionFromHubServer()
+                {
+                    MissionFilepath = actionInfo.Attributes.GetOrWarn(&quot;MissionFilepath&quot;, &quot;Invalid mission file path for RemoveMissionFromHubServer&quot;, StringExtensions.ContentFileExists),
+                    TargetComp = actionInfo.Attributes.GetOrThrow(&quot;TargetComp&quot;, &quot;Invalid target computer for RemoveMissionFromHubServer&quot;, StringExtensions.HasContent)
+                });
+            case &quot;AddThreadToMissionBoard&quot;:
+                return ActionDelayDecorator.Create(actionInfo, new SAAddThreadToMissionBoard()
+                {
+                    ThreadFilepath = actionInfo.Attributes.GetOrWarn(&quot;ThreadFilepath&quot;, &quot;Invalid thread path for AddThreadToMissionBoard&quot;, StringExtensions.ContentFileExists),
+                    TargetComp = actionInfo.Attributes.GetOrThrow(&quot;TargetComp&quot;, &quot;Invalid target computer for AddThreadToMissionBoard&quot;, StringExtensions.HasContent)
+                });
+            case &quot;AddIRCMessage&quot;:
+                return new SAAddIRCMessage()
+                {
+                    Author = ComputerLoader.filter(actionInfo.Attributes.GetString(&quot;Author&quot;)),
+                    Message = ComputerLoader.filter(string.IsNullOrEmpty(actionInfo.Content) ? throw new FormatException(&quot;Invalid message for AddIRCMessage&quot;) : actionInfo.Content),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    TargetComp = actionInfo.Attributes.GetOrThrow(&quot;TargetComp&quot;, &quot;Invalid target computer for AddIRCMessage&quot;, StringExtensions.HasContent)
+                };
+            case &quot;AddConditionalActions&quot;:
+                return new SAAddConditionalActions()
+                {
+                    Filepath = actionInfo.Attributes.GetOrWarn(&quot;Filepath&quot;, &quot;Invalid actions path for AddConditionalActions&quot;, StringExtensions.ContentFileExists),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;CopyAsset&quot;:
+                return ActionDelayDecorator.Create(actionInfo, new SACopyAsset()
+                {
+                    SourceComp = actionInfo.Attributes.GetOrThrow(&quot;SourceComp&quot;, &quot;Invalid source computer for CopyAsset&quot;, StringExtensions.HasContent),
+                    SourceFilePath = actionInfo.Attributes.GetOrThrow(&quot;SourceFilePath&quot;, &quot;Source file path is required for CopyAsset&quot;),
+                    SourceFileName = actionInfo.Attributes.GetOrThrow(&quot;SourceFileName&quot;, &quot;Invalid source file name for CopyAsset&quot;, StringExtensions.HasContent),
+                    DestComp = actionInfo.Attributes.GetOrThrow(&quot;DestComp&quot;, &quot;Invalid dest computer for CopyAsset&quot;, StringExtensions.HasContent),
+                    DestFilePath = actionInfo.Attributes.GetOrThrow(&quot;DestFilePath&quot;, &quot;Invalid dest file path for CopyAsset&quot;, StringExtensions.HasContent),
+                    DestFileName = actionInfo.Attributes.GetString(&quot;DestFileName&quot;, actionInfo.Attributes.GetString(&quot;SourceFileName&quot;))
+                });
+            case &quot;CrashComputer&quot;:
+                return new SACrashComputer()
+                {
+                    TargetComp = actionInfo.Attributes.GetOrThrow(&quot;TargetComp&quot;, &quot;Invalid target comp for CrashComputer&quot;, StringExtensions.HasContent),
+                    CrashSource = actionInfo.Attributes.GetString(&quot;CrashSource&quot;, null),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;DeleteFile&quot;:
+                return new SADeleteFile()
+                {
+                    TargetComp = actionInfo.Attributes.GetOrThrow(&quot;TargetComp&quot;, &quot;Invalid target comp for DeleteFile&quot;, StringExtensions.HasContent),
+                    FilePath = actionInfo.Attributes.GetOrThrow(&quot;FilePath&quot;, &quot;Invalid path for DeleteFile&quot;),
+                    FileName = actionInfo.Attributes.GetOrThrow(&quot;FileName&quot;, &quot;Invalid file name for DeleteFile&quot;, StringExtensions.HasContent),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;LaunchHackScript&quot;:
+                return new SALaunchHackScript()
+                {
+                    Filepath = actionInfo.Attributes.GetOrThrow(&quot;Filepath&quot;, &quot;Invalid hackerscript path for LaunchHackScript&quot;, StringExtensions.ContentFileExists),
+                    TargetComp = actionInfo.Attributes.GetString(&quot;TargetComp&quot;, null),
+                    SourceComp = actionInfo.Attributes.GetString(&quot;SourceComp&quot;, null),
+                    RequireSourceIntact = actionInfo.Attributes.GetBool(&quot;RequireSourceIntact&quot;),
+                    RequireLogsOnSource = actionInfo.Attributes.GetBool(&quot;RequireLogsOnSource&quot;),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;SwitchToTheme&quot;:
+                return new SASwitchToTheme()
+                {
+                    ThemePathOrName = actionInfo.Attributes.GetOrThrow(&quot;ThemePathOrName&quot;, &quot;Invalid theme name or path for SwitchToTheme&quot;, StringExtensions.HasContent),
+                    FlickerInDuration = actionInfo.Attributes.GetFloat(&quot;FlickerInDuration&quot;),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;StartScreenBleedEffect&quot;:
+                return new SAStartScreenBleedEffect()
+                {
+                    AlertTitle = ComputerLoader.filter(actionInfo.Attributes.GetString(&quot;AlertTitle&quot;, null)),
+                    ContentLines = ComputerLoader.filter(actionInfo.Content ?? throw new FormatException(&quot;StartScreenBleedEffect can't have no content&quot;)),
+                    TotalDurationSeconds = actionInfo.Attributes.GetFloat(&quot;TotalDurationSeconds&quot;),
+                    CompleteAction = actionInfo.Attributes.GetString(&quot;CompleteAction&quot;, null),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;CancelScreenBleedEffect&quot;:
+                return new SACancelScreenBleedEffect()
+                {
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;AppendToFile&quot;:
+                return new SAAppendToFile()
+                {
+                    TargetComp = actionInfo.Attributes.GetOrThrow(&quot;TargetComp&quot;, &quot;Invalid target computer for AppendToFile&quot;, StringExtensions.HasContent),
+                    TargetFolderpath = actionInfo.Attributes.GetOrThrow(&quot;TargetFolderpath&quot;, &quot;Invalid path for AppendToFile&quot;),
+                    TargetFilename = actionInfo.Attributes.GetOrThrow(&quot;TargetFilename&quot;, &quot;Invalid file name for AppendToFile&quot;, StringExtensions.HasContent),
+                    DataToAdd = ComputerLoader.filter(actionInfo.Content ?? throw new FormatException(&quot;AppendToFile can't have no content&quot;)),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;KillExe&quot;:
+                return new SAKillExe()
+                {
+                    ExeName = actionInfo.Attributes.GetOrThrow(&quot;ExeName&quot;, &quot;Invalid exe name for KillExe&quot;),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;ChangeAlertIcon&quot;:
+                return new SAChangeAlertIcon()
+                {
+                    Type = actionInfo.Attributes.GetOrThrow(&quot;Type&quot;, &quot;Invalid icon type, options are mail, irc, and board (only mail if no labyrinths!)&quot;, s =&gt;
+                    {
+                        if (s != &quot;mail&quot; &amp;&amp; !DLC1SessionUpgrader.HasDLC1Installed)
+                            return false;
+                        if (s != &quot;mail&quot; &amp;&amp; s != &quot;board&quot; &amp;&amp; s != &quot;irc&quot; &amp;&amp; s != &quot;irchub&quot;)
+                            return false;
+                        return true;
+                    }),
+                    Target = actionInfo.Attributes.GetOrThrow(&quot;Target&quot;, &quot;Invalid target computer for ChangeAlertIcon&quot;, StringExtensions.HasContent),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;HideNode&quot;:
+                return new SAHideNode()
+                {
+                    TargetComp = actionInfo.Attributes.GetOrThrow(&quot;TargetComp&quot;, &quot;Invalid target computer for HideNode&quot;, StringExtensions.HasContent),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;GivePlayerUserAccount&quot;:
+                return new SAGivePlayerUserAccount()
+                {
+                    TargetComp = actionInfo.Attributes.GetOrThrow(&quot;TargetComp&quot;, &quot;Invalid target computer for GivePlayerUserAccount&quot;, StringExtensions.HasContent),
+                    Username = actionInfo.Attributes.GetOrThrow(&quot;Username&quot;, &quot;Invalid username for GivePlayerUserAccount&quot;, StringExtensions.HasContent),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;ChangeIP&quot;:
+                return new SAChangeIP()
+                {
+                    TargetComp = actionInfo.Attributes.GetOrThrow(&quot;TargetComp&quot;, &quot;Invalid target computer for ChangeIP&quot;, StringExtensions.HasContent),
+                    NewIP = actionInfo.Attributes.GetString(&quot;NewIP&quot;, null),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;ChangeNetmapSortMethod&quot;:
+                return new SAChangeNetmapSortMethod()
+                {
+                    Method = actionInfo.Attributes.GetOrThrow(&quot;Method&quot;, &quot;Invalid method for ChangeNetmapSortMethod&quot;),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;SaveGame&quot;:
+                return new SASaveGame()
+                {
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;HideAllNodes&quot;:
+                return new SAHideAllNodes()
+                {
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;ShowNode&quot;:
+                return new SAShowNode()
+                {
+                    Target = actionInfo.Attributes.GetAnyOrThrow(new[] { &quot;Target&quot;, &quot;TargetComp&quot; }, &quot;Invalid target computer for ShowNode&quot;, StringExtensions.HasContent),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            case &quot;SetLock&quot;:
+                return new SASetLock()
+                {
+                    Module = actionInfo.Attributes.GetOrThrow(&quot;Module&quot;, &quot;Invalid module for SetLock&quot;),
+                    IsHidden = actionInfo.Attributes.GetBool(&quot;IsHidden&quot;),
+                    IsLocked = actionInfo.Attributes.GetBool(&quot;IsLocked&quot;),
+                    Delay = actionInfo.Attributes.GetFloat(&quot;Delay&quot;),
+                    DelayHost = actionInfo.Attributes.GetString(&quot;DelayHost&quot;, null)
+                };
+            default:
+                throw new KeyNotFoundException($&quot;Unknown action type {actionInfo.Name}&quot;);
+        }
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

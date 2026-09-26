@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_mission_1_1_goal_manager" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Mission::GoalManager</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_mission_1_1_goal_manager_1ae85b8f74a54aed8185f5447808620a07" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; string, Type &gt;</type>
+        <definition>readonly Dictionary&lt;string, Type&gt; Pathfinder.Mission.GoalManager.CustomGoals</definition>
+        <argsstring></argsstring>
+        <name>CustomGoals</name>
+        <qualifiedname>Pathfinder.Mission.GoalManager.CustomGoals</qualifiedname>
+        <initializer>= new Dictionary&lt;string, Type&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Mission/GoalManager.cs" line="10" column="40" bodyfile="PathfinderAPI/Mission/GoalManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_mission_1_1_goal_manager_1a03238bc95d15d7098a308bb48515b1d6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Mission.GoalManager.GoalManager</definition>
+        <argsstring>()</argsstring>
+        <name>GoalManager</name>
+        <qualifiedname>Pathfinder.Mission.GoalManager.GoalManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Mission/GoalManager.cs" line="12" column="12" bodyfile="PathfinderAPI/Mission/GoalManager.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_mission_1_1_goal_manager_1a2266d57e63666a8905395807fbcb8920" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Mission.GoalManager.OnPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.Mission.GoalManager.OnPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Mission/GoalManager.cs" line="29" column="25" bodyfile="PathfinderAPI/Mission/GoalManager.cs" bodystart="29" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_mission_1_1_goal_manager_1abb283474d0601ff989a1d792b04b8955" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Mission.GoalManager.TryLoadCustomGoal</definition>
+        <argsstring>(string type, out MisisonGoal customGoal)</argsstring>
+        <name>TryLoadCustomGoal</name>
+        <qualifiedname>Pathfinder.Mission.GoalManager.TryLoadCustomGoal</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>out MisisonGoal</type>
+          <declname>customGoal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Mission/GoalManager.cs" line="17" column="26" bodyfile="PathfinderAPI/Mission/GoalManager.cs" bodystart="17" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_mission_1_1_goal_manager_1aedc9ace3dec8e175f395eb39c8ac9b80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Mission.GoalManager.RegisterGoal&lt; T &gt;</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>RegisterGoal&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Mission.GoalManager.RegisterGoal&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Mission/GoalManager.cs" line="35" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_mission_1_1_goal_manager_1acb1c172732fa0027f829a421d178ca2e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Mission.GoalManager.RegisterGoal</definition>
+        <argsstring>(Type goalType, string xmlName)</argsstring>
+        <name>RegisterGoal</name>
+        <qualifiedname>Pathfinder.Mission.GoalManager.RegisterGoal</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>goalType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Mission/GoalManager.cs" line="36" column="24" bodyfile="PathfinderAPI/Mission/GoalManager.cs" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_mission_1_1_goal_manager_1a3773f1f1a72d4b645b8f4637808723e7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Mission.GoalManager.UnregisterGoal&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>UnregisterGoal&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Mission.GoalManager.UnregisterGoal&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Mission/GoalManager.cs" line="42" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_mission_1_1_goal_manager_1aeb9c514cbe09eff10a5fc1687657919b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Mission.GoalManager.UnregisterGoal</definition>
+        <argsstring>(Type goalType)</argsstring>
+        <name>UnregisterGoal</name>
+        <qualifiedname>Pathfinder.Mission.GoalManager.UnregisterGoal</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>goalType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Mission/GoalManager.cs" line="43" column="24" bodyfile="PathfinderAPI/Mission/GoalManager.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_mission_1_1_goal_manager_1ab07d734f0a4759da672f8b42c67ae60c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Mission.GoalManager.UnregisterGoal</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>UnregisterGoal</name>
+        <qualifiedname>Pathfinder.Mission.GoalManager.UnregisterGoal</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Mission/GoalManager.cs" line="49" column="24" bodyfile="PathfinderAPI/Mission/GoalManager.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Mission/GoalManager.cs" line="8" column="15" bodyfile="PathfinderAPI/Mission/GoalManager.cs" bodystart="9" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_mission_1_1_goal_manager_1ae85b8f74a54aed8185f5447808620a07" prot="private" virt="non-virtual"><scope>Pathfinder::Mission::GoalManager</scope><name>CustomGoals</name></member>
+      <member refid="class_pathfinder_1_1_mission_1_1_goal_manager_1a03238bc95d15d7098a308bb48515b1d6" prot="private" virt="non-virtual"><scope>Pathfinder::Mission::GoalManager</scope><name>GoalManager</name></member>
+      <member refid="class_pathfinder_1_1_mission_1_1_goal_manager_1a2266d57e63666a8905395807fbcb8920" prot="private" virt="non-virtual"><scope>Pathfinder::Mission::GoalManager</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_mission_1_1_goal_manager_1acb1c172732fa0027f829a421d178ca2e" prot="public" virt="non-virtual"><scope>Pathfinder::Mission::GoalManager</scope><name>RegisterGoal</name></member>
+      <member refid="class_pathfinder_1_1_mission_1_1_goal_manager_1aedc9ace3dec8e175f395eb39c8ac9b80" prot="public" virt="non-virtual"><scope>Pathfinder::Mission::GoalManager</scope><name>RegisterGoal&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_mission_1_1_goal_manager_1abb283474d0601ff989a1d792b04b8955" prot="package" virt="non-virtual"><scope>Pathfinder::Mission::GoalManager</scope><name>TryLoadCustomGoal</name></member>
+      <member refid="class_pathfinder_1_1_mission_1_1_goal_manager_1aeb9c514cbe09eff10a5fc1687657919b" prot="public" virt="non-virtual"><scope>Pathfinder::Mission::GoalManager</scope><name>UnregisterGoal</name></member>
+      <member refid="class_pathfinder_1_1_mission_1_1_goal_manager_1ab07d734f0a4759da672f8b42c67ae60c" prot="public" virt="non-virtual"><scope>Pathfinder::Mission::GoalManager</scope><name>UnregisterGoal</name></member>
+      <member refid="class_pathfinder_1_1_mission_1_1_goal_manager_1a3773f1f1a72d4b645b8f4637808723e7" prot="public" virt="non-virtual"><scope>Pathfinder::Mission::GoalManager</scope><name>UnregisterGoal&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

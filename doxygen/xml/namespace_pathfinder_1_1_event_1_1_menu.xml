@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_event_1_1_menu" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Event::Menu</compoundname>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event" prot="public">Pathfinder::Event::Menu::DrawMainMenuButtonEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event" prot="public">Pathfinder::Event::Menu::DrawMainMenuEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event" prot="public">Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event" prot="public">Pathfinder::Event::Menu::MainMenuEvent</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>MainMenuButtonType</name>
+        <qualifiedname>Pathfinder.Event.Menu.MainMenuButtonType</qualifiedname>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28aec0fc0100c4fc1ce4eea230c3dc10360" prot="public">
+          <name>Undefined</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28ab5743e22fdc2a52b6db271ee0c2ee0d2" prot="public">
+          <name>NewSession</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28aa0bfb8e59e6c13fc8d990781f77694fe" prot="public">
+          <name>Continue</name>
+          <initializer>= 1102</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28a99dea78007133396a7b8ed70578ac6ae" prot="public">
+          <name>Login</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28af4f70727dc34561dfde1a3c529b6205c" prot="public">
+          <name>Settings</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28a0d49e279b5c9851f6021e25a8d553ef0" prot="public">
+          <name>StartRelayServer</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28a5e2f5f3c24ae8c6ab3eca618826b0e23" prot="public">
+          <name>Extensions</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28a663997dd14aa2230dcf4c4e79bd22332" prot="public">
+          <name>NewLabyrinthSession</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28afef46e5063ce3dc78b8ae64fa474241d" prot="public">
+          <name>Exit</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="10" column="7" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="11" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

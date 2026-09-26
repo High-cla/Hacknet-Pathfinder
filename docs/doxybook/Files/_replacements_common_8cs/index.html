@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_replacements_common_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Replacements/ReplacementsCommon.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Replacements/ReplacementsCommon.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_replacements_common_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_replacements_common_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Replacements/ReplacementsCommon.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapireplacementsreplacementscommoncs">PathfinderAPI/Replacements/ReplacementsCommon.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_replacements/">Pathfinder::Replacements</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_hacknet_1_1_factions/">Hacknet::Factions</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_replacements_common/">Pathfinder::Replacements::ReplacementsCommon</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using Hacknet;
+using Hacknet.Factions;
+using HarmonyLib;
+using Microsoft.Xna.Framework;
+using Pathfinder.Port;
+using Pathfinder.Util;
+using Pathfinder.Util.XML;
+
+namespace Pathfinder.Replacements;
+
+[HarmonyPatch]
+public static class ReplacementsCommon
+{
+    public static MemoryContents LoadMemoryContents(ElementInfo info)
+    {
+        if (info.Children.TryGetElement(&quot;Memory&quot;, out var internalInfo)) info = internalInfo;
+        var memory = new MemoryContents();
+
+        if (info.Children.TryGetElement(&quot;Commands&quot;, out var commands))
+        {
+            foreach (var command in commands.Children.Select(x =&gt; x.Content).Where(StringExtensions.HasContent))
+            {
+                if (command.Contains(&quot;\n&quot;))
+                {
+                    foreach (var trueCommand in command.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries))
+                    {
+                        memory.CommandsRun.Add(trueCommand.HasContent() ? trueCommand.Filter() : &quot; &quot;);
+                    }
+                }
+                else
+                    memory.CommandsRun.Add(command.Filter());
+            }
+        }
+
+        if (info.Children.TryGetElement(&quot;Data&quot;, out var data))
+        {
+            foreach (var block in data.Children)
+            {
+                memory.DataBlocks.Add(block.Content.Filter());
+            }
+        }
+
+        if (info.Children.TryGetElement(&quot;FileFragments&quot;, out var files))
+        {
+            foreach (var file in files.Children)
+            {
+                memory.FileFragments.Add(new KeyValuePair&lt;string, string&gt;(
+                    file.Attributes.GetString(&quot;name&quot;, &quot;UNKNOWN&quot;),
+                    file.Content
+                ));
+            }
+        }
+
+        if (info.Children.TryGetElement(&quot;Images&quot;, out var images))
+        {
+            foreach (var image in images.Children)
+            {
+                memory.Images.Add(image.Content);
+            }
+        }
+
+        return memory;
+    }
+
+    public static Faction LoadFaction(ElementInfo info)
+    {
+        Faction ret;
+
+        var name = info.Attributes.GetString(&quot;name&quot;, &quot;UNKNOWN&quot;);
+        var needed = info.Attributes.GetInt(&quot;neededVal&quot;);
+        switch (info.Name)
+        {
+            case &quot;HubFaction&quot;:
+                ret = new HubFaction(name, needed);
+                break;
+            case &quot;EntropyFaction&quot;:
+                ret = new EntropyFaction(name, needed);
+                break;
+            case &quot;CustomFaction&quot;:
+                var actions = new List&lt;CustomFactionAction&gt;();
+                foreach (var actionSetInfo in info.Children)
+                {
+                    actions.Add(new CustomFactionAction()
+                    {
+                        ValueRequiredForTrigger = actionSetInfo.Attributes.GetInt(&quot;ValueRequired&quot;),
+                        FlagsRequiredForTrigger = actionSetInfo.Attributes.GetString(&quot;Flags&quot;, null),
+                        TriggerActions = actionSetInfo.Children.Select(ActionsLoader.ReadAction).ToList()
+                    });
+                }
+
+                ret = new CustomFaction(name, 100)
+                {
+                    CustomActions = actions
+                };
+                break;
+            default:
+                ret = new Faction(name, needed);
+                break;
+        }
+
+        ret.playerValue = info.Attributes.GetInt(&quot;playerVal&quot;);
+        ret.idName = info.Attributes.GetString(&quot;id&quot;);
+        ret.playerHasPassedValue = info.Attributes.GetBool(&quot;playerHasPassed&quot;);
+
+        return ret;
+    }
+
+    internal static bool isPathfinderComputer = false;
+
+    internal static readonly List&lt;ElementInfo&gt; defaultPorts = new List&lt;ElementInfo&gt;
+    {
+        new ElementInfo() { Name = &quot;web&quot; },
+        new ElementInfo() { Name = &quot;smtp&quot; },
+        new ElementInfo() { Name = &quot;ftp&quot; },
+        new ElementInfo() { Name = &quot;ssh&quot; }
+    };
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(Computer), MethodType.Constructor, new Type[] { typeof(string), typeof(string), typeof(Vector2), typeof(int), typeof(byte), typeof(OS) })]
+    private static void LoadDefaultPortsIfReplacement(Computer __instance)
+    {
+        if (!isPathfinderComputer)
+        {
+            PortManager.LoadPortsFromChildren(__instance, defaultPorts, false);
+        }
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

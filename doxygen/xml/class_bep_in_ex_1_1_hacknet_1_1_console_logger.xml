@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_bep_in_ex_1_1_hacknet_1_1_console_logger" kind="class" language="C#" prot="package">
+    <compoundname>BepInEx::Hacknet::ConsoleLogger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ILogListener</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_console_logger_1a44405659af8c14c124b11f2415f9ec32" prot="protected" static="yes" mutable="no">
+        <type>readonly ConfigEntry&lt; LogLevel &gt;</type>
+        <definition>readonly ConfigEntry&lt;LogLevel&gt; BepInEx.Hacknet.ConsoleLogger.ConfigConsoleDisplayedLevel</definition>
+        <argsstring></argsstring>
+        <name>ConfigConsoleDisplayedLevel</name>
+        <qualifiedname>BepInEx.Hacknet.ConsoleLogger.ConfigConsoleDisplayedLevel</qualifiedname>
+        <initializer>= ConfigFile.CoreConfig.Bind(
+        &quot;Logging.Console&quot;, &quot;LogLevels&quot;,
+        LogLevel.Fatal | LogLevel.Error | LogLevel.Warning | LogLevel.Message | LogLevel.Info,
+        &quot;Only displays the specified log levels in the console output.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/ConsoleLogger.cs" line="8" column="43" bodyfile="BepInEx.Hacknet/ConsoleLogger.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_console_logger_1aa1f1389cfb85ab8eff0cbc1cc7b04781" prot="protected" static="yes" mutable="no">
+        <type>readonly ConfigEntry&lt; bool &gt;</type>
+        <definition>readonly ConfigEntry&lt;bool&gt; BepInEx.Hacknet.ConsoleLogger.BackupConsoleEnabled</definition>
+        <argsstring></argsstring>
+        <name>BackupConsoleEnabled</name>
+        <qualifiedname>BepInEx.Hacknet.ConsoleLogger.BackupConsoleEnabled</qualifiedname>
+        <initializer>= ConfigFile.CoreConfig.Bind(
+        &quot;Logging.Console&quot;, &quot;BackupConsole&quot;,
+        false,
+        &quot;Enables backup console output in case the normal one fails.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/ConsoleLogger.cs" line="13" column="43" bodyfile="BepInEx.Hacknet/ConsoleLogger.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_console_logger_1a5551313ef0655c6042446bd29ca6d85a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BepInEx.Hacknet.ConsoleLogger.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>BepInEx.Hacknet.ConsoleLogger.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/ConsoleLogger.cs" line="18" column="17" bodyfile="BepInEx.Hacknet/ConsoleLogger.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_console_logger_1af391e3f1e1f60f3dd9a17cbf4bc11e70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BepInEx.Hacknet.ConsoleLogger.LogEvent</definition>
+        <argsstring>(object sender, LogEventArgs eventArgs)</argsstring>
+        <name>LogEvent</name>
+        <qualifiedname>BepInEx.Hacknet.ConsoleLogger.LogEvent</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>LogEventArgs</type>
+          <declname>eventArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/ConsoleLogger.cs" line="20" column="17" bodyfile="BepInEx.Hacknet/ConsoleLogger.cs" bodystart="20" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BepInEx.Hacknet.ConsoleLogger</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ILogListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BepInEx.Hacknet.ConsoleLogger</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ILogListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="BepInEx.Hacknet/ConsoleLogger.cs" line="6" column="9" bodyfile="BepInEx.Hacknet/ConsoleLogger.cs" bodystart="7" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_console_logger_1aa1f1389cfb85ab8eff0cbc1cc7b04781" prot="protected" virt="non-virtual"><scope>BepInEx::Hacknet::ConsoleLogger</scope><name>BackupConsoleEnabled</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_console_logger_1a44405659af8c14c124b11f2415f9ec32" prot="protected" virt="non-virtual"><scope>BepInEx::Hacknet::ConsoleLogger</scope><name>ConfigConsoleDisplayedLevel</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_console_logger_1a5551313ef0655c6042446bd29ca6d85a" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::ConsoleLogger</scope><name>Dispose</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_console_logger_1af391e3f1e1f60f3dd9a17cbf4bc11e70" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::ConsoleLogger</scope><name>LogEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

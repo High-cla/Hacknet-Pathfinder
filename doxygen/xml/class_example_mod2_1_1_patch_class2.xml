@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_example_mod2_1_1_patch_class2" kind="class" language="C#" prot="public">
+    <compoundname>ExampleMod2::PatchClass2</compoundname>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_example_mod2_1_1_patch_class2_1a11fc0f66f323a2940a0aa8c4bc1ba83c" prot="package" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+        <definition>PFButton ExampleMod2.PatchClass2.bruhButton</definition>
+        <argsstring></argsstring>
+        <name>bruhButton</name>
+        <qualifiedname>ExampleMod2.PatchClass2.bruhButton</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(5, 5, 30, 600, &quot;bruh&quot;, Color.BlueViolet)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="214" column="30" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="214" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_example_mod2_1_1_patch_class2_1a91c452d6d1c36c022ef7eaf5c50d5041" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ExampleMod2.PatchClass2.MainMenuTextPatch</definition>
+        <argsstring>()</argsstring>
+        <name>MainMenuTextPatch</name>
+        <qualifiedname>ExampleMod2.PatchClass2.MainMenuTextPatch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="218" column="24" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="218" bodyend="226"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ExampleMod2.PatchClass2</label>
+        <link refid="class_example_mod2_1_1_patch_class2"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>bruhButton</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>Pathfinder.GUI.PFButton</label>
+        <link refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ExampleMod/ExampleModPlugin.cs" line="212" column="15" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="213" bodyend="227"/>
+    <listofallmembers>
+      <member refid="class_example_mod2_1_1_patch_class2_1a11fc0f66f323a2940a0aa8c4bc1ba83c" prot="package" virt="non-virtual"><scope>ExampleMod2::PatchClass2</scope><name>bruhButton</name></member>
+      <member refid="class_example_mod2_1_1_patch_class2_1a91c452d6d1c36c022ef7eaf5c50d5041" prot="public" virt="non-virtual"><scope>ExampleMod2::PatchClass2</scope><name>MainMenuTextPatch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

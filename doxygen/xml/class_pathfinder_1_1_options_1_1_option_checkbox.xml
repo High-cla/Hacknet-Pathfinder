@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_options_1_1_option_checkbox" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Options::OptionCheckbox</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_options_1_1_option" prot="public" virt="non-virtual">Pathfinder.Options.Option</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_option_checkbox_1ae424c31d4d80118239eecfa5fddfee79" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Options.OptionCheckbox.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>Pathfinder.Options.OptionCheckbox.Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="27" column="17" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_options_1_1_option_checkbox_1a41c83e68573e764009eeee6a6ffef23f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override int</type>
+        <definition>override int Pathfinder.Options.OptionCheckbox.SizeX</definition>
+        <argsstring></argsstring>
+        <name>SizeX</name>
+        <qualifiedname>Pathfinder.Options.OptionCheckbox.SizeX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="29" column="25" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_options_1_1_option_checkbox_1adf94b449e65ba21e75c287bf0d6aa7de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override int</type>
+        <definition>override int Pathfinder.Options.OptionCheckbox.SizeY</definition>
+        <argsstring></argsstring>
+        <name>SizeY</name>
+        <qualifiedname>Pathfinder.Options.OptionCheckbox.SizeY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="30" column="25" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_option_checkbox_1abd832eab48d4eaa0d928d2c665abf9b6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Options.OptionCheckbox.ButtonID</definition>
+        <argsstring></argsstring>
+        <name>ButtonID</name>
+        <qualifiedname>Pathfinder.Options.OptionCheckbox.ButtonID</qualifiedname>
+        <initializer>= PFButton.GetNextID()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="32" column="17" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_option_checkbox_1af8175497b1e3c22aa1f296dbaf3b4f86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Options.OptionCheckbox.OptionCheckbox</definition>
+        <argsstring>(string name, string description=&quot;&quot;, bool defVal=false)</argsstring>
+        <name>OptionCheckbox</name>
+        <qualifiedname>Pathfinder.Options.OptionCheckbox.OptionCheckbox</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>defVal</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="34" column="12" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_option_checkbox_1adc5a142b3b3579bcba8c86e8ccc3faca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Options.OptionCheckbox.Draw</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Draw</name>
+        <qualifiedname>Pathfinder.Options.OptionCheckbox.Draw</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="39" column="26" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="39" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Option</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Options.OptionCheckbox</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option_checkbox"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Option</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Options.OptionCheckbox</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option_checkbox"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Options/Options.cs" line="25" column="7" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="26" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_options_1_1_option_checkbox_1abd832eab48d4eaa0d928d2c665abf9b6" prot="private" virt="non-virtual"><scope>Pathfinder::Options::OptionCheckbox</scope><name>ButtonID</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1acca60cb3b298497f63701ec03dad1f41" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionCheckbox</scope><name>Description</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_checkbox_1adc5a142b3b3579bcba8c86e8ccc3faca" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionCheckbox</scope><name>Draw</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1a7a62d0d1464f75be3741166dc45f7d4e" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionCheckbox</scope><name>Enabled</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1a8a5ffb8bf834dd1f0856a1ba8c91ffad" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionCheckbox</scope><name>Name</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1a4159a9736da1f434a149ba22352f4783" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionCheckbox</scope><name>Option</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_checkbox_1af8175497b1e3c22aa1f296dbaf3b4f86" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionCheckbox</scope><name>OptionCheckbox</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_checkbox_1a41c83e68573e764009eeee6a6ffef23f" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionCheckbox</scope><name>SizeX</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_checkbox_1adf94b449e65ba21e75c287bf0d6aa7de" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionCheckbox</scope><name>SizeY</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_checkbox_1ae424c31d4d80118239eecfa5fddfee79" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionCheckbox</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_load_1_1_ignore_event_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Meta::Load::IgnoreEventAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Attribute</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.IgnoreEventAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_ignore_event_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Attribute</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.IgnoreEventAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_ignore_event_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Attribute</label>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Meta/Load/IgnoreEventAttribute.cs" line="4" column="7" bodyfile="PathfinderAPI/Meta/Load/IgnoreEventAttribute.cs" bodystart="5" bodyend="6"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

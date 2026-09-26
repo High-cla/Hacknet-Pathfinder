@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_pathfinder_a_p_i_plugin" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::PathfinderAPIPlugin</compoundname>
+    <basecompoundref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" prot="public" virt="non-virtual">BepInEx.Hacknet.HacknetPlugin</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a7373abd5bc5665196e4c2ebad42ef05f" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string Pathfinder.PathfinderAPIPlugin.ModGUID</definition>
+        <argsstring></argsstring>
+        <name>ModGUID</name>
+        <qualifiedname>Pathfinder.PathfinderAPIPlugin.ModGUID</qualifiedname>
+        <initializer>= &quot;com.Pathfinder.API&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/PathfinderAPIPlugin.cs" line="30" column="25" bodyfile="PathfinderAPI/PathfinderAPIPlugin.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a053614d528852fdb16c61fe0e5713977" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string Pathfinder.PathfinderAPIPlugin.ModName</definition>
+        <argsstring></argsstring>
+        <name>ModName</name>
+        <qualifiedname>Pathfinder.PathfinderAPIPlugin.ModName</qualifiedname>
+        <initializer>= &quot;PathfinderAPI&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/PathfinderAPIPlugin.cs" line="31" column="25" bodyfile="PathfinderAPI/PathfinderAPIPlugin.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a691b59a4e979bf52d117c977b9e430b4" prot="public" static="yes" mutable="no">
+        <type>readonly bool</type>
+        <definition>readonly bool Pathfinder.PathfinderAPIPlugin.GameIsSteamVersion</definition>
+        <argsstring></argsstring>
+        <name>GameIsSteamVersion</name>
+        <qualifiedname>Pathfinder.PathfinderAPIPlugin.GameIsSteamVersion</qualifiedname>
+        <initializer>= typeof(Hacknet.PlatformAPI.Storage.SteamCloudStorageMethod).GetField(&quot;deserialized&quot;) != null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/PathfinderAPIPlugin.cs" line="36" column="33" bodyfile="PathfinderAPI/PathfinderAPIPlugin.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a5f4416664270866731bc0981a3ea486a" prot="package" static="yes" mutable="no">
+        <type>new static Harmony</type>
+        <definition>new static Harmony Pathfinder.PathfinderAPIPlugin.HarmonyInstance</definition>
+        <argsstring></argsstring>
+        <name>HarmonyInstance</name>
+        <qualifiedname>Pathfinder.PathfinderAPIPlugin.HarmonyInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/PathfinderAPIPlugin.cs" line="33" column="33" bodyfile="PathfinderAPI/PathfinderAPIPlugin.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1aa0b8b621d8644893c266485c81735353" prot="package" static="yes" mutable="no">
+        <type>new static ConfigFile</type>
+        <definition>new static ConfigFile Pathfinder.PathfinderAPIPlugin.Config</definition>
+        <argsstring></argsstring>
+        <name>Config</name>
+        <qualifiedname>Pathfinder.PathfinderAPIPlugin.Config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/PathfinderAPIPlugin.cs" line="34" column="36" bodyfile="PathfinderAPI/PathfinderAPIPlugin.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a0b6f0c4a4e042c4a5ac149b987f65d91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Pathfinder.PathfinderAPIPlugin.Load</definition>
+        <argsstring>()</argsstring>
+        <name>Load</name>
+        <qualifiedname>Pathfinder.PathfinderAPIPlugin.Load</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/PathfinderAPIPlugin.cs" line="38" column="26" bodyfile="PathfinderAPI/PathfinderAPIPlugin.cs" bodystart="38" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>HacknetPlugin</label>
+        <link refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.PathfinderAPIPlugin</label>
+        <link refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>HacknetPlugin</label>
+        <link refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.PathfinderAPIPlugin</label>
+        <link refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/PathfinderAPIPlugin.cs" line="28" column="7" bodyfile="PathfinderAPI/PathfinderAPIPlugin.cs" bodystart="29" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1aa0b8b621d8644893c266485c81735353" prot="package" virt="non-virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>Config</name></member>
+      <member refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a691b59a4e979bf52d117c977b9e430b4" prot="public" virt="non-virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>GameIsSteamVersion</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ad3526bb7b58ceecb7f761110158f70da" prot="protected" virt="non-virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>HacknetPlugin</name></member>
+      <member refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a5f4416664270866731bc0981a3ea486a" prot="package" virt="non-virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>HarmonyInstance</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0d55b507fbd084fc64acd800452d379e" prot="public" virt="non-virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>InstalledGlobally</name></member>
+      <member refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a0b6f0c4a4e042c4a5ac149b987f65d91" prot="public" virt="non-virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>Load</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a6aeff5c672bbe03e3a612ae2cb1e6c0d" prot="public" virt="non-virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>Log</name></member>
+      <member refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a7373abd5bc5665196e4c2ebad42ef05f" prot="public" virt="non-virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>ModGUID</name></member>
+      <member refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a053614d528852fdb16c61fe0e5713977" prot="public" virt="non-virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>ModName</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a07ec0303c5ed5dff6ec3a9a8316defe7" prot="public" virt="virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>PostLoad</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ade785474c706e87a1bd6ea47cc2c4499" prot="public" virt="virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>Unload</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0dba3e1a3dc58eaa2b51011d77ad97e2" prot="public" virt="non-virtual"><scope>Pathfinder::PathfinderAPIPlugin</scope><name>UserConfig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

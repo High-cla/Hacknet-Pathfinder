@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_f315876eefae3e6920361198a157926f" kind="dir">
+    <compoundname>ExampleMod</compoundname>
+    <innerfile refid="_example_mod_plugin_8cs">ExampleModPlugin.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ExampleMod/"/>
+  </compounddef>
+</doxygen>

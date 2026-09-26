@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_8864d67b635af673ee3aa248f9329144" kind="dir">
+    <compoundname>PathfinderAPI/BaseGameFixes</compoundname>
+    <innerdir refid="dir_38fd49a41aff99fc4e137df9b9aebf6a">PathfinderAPI/BaseGameFixes/Performance</innerdir>
+    <innerfile refid="_auto_clear_missions_on_single_complete_8cs">AutoClearMissionsOnSingleComplete.cs</innerfile>
+    <innerfile refid="_avoid_null_deref_on_theme_change_8cs">AvoidNullDerefOnThemeChange.cs</innerfile>
+    <innerfile refid="_clear_post_load_actions_8cs">ClearPostLoadActions.cs</innerfile>
+    <innerfile refid="_dont_lose_player_comp_admin_8cs">DontLosePlayerCompAdmin.cs</innerfile>
+    <innerfile refid="_fix_extension_tests_8cs">FixExtensionTests.cs</innerfile>
+    <innerfile refid="_fix_tutorial_startup_8cs">FixTutorialStartup.cs</innerfile>
+    <innerfile refid="_flickering_text_report_null_8cs">FlickeringTextReportNull.cs</innerfile>
+    <innerfile refid="_h_h_b_s_8cs">HHBS.cs</innerfile>
+    <innerfile refid="_keep_branches_on_mail_mission_completion_8cs">KeepBranchesOnMailMissionCompletion.cs</innerfile>
+    <innerfile refid="_kill_exe_check_identifier_name_8cs">KillExeCheckIdentifierName.cs</innerfile>
+    <innerfile refid="_listing_server_fixes_8cs">ListingServerFixes.cs</innerfile>
+    <innerfile refid="_load_builtin_themes_8cs">LoadBuiltinThemes.cs</innerfile>
+    <innerfile refid="_mission_listing_server_load_time_8cs">MissionListingServerLoadTime.cs</innerfile>
+    <innerfile refid="_needs_mission_complete_8cs">NeedsMissionComplete.cs</innerfile>
+    <innerfile refid="_prevent_skipping_e_t_a_s_8cs">PreventSkippingETAS.cs</innerfile>
+    <innerfile refid="_random_i_p_no_repeats_8cs">RandomIPNoRepeats.cs</innerfile>
+    <innerfile refid="_reload_extension_nodes_8cs">ReloadExtensionNodes.cs</innerfile>
+    <innerfile refid="_self_authenticating_host_whitelist_display_8cs">SelfAuthenticatingHostWhitelistDisplay.cs</innerfile>
+    <innerfile refid="_send_email_mission_8cs">SendEmailMission.cs</innerfile>
+    <innerfile refid="_sequencer_node_dimming_fix_8cs">SequencerNodeDimmingFix.cs</innerfile>
+    <innerfile refid="_starting_actions_after_nodes_8cs">StartingActionsAfterNodes.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/"/>
+  </compounddef>
+</doxygen>

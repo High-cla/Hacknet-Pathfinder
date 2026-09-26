@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_g_u_i" kind="namespace" language="C#">
+    <compoundname>Pathfinder::GUI</compoundname>
+    <innerclass refid="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning" prot="package">Pathfinder::GUI::ArbitraryCodeWarning</innerclass>
+    <innerclass refid="class_pathfinder_1_1_g_u_i_1_1_extension_list_scroll" prot="package">Pathfinder::GUI::ExtensionListScroll</innerclass>
+    <innerclass refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" prot="public">Pathfinder::GUI::PFButton</innerclass>
+    <innerclass refid="class_pathfinder_1_1_g_u_i_1_1_plugin_list_screen" prot="public">Pathfinder::GUI::PluginListScreen</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

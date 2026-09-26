@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_e08b5bfbe17dc88d78f3031fe10484ae" kind="dir">
+    <compoundname>PathfinderUpdater</compoundname>
+    <innerfile refid="_main_menu_override_8cs">MainMenuOverride.cs</innerfile>
+    <innerfile refid="_pathfinder_updater_plugin_8cs">PathfinderUpdaterPlugin.cs</innerfile>
+    <innerfile refid="_restart_popup_screen_8cs">RestartPopupScreen.cs</innerfile>
+    <innerfile refid="_updater_8cs">Updater.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderUpdater/"/>
+  </compounddef>
+</doxygen>

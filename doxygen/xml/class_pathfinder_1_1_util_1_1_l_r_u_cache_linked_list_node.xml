@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::LRUCacheLinkedListNode</compoundname>
+    <templateparamlist>
+      <param>
+        <type>K</type>
+      </param>
+      <param>
+        <type>V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node_1a2dd899de619a7b1b06caa0ac68942bd0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>K</type>
+        <definition>K Pathfinder.Util.LRUCacheLinkedListNode&lt; K, V &gt;.Key</definition>
+        <argsstring></argsstring>
+        <name>Key</name>
+        <qualifiedname>Pathfinder.Util.LRUCacheLinkedListNode.Key</qualifiedname>
+        <initializer>= default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="5" column="14" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node_1a83a85c42778a2eed51290d69140c0371" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>V</type>
+        <definition>V Pathfinder.Util.LRUCacheLinkedListNode&lt; K, V &gt;.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>Pathfinder.Util.LRUCacheLinkedListNode.Value</qualifiedname>
+        <initializer>= default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="6" column="14" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node_1adc7d295b43f8a17a4afdf93fb4ab7798" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node" kindref="compound">LRUCacheLinkedListNode</ref>&lt; K, V &gt;</type>
+        <definition>LRUCacheLinkedListNode&lt;K,V&gt; Pathfinder.Util.LRUCacheLinkedListNode&lt; K, V &gt;.Next</definition>
+        <argsstring></argsstring>
+        <name>Next</name>
+        <qualifiedname>Pathfinder.Util.LRUCacheLinkedListNode.Next</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="7" column="35" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node_1a399dd36f2e2829831d149a5366c18789" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node" kindref="compound">LRUCacheLinkedListNode</ref>&lt; K, V &gt;</type>
+        <definition>LRUCacheLinkedListNode&lt;K,V&gt; Pathfinder.Util.LRUCacheLinkedListNode&lt; K, V &gt;.Previous</definition>
+        <argsstring></argsstring>
+        <name>Previous</name>
+        <qualifiedname>Pathfinder.Util.LRUCacheLinkedListNode.Previous</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="8" column="35" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="3" column="7" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="4" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node_1a2dd899de619a7b1b06caa0ac68942bd0" prot="public" virt="non-virtual"><scope>Pathfinder::Util::LRUCacheLinkedListNode</scope><name>Key</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node_1adc7d295b43f8a17a4afdf93fb4ab7798" prot="public" virt="non-virtual"><scope>Pathfinder::Util::LRUCacheLinkedListNode</scope><name>Next</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node_1a399dd36f2e2829831d149a5366c18789" prot="public" virt="non-virtual"><scope>Pathfinder::Util::LRUCacheLinkedListNode</scope><name>Previous</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node_1a83a85c42778a2eed51290d69140c0371" prot="public" virt="non-virtual"><scope>Pathfinder::Util::LRUCacheLinkedListNode</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

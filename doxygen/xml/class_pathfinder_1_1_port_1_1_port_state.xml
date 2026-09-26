@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_port_1_1_port_state" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Port::PortState</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_port_1_1_port_state_1a5d8fa956b9ae13bab8244fe042d3d6d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Computer</type>
+        <definition>Computer Pathfinder.Port.PortState.Computer</definition>
+        <argsstring></argsstring>
+        <name>Computer</name>
+        <qualifiedname>Pathfinder.Port.PortState.Computer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="7" column="21" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_port_1_1_port_state_1a061fe23a9ba65f81eaad776f7f566c92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref></type>
+        <definition>PortRecord Pathfinder.Port.PortState.Record</definition>
+        <argsstring></argsstring>
+        <name>Record</name>
+        <qualifiedname>Pathfinder.Port.PortState.Record</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="8" column="23" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_port_1_1_port_state_1a9d2ac6176d115fde4bacef4efb83e8e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Port.PortState.DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <qualifiedname>Pathfinder.Port.PortState.DisplayName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="10" column="19" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_port_1_1_port_state_1a3a22db6603d477666723e1c971306b0d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Port.PortState.PortNumber</definition>
+        <argsstring></argsstring>
+        <name>PortNumber</name>
+        <qualifiedname>Pathfinder.Port.PortState.PortNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="16" column="16" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_port_1_1_port_state_1a20efdcf468309ec2cd9b565b60c6c442" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Port.PortState.Cracked</definition>
+        <argsstring></argsstring>
+        <name>Cracked</name>
+        <qualifiedname>Pathfinder.Port.PortState.Cracked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="21" column="17" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_port_1_1_port_state_1a18e8b2e447050780f14848be3a3b7dae" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Port.PortState._DisplayName</definition>
+        <argsstring></argsstring>
+        <name>_DisplayName</name>
+        <qualifiedname>Pathfinder.Port.PortState._DisplayName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="9" column="20" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_port_1_1_port_state_1ae53111cb9e13f0ac40df4404e78d290a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Port.PortState._PortNumber</definition>
+        <argsstring></argsstring>
+        <name>_PortNumber</name>
+        <qualifiedname>Pathfinder.Port.PortState._PortNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="15" column="17" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_state_1ad286b2c4092b4e25ae976afbcd9a6bda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Port.PortState.SetCracked</definition>
+        <argsstring>(bool cracked, string ipFrom)</argsstring>
+        <name>SetCracked</name>
+        <qualifiedname>Pathfinder.Port.PortState.SetCracked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>cracked</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ipFrom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="22" column="17" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_state_1aeced08e0a18ccbc5c6936c9e47d18cf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Port.PortState.PortState</definition>
+        <argsstring>(Computer comp, PortRecord record, bool cracked)</argsstring>
+        <name>PortState</name>
+        <qualifiedname>Pathfinder.Port.PortState.PortState</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_state_1a5d8fa956b9ae13bab8244fe042d3d6d9" kindref="member">Computer</ref></type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref></type>
+          <declname>record</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cracked</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="30" column="12" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_state_1a071f3f569e982a02f939c90d6b4e3697" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Port.PortState.PortState</definition>
+        <argsstring>(Computer comp, PortRecord record, string displayName=null, int portNumber=-1, bool cracked=false)</argsstring>
+        <name>PortState</name>
+        <qualifiedname>Pathfinder.Port.PortState.PortState</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_state_1a5d8fa956b9ae13bab8244fe042d3d6d9" kindref="member">Computer</ref></type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref></type>
+          <declname>record</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>portNumber</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cracked</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="33" column="12" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_state_1a624e8f2a53f41d1882fc971d888e8b3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Port.PortState.PortState</definition>
+        <argsstring>(Computer comp, string protocol, bool cracked)</argsstring>
+        <name>PortState</name>
+        <qualifiedname>Pathfinder.Port.PortState.PortState</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_state_1a5d8fa956b9ae13bab8244fe042d3d6d9" kindref="member">Computer</ref></type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cracked</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="41" column="12" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_state_1a3b129d48c19d2f0ba2064650c7c251c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Port.PortState.PortState</definition>
+        <argsstring>(Computer comp, string protocol, string displayName=null, int portNumber=-1, bool cracked=false)</argsstring>
+        <name>PortState</name>
+        <qualifiedname>Pathfinder.Port.PortState.PortState</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_state_1a5d8fa956b9ae13bab8244fe042d3d6d9" kindref="member">Computer</ref></type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>portNumber</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cracked</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="44" column="12" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="44" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_state_1a01c1397f94a8d277f5321d544f3d2f0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pathfinder_1_1_port_1_1_port_state" kindref="compound">PortState</ref></type>
+        <definition>PortState Pathfinder.Port.PortState.Clone</definition>
+        <argsstring>(Computer comp=null)</argsstring>
+        <name>Clone</name>
+        <qualifiedname>Pathfinder.Port.PortState.Clone</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_state_1a5d8fa956b9ae13bab8244fe042d3d6d9" kindref="member">Computer</ref></type>
+          <declname>comp</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="53" column="22" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_state_1ad9912606f7854d0af0a632a26049d61e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pathfinder.Port.PortState.Remove</definition>
+        <argsstring>()</argsstring>
+        <name>Remove</name>
+        <qualifiedname>Pathfinder.Port.PortState.Remove</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="58" column="17" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_state_1a414c34c569b3fa33ecffc492c8af735f" prot="public" static="yes" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Port.PortState.operator PortData</definition>
+        <argsstring>(PortState state)</argsstring>
+        <name>operator PortData</name>
+        <qualifiedname>Pathfinder.Port.PortState.operator PortData</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_state" kindref="compound">PortState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="65" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_state_1acd55a135a1a0e0475fa6b4fae5c180ab" prot="public" static="yes" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Port.PortState.operator PortState</definition>
+        <argsstring>(PortData data)</argsstring>
+        <name>operator PortState</name>
+        <qualifiedname>Pathfinder.Port.PortState.operator PortState</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_data" kindref="compound">PortData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortState.cs" line="72" column="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Port/PortState.cs" line="5" column="7" bodyfile="PathfinderAPI/Port/PortState.cs" bodystart="6" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a18e8b2e447050780f14848be3a3b7dae" prot="private" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>_DisplayName</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1ae53111cb9e13f0ac40df4404e78d290a" prot="private" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>_PortNumber</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a01c1397f94a8d277f5321d544f3d2f0c" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>Clone</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a5d8fa956b9ae13bab8244fe042d3d6d9" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>Computer</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a20efdcf468309ec2cd9b565b60c6c442" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>Cracked</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a9d2ac6176d115fde4bacef4efb83e8e6" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>DisplayName</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a414c34c569b3fa33ecffc492c8af735f" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>operator PortData</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1acd55a135a1a0e0475fa6b4fae5c180ab" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>operator PortState</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a3a22db6603d477666723e1c971306b0d" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>PortNumber</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1aeced08e0a18ccbc5c6936c9e47d18cf1" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>PortState</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a071f3f569e982a02f939c90d6b4e3697" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>PortState</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a624e8f2a53f41d1882fc971d888e8b3f" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>PortState</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a3b129d48c19d2f0ba2064650c7c251c8" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>PortState</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1a061fe23a9ba65f81eaad776f7f566c92" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>Record</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1ad9912606f7854d0af0a632a26049d61e" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>Remove</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_state_1ad286b2c4092b4e25ae976afbcd9a6bda" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortState</scope><name>SetCracked</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

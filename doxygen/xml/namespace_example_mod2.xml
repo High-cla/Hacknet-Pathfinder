@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_example_mod2" kind="namespace" language="C#">
+    <compoundname>ExampleMod2</compoundname>
+    <innerclass refid="class_example_mod2_1_1_example_mod_plugin2" prot="public">ExampleMod2::ExampleModPlugin2</innerclass>
+    <innerclass refid="class_example_mod2_1_1_patch_class2" prot="public">ExampleMod2::PatchClass2</innerclass>
+    <innerclass refid="class_example_mod2_1_1_test_action" prot="public">ExampleMod2::TestAction</innerclass>
+    <innerclass refid="class_example_mod2_1_1_test_administrator" prot="public">ExampleMod2::TestAdministrator</innerclass>
+    <innerclass refid="class_example_mod2_1_1_test_computer_executor" prot="public">ExampleMod2::TestComputerExecutor</innerclass>
+    <innerclass refid="class_example_mod2_1_1_test_condition" prot="public">ExampleMod2::TestCondition</innerclass>
+    <innerclass refid="class_example_mod2_1_1_test_daemon" prot="public">ExampleMod2::TestDaemon</innerclass>
+    <innerclass refid="class_example_mod2_1_1_test_exe" prot="public">ExampleMod2::TestExe</innerclass>
+    <innerclass refid="class_example_mod2_1_1_test_goal" prot="public">ExampleMod2::TestGoal</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ExampleMod/ExampleModPlugin.cs" line="14" column="1"/>
+  </compounddef>
+</doxygen>

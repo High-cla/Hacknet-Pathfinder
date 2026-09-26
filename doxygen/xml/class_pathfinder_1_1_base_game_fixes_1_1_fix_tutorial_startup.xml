@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_fix_tutorial_startup" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::BaseGameFixes::FixTutorialStartup</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_fix_tutorial_startup_1a8fa0b2a07f9fe21fc8277bf494198594" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.FixTutorialStartup.FirstTimeInitSetStartingMissionForTutorial</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>FirstTimeInitSetStartingMissionForTutorial</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.FixTutorialStartup.FirstTimeInitSetStartingMissionForTutorial</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/FixTutorialStartup.cs" line="14" column="26" bodyfile="PathfinderAPI/BaseGameFixes/FixTutorialStartup.cs" bodystart="14" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_fix_tutorial_startup_1a821145bc8416934578b22a5ad05e6d45" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.FixTutorialStartup.AdvancedTutorialKilledNullMissionFix</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>AdvancedTutorialKilledNullMissionFix</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.FixTutorialStartup.AdvancedTutorialKilledNullMissionFix</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/FixTutorialStartup.cs" line="31" column="26" bodyfile="PathfinderAPI/BaseGameFixes/FixTutorialStartup.cs" bodystart="31" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/FixTutorialStartup.cs" line="10" column="15" bodyfile="PathfinderAPI/BaseGameFixes/FixTutorialStartup.cs" bodystart="11" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_fix_tutorial_startup_1a821145bc8416934578b22a5ad05e6d45" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::FixTutorialStartup</scope><name>AdvancedTutorialKilledNullMissionFix</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_fix_tutorial_startup_1a8fa0b2a07f9fe21fc8277bf494198594" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::FixTutorialStartup</scope><name>FirstTimeInitSetStartingMissionForTutorial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

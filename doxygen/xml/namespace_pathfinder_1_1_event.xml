@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_event" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Event</compoundname>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_event_handler" prot="package">Pathfinder::Event::EventHandler</innerclass>
+    <innerclass refid="struct_pathfinder_1_1_event_1_1_event_handler_options" prot="public">Pathfinder::Event::EventHandlerOptions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_event_manager" prot="public">Pathfinder::Event::EventManager</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public">Pathfinder::Event::PathfinderEvent</innerclass>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_bep_in_ex">Pathfinder::Event::BepInEx</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_gameplay">Pathfinder::Event::Gameplay</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_loading">Pathfinder::Event::Loading</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_menu">Pathfinder::Event::Menu</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_options">Pathfinder::Event::Options</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_pathfinder">Pathfinder::Event::Pathfinder</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_saving">Pathfinder::Event::Saving</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/BepInEx/LoadEvent.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

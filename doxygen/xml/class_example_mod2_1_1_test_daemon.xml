@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_example_mod2_1_1_test_daemon" kind="class" language="C#" prot="public">
+    <compoundname>ExampleMod2::TestDaemon</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_daemon_1_1_base_daemon" prot="public" virt="non-virtual">Pathfinder.Daemon.BaseDaemon</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_example_mod2_1_1_test_daemon_1a166c6932c85680617a884075899694b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string ExampleMod2.TestDaemon.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <qualifiedname>ExampleMod2.TestDaemon.Identifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="96" column="28" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_daemon_1ab2ce53eef3c7e932d2c4406f4f4187b5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ExampleMod2.TestDaemon.DisplayString</definition>
+        <argsstring></argsstring>
+        <name>DisplayString</name>
+        <qualifiedname>ExampleMod2.TestDaemon.DisplayString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="99" column="19" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_example_mod2_1_1_test_daemon_1ad3bf0fb87ce84258304a5282958c5c83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ExampleMod2.TestDaemon.TestDaemon</definition>
+        <argsstring>(Computer computer, string serviceName, OS opSystem)</argsstring>
+        <name>TestDaemon</name>
+        <qualifiedname>ExampleMod2.TestDaemon.TestDaemon</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>computer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>serviceName</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>opSystem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="94" column="12" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_example_mod2_1_1_test_daemon_1a6b4d92e3067ae90036f2fcbfad80a400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ExampleMod2.TestDaemon.draw</definition>
+        <argsstring>(Rectangle bounds, SpriteBatch sb)</argsstring>
+        <name>draw</name>
+        <qualifiedname>ExampleMod2.TestDaemon.draw</qualifiedname>
+        <param>
+          <type>Rectangle</type>
+          <declname>bounds</declname>
+        </param>
+        <param>
+          <type>SpriteBatch</type>
+          <declname>sb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="101" column="26" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="101" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseDaemon</label>
+        <link refid="class_pathfinder_1_1_daemon_1_1_base_daemon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ExampleMod2.TestDaemon</label>
+        <link refid="class_example_mod2_1_1_test_daemon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Hacknet::Daemon</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseDaemon</label>
+        <link refid="class_pathfinder_1_1_daemon_1_1_base_daemon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ExampleMod2.TestDaemon</label>
+        <link refid="class_example_mod2_1_1_test_daemon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Hacknet::Daemon</label>
+      </node>
+    </collaborationgraph>
+    <location file="ExampleMod/ExampleModPlugin.cs" line="92" column="7" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="93" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_daemon_1_1_base_daemon_1aea3c6761acaceecf4b1aa4c7982b2c1e" prot="public" virt="non-virtual"><scope>ExampleMod2::TestDaemon</scope><name>BaseDaemon</name></member>
+      <member refid="class_example_mod2_1_1_test_daemon_1ab2ce53eef3c7e932d2c4406f4f4187b5" prot="public" virt="non-virtual"><scope>ExampleMod2::TestDaemon</scope><name>DisplayString</name></member>
+      <member refid="class_example_mod2_1_1_test_daemon_1a6b4d92e3067ae90036f2fcbfad80a400" prot="public" virt="non-virtual"><scope>ExampleMod2::TestDaemon</scope><name>draw</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_base_daemon_1a802d26abd1c5c0455215aefbc647242d" prot="public" virt="virtual"><scope>ExampleMod2::TestDaemon</scope><name>GetSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_base_daemon_1a1a66d4a6369b53c1bbd95dd234f9ef15" prot="public" virt="non-virtual"><scope>ExampleMod2::TestDaemon</scope><name>getSaveString</name></member>
+      <member refid="class_example_mod2_1_1_test_daemon_1a166c6932c85680617a884075899694b9" prot="public" virt="non-virtual"><scope>ExampleMod2::TestDaemon</scope><name>Identifier</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_base_daemon_1aec473f284d64e4960fba8c3a72a8ab7c" prot="public" virt="virtual"><scope>ExampleMod2::TestDaemon</scope><name>LoadFromXml</name></member>
+      <member refid="class_example_mod2_1_1_test_daemon_1ad3bf0fb87ce84258304a5282958c5c83" prot="public" virt="non-virtual"><scope>ExampleMod2::TestDaemon</scope><name>TestDaemon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

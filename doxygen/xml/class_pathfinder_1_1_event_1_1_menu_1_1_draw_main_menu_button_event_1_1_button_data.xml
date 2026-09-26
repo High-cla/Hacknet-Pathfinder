@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a9ddefcdd60218ef6abd8f757538a923a" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.DefaultButtonTopPadding</definition>
+        <argsstring></argsstring>
+        <name>DefaultButtonTopPadding</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.DefaultButtonTopPadding</qualifiedname>
+        <initializer>= 15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="173" column="26" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1adde6624cfca232a84dd9bee8cfbc4003" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="175" column="20" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a18a812d24e6a67e7e7eb05b291349ad3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.X</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="176" column="20" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1afdbe93e122787fbe667928b43bd1080a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="177" column="20" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a2f731ec56ea12d6d08e1ed37ee8a2b40" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Width</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="178" column="20" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a3a45b95e2fa5f66286559723ccf89cd4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="179" column="20" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a51a5d9a3151cf51199e25fd3815abb6e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="180" column="23" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a75da58716f5bfceec22254bed2e5cb4a" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="181" column="22" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1aabbec0934a98384d89ff769415fc5b46" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.YPositionIndex</definition>
+        <argsstring></argsstring>
+        <name>YPositionIndex</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.YPositionIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="182" column="20" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a70a12fb696451b6c98df174699815fcb" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28" kindref="member">MainMenuButtonType</ref></type>
+        <definition>MainMenuButtonType Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData._buttonType</definition>
+        <argsstring></argsstring>
+        <name>_buttonType</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData._buttonType</qualifiedname>
+        <initializer>= <ref refid="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28aec0fc0100c4fc1ce4eea230c3dc10360" kindref="member">MainMenuButtonType.Undefined</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="184" column="36" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a9a54ea049bace0142aa033eeddc544bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28" kindref="member">MainMenuButtonType</ref></type>
+        <definition>MainMenuButtonType Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.ButtonType</definition>
+        <argsstring></argsstring>
+        <name>ButtonType</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.ButtonType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="185" column="35" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="186" bodyend="197"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a4e3791deb75ba76da4a1b9e5d73245e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.ButtonData</definition>
+        <argsstring>(int id, int x, int y, int width, int height, string text, Color color, int yPosIndex)</argsstring>
+        <name>ButtonData</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.ButtonData</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a75da58716f5bfceec22254bed2e5cb4a" kindref="member">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>yPosIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="199" column="16" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="199" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a0c3c58c8ead56a35443e2333805127b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Is</definition>
+        <argsstring>(MainMenuButtonType button)</argsstring>
+        <name>Is</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuButtonEvent.ButtonData.Is</qualifiedname>
+        <param>
+          <type><ref refid="namespace_pathfinder_1_1_event_1_1_menu_1a7fc7ff6bbf2c0438646da987e7335f28" kindref="member">MainMenuButtonType</ref></type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="211" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" line="171" column="11" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs" bodystart="172" bodyend="212"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a70a12fb696451b6c98df174699815fcb" prot="private" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>_buttonType</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a4e3791deb75ba76da4a1b9e5d73245e6" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>ButtonData</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a9a54ea049bace0142aa033eeddc544bb" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>ButtonType</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a75da58716f5bfceec22254bed2e5cb4a" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>Color</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a9ddefcdd60218ef6abd8f757538a923a" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>DefaultButtonTopPadding</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a3a45b95e2fa5f66286559723ccf89cd4" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>Height</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1adde6624cfca232a84dd9bee8cfbc4003" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>Id</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a0c3c58c8ead56a35443e2333805127b6" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>Is</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a51a5d9a3151cf51199e25fd3815abb6e" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>Text</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a2f731ec56ea12d6d08e1ed37ee8a2b40" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>Width</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1a18a812d24e6a67e7e7eb05b291349ad3" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>X</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1afdbe93e122787fbe667928b43bd1080a" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>Y</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data_1aabbec0934a98384d89ff769415fc5b46" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</scope><name>YPositionIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

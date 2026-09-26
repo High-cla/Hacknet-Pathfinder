@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_restart_popup_screen_8cs" kind="file" language="C#">
+    <compoundname>RestartPopupScreen.cs</compoundname>
+    <innerclass refid="class_pathfinder_updater_1_1_restart_popup_screen" prot="package">PathfinderUpdater::RestartPopupScreen</innerclass>
+    <innernamespace refid="namespace_pathfinder_updater">PathfinderUpdater</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet.Gui;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Microsoft.Xna.Framework;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_g_u_i" kindref="compound">Pathfinder.GUI</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_options" kindref="compound">Pathfinder.Options</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_updater" kindref="compound">PathfinderUpdater</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RestartPopupScreen<sp/>:<sp/>GameScreen</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref><sp/>AcceptVersion<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(500,<sp/>330,<sp/>120,<sp/>30,<sp/></highlight><highlight class="stringliteral">&quot;Yes&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Color(102,255,127));</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref><sp/>DenyVersion<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(980,<sp/>330,<sp/>120,<sp/>30,<sp/></highlight><highlight class="stringliteral">&quot;No&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Color(255,92,87));</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref><sp/>NoRestartPrompt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref>(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Do<sp/>not<sp/>prompt<sp/>for<sp/>restart&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>RestartPopupScreen()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IsPopup<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>HandleInput(InputState<sp/>input)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.HandleInput(input);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GuiData.doInput(input);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Draw(GameTime<sp/>gameTime)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ScreenManager.SpriteBatch.Begin();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ScreenManager.SpriteBatch.Draw(Utils.white,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rectangle(0,<sp/>0,<sp/>ScreenManager.SpriteBatch.GraphicsDevice.Viewport.Width,<sp/>GuiData.spriteBatch.GraphicsDevice.Viewport.Height),<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Color(0,<sp/>0,<sp/>0,<sp/>0.65f));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ScreenManager.SpriteBatch.Draw(Utils.white,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rectangle(400,<sp/>250,<sp/>800,<sp/>150),<sp/>Color.Black);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TextItem.doLabel(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(550,<sp/>260),<sp/>$</highlight><highlight class="stringliteral">&quot;Do<sp/>you<sp/>want<sp/>to<sp/>restart<sp/>the<sp/>game?&quot;</highlight><highlight class="normal">,<sp/>Color.White);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NoRestartPrompt.<ref refid="class_pathfinder_1_1_options_1_1_option_checkbox_1adc5a142b3b3579bcba8c86e8ccc3faca" kindref="member">Draw</ref>(675,<sp/>300);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(AcceptVersion.<ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button_1ae01560ed84181adb0d63c9f57125d370" kindref="member">Do</ref>())</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PathfinderUpdaterPlugin.RestartForUpdate();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ExitScreen();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(DenyVersion.<ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button_1ae01560ed84181adb0d63c9f57125d370" kindref="member">Do</ref>())</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ExitScreen();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ScreenManager.SpriteBatch.End();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ExitScreen()</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.ExitScreen();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PathfinderUpdaterPlugin.NoRestartPrompt.Value<sp/>=<sp/>NoRestartPrompt.<ref refid="class_pathfinder_1_1_options_1_1_option_checkbox_1ae424c31d4d80118239eecfa5fddfee79" kindref="member">Value</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MainMenuOverride.NoRestartPrompt.Value<sp/>=<sp/>PathfinderUpdaterPlugin.NoRestartPrompt.Value;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderUpdater/RestartPopupScreen.cs"/>
+  </compounddef>
+</doxygen>

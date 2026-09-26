@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_updater_1_1_restart_popup_screen" kind="class" language="C#" prot="package">
+    <compoundname>PathfinderUpdater::RestartPopupScreen</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">GameScreen</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_restart_popup_screen_1afacc5c8a2551988e68d54851ae3fd741" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+        <definition>PFButton PathfinderUpdater.RestartPopupScreen.AcceptVersion</definition>
+        <argsstring></argsstring>
+        <name>AcceptVersion</name>
+        <qualifiedname>PathfinderUpdater.RestartPopupScreen.AcceptVersion</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(500, 330, 120, 30, &quot;Yes&quot;, new Color(102,255,127))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/RestartPopupScreen.cs" line="11" column="22" bodyfile="PathfinderUpdater/RestartPopupScreen.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_restart_popup_screen_1a9014ed2a1bf09b3557982841c00daf76" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+        <definition>PFButton PathfinderUpdater.RestartPopupScreen.DenyVersion</definition>
+        <argsstring></argsstring>
+        <name>DenyVersion</name>
+        <qualifiedname>PathfinderUpdater.RestartPopupScreen.DenyVersion</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(980, 330, 120, 30, &quot;No&quot;, new Color(255,92,87))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/RestartPopupScreen.cs" line="12" column="22" bodyfile="PathfinderUpdater/RestartPopupScreen.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_restart_popup_screen_1ac7047a9f25d9c242cdf328bf2e01bc08" prot="package" static="no" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref></type>
+        <definition>OptionCheckbox PathfinderUpdater.RestartPopupScreen.NoRestartPrompt</definition>
+        <argsstring></argsstring>
+        <name>NoRestartPrompt</name>
+        <qualifiedname>PathfinderUpdater.RestartPopupScreen.NoRestartPrompt</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref>(&quot;&quot;, &quot;Do not prompt for restart&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/RestartPopupScreen.cs" line="13" column="29" bodyfile="PathfinderUpdater/RestartPopupScreen.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_restart_popup_screen_1aed26507e3df70dfbfcbfe031799f0e2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PathfinderUpdater.RestartPopupScreen.RestartPopupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>RestartPopupScreen</name>
+        <qualifiedname>PathfinderUpdater.RestartPopupScreen.RestartPopupScreen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/RestartPopupScreen.cs" line="15" column="12" bodyfile="PathfinderUpdater/RestartPopupScreen.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_restart_popup_screen_1a64cb8475ccab58fbfee837fd2d4be96e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void PathfinderUpdater.RestartPopupScreen.HandleInput</definition>
+        <argsstring>(InputState input)</argsstring>
+        <name>HandleInput</name>
+        <qualifiedname>PathfinderUpdater.RestartPopupScreen.HandleInput</qualifiedname>
+        <param>
+          <type>InputState</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/RestartPopupScreen.cs" line="20" column="26" bodyfile="PathfinderUpdater/RestartPopupScreen.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_restart_popup_screen_1a68852f4b3480eabfdd1d64900e2697e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void PathfinderUpdater.RestartPopupScreen.Draw</definition>
+        <argsstring>(GameTime gameTime)</argsstring>
+        <name>Draw</name>
+        <qualifiedname>PathfinderUpdater.RestartPopupScreen.Draw</qualifiedname>
+        <param>
+          <type>GameTime</type>
+          <declname>gameTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/RestartPopupScreen.cs" line="26" column="26" bodyfile="PathfinderUpdater/RestartPopupScreen.cs" bodystart="26" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_restart_popup_screen_1ad997d90a3d26629abf93619342482920" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new void</type>
+        <definition>new void PathfinderUpdater.RestartPopupScreen.ExitScreen</definition>
+        <argsstring>()</argsstring>
+        <name>ExitScreen</name>
+        <qualifiedname>PathfinderUpdater.RestartPopupScreen.ExitScreen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/RestartPopupScreen.cs" line="43" column="21" bodyfile="PathfinderUpdater/RestartPopupScreen.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>GameScreen</label>
+      </node>
+      <node id="1">
+        <label>PathfinderUpdater.RestartPopupScreen</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>GameScreen</label>
+      </node>
+      <node id="4">
+        <label>Option</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option"/>
+      </node>
+      <node id="3">
+        <label>Pathfinder.Options.OptionCheckbox</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option_checkbox"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PathfinderUpdater.RestartPopupScreen</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>NoRestartPrompt</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderUpdater/RestartPopupScreen.cs" line="9" column="9" bodyfile="PathfinderUpdater/RestartPopupScreen.cs" bodystart="10" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_updater_1_1_restart_popup_screen_1afacc5c8a2551988e68d54851ae3fd741" prot="private" virt="non-virtual"><scope>PathfinderUpdater::RestartPopupScreen</scope><name>AcceptVersion</name></member>
+      <member refid="class_pathfinder_updater_1_1_restart_popup_screen_1a9014ed2a1bf09b3557982841c00daf76" prot="private" virt="non-virtual"><scope>PathfinderUpdater::RestartPopupScreen</scope><name>DenyVersion</name></member>
+      <member refid="class_pathfinder_updater_1_1_restart_popup_screen_1a68852f4b3480eabfdd1d64900e2697e5" prot="public" virt="non-virtual"><scope>PathfinderUpdater::RestartPopupScreen</scope><name>Draw</name></member>
+      <member refid="class_pathfinder_updater_1_1_restart_popup_screen_1ad997d90a3d26629abf93619342482920" prot="public" virt="non-virtual"><scope>PathfinderUpdater::RestartPopupScreen</scope><name>ExitScreen</name></member>
+      <member refid="class_pathfinder_updater_1_1_restart_popup_screen_1a64cb8475ccab58fbfee837fd2d4be96e" prot="public" virt="non-virtual"><scope>PathfinderUpdater::RestartPopupScreen</scope><name>HandleInput</name></member>
+      <member refid="class_pathfinder_updater_1_1_restart_popup_screen_1ac7047a9f25d9c242cdf328bf2e01bc08" prot="package" virt="non-virtual"><scope>PathfinderUpdater::RestartPopupScreen</scope><name>NoRestartPrompt</name></member>
+      <member refid="class_pathfinder_updater_1_1_restart_popup_screen_1aed26507e3df70dfbfcbfe031799f0e2a" prot="public" virt="non-virtual"><scope>PathfinderUpdater::RestartPopupScreen</scope><name>RestartPopupScreen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

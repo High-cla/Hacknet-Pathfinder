@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_holder" kind="struct" language="C#" prot="private">
+    <compoundname>Pathfinder::Replacements::ContentLoader::ComputerExecutorHolder</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_holder_1a8420cd8f9eb90ee9d7c19255fc9904b9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Replacements.ContentLoader.ComputerExecutorHolder.Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerExecutorHolder.Element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="47" column="23" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_holder_1a4c76e93e38adb8ed5c25d779b10c17a8" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type Pathfinder.Replacements.ContentLoader.ComputerExecutorHolder.ExecutorType</definition>
+        <argsstring></argsstring>
+        <name>ExecutorType</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerExecutorHolder.ExecutorType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="48" column="21" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_holder_1a693eb211e592c8464952f5f51fbc7bcb" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+        <definition>ParseOption Pathfinder.Replacements.ContentLoader.ComputerExecutorHolder.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerExecutorHolder.Options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="49" column="28" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="45" column="12" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="46" bodyend="50"/>
+    <listofallmembers>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_holder_1a8420cd8f9eb90ee9d7c19255fc9904b9" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerExecutorHolder</scope><name>Element</name></member>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_holder_1a4c76e93e38adb8ed5c25d779b10c17a8" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerExecutorHolder</scope><name>ExecutorType</name></member>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_holder_1a693eb211e592c8464952f5f51fbc7bcb" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerExecutorHolder</scope><name>Options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

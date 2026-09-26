@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Meta::Load::HacknetPluginExtensions</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions_1ad5359f7bf3be0e5df5f20c533f68938d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Pathfinder.Meta.Load.HacknetPluginExtensions.GetOptionsTag</definition>
+        <argsstring>(this HacknetPlugin plugin)</argsstring>
+        <name>GetOptionsTag</name>
+        <qualifiedname>Pathfinder.Meta.Load.HacknetPluginExtensions.GetOptionsTag</qualifiedname>
+        <param>
+          <type>this <ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/HacknetPluginExtensions.cs" line="7" column="26" bodyfile="PathfinderAPI/Meta/Load/HacknetPluginExtensions.cs" bodystart="7" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions_1ae0a7ddf863b388d9685db1ffe6ea828b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Meta.Load.HacknetPluginExtensions.HasOptionsTag</definition>
+        <argsstring>(this HacknetPlugin plugin)</argsstring>
+        <name>HasOptionsTag</name>
+        <qualifiedname>Pathfinder.Meta.Load.HacknetPluginExtensions.HasOptionsTag</qualifiedname>
+        <param>
+          <type>this <ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/HacknetPluginExtensions.cs" line="14" column="24" bodyfile="PathfinderAPI/Meta/Load/HacknetPluginExtensions.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Meta/Load/HacknetPluginExtensions.cs" line="5" column="15" bodyfile="PathfinderAPI/Meta/Load/HacknetPluginExtensions.cs" bodystart="6" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions_1ad5359f7bf3be0e5df5f20c533f68938d" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::HacknetPluginExtensions</scope><name>GetOptionsTag</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions_1ae0a7ddf863b388d9685db1ffe6ea828b" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::HacknetPluginExtensions</scope><name>HasOptionsTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::HHBS</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s_1a9ee2e76d2ce4d98d1745f7c988a50ce7" prot="private" static="yes" mutable="no">
+        <type>readonly ConstructorInfo</type>
+        <definition>readonly ConstructorInfo Pathfinder.BaseGameFixes.HHBS.HHBSCctor</definition>
+        <argsstring></argsstring>
+        <name>HHBSCctor</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.HHBS.HHBSCctor</qualifiedname>
+        <initializer>= typeof(HostileHackerBreakinSequence).TypeInitializer</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/HHBS.cs" line="18" column="45" bodyfile="PathfinderAPI/BaseGameFixes/HHBS.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s_1a8de70ed93436396978fac88fd56715f0" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.HHBS.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.HHBS.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/HHBS.cs" line="13" column="26" bodyfile="PathfinderAPI/BaseGameFixes/HHBS.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s_1a2f50dd5bbc4e3fb65ef091b8a472e881" prot="package" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.HHBS.ReloadHHBSOnOSCtorPrefix</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadHHBSOnOSCtorPrefix</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.HHBS.ReloadHHBSOnOSCtorPrefix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/HHBS.cs" line="22" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s_1a59b0c5182d17ba2a1dfabcdc9f6a1d3f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.HHBS.FixPathCombineOrderIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>FixPathCombineOrderIL</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.HHBS.FixPathCombineOrderIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/HHBS.cs" line="26" column="26" bodyfile="PathfinderAPI/BaseGameFixes/HHBS.cs" bodystart="26" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/HHBS.cs" line="10" column="17" bodyfile="PathfinderAPI/BaseGameFixes/HHBS.cs" bodystart="11" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s_1a59b0c5182d17ba2a1dfabcdc9f6a1d3f" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::HHBS</scope><name>FixPathCombineOrderIL</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s_1a9ee2e76d2ce4d98d1745f7c988a50ce7" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::HHBS</scope><name>HHBSCctor</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s_1a8de70ed93436396978fac88fd56715f0" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::HHBS</scope><name>Initialize</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s_1a2f50dd5bbc4e3fb65ef091b8a472e881" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::HHBS</scope><name>ReloadHHBSOnOSCtorPrefix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

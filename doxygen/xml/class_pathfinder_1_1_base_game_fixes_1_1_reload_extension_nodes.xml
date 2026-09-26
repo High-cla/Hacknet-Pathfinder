@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_reload_extension_nodes" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::ReloadExtensionNodes</compoundname>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_reload_extension_nodes_1a5e6d01947f44d9815d3a3d93ac540e46" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.ReloadExtensionNodes.ReloadExtensionNodesReplacement</definition>
+        <argsstring>(object osobj)</argsstring>
+        <name>ReloadExtensionNodesReplacement</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.ReloadExtensionNodes.ReloadExtensionNodesReplacement</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>osobj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/ReloadExtensionNodes.cs" line="13" column="25" bodyfile="PathfinderAPI/BaseGameFixes/ReloadExtensionNodes.cs" bodystart="13" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_reload_extension_nodes_1a419f474a99c8ac7018e442b46e05b704" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.ReloadExtensionNodes.UpdateNode</definition>
+        <argsstring>(OS os, Computer node)</argsstring>
+        <name>UpdateNode</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.ReloadExtensionNodes.UpdateNode</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>Computer</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/ReloadExtensionNodes.cs" line="35" column="25" bodyfile="PathfinderAPI/BaseGameFixes/ReloadExtensionNodes.cs" bodystart="35" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/ReloadExtensionNodes.cs" line="9" column="17" bodyfile="PathfinderAPI/BaseGameFixes/ReloadExtensionNodes.cs" bodystart="10" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_reload_extension_nodes_1a5e6d01947f44d9815d3a3d93ac540e46" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::ReloadExtensionNodes</scope><name>ReloadExtensionNodesReplacement</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_reload_extension_nodes_1a419f474a99c8ac7018e442b46e05b704" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::ReloadExtensionNodes</scope><name>UpdateNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_pathfinder_1_1_build_autocompletes_event" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::Pathfinder::BuildAutocompletesEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public" virt="non-virtual">Pathfinder.Event.PathfinderEvent</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_pathfinder_1_1_build_autocompletes_event_1a0f5058b2148861df6d3829d30027a345" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Pathfinder.Event.Pathfinder.BuildAutocompletesEvent.Autocompletes</definition>
+        <argsstring></argsstring>
+        <name>Autocompletes</name>
+        <qualifiedname>Pathfinder.Event.Pathfinder.BuildAutocompletesEvent.Autocompletes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Pathfinder/BuildAutocompletesEvent.cs" line="5" column="17" bodyfile="PathfinderAPI/Event/Pathfinder/BuildAutocompletesEvent.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_pathfinder_1_1_build_autocompletes_event_1ad44880d596ce5a33a958d283edc503a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Pathfinder.BuildAutocompletesEvent.BuildAutocompletesEvent</definition>
+        <argsstring>(List&lt; string &gt; autocompletes)</argsstring>
+        <name>BuildAutocompletesEvent</name>
+        <qualifiedname>Pathfinder.Event.Pathfinder.BuildAutocompletesEvent.BuildAutocompletesEvent</qualifiedname>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>autocompletes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Pathfinder/BuildAutocompletesEvent.cs" line="7" column="12" bodyfile="PathfinderAPI/Event/Pathfinder/BuildAutocompletesEvent.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.Pathfinder.BuildAutocompletesEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_1_1_build_autocompletes_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Event.Pathfinder.BuildAutocompletesEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_1_1_build_autocompletes_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/Pathfinder/BuildAutocompletesEvent.cs" line="3" column="7" bodyfile="PathfinderAPI/Event/Pathfinder/BuildAutocompletesEvent.cs" bodystart="4" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_1_1_build_autocompletes_event_1a0f5058b2148861df6d3829d30027a345" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Pathfinder::BuildAutocompletesEvent</scope><name>Autocompletes</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_1_1_build_autocompletes_event_1ad44880d596ce5a33a958d283edc503a1" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Pathfinder::BuildAutocompletesEvent</scope><name>BuildAutocompletesEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::Pathfinder::BuildAutocompletesEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Pathfinder::BuildAutocompletesEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Pathfinder::BuildAutocompletesEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

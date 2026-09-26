@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_bep_in_ex_1_1_hacknet_1_1_log_write_line_to_disk" kind="class" language="C#" prot="package">
+    <compoundname>BepInEx::Hacknet::LogWriteLineToDisk</compoundname>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_log_write_line_to_disk_1a339e99fe395996eee77725a341cc1930" prot="package" static="yes" mutable="no">
+        <type>TextWriter</type>
+        <definition>TextWriter BepInEx.Hacknet.LogWriteLineToDisk.LogWriter</definition>
+        <argsstring></argsstring>
+        <name>LogWriter</name>
+        <qualifiedname>BepInEx.Hacknet.LogWriteLineToDisk.LogWriter</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="301" column="32" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="301" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_log_write_line_to_disk_1ae4f53da02111a9cf3d3e8cf2c85e3738" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.LogWriteLineToDisk.WriteWriteLineToLog</definition>
+        <argsstring>(string value)</argsstring>
+        <name>WriteWriteLineToLog</name>
+        <qualifiedname>BepInEx.Hacknet.LogWriteLineToDisk.WriteWriteLineToLog</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="305" column="26" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="305" bodyend="308"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="299" column="17" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="300" bodyend="309"/>
+    <listofallmembers>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_log_write_line_to_disk_1a339e99fe395996eee77725a341cc1930" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::LogWriteLineToDisk</scope><name>LogWriter</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_log_write_line_to_disk_1ae4f53da02111a9cf3d3e8cf2c85e3738" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::LogWriteLineToDisk</scope><name>WriteWriteLineToLog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

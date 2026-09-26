@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_executable_manager_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Executable/ExecutableManager.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Executable/ExecutableManager.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_executable_manager_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_executable_manager_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Executable/ExecutableManager.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapiexecutableexecutablemanagercs">PathfinderAPI/Executable/ExecutableManager.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_executable/">Pathfinder::Executable</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_executable_manager/">Pathfinder::Executable::ExecutableManager</a></strong></td>
+</tr>
+<tr>
+<td>struct</td>
+<td><strong><a href="../Classes/struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info/">Pathfinder::Executable::ExecutableManager::CustomExeInfo</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Reflection;
+using System.Text;
+using Hacknet;
+using Pathfinder.Event;
+using Pathfinder.Event.Loading;
+using Pathfinder.Event.Gameplay;
+using Microsoft.Xna.Framework;
+using MonoMod.Cil;
+using HarmonyLib;
+using Mono.Cecil.Cil;
+using Pathfinder.Util;
+
+namespace Pathfinder.Executable;
+
+[HarmonyPatch]
+public static class ExecutableManager
+{
+    public struct CustomExeInfo
+    {
+        public string ExeData;
+        public string XmlId;
+        public Type ExeType;
+    }
+
+    private static readonly List&lt;CustomExeInfo&gt; _customExes = new List&lt;CustomExeInfo&gt;();
+
+    public static IReadOnlyList&lt;CustomExeInfo&gt; AllCustomExes =&gt; _customExes;
+
+
+    static ExecutableManager()
+    {
+        EventManager&lt;TextReplaceEvent&gt;.AddHandler(GetTextReplacementExe);
+        EventManager&lt;ExecutableExecuteEvent&gt;.AddHandler(OnExeExecute);
+        EventManager&lt;ExecutableListEvent&gt;.AddHandler(OnExecutableList);
+        EventManager.onPluginUnload += OnPluginUnload;
+    }
+
+    private static void GetTextReplacementExe(TextReplaceEvent e)
+    {
+        var exe = _customExes.FirstOrNull(x =&gt; x.XmlId == e.Original);
+        if (!exe.HasValue)
+            return;
+        e.Replacement = exe.Value.ExeData;
+    }
+    private static void OnExeExecute(ExecutableExecuteEvent e)
+    {
+        if (e.Result != ExecutionResult.NotFound)
+            return;
+
+        var exe = _customExes.FirstOrNull(x =&gt; x.ExeData == e.ExecutableData);
+        if (!exe.HasValue)
+            return;
+        var location = new Rectangle(e.OS.ram.bounds.X, e.OS.ram.bounds.Y + RamModule.contentStartOffset, RamModule.MODULE_WIDTH, (int)OS.EXE_MODULE_HEIGHT);
+        if(exe.Value.ExeType.IsSubclassOf(typeof(GameExecutable)))
+            e.OS.AddGameExecutable(
+                (GameExecutable)Activator.CreateInstance(exe.Value.ExeType, null),
+                location,
+                e.Arguments.ToArray()
+            );
+        else
+            e.OS.addExe((BaseExecutable)Activator.CreateInstance(exe.Value.ExeType, new object[] { location, e.OS, e.Arguments.ToArray() }));
+        e.Result = ExecutionResult.StartupSuccess;
+    }
+
+    private static void OnPluginUnload(Assembly pluginAsm)
+    {
+        _customExes.RemoveAll(x =&gt; x.ExeType.Assembly == pluginAsm);
+    }
+
+    public static void RegisterExecutable&lt;T&gt;(string xmlName) where T : BaseExecutable =&gt; RegisterExecutable(typeof(T), xmlName);
+    public static void RegisterExecutable(Type executableType, string xmlName)
+    {
+        executableType.ThrowNotInherit&lt;BaseExecutable&gt;(nameof(executableType));
+        var builder = new StringBuilder();
+        foreach (var exeByte in Encoding.ASCII.GetBytes(&quot;PathfinderExe:&quot; + executableType.FullName))
+            builder.Append(Convert.ToString(exeByte, 2));
+        _customExes.Add(new CustomExeInfo
+        {
+            ExeData = builder.ToString(),
+            XmlId = xmlName,
+            ExeType = executableType
+        });
+    }
+
+    public static bool IsXmlId(string xmlName) =&gt;
+        _customExes.Any(x =&gt; x.XmlId == xmlName);
+
+    public static bool IsExeData(string exeData) =&gt;
+        _customExes.Any(x =&gt; x.ExeData == exeData);
+
+    public static bool IsRegistered&lt;T&gt;() where T: BaseExecutable =&gt;
+        IsRegistered(typeof(T));
+    public static bool IsRegistered(Type exeType) =&gt;
+        _customExes.Any(x =&gt; x.ExeType == exeType);
+
+    public static string GetCustomExeData(string xmlName) =&gt; _customExes.FirstOrNull(x =&gt; x.XmlId == xmlName)?.ExeData;
+
+    public static void UnregisterExecutable(string xmlName)
+    {
+        _customExes.RemoveAll(x =&gt; x.XmlId == xmlName);
+    }
+    public static void UnregisterExecutable&lt;T&gt;() =&gt; UnregisterExecutable(typeof(T));
+    public static void UnregisterExecutable(Type exeType)
+    {
+        _customExes.RemoveAll(x =&gt; x.ExeType == exeType);
+    }
+
+    public static void AddGameExecutable(this OS os, GameExecutable exe, Rectangle location, string[] args)
+    {
+        exe.Assign(location, os, args);
+        os.AddGameExecutable(exe);
+    }
+    public static void AddGameExecutable(this OS os, GameExecutable exe)
+    {
+        var computer = os.connectedComp ?? os.thisComputer;
+        try
+        {
+            if(exe.needsProxyAccess &amp;&amp; computer.proxyActive)
+            {
+                exe.OnProxyBypassFailure();
+                if(!exe.IgnoreProxyFailPrint)
+                    os.write(LocaleTerms.Loc(&quot;Proxy Active -- Cannot Execute&quot;));
+                return;
+            }
+
+            if(os.ramAvaliable &gt;= exe.ramCost)
+            {
+                exe.OnInitialize();
+                if (exe.CanAddToSystem)
+                {
+                    exe.bounds.X = os.ram.bounds.X;
+                    exe.bounds.Width = os.ram.bounds.Width;
+                    os.exes.Add(exe);
+                }
+                return;
+            }
+
+            exe.OnNoAvailableRam();
+            if(!exe.IgnoreMemoryBehaviorPrint)
+            {
+                os.ram.FlashMemoryWarning();
+                os.write(LocaleTerms.Loc(&quot;Insufficient Memory&quot;));
+            }
+        }
+        catch(Exception e)
+        {
+            if(!exe.CatchException(e))
+                throw e;
+        }
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(OS), nameof(OS.addExe))]
+    private static bool AddExePrefix(OS __instance, ExeModule exe)
+    {
+        exe.os = __instance;
+        if (exe is GameExecutable gameExe)
+        {
+            __instance.AddGameExecutable(gameExe);
+            return false;
+        }
+        return true;
+    }
+
+    private static void OnExecutableList(ExecutableListEvent e)
+    {
+        foreach (FileEntry exeFile in e.BinExes.Keys.ToList())
+        {
+            if (IsExeData(exeFile.data))
+                e.BinExes[exeFile] = true;
+        }
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(OS), nameof(OS.Update), typeof(GameTime), typeof(bool), typeof(bool))]
+    private static void onOSUpdate(ILContext il)
+    {
+        var c = new ILCursor(il);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchNop(),
+            x =&gt; x.MatchLdarg(0),
+            x =&gt; x.MatchLdfld(AccessTools.Field(typeof(OS), nameof(OS.exes))),
+            x =&gt; x.MatchLdloc(1),
+            x =&gt; x.MatchCallvirt(AccessTools.Method(typeof(List&lt;ExeModule&gt;), nameof(List&lt;ExeModule&gt;.RemoveAt), new[] {typeof(int)}))
+        );
+
+        c.Emit(OpCodes.Ldarg, 0);
+        c.Emit(OpCodes.Ldloc, 1);
+
+        c.EmitDelegate&lt;Action&lt;OS, int&gt;&gt;((os, index) =&gt;
+        {
+            if(os.exes[index] is GameExecutable exe)
+                exe.Completed();
+        });
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(Programs), nameof(Programs.kill))]
+    private static void programsKillFix(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        ILLabel leaveLabel = null;
+        c.GotoNext(
+            x =&gt; x.MatchLeaveS(out leaveLabel)
+        );
+
+        // os.write(&quot;Process &quot; + num + &quot;[&quot; + os.exes[num2].IdentifierName + &quot;] Ended&quot;);
+        c.GotoPrev(MoveType.Before,
+            x =&gt; x.MatchLdstr(&quot;] Ended&quot;)
+        );
+        c.Remove();
+        c.Emit(OpCodes.Ldarg_1);
+        c.Emit(OpCodes.Ldloc_1);
+        c.EmitDelegate&lt;Func&lt;OS, int, bool&gt;&gt;((os, num2) =&gt;
+            os.exes[num2].CanKill()
+        );
+        c.Emit(OpCodes.Stloc_3); // no longer in use
+        c.Emit(OpCodes.Ldloc_3);
+        c.EmitDelegate&lt;Func&lt;bool, string&gt;&gt;(canKill =&gt;
+            canKill ? &quot;] Ended&quot; : &quot;] Did not Respond&quot;
+        );
+
+        // (no C# code)
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchCallvirt(AccessTools.Method(typeof(OS), nameof(OS.write)))
+        );
+        c.Emit(OpCodes.Ldloc_3);
+        c.Emit(OpCodes.Brfalse, leaveLabel);
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

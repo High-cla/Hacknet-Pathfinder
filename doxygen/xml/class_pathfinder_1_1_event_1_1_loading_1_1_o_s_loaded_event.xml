@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::Loading::OSLoadedEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public" virt="non-virtual">Pathfinder.Event.PathfinderEvent</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event_1a02eaef81d75ea1ad704f5eee114ccefc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Event.Loading.OSLoadedEvent.Os</definition>
+        <argsstring></argsstring>
+        <name>Os</name>
+        <qualifiedname>Pathfinder.Event.Loading.OSLoadedEvent.Os</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Loading/OSLoadedEvent.cs" line="9" column="15" bodyfile="PathfinderAPI/Event/Loading/OSLoadedEvent.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event_1a166aa119b9650a695ea545fccf0b5b91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Loading.OSLoadedEvent.OSLoadedEvent</definition>
+        <argsstring>(OS os)</argsstring>
+        <name>OSLoadedEvent</name>
+        <qualifiedname>Pathfinder.Event.Loading.OSLoadedEvent.OSLoadedEvent</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Loading/OSLoadedEvent.cs" line="11" column="12" bodyfile="PathfinderAPI/Event/Loading/OSLoadedEvent.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event_1ae2fbf48316d520b77ba83e9485915341" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Event.Loading.OSLoadedEvent.OSLoadPostfix</definition>
+        <argsstring>(OS __instance)</argsstring>
+        <name>OSLoadPostfix</name>
+        <qualifiedname>Pathfinder.Event.Loading.OSLoadedEvent.OSLoadPostfix</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Loading/OSLoadedEvent.cs" line="18" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.Loading.OSLoadedEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Event.Loading.OSLoadedEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/Loading/OSLoadedEvent.cs" line="7" column="7" bodyfile="PathfinderAPI/Event/Loading/OSLoadedEvent.cs" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::Loading::OSLoadedEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Loading::OSLoadedEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event_1a02eaef81d75ea1ad704f5eee114ccefc" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Loading::OSLoadedEvent</scope><name>Os</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event_1a166aa119b9650a695ea545fccf0b5b91" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Loading::OSLoadedEvent</scope><name>OSLoadedEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event_1ae2fbf48316d520b77ba83e9485915341" prot="private" virt="non-virtual"><scope>Pathfinder::Event::Loading::OSLoadedEvent</scope><name>OSLoadPostfix</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Loading::OSLoadedEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

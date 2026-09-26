@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::Replacements::FileEncrypterReplacement</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a14b4863697060a53e6618986854a0e10" prot="private" static="yes" mutable="no">
+        <type>readonly Func&lt; string, ushort &gt;[]</type>
+        <definition>readonly Func&lt;string, ushort&gt; [] Pathfinder.Replacements.FileEncrypterReplacement._hashFunctions</definition>
+        <argsstring></argsstring>
+        <name>_hashFunctions</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement._hashFunctions</qualifiedname>
+        <initializer>= { Fx64Hash, MonoHash, Fx32Hash, GetHashCodeHashBad }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="28" column="34" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a9c079c4ae8915f6487a1e4b85018fd7c" prot="private" static="yes" mutable="no">
+        <type>readonly ushort</type>
+        <definition>readonly ushort Pathfinder.Replacements.FileEncrypterReplacement.Fnv1aEmptyHash</definition>
+        <argsstring></argsstring>
+        <name>Fnv1aEmptyHash</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.Fnv1aEmptyHash</qualifiedname>
+        <initializer>= Fnv1aHash(string.Empty)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="30" column="36" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a226b3b64c13ff01a68bb3927412f9c60" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string Pathfinder.Replacements.FileEncrypterReplacement.PathfinderNeedle</definition>
+        <argsstring></argsstring>
+        <name>PathfinderNeedle</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.PathfinderNeedle</qualifiedname>
+        <initializer>= FileEncrypter.Encrypt(&quot;PATHFINDER&quot;, Fnv1aHash(&quot;PATHFINDER&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="33" column="36" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a6413063be3e7df7d2640f7466abd2586" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Replacements.FileEncrypterReplacement.DecryptStringPrefix</definition>
+        <argsstring>(string data, string pass, out string[] __result)</argsstring>
+        <name>DecryptStringPrefix</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.DecryptStringPrefix</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pass</declname>
+        </param>
+        <param>
+          <type>out string[]</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="37" column="25" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="37" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1afbc327219e3fd09f6886c34fe3199614" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Replacements.FileEncrypterReplacement.DecryptHeadersPrefix</definition>
+        <argsstring>(string data, string pass, out string[] __result)</argsstring>
+        <name>DecryptHeadersPrefix</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.DecryptHeadersPrefix</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pass</declname>
+        </param>
+        <param>
+          <type>out string[]</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="146" column="25" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="146" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a52f75d048c76021256b45002b613178e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Replacements.FileEncrypterReplacement.GetPassCodeFromStringReplacement</definition>
+        <argsstring>(string code, out ushort __result)</argsstring>
+        <name>GetPassCodeFromStringReplacement</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.GetPassCodeFromStringReplacement</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>out ushort</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="161" column="25" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="161" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a617f331fd10e21cdddf9663755cc1008" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.FileEncrypterReplacement.EncryptStringIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>EncryptStringIL</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.EncryptStringIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="169" column="25" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="169" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a75c5b5c0e00e74fb50edfb526a19f878" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ushort</type>
+        <definition>static ushort Pathfinder.Replacements.FileEncrypterReplacement.Fnv1aHash</definition>
+        <argsstring>(string str)</argsstring>
+        <name>Fnv1aHash</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.Fnv1aHash</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="188" column="27" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="188" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a223f932efcdf743e7bdec0794b723c0c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>static unsafe ushort Pathfinder.Replacements.FileEncrypterReplacement.MonoHash</definition>
+        <argsstring>(string str)</argsstring>
+        <name>MonoHash</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.MonoHash</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="205" column="34" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="205" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1af9d73dfc0c3059e0fdfab95fd7915896" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>static unsafe ushort Pathfinder.Replacements.FileEncrypterReplacement.Fx32Hash</definition>
+        <argsstring>(string str)</argsstring>
+        <name>Fx32Hash</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.Fx32Hash</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="228" column="34" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="228" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a826e49d8e8d6893748861a03f3c60e52" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>static unsafe ushort Pathfinder.Replacements.FileEncrypterReplacement.Fx64Hash</definition>
+        <argsstring>(string str)</argsstring>
+        <name>Fx64Hash</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.Fx64Hash</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="254" column="34" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="254" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a7c8a706f5bd2f1c890e246e255a7a517" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ushort</type>
+        <definition>static ushort Pathfinder.Replacements.FileEncrypterReplacement.GetHashCodeHashBad</definition>
+        <argsstring>(string str)</argsstring>
+        <name>GetHashCodeHashBad</name>
+        <qualifiedname>Pathfinder.Replacements.FileEncrypterReplacement.GetHashCodeHashBad</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="276" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" line="12" column="17" bodyfile="PathfinderAPI/Replacements/FileEncrypterReplacement.cs" bodystart="13" bodyend="277"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a14b4863697060a53e6618986854a0e10" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>_hashFunctions</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1afbc327219e3fd09f6886c34fe3199614" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>DecryptHeadersPrefix</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a6413063be3e7df7d2640f7466abd2586" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>DecryptStringPrefix</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a617f331fd10e21cdddf9663755cc1008" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>EncryptStringIL</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a9c079c4ae8915f6487a1e4b85018fd7c" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>Fnv1aEmptyHash</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a75c5b5c0e00e74fb50edfb526a19f878" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>Fnv1aHash</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1af9d73dfc0c3059e0fdfab95fd7915896" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>Fx32Hash</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a826e49d8e8d6893748861a03f3c60e52" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>Fx64Hash</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a7c8a706f5bd2f1c890e246e255a7a517" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>GetHashCodeHashBad</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a52f75d048c76021256b45002b613178e" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>GetPassCodeFromStringReplacement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a223f932efcdf743e7bdec0794b723c0c" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>MonoHash</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement_1a226b3b64c13ff01a68bb3927412f9c60" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::FileEncrypterReplacement</scope><name>PathfinderNeedle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

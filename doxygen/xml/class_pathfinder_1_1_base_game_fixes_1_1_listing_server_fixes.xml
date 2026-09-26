@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_listing_server_fixes" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::ListingServerFixes</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_listing_server_fixes_1a215c7045b1d2ee31bb289bff205dfc6f" prot="package" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.ListingServerFixes.SkipNullMissions</definition>
+        <argsstring>(ActiveMission m)</argsstring>
+        <name>SkipNullMissions</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.ListingServerFixes.SkipNullMissions</qualifiedname>
+        <param>
+          <type>ActiveMission</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/ListingServerFixes.cs" line="13" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_listing_server_fixes_1ad3e72c9576308ce62c773fa94b4e2e46" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.ListingServerFixes.NullCheckOnAssignmentTag</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>NullCheckOnAssignmentTag</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.ListingServerFixes.NullCheckOnAssignmentTag</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/ListingServerFixes.cs" line="17" column="26" bodyfile="PathfinderAPI/BaseGameFixes/ListingServerFixes.cs" bodystart="17" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/ListingServerFixes.cs" line="9" column="17" bodyfile="PathfinderAPI/BaseGameFixes/ListingServerFixes.cs" bodystart="10" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_listing_server_fixes_1ad3e72c9576308ce62c773fa94b4e2e46" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::ListingServerFixes</scope><name>NullCheckOnAssignmentTag</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_listing_server_fixes_1a215c7045b1d2ee31bb289bff205dfc6f" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::ListingServerFixes</scope><name>SkipNullMissions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_misc_patches_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/MiscPatches.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/MiscPatches.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_misc_patches_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_misc_patches_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/MiscPatches.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapimiscpatchescs">PathfinderAPI/MiscPatches.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_hacknet_1_1_platform_a_p_i_1_1_storage/">Hacknet::PlatformAPI::Storage</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Text;
+using System.Diagnostics;
+using HarmonyLib;
+using MonoMod.Cil;
+using Mono.Cecil.Cil;
+using BepInEx.Hacknet;
+using BepInEx.Logging;
+using Hacknet;
+using Hacknet.PlatformAPI.Storage;
+using Pathfinder.Command;
+using Pathfinder.Options;
+
+namespace Pathfinder;
+
+[HarmonyPatch]
+internal static class MiscPatches
+{
+    [Util.Initialize]
+    internal static void Initialize()
+    {
+        var formatType = typeof(StackTrace).GetNestedType(&quot;TraceFormat&quot;, System.Reflection.BindingFlags.NonPublic);
+        if (formatType == null)
+            return;
+
+        var original = AccessTools.Method(typeof(StackTrace), nameof(StackTrace.ToString), new Type[] { formatType });
+        var manipulator = AccessTools.Method(typeof(MiscPatches), nameof(IncludeILOffsetInTrace));
+
+        PathfinderAPIPlugin.HarmonyInstance.Patch(original, ilmanipulator: new HarmonyMethod(manipulator));
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(LocalDocumentsStorageMethod), nameof(LocalDocumentsStorageMethod.Load))]
+    internal static void ChangeSaveDirIL(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        string str = &quot;./&quot;;
+
+        while (c.TryGotoNext(MoveType.Before, x =&gt; x.MatchLdstr(out str)))
+        {
+            c.Next.Operand = str.Replace(&quot;Hacknet&quot;, &quot;HacknetPathfinder&quot;);
+        }
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(HacknetPlugin), nameof(HacknetPlugin.Unload))]
+    internal static void OnPluginUnload(ref HacknetPlugin __instance) =&gt; Event.EventManager.InvokeOnPluginUnload(__instance.GetType().Assembly);
+
+    internal static void IncludeILOffsetInTrace(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        int frameLoc = 6;
+        ILLabel targetLabel = null;
+
+        var found = c.TryGotoNext(MoveType.Before,
+            x =&gt; x.MatchLdloc(out frameLoc),
+            x =&gt; x.MatchCallvirt(AccessTools.Method(typeof(StackFrame), nameof(StackFrame.GetILOffset))),
+            x =&gt; x.MatchLdcI4(-1),
+            x =&gt; x.MatchBeq(out targetLabel)
+        );
+
+        if (!found)
+            return;
+
+        c.GotoLabel(targetLabel);
+
+        c.Emit(OpCodes.Ldloc, frameLoc);
+        c.Emit(OpCodes.Ldloc, 4);
+        c.EmitDelegate&lt;Action&lt;StackFrame, StringBuilder&gt;&gt;((frame, builder) =&gt;
+        {
+            builder.Append($&quot; IL&lt;0x{frame.GetILOffset().ToString(&quot;X4&quot;)}&gt;&quot;);
+        });
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(MainMenu), &quot;&lt;HookUpCreationEvents&gt;b__1&quot;)]
+    internal static void StopCatchingExceptionsIL(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        foreach (var exHandler in il.Body.ExceptionHandlers)
+        {
+            c.Goto(exHandler.HandlerEnd, MoveType.After);
+            var end = c.Index;
+            c.Goto(exHandler.HandlerStart, MoveType.Before);
+            c.RemoveRange(end - c.Index);
+        }
+
+        il.Body.ExceptionHandlers.Clear();
+
+        foreach (var brokenLabel in il.Labels.Where(x =&gt; !c.Instrs.Contains(x.Target))) brokenLabel.Target = c.Instrs.Last();
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Utils), nameof(Utils.SendRealWorldEmail))]
+    internal static bool FixSendRealWorldEmail(string body)
+    {
+        Logger.Log(LogLevel.Error, body.Substring(body.IndexOf(&quot;\r\n&quot;, StringComparison.Ordinal) + 2));
+        return false;
+    }
+
+    private static readonly ManualLogSource HacknetLogger = BepInEx.Logging.Logger.CreateLogSource(&quot;Hacknet&quot;);
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Utils), nameof(Utils.AppendToErrorFile))]
+    internal static bool RedirectErrorLog(string text)
+    {
+        HacknetLogger.LogError(text);
+        return false;
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(OS), nameof(OS.threadExecute))]
+    internal static void LogThreadedExceptions(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.After, x =&gt; x.MatchPop());
+
+        c.Prev.OpCode = OpCodes.Nop;
+        while (!c.Next.MatchLeaveS(out _)) c.Remove();
+        c.EmitDelegate&lt;Action&lt;Exception&gt;&gt;(ex =&gt;
+        {
+            HacknetLogger.LogError(new Exception(&quot;Exception occurred during threaded execute&quot;, ex));
+        });
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Program), nameof(Program.Main))]
+    private static void CheckDebug(string[] args)
+    {
+        if (args.Any(x =&gt; x.ToLower() == &quot;-enabledebug&quot;))
+            DebugCommands.AddCommands();
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

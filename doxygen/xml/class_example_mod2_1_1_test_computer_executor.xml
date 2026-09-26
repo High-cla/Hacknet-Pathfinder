@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_example_mod2_1_1_test_computer_executor" kind="class" language="C#" prot="public">
+    <compoundname>ExampleMod2::TestComputerExecutor</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor" prot="public" virt="non-virtual">Pathfinder.Replacements.ContentLoader.ComputerExecutor</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_example_mod2_1_1_test_computer_executor_1a5076e41ea11f6ee38161ec4f5fd1a753" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ExampleMod2.TestComputerExecutor.Execute</definition>
+        <argsstring>(EventExecutor exec, ElementInfo info)</argsstring>
+        <name>Execute</name>
+        <qualifiedname>ExampleMod2.TestComputerExecutor.Execute</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref></type>
+          <declname>exec</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="53" column="26" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ExampleMod2.TestComputerExecutor</label>
+        <link refid="class_example_mod2_1_1_test_computer_executor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pathfinder::Replacements::ContentLoader::ComputerExecutor</label>
+        <link refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ExampleMod2.TestComputerExecutor</label>
+        <link refid="class_example_mod2_1_1_test_computer_executor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pathfinder::Replacements::ContentLoader::ComputerExecutor</label>
+        <link refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor"/>
+      </node>
+    </collaborationgraph>
+    <location file="ExampleMod/ExampleModPlugin.cs" line="51" column="7" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="52" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1a584db800fdec0263dc3979b71a463bae" prot="public" virt="non-virtual"><scope>ExampleMod2::TestComputerExecutor</scope><name>Comp</name></member>
+      <member refid="class_example_mod2_1_1_test_computer_executor_1a5076e41ea11f6ee38161ec4f5fd1a753" prot="public" virt="non-virtual"><scope>ExampleMod2::TestComputerExecutor</scope><name>Execute</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1af4f941eef2848d68b0d101d5006edfd0" prot="public" virt="virtual"><scope>ExampleMod2::TestComputerExecutor</scope><name>Init</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1a79e1117c2f6a54757c771f4076440a47" prot="public" virt="non-virtual"><scope>ExampleMod2::TestComputerExecutor</scope><name>Os</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

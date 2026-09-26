@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_783014f3742045186764dbbccbe085ef" kind="dir">
+    <compoundname>PathfinderAPI/Command</compoundname>
+    <innerfile refid="_command_manager_8cs">CommandManager.cs</innerfile>
+    <innerfile refid="_debug_commands_8cs">DebugCommands.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Command/"/>
+  </compounddef>
+</doxygen>

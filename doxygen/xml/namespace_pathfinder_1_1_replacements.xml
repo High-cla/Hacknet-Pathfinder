@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_replacements" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Replacements</compoundname>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_actions_loader" prot="public">Pathfinder::Replacements::ActionsLoader</innerclass>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_content_loader" prot="public">Pathfinder::Replacements::ContentLoader</innerclass>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader" prot="public">Pathfinder::Replacements::ExtensionInfoLoader</innerclass>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement" prot="package">Pathfinder::Replacements::FileEncrypterReplacement</innerclass>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_mission_loader" prot="public">Pathfinder::Replacements::MissionLoader</innerclass>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_object_serializer_replacement" prot="public">Pathfinder::Replacements::ObjectSerializerReplacement</innerclass>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_replacements_common" prot="public">Pathfinder::Replacements::ReplacementsCommon</innerclass>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_save_loader" prot="public">Pathfinder::Replacements::SaveLoader</innerclass>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_save_writer" prot="public">Pathfinder::Replacements::SaveWriter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/ActionsLoader.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

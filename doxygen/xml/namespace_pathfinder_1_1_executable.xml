@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_executable" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Executable</compoundname>
+    <innerclass refid="class_pathfinder_1_1_executable_1_1_base_executable" prot="public">Pathfinder::Executable::BaseExecutable</innerclass>
+    <innerclass refid="class_pathfinder_1_1_executable_1_1_executable_manager" prot="public">Pathfinder::Executable::ExecutableManager</innerclass>
+    <innerclass refid="class_pathfinder_1_1_executable_1_1_exe_module_extensions" prot="public">Pathfinder::Executable::ExeModuleExtensions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_executable_1_1_game_executable" prot="public">Pathfinder::Executable::GameExecutable</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_pathfinder_1_1_executable_1af8bf6b8a1c41136a98f76c4f4c651d51" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CompletionResult</name>
+        <qualifiedname>Pathfinder.Executable.CompletionResult</qualifiedname>
+        <enumvalue id="namespace_pathfinder_1_1_executable_1af8bf6b8a1c41136a98f76c4f4c651d51a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_executable_1af8bf6b8a1c41136a98f76c4f4c651d51a5bda814c4aedb126839228f1a3d92f09" prot="public">
+          <name>Running</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_executable_1af8bf6b8a1c41136a98f76c4f4c651d51ae139a585510a502bbf1841cf589f5086" prot="public">
+          <name>Failure</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_executable_1af8bf6b8a1c41136a98f76c4f4c651d51afa0f11c1d4a8554282671bca496fa8d4" prot="public">
+          <name>Killed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_executable_1af8bf6b8a1c41136a98f76c4f4c651d51a505a83f220c02df2f85c3810cd9ceb38" prot="public">
+          <name>Success</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="6" column="7" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="7" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Executable/BaseExecutable.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches" kind="class" language="C#" prot="package">
+    <compoundname>BepInEx::Hacknet::ExtensionPluginPatches</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1ac0ca665e0b5d3e8898f05f847af8516b" prot="private" static="yes" mutable="no">
+        <type>readonly MethodInfo</type>
+        <definition>readonly MethodInfo BepInEx.Hacknet.ExtensionPluginPatches.PluginPathSetter</definition>
+        <argsstring></argsstring>
+        <name>PluginPathSetter</name>
+        <qualifiedname>BepInEx.Hacknet.ExtensionPluginPatches.PluginPathSetter</qualifiedname>
+        <initializer>= AccessTools.PropertySetter(typeof(Paths), nameof(Paths.PluginPath))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="115" column="40" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1aed00333ce6f058c378a9ad10772c4552" prot="private" static="yes" mutable="no">
+        <type>readonly MethodInfo</type>
+        <definition>readonly MethodInfo BepInEx.Hacknet.ExtensionPluginPatches.ConfigPathSetter</definition>
+        <argsstring></argsstring>
+        <name>ConfigPathSetter</name>
+        <qualifiedname>BepInEx.Hacknet.ExtensionPluginPatches.ConfigPathSetter</qualifiedname>
+        <initializer>= AccessTools.PropertySetter(typeof(Paths), nameof(Paths.ConfigPath))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="116" column="40" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1af223bc037b45d8c748540da603414899" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool BepInEx.Hacknet.ExtensionPluginPatches.FirstExtensionLoaded</definition>
+        <argsstring></argsstring>
+        <name>FirstExtensionLoaded</name>
+        <qualifiedname>BepInEx.Hacknet.ExtensionPluginPatches.FirstExtensionLoaded</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="118" column="25" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1ad55d48415f442b8ac807b0c0ce3f3744" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool BepInEx.Hacknet.ExtensionPluginPatches.LoadTempPlugins</definition>
+        <argsstring>(ExtensionInfo info)</argsstring>
+        <name>LoadTempPlugins</name>
+        <qualifiedname>BepInEx.Hacknet.ExtensionPluginPatches.LoadTempPlugins</qualifiedname>
+        <param>
+          <type>ExtensionInfo</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="120" column="26" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="120" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1a70be9d41f202d609426a5b566cf195ce" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.ExtensionPluginPatches.LoadTempPluginsOnExtensionPage</definition>
+        <argsstring>(ExtensionInfo info, ref bool __runOriginal)</argsstring>
+        <name>LoadTempPluginsOnExtensionPage</name>
+        <qualifiedname>BepInEx.Hacknet.ExtensionPluginPatches.LoadTempPluginsOnExtensionPage</qualifiedname>
+        <param>
+          <type>ExtensionInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>ref bool</type>
+          <declname>__runOriginal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="156" column="26" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="156" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1a6d4e468ec33d93b282edec06bfcd4cc3" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.ExtensionPluginPatches.LoadTempPluginsOnExtstart</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>LoadTempPluginsOnExtstart</name>
+        <qualifiedname>BepInEx.Hacknet.ExtensionPluginPatches.LoadTempPluginsOnExtstart</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="165" column="26" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="165" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1a80ca089e25b5be2981903cc41f19c308" prot="package" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.ExtensionPluginPatches.UnloadOnOSQuitPostfix</definition>
+        <argsstring>()</argsstring>
+        <name>UnloadOnOSQuitPostfix</name>
+        <qualifiedname>BepInEx.Hacknet.ExtensionPluginPatches.UnloadOnOSQuitPostfix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="185" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1ae807e4877a2810292539862784fcd287" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.ExtensionPluginPatches.OnBackButtonPressIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>OnBackButtonPressIL</name>
+        <qualifiedname>BepInEx.Hacknet.ExtensionPluginPatches.OnBackButtonPressIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="189" column="26" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="189" bodyend="200"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1a9bf60dbd321be5c9be85f9ff49ffd893" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.ExtensionPluginPatches.OnMainMenuButtonPressPrefix</definition>
+        <argsstring>()</argsstring>
+        <name>OnMainMenuButtonPressPrefix</name>
+        <qualifiedname>BepInEx.Hacknet.ExtensionPluginPatches.OnMainMenuButtonPressPrefix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="204" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1a4cb77075da5f15e2ea6b85a0b3e1139b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool BepInEx.Hacknet.ExtensionPluginPatches.ReturnCorrectDirectoryPrefix</definition>
+        <argsstring>(out string __result)</argsstring>
+        <name>ReturnCorrectDirectoryPrefix</name>
+        <qualifiedname>BepInEx.Hacknet.ExtensionPluginPatches.ReturnCorrectDirectoryPrefix</qualifiedname>
+        <param>
+          <type>out string</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="208" column="25" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="208" bodyend="212"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="112" column="17" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="113" bodyend="213"/>
+    <listofallmembers>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1aed00333ce6f058c378a9ad10772c4552" prot="private" virt="non-virtual"><scope>BepInEx::Hacknet::ExtensionPluginPatches</scope><name>ConfigPathSetter</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1af223bc037b45d8c748540da603414899" prot="private" virt="non-virtual"><scope>BepInEx::Hacknet::ExtensionPluginPatches</scope><name>FirstExtensionLoaded</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1ad55d48415f442b8ac807b0c0ce3f3744" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::ExtensionPluginPatches</scope><name>LoadTempPlugins</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1a70be9d41f202d609426a5b566cf195ce" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::ExtensionPluginPatches</scope><name>LoadTempPluginsOnExtensionPage</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1a6d4e468ec33d93b282edec06bfcd4cc3" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::ExtensionPluginPatches</scope><name>LoadTempPluginsOnExtstart</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1ae807e4877a2810292539862784fcd287" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::ExtensionPluginPatches</scope><name>OnBackButtonPressIL</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1a9bf60dbd321be5c9be85f9ff49ffd893" prot="private" virt="non-virtual"><scope>BepInEx::Hacknet::ExtensionPluginPatches</scope><name>OnMainMenuButtonPressPrefix</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1ac0ca665e0b5d3e8898f05f847af8516b" prot="private" virt="non-virtual"><scope>BepInEx::Hacknet::ExtensionPluginPatches</scope><name>PluginPathSetter</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1a4cb77075da5f15e2ea6b85a0b3e1139b" prot="private" virt="non-virtual"><scope>BepInEx::Hacknet::ExtensionPluginPatches</scope><name>ReturnCorrectDirectoryPrefix</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches_1a80ca089e25b5be2981903cc41f19c308" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::ExtensionPluginPatches</scope><name>UnloadOnOSQuitPostfix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

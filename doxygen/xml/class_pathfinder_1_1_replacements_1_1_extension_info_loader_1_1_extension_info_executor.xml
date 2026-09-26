@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutor</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_1aa057dd2139b2a5974a0049820bab5527" prot="public" static="no" mutable="no">
+        <type>ExtensionInfo</type>
+        <definition>ExtensionInfo Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutor.ExtensionInfo</definition>
+        <argsstring></argsstring>
+        <name>ExtensionInfo</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutor.ExtensionInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="17" column="30" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_1afca5a4453e5772212e4ceeb7741716b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutor.Init</definition>
+        <argsstring>(ref ExtensionInfo extensionInfo)</argsstring>
+        <name>Init</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutor.Init</qualifiedname>
+        <param>
+          <type>ref <ref refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_1aa057dd2139b2a5974a0049820bab5527" kindref="member">ExtensionInfo</ref></type>
+          <declname>extensionInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="19" column="29" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_1abe123ff3bb9cf01358e8d6b0c0e38e8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutor.Execute</definition>
+        <argsstring>(EventExecutor exec, ElementInfo info)</argsstring>
+        <name>Execute</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutor.Execute</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref></type>
+          <declname>exec</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="24" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="15" column="21" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="16" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_1abe123ff3bb9cf01358e8d6b0c0e38e8b" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutor</scope><name>Execute</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_1aa057dd2139b2a5974a0049820bab5527" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutor</scope><name>ExtensionInfo</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_1afca5a4453e5772212e4ceeb7741716b1" prot="public" virt="virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutor</scope><name>Init</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

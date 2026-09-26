@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_dont_lose_player_comp_admin" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::DontLosePlayerCompAdmin</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_dont_lose_player_comp_admin_1af4528f5f686ad9af85ac0f95c8c831f8" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.DontLosePlayerCompAdmin.NotifyOSOfPlayerCompIPChange</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>NotifyOSOfPlayerCompIPChange</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.DontLosePlayerCompAdmin.NotifyOSOfPlayerCompIPChange</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/DontLosePlayerCompAdmin.cs" line="13" column="26" bodyfile="PathfinderAPI/BaseGameFixes/DontLosePlayerCompAdmin.cs" bodystart="13" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/DontLosePlayerCompAdmin.cs" line="9" column="17" bodyfile="PathfinderAPI/BaseGameFixes/DontLosePlayerCompAdmin.cs" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_dont_lose_player_comp_admin_1af4528f5f686ad9af85ac0f95c8c831f8" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::DontLosePlayerCompAdmin</scope><name>NotifyOSOfPlayerCompIPChange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

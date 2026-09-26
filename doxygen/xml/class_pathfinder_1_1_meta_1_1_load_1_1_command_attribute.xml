@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Meta::Load::CommandAttribute</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.BaseAttribute</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute_1a0d6a6a2824dcd38f065b01dc6178c6b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.Load.CommandAttribute.CommandName</definition>
+        <argsstring></argsstring>
+        <name>CommandName</name>
+        <qualifiedname>Pathfinder.Meta.Load.CommandAttribute.CommandName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/CommandAttribute.cs" line="11" column="19" bodyfile="PathfinderAPI/Meta/Load/CommandAttribute.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute_1ad93634fd2cd7e89cf5da241db235c676" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Meta.Load.CommandAttribute.AddAutocomplete</definition>
+        <argsstring></argsstring>
+        <name>AddAutocomplete</name>
+        <qualifiedname>Pathfinder.Meta.Load.CommandAttribute.AddAutocomplete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/CommandAttribute.cs" line="12" column="17" bodyfile="PathfinderAPI/Meta/Load/CommandAttribute.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute_1aa6feab5a7e0e653832ab179ebf084746" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Meta.Load.CommandAttribute.CaseSensitive</definition>
+        <argsstring></argsstring>
+        <name>CaseSensitive</name>
+        <qualifiedname>Pathfinder.Meta.Load.CommandAttribute.CaseSensitive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/CommandAttribute.cs" line="13" column="17" bodyfile="PathfinderAPI/Meta/Load/CommandAttribute.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute_1a87883b1a643b47fa82c06301a39661c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Meta.Load.CommandAttribute.CommandAttribute</definition>
+        <argsstring>(string commandName, bool addAutocomplete=true, bool caseSensitive=false)</argsstring>
+        <name>CommandAttribute</name>
+        <qualifiedname>Pathfinder.Meta.Load.CommandAttribute.CommandAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>commandName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addAutocomplete</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>caseSensitive</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/CommandAttribute.cs" line="15" column="12" bodyfile="PathfinderAPI/Meta/Load/CommandAttribute.cs" bodystart="15" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute_1ad3f8de39c06ca7c57ba3331996cd4e98" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Meta.Load.CommandAttribute.CallOn</definition>
+        <argsstring>(HacknetPlugin plugin, MemberInfo targettedInfo)</argsstring>
+        <name>CallOn</name>
+        <qualifiedname>Pathfinder.Meta.Load.CommandAttribute.CallOn</qualifiedname>
+        <param>
+          <type><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>targettedInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/CommandAttribute.cs" line="22" column="38" bodyfile="PathfinderAPI/Meta/Load/CommandAttribute.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.CommandAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.CommandAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Meta/Load/CommandAttribute.cs" line="9" column="7" bodyfile="PathfinderAPI/Meta/Load/CommandAttribute.cs" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute_1ad93634fd2cd7e89cf5da241db235c676" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::CommandAttribute</scope><name>AddAutocomplete</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute_1ad3f8de39c06ca7c57ba3331996cd4e98" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::CommandAttribute</scope><name>CallOn</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute_1aa6feab5a7e0e653832ab179ebf084746" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::CommandAttribute</scope><name>CaseSensitive</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute_1a87883b1a643b47fa82c06301a39661c0" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::CommandAttribute</scope><name>CommandAttribute</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute_1a0d6a6a2824dcd38f065b01dc6178c6b0" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::CommandAttribute</scope><name>CommandName</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute_1aa664b7e6caa44645ea2dce2999066d75" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::CommandAttribute</scope><name>ThrowOnInvalidOperation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

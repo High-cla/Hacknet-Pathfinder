@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_actions_loader" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Replacements::ActionsLoader</compoundname>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_actions_loader_1ab257c51e179de15307c60b79d3df84b1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Replacements.ActionsLoader.LoadActionsIntoOSPrefix</definition>
+        <argsstring>(string filepath, object OSobj)</argsstring>
+        <name>LoadActionsIntoOSPrefix</name>
+        <qualifiedname>Pathfinder.Replacements.ActionsLoader.LoadActionsIntoOSPrefix</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filepath</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>OSobj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ActionsLoader.cs" line="17" column="25" bodyfile="PathfinderAPI/Replacements/ActionsLoader.cs" bodystart="17" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_actions_loader_1ad0e2210228adc51dff1d978465e197cb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ActionsLoader.ReplaceDASDeserializeIL</definition>
+        <argsstring>(ILContext il, MethodBase method)</argsstring>
+        <name>ReplaceDASDeserializeIL</name>
+        <qualifiedname>Pathfinder.Replacements.ActionsLoader.ReplaceDASDeserializeIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <param>
+          <type>MethodBase</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ActionsLoader.cs" line="39" column="25" bodyfile="PathfinderAPI/Replacements/ActionsLoader.cs" bodystart="39" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_actions_loader_1ace03979b7becd04b64ff862480fd285f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RunnableConditionalActions</type>
+        <definition>static RunnableConditionalActions Pathfinder.Replacements.ActionsLoader.LoadActionSets</definition>
+        <argsstring>(ElementInfo root)</argsstring>
+        <name>LoadActionSets</name>
+        <qualifiedname>Pathfinder.Replacements.ActionsLoader.LoadActionSets</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ActionsLoader.cs" line="76" column="46" bodyfile="PathfinderAPI/Replacements/ActionsLoader.cs" bodystart="76" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_actions_loader_1af08fb866312bf3d59f03153bb01f34be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializableCondition</type>
+        <definition>static SerializableCondition Pathfinder.Replacements.ActionsLoader.ReadCondition</definition>
+        <argsstring>(ElementInfo conditionInfo)</argsstring>
+        <name>ReadCondition</name>
+        <qualifiedname>Pathfinder.Replacements.ActionsLoader.ReadCondition</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>conditionInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ActionsLoader.cs" line="97" column="41" bodyfile="PathfinderAPI/Replacements/ActionsLoader.cs" bodystart="97" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_actions_loader_1ae4869f6b591e328f7a3ec173e1f0d6f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializableAction</type>
+        <definition>static SerializableAction Pathfinder.Replacements.ActionsLoader.ReadAction</definition>
+        <argsstring>(ElementInfo actionInfo)</argsstring>
+        <name>ReadAction</name>
+        <qualifiedname>Pathfinder.Replacements.ActionsLoader.ReadAction</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>actionInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ActionsLoader.cs" line="143" column="38" bodyfile="PathfinderAPI/Replacements/ActionsLoader.cs" bodystart="143" bodyend="366"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/ActionsLoader.cs" line="13" column="15" bodyfile="PathfinderAPI/Replacements/ActionsLoader.cs" bodystart="14" bodyend="367"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_actions_loader_1ace03979b7becd04b64ff862480fd285f" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ActionsLoader</scope><name>LoadActionSets</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_actions_loader_1ab257c51e179de15307c60b79d3df84b1" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ActionsLoader</scope><name>LoadActionsIntoOSPrefix</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_actions_loader_1ae4869f6b591e328f7a3ec173e1f0d6f1" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ActionsLoader</scope><name>ReadAction</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_actions_loader_1af08fb866312bf3d59f03153bb01f34be" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ActionsLoader</scope><name>ReadCondition</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_actions_loader_1ad0e2210228adc51dff1d978465e197cb" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ActionsLoader</scope><name>ReplaceDASDeserializeIL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

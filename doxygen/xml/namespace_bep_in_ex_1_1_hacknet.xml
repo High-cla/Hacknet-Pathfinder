@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_bep_in_ex_1_1_hacknet" kind="namespace" language="C#">
+    <compoundname>BepInEx::Hacknet</compoundname>
+    <innerclass refid="class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix" prot="package">BepInEx::Hacknet::ChainloaderFix</innerclass>
+    <innerclass refid="class_bep_in_ex_1_1_hacknet_1_1_console_logger" prot="package">BepInEx::Hacknet::ConsoleLogger</innerclass>
+    <innerclass refid="class_bep_in_ex_1_1_hacknet_1_1_entrypoint" prot="public">BepInEx::Hacknet::Entrypoint</innerclass>
+    <innerclass refid="class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches" prot="package">BepInEx::Hacknet::ExtensionPluginPatches</innerclass>
+    <innerclass refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader" prot="public">BepInEx::Hacknet::HacknetChainloader</innerclass>
+    <innerclass refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" prot="public">BepInEx::Hacknet::HacknetPlugin</innerclass>
+    <innerclass refid="class_bep_in_ex_1_1_hacknet_1_1_load_bep_in_ex" prot="package">BepInEx::Hacknet::LoadBepInEx</innerclass>
+    <innerclass refid="class_bep_in_ex_1_1_hacknet_1_1_log_write_line_to_disk" prot="package">BepInEx::Hacknet::LogWriteLineToDisk</innerclass>
+    <innerclass refid="class_bep_in_ex_1_1_hacknet_1_1_renamed_assembly_resolver" prot="package">BepInEx::Hacknet::RenamedAssemblyResolver</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BepInEx.Hacknet/ConsoleLogger.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

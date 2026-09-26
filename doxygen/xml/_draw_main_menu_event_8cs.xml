@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_draw_main_menu_event_8cs" kind="file" language="C#">
+    <compoundname>DrawMainMenuEvent.cs</compoundname>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event" prot="public">Pathfinder::Event::Menu::DrawMainMenuEvent</innerclass>
+    <innernamespace refid="namespace_pathfinder">Pathfinder</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event">Pathfinder::Event</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_menu">Pathfinder::Event::Menu</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">HarmonyLib;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Mono.Cecil.Cil;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">MonoMod.Cil;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_event_1_1_menu" kindref="compound">Pathfinder.Event.Menu</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">[HarmonyPatch]</highlight></codeline>
+<codeline lineno="9" refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event" kindref="compound">DrawMainMenuEvent</ref><sp/>:<sp/><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event" kindref="compound">MainMenuEvent</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event" kindref="compound">DrawMainMenuEvent</ref>(<ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1aedef0c5fa6ff3d39495c831f8310d4b1" kindref="member">MainMenu</ref><sp/>mainMenu)<sp/>:<sp/>base(mainMenu)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyILManipulator]</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyPatch(typeof(<ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1aedef0c5fa6ff3d39495c831f8310d4b1" kindref="member">MainMenu</ref>),<sp/>nameof(<ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1aedef0c5fa6ff3d39495c831f8310d4b1" kindref="member">MainMenu</ref>.Draw))]</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AfterMainMenuDraw(ILContext<sp/>il)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ILCursor<sp/>c<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ILCursor(il);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.GotoNext(MoveType.AfterLabel,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=&gt;<sp/>x.MatchCallOrCallvirt(typeof(GuiData),<sp/>nameof(GuiData.endDraw))</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.Emit(OpCodes.Ldarg_0);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.Emit(OpCodes.Newobj,<sp/>AccessTools.DeclaredConstructor(typeof(<ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event" kindref="compound">DrawMainMenuEvent</ref>),<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Type[]<sp/>{<sp/>typeof(<ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1aedef0c5fa6ff3d39495c831f8310d4b1" kindref="member">MainMenu</ref>)<sp/>}));</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.Emit(OpCodes.Call,<sp/>AccessTools.DeclaredMethod(typeof(<ref refid="class_pathfinder_1_1_event_1_1_event_manager" kindref="compound">EventManager&lt;DrawMainMenuEvent&gt;</ref>),<sp/>nameof(<ref refid="class_pathfinder_1_1_event_1_1_event_manager" kindref="compound">EventManager&lt;DrawMainMenuEvent&gt;</ref>.InvokeAll)));</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderAPI/Event/Menu/DrawMainMenuEvent.cs"/>
+  </compounddef>
+</doxygen>

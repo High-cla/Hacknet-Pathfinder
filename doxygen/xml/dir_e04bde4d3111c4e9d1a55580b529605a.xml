@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_e04bde4d3111c4e9d1a55580b529605a" kind="dir">
+    <compoundname>PathfinderAPI/Mission</compoundname>
+    <innerfile refid="_goal_manager_8cs">GoalManager.cs</innerfile>
+    <innerfile refid="_pathfinder_goal_8cs">PathfinderGoal.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Mission/"/>
+  </compounddef>
+</doxygen>

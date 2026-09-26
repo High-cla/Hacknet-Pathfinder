@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_save_writer" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Replacements::SaveWriter</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1af775fde0364ee5449298b98a2cc0af50" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetHacknetSaveElement</definition>
+        <argsstring>(OS os)</argsstring>
+        <name>GetHacknetSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetHacknetSaveElement</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="23" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="23" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1ace83f5e3d747a6fd2a7cfedeeff5e3b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetActionSaveElement</definition>
+        <argsstring>(SerializableAction action)</argsstring>
+        <name>GetActionSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetActionSaveElement</qualifiedname>
+        <param>
+          <type>SerializableAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="34" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="34" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a5982ad77420d33b4dc51942a733a1e2c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetConditionSaveElement</definition>
+        <argsstring>(SerializableCondition cond)</argsstring>
+        <name>GetConditionSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetConditionSaveElement</qualifiedname>
+        <param>
+          <type>SerializableCondition</type>
+          <declname>cond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="77" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="77" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1ab1421cc5222a03c2cc57ee052c7996f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetConditionalActionSetSaveElement</definition>
+        <argsstring>(SerializableConditionalActionSet set)</argsstring>
+        <name>GetConditionalActionSetSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetConditionalActionSetSaveElement</qualifiedname>
+        <param>
+          <type>SerializableConditionalActionSet</type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="105" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="105" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a4d2633c669e978e83a8f1af9db93c17a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetConditionalActionsSaveElement</definition>
+        <argsstring>(RunnableConditionalActions actions)</argsstring>
+        <name>GetConditionalActionsSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetConditionalActionsSaveElement</qualifiedname>
+        <param>
+          <type>RunnableConditionalActions</type>
+          <declname>actions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="113" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="113" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1aa3f4f7b27cff8bbd06b8c9ae1232f505" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetDLCSaveElement</definition>
+        <argsstring>(OS os)</argsstring>
+        <name>GetDLCSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetDLCSaveElement</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="123" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="123" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a0c205fea2c29e64ef535f162047f67ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetFlagsSaveElement</definition>
+        <argsstring>(ProgressionFlags flags)</argsstring>
+        <name>GetFlagsSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetFlagsSaveElement</qualifiedname>
+        <param>
+          <type>ProgressionFlags</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="138" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="138" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1aae8c157112c045215ba2264e80c90e27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetNetmapVisibleNodesSaveElement</definition>
+        <argsstring>(NetworkMap nmap)</argsstring>
+        <name>GetNetmapVisibleNodesSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetNetmapVisibleNodesSaveElement</qualifiedname>
+        <param>
+          <type>NetworkMap</type>
+          <declname>nmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="155" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="155" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a5bd0f39c5ad47ffada29d3140c946afe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetFirewallSaveElement</definition>
+        <argsstring>(Firewall firewall)</argsstring>
+        <name>GetFirewallSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetFirewallSaveElement</qualifiedname>
+        <param>
+          <type>Firewall</type>
+          <declname>firewall</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="167" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="167" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a79aac8b6948eeb967308956531e0dd57" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetPortSaveElement</definition>
+        <argsstring>(Computer node)</argsstring>
+        <name>GetPortSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetPortSaveElement</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="176" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="176" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1af766f9fba1ef8302d91335f77d1de326" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetUserDetailSaveElement</definition>
+        <argsstring>(UserDetail user)</argsstring>
+        <name>GetUserDetailSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetUserDetailSaveElement</qualifiedname>
+        <param>
+          <type>UserDetail</type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="191" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="191" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1ae3a1e69be96e71a442ce7996542ff11a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetMemoryContentsSaveElement</definition>
+        <argsstring>(MemoryContents contents)</argsstring>
+        <name>GetMemoryContentsSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetMemoryContentsSaveElement</qualifiedname>
+        <param>
+          <type>MemoryContents</type>
+          <declname>contents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="201" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="201" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a70976b49fcaade9db0263f8a3015e252" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetFolderSaveElement</definition>
+        <argsstring>(Folder folder)</argsstring>
+        <name>GetFolderSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetFolderSaveElement</qualifiedname>
+        <param>
+          <type>Folder</type>
+          <declname>folder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="252" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="252" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a2205be90d17818eebe96a99c79160ba9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetFilesystemSaveElement</definition>
+        <argsstring>(FileSystem fs)</argsstring>
+        <name>GetFilesystemSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetFilesystemSaveElement</qualifiedname>
+        <param>
+          <type>FileSystem</type>
+          <declname>fs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="271" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="271" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a459d483088a5bb5486c9e19f74983f5c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetDaemonSaveElement</definition>
+        <argsstring>(object daemon)</argsstring>
+        <name>GetDaemonSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetDaemonSaveElement</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>daemon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="278" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="278" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1aa5b3d8dafeef60e43abcf361a04f2c75" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetNodeSaveElement</definition>
+        <argsstring>(Computer node)</argsstring>
+        <name>GetNodeSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetNodeSaveElement</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="474" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="474" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a88566e3f5f6a95d8c540ed30b60bb690" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetNetmapNodesSaveElement</definition>
+        <argsstring>(NetworkMap nmap)</argsstring>
+        <name>GetNetmapNodesSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetNetmapNodesSaveElement</qualifiedname>
+        <param>
+          <type>NetworkMap</type>
+          <declname>nmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="591" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="591" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a7d41e625d49ff74653609229fa77b311" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetNetmapSaveElement</definition>
+        <argsstring>(NetworkMap nmap)</argsstring>
+        <name>GetNetmapSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetNetmapSaveElement</qualifiedname>
+        <param>
+          <type>NetworkMap</type>
+          <declname>nmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="598" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="598" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1af40a18216f863293187d416e38b72ee9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetMissionSaveElement</definition>
+        <argsstring>(ActiveMission mission)</argsstring>
+        <name>GetMissionSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetMissionSaveElement</qualifiedname>
+        <param>
+          <type>ActiveMission</type>
+          <declname>mission</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="607" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="607" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a39cfebcaad0da4e56a8b47d4d56d6311" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetFactionSaveElement</definition>
+        <argsstring>(Faction faction)</argsstring>
+        <name>GetFactionSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetFactionSaveElement</qualifiedname>
+        <param>
+          <type>Faction</type>
+          <declname>faction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="649" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="649" bodyend="689"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a28bf61bbfabbe05ca3078ef5f96118a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Replacements.SaveWriter.GetAllFactionsSaveElement</definition>
+        <argsstring>(AllFactions factions)</argsstring>
+        <name>GetAllFactionsSaveElement</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.GetAllFactionsSaveElement</qualifiedname>
+        <param>
+          <type>AllFactions</type>
+          <declname>factions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="691" column="28" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="691" bodyend="698"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_save_writer_1a133a29a7d539333cfcc26cdee5f682ea" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Replacements.SaveWriter.SaveWriteReplacementPrefix</definition>
+        <argsstring>(ref OS __instance, string filename)</argsstring>
+        <name>SaveWriteReplacementPrefix</name>
+        <qualifiedname>Pathfinder.Replacements.SaveWriter.SaveWriteReplacementPrefix</qualifiedname>
+        <param>
+          <type>ref OS</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="702" column="26" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="702" bodyend="744"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/SaveWriter.cs" line="21" column="15" bodyfile="PathfinderAPI/Replacements/SaveWriter.cs" bodystart="22" bodyend="745"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1ace83f5e3d747a6fd2a7cfedeeff5e3b7" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetActionSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a28bf61bbfabbe05ca3078ef5f96118a6" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetAllFactionsSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1ab1421cc5222a03c2cc57ee052c7996f3" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetConditionalActionSetSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a4d2633c669e978e83a8f1af9db93c17a" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetConditionalActionsSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a5982ad77420d33b4dc51942a733a1e2c" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetConditionSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a459d483088a5bb5486c9e19f74983f5c" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetDaemonSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1aa3f4f7b27cff8bbd06b8c9ae1232f505" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetDLCSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a39cfebcaad0da4e56a8b47d4d56d6311" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetFactionSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a2205be90d17818eebe96a99c79160ba9" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetFilesystemSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a5bd0f39c5ad47ffada29d3140c946afe" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetFirewallSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a0c205fea2c29e64ef535f162047f67ba" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetFlagsSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a70976b49fcaade9db0263f8a3015e252" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetFolderSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1af775fde0364ee5449298b98a2cc0af50" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetHacknetSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1ae3a1e69be96e71a442ce7996542ff11a" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetMemoryContentsSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1af40a18216f863293187d416e38b72ee9" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetMissionSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a88566e3f5f6a95d8c540ed30b60bb690" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetNetmapNodesSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a7d41e625d49ff74653609229fa77b311" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetNetmapSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1aae8c157112c045215ba2264e80c90e27" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetNetmapVisibleNodesSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1aa5b3d8dafeef60e43abcf361a04f2c75" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetNodeSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a79aac8b6948eeb967308956531e0dd57" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetPortSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1af766f9fba1ef8302d91335f77d1de326" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>GetUserDetailSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_save_writer_1a133a29a7d539333cfcc26cdee5f682ea" prot="package" virt="non-virtual"><scope>Pathfinder::Replacements::SaveWriter</scope><name>SaveWriteReplacementPrefix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_holder" kind="struct" language="C#" prot="private">
+    <compoundname>Pathfinder::Replacements::MissionLoader::MissionExecutorHolder</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_holder_1a695fc1ad4390e16ff19fc3b0cc88f127" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Replacements.MissionLoader.MissionExecutorHolder.Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.MissionExecutorHolder.Element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="32" column="23" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_holder_1a53c9944e6db8ba5989152a143bcf1acf" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type Pathfinder.Replacements.MissionLoader.MissionExecutorHolder.ExecutorType</definition>
+        <argsstring></argsstring>
+        <name>ExecutorType</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.MissionExecutorHolder.ExecutorType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="33" column="21" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_holder_1a3535e38ce9ba4489839aad6de9e21c50" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+        <definition>ParseOption Pathfinder.Replacements.MissionLoader.MissionExecutorHolder.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.MissionExecutorHolder.Options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="34" column="28" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="30" column="12" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="31" bodyend="35"/>
+    <listofallmembers>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_holder_1a695fc1ad4390e16ff19fc3b0cc88f127" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader::MissionExecutorHolder</scope><name>Element</name></member>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_holder_1a53c9944e6db8ba5989152a143bcf1acf" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader::MissionExecutorHolder</scope><name>ExecutorType</name></member>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_holder_1a3535e38ce9ba4489839aad6de9e21c50" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader::MissionExecutorHolder</scope><name>Options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

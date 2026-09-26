@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_logger" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::Logger</compoundname>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_logger_1a78817ef2ec72a8ab1ee0156c56b34d51" prot="package" static="yes" mutable="no">
+        <type>ManualLogSource</type>
+        <definition>ManualLogSource Pathfinder.Logger.LogSource</definition>
+        <argsstring></argsstring>
+        <name>LogSource</name>
+        <qualifiedname>Pathfinder.Logger.LogSource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Logger.cs" line="7" column="37" bodyfile="PathfinderAPI/Logger.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_logger_1a43cf3d3cc0431c7b05158661518cb504" prot="package" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Logger.Log</definition>
+        <argsstring>(LogLevel severity, object msg)</argsstring>
+        <name>Log</name>
+        <qualifiedname>Pathfinder.Logger.Log</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+          <declname>severity</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Logger.cs" line="9" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Logger.cs" line="5" column="17" bodyfile="PathfinderAPI/Logger.cs" bodystart="6" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_logger_1a43cf3d3cc0431c7b05158661518cb504" prot="package" virt="non-virtual"><scope>Pathfinder::Logger</scope><name>Log</name></member>
+      <member refid="class_pathfinder_1_1_logger_1a78817ef2ec72a8ab1ee0156c56b34d51" prot="package" virt="non-virtual"><scope>Pathfinder::Logger</scope><name>LogSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

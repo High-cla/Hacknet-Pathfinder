@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_options_1_1_custom_options_save_event" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::Options::CustomOptionsSaveEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public" virt="non-virtual">Pathfinder.Event.PathfinderEvent</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_options_1_1_custom_options_save_event_1abd344290016f5e5adced2bbda6624d91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Options.CustomOptionsSaveEvent.CustomOptionsSaveEvent</definition>
+        <argsstring>()</argsstring>
+        <name>CustomOptionsSaveEvent</name>
+        <qualifiedname>Pathfinder.Event.Options.CustomOptionsSaveEvent.CustomOptionsSaveEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Options/CustomOptionsSaveEvent.cs" line="5" column="12" bodyfile="PathfinderAPI/Event/Options/CustomOptionsSaveEvent.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.Options.CustomOptionsSaveEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_options_1_1_custom_options_save_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Event.Options.CustomOptionsSaveEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_options_1_1_custom_options_save_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/Options/CustomOptionsSaveEvent.cs" line="3" column="7" bodyfile="PathfinderAPI/Event/Options/CustomOptionsSaveEvent.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::Options::CustomOptionsSaveEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Options::CustomOptionsSaveEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_options_1_1_custom_options_save_event_1abd344290016f5e5adced2bbda6624d91" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Options::CustomOptionsSaveEvent</scope><name>CustomOptionsSaveEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Options::CustomOptionsSaveEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_extension_info_loader_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Replacements/ExtensionInfoLoader.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Replacements/ExtensionInfoLoader.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_extension_info_loader_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_extension_info_loader_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Replacements/ExtensionInfoLoader.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapireplacementsextensioninfoloadercs">PathfinderAPI/Replacements/ExtensionInfoLoader.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_replacements/">Pathfinder::Replacements</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_extension_info_loader/">Pathfinder::Replacements::ExtensionInfoLoader</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor/">Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutor</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Reflection;
+using Hacknet;
+using Hacknet.Extensions;
+using HarmonyLib;
+using Microsoft.Xna.Framework.Graphics;
+using Pathfinder.Event;
+using Pathfinder.Util.XML;
+using Pathfinder.Util;
+
+namespace Pathfinder.Replacements;
+
+[HarmonyPatch]
+public static class ExtensionInfoLoader
+{
+    public abstract class ExtensionInfoExecutor
+    {
+        public ExtensionInfo ExtensionInfo;
+
+        public virtual void Init(ref ExtensionInfo extensionInfo)
+        {
+            ExtensionInfo = extensionInfo;
+        }
+
+        public abstract void Execute(EventExecutor exec, ElementInfo info);
+    }
+
+    private struct ExtensionInfoExecutorHolder
+    {
+        public string Element;
+        public Type ExecutorType;
+        public ParseOption Options;
+    }
+
+    private static readonly List&lt;string&gt; ValidLanguages = new List&lt;string&gt;
+    {
+        &quot;en-us&quot;, &quot;de-de&quot;, &quot;fr-be&quot;, &quot;ru-ru&quot;, &quot;es-ar&quot;, &quot;ko-kr&quot;, &quot;ja-jp&quot;, &quot;zh-cn&quot;
+    };
+
+    public static void AddLanguage(string language) =&gt; ValidLanguages.Add(language);
+
+    private static readonly List&lt;ExtensionInfoExecutorHolder&gt; CustomExecutors = new List&lt;ExtensionInfoExecutorHolder&gt;();
+
+    public static void RegisterExecutor&lt;T&gt;(string element, ParseOption options = ParseOption.None) where T : ExtensionInfoExecutor, new() =&gt; RegisterExecutor(typeof(T), element, options);
+    public static void RegisterExecutor(Type executorType, string element, ParseOption options = ParseOption.None)
+    {
+        executorType.ThrowNotInherit&lt;ExtensionInfoExecutor&gt;(nameof(executorType));
+        executorType.ThrowNoDefaultCtor(nameof(executorType));
+        CustomExecutors.Add(new ExtensionInfoExecutorHolder
+        {
+            Element = element,
+            ExecutorType = executorType,
+            Options = options
+        });
+    }
+
+    public static void UnregisterExecutor&lt;T&gt;() where T : ExtensionInfoExecutor, new()
+    {
+        var tType = typeof(T);
+        CustomExecutors.RemoveAll(x =&gt; x.ExecutorType == tType);
+    }
+
+    private static void OnPluginUnload(Assembly pluginAsm)
+    {
+        CustomExecutors.RemoveAll(x =&gt; x.ExecutorType.Assembly == pluginAsm);
+    }
+
+    private static readonly EventExecutor executor = new EventExecutor();
+
+    private static ExtensionInfo extInfo = null;
+
+    static ExtensionInfoLoader()
+    {
+        EventManager.onPluginUnload += OnPluginUnload;
+
+        executor.RegisterExecutor(&quot;Name&quot;, (exec, info) =&gt; extInfo.Name = Utils.CleanStringToLanguageRenderable(info.Content), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Language&quot;, (exec, info) =&gt;
+        {
+            var language = info.Content;
+            if (!ValidLanguages.Contains(language))
+                throw new FormatException($&quot;Invalid language: {language}&quot;);
+            extInfo.Language = language;
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;AllowSaves&quot;, (exec, info) =&gt; extInfo.AllowSave = info.ContentAsBoolean(), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;StartingVisibleNodes&quot;, (exec, info) =&gt;
+            extInfo.StartingVisibleNodes = info.Content
+                ?.Split(new[] {',', ' ', '\t', '\n', '\r', '/'}, StringSplitOptions.RemoveEmptyEntries) ?? new string[]{}, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;StartingMission&quot;, (exec, info) =&gt; extInfo.StartingMissionPath = info.Content != &quot;NONE&quot; ? info.Content : null, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;StartingActions&quot;, (exec, info) =&gt; extInfo.StartingActionsPath = info.Content != &quot;NONE&quot; ? info.Content : null, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Description&quot;, (exec, info) =&gt; extInfo.Description = Utils.CleanFilterStringToRenderable(info.Content), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Faction&quot;, (exec, info) =&gt; extInfo.FactionDescriptorPaths.Add(info.Content), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;StartsWithTutorial&quot;, (exec, info) =&gt; extInfo.StartsWithTutorial = info.ContentAsBoolean(), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;HasIntroStartup&quot;, (exec, info) =&gt; extInfo.HasIntroStartup = info.ContentAsBoolean(), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;StartingTheme&quot;, (exec, info) =&gt; extInfo.Theme = info.Content, ParseOption.ParseInterior); // no more ToLower() :)
+        executor.RegisterExecutor(&quot;IntroStartupSong&quot;, (exec, info) =&gt; extInfo.IntroStartupSong = info.Content, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;IntroStartupSongDelay&quot;, (exec, info) =&gt; extInfo.IntroStartupSongDelay = info.ContentAsFloat(), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;SequencerSpinUpTime&quot;, (exec, info) =&gt; extInfo.SequencerSpinUpTime = info.ContentAsFloat(), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;ActionsToRunOnSequencerStart&quot;, (exec, info) =&gt; extInfo.ActionsToRunOnSequencerStart = info.Content, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;SequencerFlagRequiredForStart&quot;, (exec, info) =&gt; extInfo.SequencerFlagRequiredForStart = info.Content, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;SequencerTargetID&quot;, (exec, info) =&gt; extInfo.SequencerTargetID = info.Content, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;WorkshopDescription&quot;, (exec, info) =&gt; extInfo.WorkshopDescription = info.Content, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;WorkshopVisibility&quot;, (exec, info) =&gt;
+        {
+            byte value;
+            switch (info.Content)
+            {
+                case &quot;public&quot;:
+                    value = 0;
+                    break;
+                case &quot;friends&quot;:
+                    value = 1;
+                    break;
+                case &quot;private&quot;:
+                    value = 2;
+                    break;
+                default:
+                    value = (byte) info.ContentAsInt();
+                    break;
+            }
+            extInfo.WorkshopVisibility = value;
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;WorkshopTags&quot;, (exec, info) =&gt; extInfo.WorkshopTags = info.Content, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;WorkshopPreviewImagePath&quot;, (exec, info) =&gt; extInfo.WorkshopPreviewImagePath = info.Content, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;WorkshopLanguage&quot;, (exec, info) =&gt; extInfo.WorkshopLanguage = info.Content, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;WorkshopPublishID&quot;, (exec, info) =&gt; extInfo.WorkshopPublishID = info.Content, ParseOption.ParseInterior);
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(ExtensionInfo), nameof(ExtensionInfo.ReadExtensionInfo))]
+    private static bool LoadExtensionInfoPrefix(string folderpath, out ExtensionInfo __result)
+    {
+        __result = LoadExtensionInfo(folderpath);
+        return false;
+    }
+
+    public static ExtensionInfo LoadExtensionInfo(string folderpath)
+    {
+        var filepath = folderpath + &quot;/ExtensionInfo.xml&quot;;
+
+        if (!File.Exists(filepath))
+            throw new FileNotFoundException($&quot;Could not find ExtensionInfo.xml in folder {folderpath}&quot;);
+
+        extInfo = new ExtensionInfo();
+        extInfo.FolderPath = folderpath;
+        extInfo.Language = &quot;en-us&quot;;
+
+        var logopath = folderpath + &quot;/Logo.&quot;;
+        string extension = null;
+
+        if (File.Exists(logopath + &quot;png&quot;))
+            extension = &quot;png&quot;;
+        else if (File.Exists(logopath + &quot;jpg&quot;))
+            extension = &quot;jpg&quot;;
+
+        if (extension != null)
+            using (var input = File.OpenRead(logopath + extension))
+                extInfo.LogoImage = Texture2D.FromStream(Game1.getSingleton().GraphicsDevice, input);
+
+        executor.SetText(LocalizedFileLoader.GetLocalizedFilepath(filepath), true);
+
+        foreach (var custom in CustomExecutors)
+        {
+            var instance = (ExtensionInfoExecutor)Activator.CreateInstance(custom.ExecutorType);
+            instance.Init(ref extInfo);
+            executor.RegisterTempExecutor(custom.Element, instance.Execute, custom.Options);
+        }
+
+        if (!executor.TryParse(out var ex))
+            throw new FormatException($&quot;An exception occurred while trying to parse '{filepath}'&quot;, ex);
+
+        var ret = extInfo;
+        extInfo = null;
+        return ret;
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

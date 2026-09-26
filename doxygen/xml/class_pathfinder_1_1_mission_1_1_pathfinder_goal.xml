@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_mission_1_1_pathfinder_goal" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Mission::PathfinderGoal</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MisisonGoal</basecompoundref>
+    <derivedcompoundref refid="class_example_mod2_1_1_test_goal" prot="public" virt="non-virtual">ExampleMod2.TestGoal</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_mission_1_1_pathfinder_goal_1a0dcc92fbf8232279705f3b103d8ffb62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Mission.PathfinderGoal.LoadFromXML</definition>
+        <argsstring>(ElementInfo info)</argsstring>
+        <name>LoadFromXML</name>
+        <qualifiedname>Pathfinder.Mission.PathfinderGoal.LoadFromXML</qualifiedname>
+        <reimplementedby refid="class_example_mod2_1_1_test_goal_1aec2a14a16961e1ff4a6a20eec7676340">LoadFromXML</reimplementedby>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Mission/PathfinderGoal.cs" line="9" column="25" bodyfile="PathfinderAPI/Mission/PathfinderGoal.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ExampleMod2.TestGoal</label>
+        <link refid="class_example_mod2_1_1_test_goal"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MisisonGoal</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Mission.PathfinderGoal</label>
+        <link refid="class_pathfinder_1_1_mission_1_1_pathfinder_goal"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MisisonGoal</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Mission.PathfinderGoal</label>
+        <link refid="class_pathfinder_1_1_mission_1_1_pathfinder_goal"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Mission/PathfinderGoal.cs" line="7" column="17" bodyfile="PathfinderAPI/Mission/PathfinderGoal.cs" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_mission_1_1_pathfinder_goal_1a0dcc92fbf8232279705f3b103d8ffb62" prot="public" virt="virtual"><scope>Pathfinder::Mission::PathfinderGoal</scope><name>LoadFromXML</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

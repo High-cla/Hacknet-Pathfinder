@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_hacknet_plugin_8cs" kind="file" language="C#">
+    <compoundname>HacknetPlugin.cs</compoundname>
+    <innerclass refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" prot="public">BepInEx::Hacknet::HacknetPlugin</innerclass>
+    <innernamespace refid="namespace_bep_in_ex">BepInEx</innernamespace>
+    <innernamespace refid="namespace_bep_in_ex_1_1_hacknet">BepInEx::Hacknet</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_hacknet_plugin_8cs_1ae28e7a9b9b3b63eeb290e4477ea06bc6" prot="public" static="no">
+        <type>global::Hacknet</type>
+        <definition>using HN =  global::Hacknet</definition>
+        <argsstring></argsstring>
+        <name>HN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="5" column="1" bodyfile="BepInEx.Hacknet/HacknetPlugin.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">BepInEx.Logging;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">BepInEx.Configuration;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">HarmonyLib;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet.Extensions;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="_entrypoint_8cs_1ae28e7a9b9b3b63eeb290e4477ea06bc6" kindref="member">HN</ref><sp/>=<sp/>global::Hacknet;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_bep_in_ex_1_1_hacknet" kindref="compound">BepInEx.Hacknet</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ad3526bb7b58ceecb7f761110158f70da" kindref="member">HacknetPlugin</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>metadata<sp/>=<sp/>MetadataHelper.GetMetadata(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1aca912b7edb13ad33099d62935a18426a" kindref="member">HarmonyInstance</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Harmony(</highlight><highlight class="stringliteral">&quot;BepInEx.Plugin.&quot;</highlight><highlight class="normal"><sp/>+<sp/>metadata.GUID);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a6aeff5c672bbe03e3a612ae2cb1e6c0d" kindref="member">Log</ref><sp/>=<sp/>Logger.CreateLogSource(metadata.Name);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0d55b507fbd084fc64acd800452d379e" kindref="member">InstalledGlobally</ref><sp/>=<sp/>!<ref refid="_entrypoint_8cs_1ae28e7a9b9b3b63eeb290e4477ea06bc6" kindref="member">HN</ref>.Settings.IsInExtensionMode;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0a9258e921c4aff625f3cb7b500a0b05" kindref="member">Config</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ConfigFile(Path.Combine(Paths.ConfigPath,<sp/>metadata.GUID<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;.cfg&quot;</highlight><highlight class="normal">),<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>metadata);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0d55b507fbd084fc64acd800452d379e" kindref="member">InstalledGlobally</ref>)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0dba3e1a3dc58eaa2b51011d77ad97e2" kindref="member">UserConfig</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ConfigFile(</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Path.Combine(</highlight><highlight class="stringliteral">&quot;BepInEx/config/&quot;</highlight><highlight class="normal">,<sp/>ExtensionLoader.ActiveExtensionInfo.GetFoldersafeName(),<sp/>metadata.GUID<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;.cfg&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>metadata</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ManualLogSource<sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a6aeff5c672bbe03e3a612ae2cb1e6c0d" kindref="member">Log</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0d55b507fbd084fc64acd800452d379e" kindref="member">InstalledGlobally</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ConfigFile<sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0a9258e921c4aff625f3cb7b500a0b05" kindref="member">Config</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ConfigFile<sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0dba3e1a3dc58eaa2b51011d77ad97e2" kindref="member">UserConfig</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Harmony<sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1aca912b7edb13ad33099d62935a18426a" kindref="member">HarmonyInstance</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a809ed64899918ce4abd208eea59d4bfa" kindref="member">Load</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a07ec0303c5ed5dff6ec3a9a8316defe7" kindref="member">PostLoad</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ade785474c706e87a1bd6ea47cc2c4499" kindref="member">Unload</ref>()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1aca912b7edb13ad33099d62935a18426a" kindref="member">HarmonyInstance</ref>.UnpatchSelf();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="BepInEx.Hacknet/HacknetPlugin.cs"/>
+  </compounddef>
+</doxygen>

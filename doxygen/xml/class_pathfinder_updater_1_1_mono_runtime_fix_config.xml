@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_updater_1_1_mono_runtime_fix_config" kind="class" language="C#" prot="public">
+    <compoundname>PathfinderUpdater::MonoRuntimeFixConfig</compoundname>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_mono_runtime_fix_config_1ab0bd83e9c47ca7613fa6fb623234ad6e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PathfinderUpdater.MonoRuntimeFixConfig.Prefix</definition>
+        <argsstring>(out string exePath)</argsstring>
+        <name>Prefix</name>
+        <qualifiedname>PathfinderUpdater.MonoRuntimeFixConfig.Prefix</qualifiedname>
+        <param>
+          <type>out string</type>
+          <declname>exePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="150" column="25" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="150" bodyend="153"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="146" column="15" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="147" bodyend="154"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_updater_1_1_mono_runtime_fix_config_1ab0bd83e9c47ca7613fa6fb623234ad6e" prot="private" virt="non-virtual"><scope>PathfinderUpdater::MonoRuntimeFixConfig</scope><name>Prefix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

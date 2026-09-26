@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::Performance::CatModuleRendering</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a7ed0a9f35019b7162123a519f2f11874" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.BaseGameFixes.Performance.CatModuleRendering.isFlickering</definition>
+        <argsstring></argsstring>
+        <name>isFlickering</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.CatModuleRendering.isFlickering</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" line="48" column="25" bodyfile="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a059e8df122c4380469e624e1afc33f82" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.BaseGameFixes.Performance.CatModuleRendering.displayCache2</definition>
+        <argsstring></argsstring>
+        <name>displayCache2</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.CatModuleRendering.displayCache2</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" line="54" column="27" bodyfile="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a5a2ed1bb9c0554e0afc240461f66863e" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.BaseGameFixes.Performance.CatModuleRendering.lastFileData</definition>
+        <argsstring></argsstring>
+        <name>lastFileData</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.CatModuleRendering.lastFileData</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" line="55" column="27" bodyfile="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1aa535cd00a30637f58181012da0ea3455" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.CatModuleRendering.DoCatDisplayNoWrapIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>DoCatDisplayNoWrapIL</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.CatModuleRendering.DoCatDisplayNoWrapIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" line="13" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" bodystart="13" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a5e26bce64beaa0a28b4386084f1d87d1" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.CatModuleRendering.WrapOnceInCommandIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>WrapOnceInCommandIL</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.CatModuleRendering.WrapOnceInCommandIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" line="30" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" bodystart="30" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a91c9bdfccbae7b632dbfe8f031044ee6" prot="package" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.CatModuleRendering.CheckThemeSwapFlicker</definition>
+        <argsstring>(ActiveEffectsUpdater __instance)</argsstring>
+        <name>CheckThemeSwapFlicker</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.CatModuleRendering.CheckThemeSwapFlicker</qualifiedname>
+        <param>
+          <type>ActiveEffectsUpdater</type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" line="52" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1ae664796eb58b5c58d02803c0d943403b" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.CatModuleRendering.CacheDisplayStringForThemeSwitch</definition>
+        <argsstring>(object osObject)</argsstring>
+        <name>CacheDisplayStringForThemeSwitch</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.CatModuleRendering.CacheDisplayStringForThemeSwitch</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>osObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" line="59" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" bodystart="59" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a1c85549a7f4339788789b501c3989111" prot="package" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.CatModuleRendering.ClearCache2OnFlickerFinish</definition>
+        <argsstring>()</argsstring>
+        <name>ClearCache2OnFlickerFinish</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.CatModuleRendering.ClearCache2OnFlickerFinish</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" line="91" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" line="9" column="17" bodyfile="PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs" bodystart="10" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1ae664796eb58b5c58d02803c0d943403b" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::CatModuleRendering</scope><name>CacheDisplayStringForThemeSwitch</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a91c9bdfccbae7b632dbfe8f031044ee6" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::CatModuleRendering</scope><name>CheckThemeSwapFlicker</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a1c85549a7f4339788789b501c3989111" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::CatModuleRendering</scope><name>ClearCache2OnFlickerFinish</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a059e8df122c4380469e624e1afc33f82" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::CatModuleRendering</scope><name>displayCache2</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1aa535cd00a30637f58181012da0ea3455" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::CatModuleRendering</scope><name>DoCatDisplayNoWrapIL</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a7ed0a9f35019b7162123a519f2f11874" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::CatModuleRendering</scope><name>isFlickering</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a5a2ed1bb9c0554e0afc240461f66863e" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::CatModuleRendering</scope><name>lastFileData</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering_1a5e26bce64beaa0a28b4386084f1d87d1" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::CatModuleRendering</scope><name>WrapOnceInCommandIL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

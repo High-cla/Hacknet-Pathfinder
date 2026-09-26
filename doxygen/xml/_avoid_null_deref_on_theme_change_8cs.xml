@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_avoid_null_deref_on_theme_change_8cs" kind="file" language="C#">
+    <compoundname>AvoidNullDerefOnThemeChange.cs</compoundname>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_avoid_null_deref_on_theme_change" prot="package">Pathfinder::BaseGameFixes::AvoidNullDerefOnThemeChange</innerclass>
+    <innernamespace refid="namespace_pathfinder">Pathfinder</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_base_game_fixes">Pathfinder::BaseGameFixes</innernamespace>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Reflection;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">HarmonyLib;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Mono.Cecil.Cil;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">MonoMod.Cil;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_base_game_fixes" kindref="compound">Pathfinder.BaseGameFixes</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">[HarmonyPatch]</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AvoidNullDerefOnThemeChange<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyILManipulator]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyPatch(typeof(ThemeChangerExe),<sp/>nameof(ThemeChangerExe.ApplyTheme))]</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ForcePlayerXServerToExist(ILContext<sp/>context,<sp/>MethodBase<sp/>original)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(original<sp/>is<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ILCursor<sp/>il<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">(context);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ILLabel<sp/>fileIsNull<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">!;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ILLabel<sp/>afterConditionals<sp/>=<sp/>il.DefineLabel();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Type<sp/>str<sp/>=<sp/>typeof(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FieldInfo<sp/>strEmpty<sp/>=<sp/>AccessTools.Field(str,<sp/>nameof(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">.Empty));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ConstructorInfo<sp/>fileCtor<sp/>=<sp/>AccessTools.Constructor(typeof(FileEntry),<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]{str,<sp/>str});</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FieldInfo<sp/>folderFiles<sp/>=<sp/>AccessTools.Field(typeof(Folder),<sp/>nameof(Folder.files));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MethodInfo<sp/>fileListAdd<sp/>=<sp/>AccessTools.Method(folderFiles.FieldType,<sp/>nameof(Folder.files.Add));</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.GotoNext(<sp/></highlight><highlight class="comment">//<sp/>doesn&apos;t<sp/>matter<sp/>where<sp/>we<sp/>move<sp/>relative<sp/>to<sp/>these,<sp/>we<sp/>just<sp/>need<sp/>the<sp/>label<sp/>at<sp/>the<sp/>end<sp/>of<sp/>this<sp/>instruction<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>=&gt;<sp/>i.MatchLdloc(2),</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>=&gt;<sp/>i.MatchLdnull(),</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>=&gt;<sp/>i.MatchCeq(),</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>=&gt;<sp/>i.MatchStloc(6),</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>=&gt;<sp/>i.MatchLdloc(6),</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>=&gt;<sp/>i.MatchBrtrue(out<sp/>fileIsNull)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.GotoLabel(fileIsNull,<sp/>MoveType.Before);<sp/></highlight><highlight class="comment">//<sp/>we<sp/>need<sp/>to<sp/>insert<sp/>a<sp/>branch<sp/>after<sp/>making<sp/>the<sp/>backup,<sp/>in<sp/>order<sp/>to<sp/>NOT<sp/>make<sp/>a<sp/>duplicate<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.Emit(OpCodes.Br,<sp/>afterConditionals);<sp/></highlight><highlight class="comment">//<sp/>coming<sp/>in<sp/>from<sp/>the<sp/>part<sp/>that<sp/>ran<sp/>when<sp/>FileEntry<sp/>is<sp/>NOT<sp/>null,<sp/>making<sp/>the<sp/>backup<sp/>theme<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.MoveAfterLabels();<sp/></highlight><highlight class="comment">//<sp/>now<sp/>we<sp/>need<sp/>to<sp/>inject<sp/>AT<sp/>the<sp/>jump<sp/>target<sp/>for<sp/>when<sp/>the<sp/>FileEntry<sp/>IS<sp/>null</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.Emit(OpCodes.Ldsfld,<sp/>strEmpty);<sp/></highlight><highlight class="comment">//<sp/>[string.Empty]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.Emit(OpCodes.Ldstr,<sp/></highlight><highlight class="stringliteral">&quot;x-server.sys&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>[string.Empty,<sp/>&quot;x-server.sys&quot;]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.Emit(OpCodes.Newobj,<sp/>fileCtor);<sp/></highlight><highlight class="comment">//<sp/>[FileEntry]<sp/>new<sp/>FileEntry(string.Empty,<sp/>&quot;x-server.sys&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.Emit(OpCodes.Stloc_2);<sp/></highlight><highlight class="comment">//<sp/>[]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.Emit(OpCodes.Ldloc_1);<sp/></highlight><highlight class="comment">//<sp/>[Folder]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.Emit(OpCodes.Ldfld,<sp/>folderFiles);<sp/></highlight><highlight class="comment">//<sp/>[Folder.files]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.Emit(OpCodes.Ldloc_2);<sp/></highlight><highlight class="comment">//<sp/>[Folder.files,<sp/>FileEntry]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>il.Emit(OpCodes.Callvirt,<sp/>fileListAdd);<sp/></highlight><highlight class="comment">//<sp/>[]<sp/>Folder.files.Add(FileEntry)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>afterConditionals.Target<sp/>=<sp/>il.Next;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderAPI/BaseGameFixes/AvoidNullDerefOnThemeChange.cs"/>
+  </compounddef>
+</doxygen>

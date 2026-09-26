@@ -1,0 +1,4 @@
+var _keep_branches_on_mail_mission_completion_8cs =
+[
+    [ "Pathfinder.BaseGameFixes.KeepBranchesOnMailMissionCompletion", "class_pathfinder_1_1_base_game_fixes_1_1_keep_branches_on_mail_mission_completion.html", "class_pathfinder_1_1_base_game_fixes_1_1_keep_branches_on_mail_mission_completion" ]
+];

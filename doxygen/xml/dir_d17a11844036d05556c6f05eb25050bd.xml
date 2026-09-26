@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_d17a11844036d05556c6f05eb25050bd" kind="dir">
+    <compoundname>PathfinderAPI/Executable</compoundname>
+    <innerfile refid="_base_executable_8cs">BaseExecutable.cs</innerfile>
+    <innerfile refid="_executable_manager_8cs">ExecutableManager.cs</innerfile>
+    <innerfile refid="_exe_module_extensions_8cs">ExeModuleExtensions.cs</innerfile>
+    <innerfile refid="_game_executable_8cs">GameExecutable.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Executable/"/>
+  </compounddef>
+</doxygen>

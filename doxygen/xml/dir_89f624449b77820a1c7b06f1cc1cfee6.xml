@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_89f624449b77820a1c7b06f1cc1cfee6" kind="dir">
+    <compoundname>PathfinderAPI/Util</compoundname>
+    <innerdir refid="dir_b00f42bf1f4d963631f783013edbd51e">PathfinderAPI/Util/XML</innerdir>
+    <innerfile refid="_assembly_associated_list_8cs">AssemblyAssociatedList.cs</innerfile>
+    <innerfile refid="_cached_custom_theme_8cs">CachedCustomTheme.cs</innerfile>
+    <innerfile refid="_computer_lookup_8cs">ComputerLookup.cs</innerfile>
+    <innerfile refid="_dictionary_extensions_8cs">DictionaryExtensions.cs</innerfile>
+    <innerfile refid="_enumerable_extensions_8cs">EnumerableExtensions.cs</innerfile>
+    <innerfile refid="_error_helper_8cs">ErrorHelper.cs</innerfile>
+    <innerfile refid="_fixed_size_cache_dict_8cs">FixedSizeCacheDict.cs</innerfile>
+    <innerfile refid="_initialize_attribute_8cs">InitializeAttribute.cs</innerfile>
+    <innerfile refid="_string_extensions_8cs">StringExtensions.cs</innerfile>
+    <innerfile refid="_x_m_l_storage_attribute_8cs">XMLStorageAttribute.cs</innerfile>
+    <innerfile refid="_x_m_l_type_converter_8cs">XMLTypeConverter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/"/>
+  </compounddef>
+</doxygen>

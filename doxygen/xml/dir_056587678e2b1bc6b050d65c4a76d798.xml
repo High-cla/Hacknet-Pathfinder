@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_056587678e2b1bc6b050d65c4a76d798" kind="dir">
+    <compoundname>PathfinderAPI/Action</compoundname>
+    <innerfile refid="_action_delay_decorator_8cs">ActionDelayDecorator.cs</innerfile>
+    <innerfile refid="_action_manager_8cs">ActionManager.cs</innerfile>
+    <innerfile refid="_condition_manager_8cs">ConditionManager.cs</innerfile>
+    <innerfile refid="_delayable_pathfinder_action_8cs">DelayablePathfinderAction.cs</innerfile>
+    <innerfile refid="_pathfinder_action_8cs">PathfinderAction.cs</innerfile>
+    <innerfile refid="_pathfinder_condition_8cs">PathfinderCondition.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Action/"/>
+  </compounddef>
+</doxygen>

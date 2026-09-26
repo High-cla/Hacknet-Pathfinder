@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_holder" kind="struct" language="C#" prot="private">
+    <compoundname>Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutorHolder</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_holder_1a93c632b2da291f072f78ece248a058a0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutorHolder.Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutorHolder.Element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="29" column="23" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_holder_1acb9c0456ea73260521c45e31c3f44d4f" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutorHolder.ExecutorType</definition>
+        <argsstring></argsstring>
+        <name>ExecutorType</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutorHolder.ExecutorType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="30" column="21" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_holder_1a8a35cc981b96631d7101dfc151630184" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+        <definition>ParseOption Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutorHolder.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoExecutorHolder.Options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="31" column="28" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="27" column="12" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="28" bodyend="32"/>
+    <listofallmembers>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_holder_1a93c632b2da291f072f78ece248a058a0" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutorHolder</scope><name>Element</name></member>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_holder_1acb9c0456ea73260521c45e31c3f44d4f" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutorHolder</scope><name>ExecutorType</name></member>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_holder_1a8a35cc981b96631d7101dfc151630184" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutorHolder</scope><name>Options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

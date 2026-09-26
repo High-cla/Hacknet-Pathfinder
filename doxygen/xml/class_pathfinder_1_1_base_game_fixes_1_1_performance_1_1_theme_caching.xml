@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::BaseGameFixes::Performance::ThemeCaching</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1acd4f23f1746225839423a8e230536d98" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict" kindref="compound">FixedSizeCacheDict</ref>&lt; string, <ref refid="class_pathfinder_1_1_util_1_1_cached_custom_theme" kindref="compound">CachedCustomTheme</ref> &gt;</type>
+        <definition>FixedSizeCacheDict&lt;string, CachedCustomTheme&gt; Pathfinder.BaseGameFixes.Performance.ThemeCaching.CachedThemes</definition>
+        <argsstring></argsstring>
+        <name>CachedThemes</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.CachedThemes</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="17" column="39" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1a570f09912b46312f46cf1e970ec91457" prot="private" static="yes" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Pathfinder.BaseGameFixes.Performance.ThemeCaching.ThemeTasks</definition>
+        <argsstring></argsstring>
+        <name>ThemeTasks</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.ThemeTasks</qualifiedname>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="18" column="25" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1a9173df3b4026903f67a4a1fc92065946" prot="private" static="yes" mutable="no">
+        <type>readonly object</type>
+        <definition>readonly object Pathfinder.BaseGameFixes.Performance.ThemeCaching.cacheLock</definition>
+        <argsstring></argsstring>
+        <name>cacheLock</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.cacheLock</qualifiedname>
+        <initializer>= new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="20" column="36" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1af85ecb2e7488b7c98a291b714df4436a" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.BaseGameFixes.Performance.ThemeCaching.TargetTheme</definition>
+        <argsstring></argsstring>
+        <name>TargetTheme</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.TargetTheme</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="22" column="27" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1a6a63e3d6629ceb1daddb3c974d57ad4f" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float Pathfinder.BaseGameFixes.Performance.ThemeCaching.themeFpsLimitCounter</definition>
+        <argsstring></argsstring>
+        <name>themeFpsLimitCounter</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.themeFpsLimitCounter</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="173" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1ac400f6f007350fea9f84dc0a53faba6c" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.ThemeCaching.QueueUpCustomThemes</definition>
+        <argsstring>(OS __instance)</argsstring>
+        <name>QueueUpCustomThemes</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.QueueUpCustomThemes</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="26" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="26" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1ae4cb463ca8a1b8e302927bfa30abd4f0" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.Performance.ThemeCaching.SwitchThemeReplacement</definition>
+        <argsstring>(object osObject, string customThemePath)</argsstring>
+        <name>SwitchThemeReplacement</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.SwitchThemeReplacement</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>osObject</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>customThemePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="69" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="69" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1ac724e96a0527dc51a462ed2e2ee10b67" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.ThemeCaching.UpdateTheme</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTheme</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.UpdateTheme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="116" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="116" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1ac9c7e05185c20a4cccddf340f0f997c1" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.Performance.ThemeCaching.SwitchToLastCustomTheme</definition>
+        <argsstring>(object osObject, OSTheme theme)</argsstring>
+        <name>SwitchToLastCustomTheme</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.SwitchToLastCustomTheme</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>osObject</declname>
+        </param>
+        <param>
+          <type>OSTheme</type>
+          <declname>theme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="127" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="127" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1a37654c8b9e0bdd5054afd76894a32675" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.ThemeCaching.LoadStartingCustomThemeWithReplacement</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>LoadStartingCustomThemeWithReplacement</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.LoadStartingCustomThemeWithReplacement</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="152" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="152" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1a91e53277bc2950c381f150ebc05c67d7" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.ThemeCaching.MakeThemeTransitionSlower</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>MakeThemeTransitionSlower</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.MakeThemeTransitionSlower</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="178" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="178" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1ad72a28dc7472760135b038f8891ef102" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.ThemeCaching.FixDrawHexGridBackground</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>FixDrawHexGridBackground</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.FixDrawHexGridBackground</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="222" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="222" bodyend="247"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1af7c31e2c767f6e701094a3346d702c1e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate bool</type>
+        <definition>delegate bool Pathfinder.BaseGameFixes.Performance.ThemeCaching.MakeSlowerDelegate</definition>
+        <argsstring>(float timeSince, ref float timeRemaining)</argsstring>
+        <name>MakeSlowerDelegate</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.ThemeCaching.MakeSlowerDelegate</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>timeSince</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>timeRemaining</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="174" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" line="15" column="15" bodyfile="PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs" bodystart="16" bodyend="248"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1acd4f23f1746225839423a8e230536d98" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>CachedThemes</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1a9173df3b4026903f67a4a1fc92065946" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>cacheLock</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1ad72a28dc7472760135b038f8891ef102" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>FixDrawHexGridBackground</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1a37654c8b9e0bdd5054afd76894a32675" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>LoadStartingCustomThemeWithReplacement</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1af7c31e2c767f6e701094a3346d702c1e" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>MakeSlowerDelegate</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1a91e53277bc2950c381f150ebc05c67d7" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>MakeThemeTransitionSlower</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1ac400f6f007350fea9f84dc0a53faba6c" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>QueueUpCustomThemes</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1ae4cb463ca8a1b8e302927bfa30abd4f0" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>SwitchThemeReplacement</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1ac9c7e05185c20a4cccddf340f0f997c1" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>SwitchToLastCustomTheme</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1af85ecb2e7488b7c98a291b714df4436a" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>TargetTheme</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1a6a63e3d6629ceb1daddb3c974d57ad4f" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>themeFpsLimitCounter</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1a570f09912b46312f46cf1e970ec91457" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>ThemeTasks</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching_1ac724e96a0527dc51a462ed2e2ee10b67" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::ThemeCaching</scope><name>UpdateTheme</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

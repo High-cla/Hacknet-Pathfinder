@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_bep_in_ex_1_1_hacknet_1_1_entrypoint" kind="class" language="C#" prot="public">
+    <compoundname>BepInEx::Hacknet::Entrypoint</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_entrypoint_1acd5cde41fadc6921ac5f0d2e3ba209b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.Entrypoint.Bootstrap</definition>
+        <argsstring>()</argsstring>
+        <name>Bootstrap</name>
+        <qualifiedname>BepInEx.Hacknet.Entrypoint.Bootstrap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/Entrypoint.cs" line="11" column="24" bodyfile="BepInEx.Hacknet/Entrypoint.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_entrypoint_1ad51ff847cace4b6f7167313b36964635" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Assembly</type>
+        <definition>static Assembly BepInEx.Hacknet.Entrypoint.ResolveBepAssembly</definition>
+        <argsstring>(object sender, ResolveEventArgs args)</argsstring>
+        <name>ResolveBepAssembly</name>
+        <qualifiedname>BepInEx.Hacknet.Entrypoint.ResolveBepAssembly</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ResolveEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/Entrypoint.cs" line="52" column="28" bodyfile="BepInEx.Hacknet/Entrypoint.cs" bodystart="52" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_entrypoint_1a99634df711bdda2fd7657f63727a648f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Assembly</type>
+        <definition>static Assembly BepInEx.Hacknet.Entrypoint.ResolveGACAssembly</definition>
+        <argsstring>(object sender, ResolveEventArgs args)</argsstring>
+        <name>ResolveGACAssembly</name>
+        <qualifiedname>BepInEx.Hacknet.Entrypoint.ResolveGACAssembly</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ResolveEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/Entrypoint.cs" line="70" column="28" bodyfile="BepInEx.Hacknet/Entrypoint.cs" bodystart="70" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_entrypoint_1aee22a3c8e70afc3eea0b71da0c735cf9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Assembly</type>
+        <definition>static Assembly BepInEx.Hacknet.Entrypoint.ResolveRenamedAssembly</definition>
+        <argsstring>(object sender, ResolveEventArgs args)</argsstring>
+        <name>ResolveRenamedAssembly</name>
+        <qualifiedname>BepInEx.Hacknet.Entrypoint.ResolveRenamedAssembly</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ResolveEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/Entrypoint.cs" line="92" column="28" bodyfile="BepInEx.Hacknet/Entrypoint.cs" bodystart="92" bodyend="100"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_entrypoint_1adfd8a38ce9aff43051520688c2aee0fa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.Entrypoint.WriteDiagnosticHeader</definition>
+        <argsstring>()</argsstring>
+        <name>WriteDiagnosticHeader</name>
+        <qualifiedname>BepInEx.Hacknet.Entrypoint.WriteDiagnosticHeader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/Entrypoint.cs" line="25" column="25" bodyfile="BepInEx.Hacknet/Entrypoint.cs" bodystart="25" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BepInEx.Hacknet/Entrypoint.cs" line="9" column="15" bodyfile="BepInEx.Hacknet/Entrypoint.cs" bodystart="10" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_entrypoint_1acd5cde41fadc6921ac5f0d2e3ba209b7" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::Entrypoint</scope><name>Bootstrap</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_entrypoint_1ad51ff847cace4b6f7167313b36964635" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::Entrypoint</scope><name>ResolveBepAssembly</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_entrypoint_1a99634df711bdda2fd7657f63727a648f" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::Entrypoint</scope><name>ResolveGACAssembly</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_entrypoint_1aee22a3c8e70afc3eea0b71da0c735cf9" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::Entrypoint</scope><name>ResolveRenamedAssembly</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_entrypoint_1adfd8a38ce9aff43051520688c2aee0fa" prot="private" virt="non-virtual"><scope>BepInEx::Hacknet::Entrypoint</scope><name>WriteDiagnosticHeader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

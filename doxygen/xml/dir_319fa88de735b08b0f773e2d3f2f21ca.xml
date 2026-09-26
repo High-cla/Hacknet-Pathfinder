@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_319fa88de735b08b0f773e2d3f2f21ca" kind="dir">
+    <compoundname>PathfinderAPI/Meta</compoundname>
+    <innerdir refid="dir_91e8fce38322450354d6a5b806014caa">PathfinderAPI/Meta/Load</innerdir>
+    <innerfile refid="_plugin_info_attribute_8cs">PluginInfoAttribute.cs</innerfile>
+    <innerfile refid="_plugin_website_attribute_8cs">PluginWebsiteAttribute.cs</innerfile>
+    <innerfile refid="_updater_attribute_8cs">UpdaterAttribute.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Meta/"/>
+  </compounddef>
+</doxygen>

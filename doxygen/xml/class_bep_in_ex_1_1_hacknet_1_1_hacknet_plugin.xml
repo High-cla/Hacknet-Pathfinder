@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>BepInEx::Hacknet::HacknetPlugin</compoundname>
+    <derivedcompoundref refid="class_example_mod2_1_1_example_mod_plugin2" prot="public" virt="non-virtual">ExampleMod2.ExampleModPlugin2</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin" prot="public" virt="non-virtual">Pathfinder.PathfinderAPIPlugin</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin" prot="public" virt="non-virtual">PathfinderUpdater.PathfinderUpdaterPlugin</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a6aeff5c672bbe03e3a612ae2cb1e6c0d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ManualLogSource</type>
+        <definition>ManualLogSource BepInEx.Hacknet.HacknetPlugin.Log</definition>
+        <argsstring></argsstring>
+        <name>Log</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetPlugin.Log</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="31" column="28" bodyfile="BepInEx.Hacknet/HacknetPlugin.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0d55b507fbd084fc64acd800452d379e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool BepInEx.Hacknet.HacknetPlugin.InstalledGlobally</definition>
+        <argsstring></argsstring>
+        <name>InstalledGlobally</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetPlugin.InstalledGlobally</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="33" column="17" bodyfile="BepInEx.Hacknet/HacknetPlugin.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0a9258e921c4aff625f3cb7b500a0b05" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ConfigFile</type>
+        <definition>ConfigFile BepInEx.Hacknet.HacknetPlugin.Config</definition>
+        <argsstring></argsstring>
+        <name>Config</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetPlugin.Config</qualifiedname>
+        <briefdescription>
+<para>If this plugin is installed in an extension, holds a ConfigFile to be edited by the extension developer. <linebreak/>
+ Otherwise, if its installed globally, holds a ConfigFile to be edited by the user. <linebreak/>
+<linebreak/>
+ For the extension player&apos;s ConfigFile, see UserConfig. <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="42" column="23" bodyfile="BepInEx.Hacknet/HacknetPlugin.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0dba3e1a3dc58eaa2b51011d77ad97e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ConfigFile</type>
+        <definition>ConfigFile BepInEx.Hacknet.HacknetPlugin.UserConfig</definition>
+        <argsstring></argsstring>
+        <name>UserConfig</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetPlugin.UserConfig</qualifiedname>
+        <briefdescription>
+<para>If this plugin is installed in an extension, holds a ConfigFile to be edited by the extension player. <linebreak/>
+ Otherwise, if its installed globally, holds the value <computeroutput>null</computeroutput>. <linebreak/>
+<linebreak/>
+ For the extension developer&apos;s ConfigFile, see Config. <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="50" column="23" bodyfile="BepInEx.Hacknet/HacknetPlugin.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1aca912b7edb13ad33099d62935a18426a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Harmony</type>
+        <definition>Harmony BepInEx.Hacknet.HacknetPlugin.HarmonyInstance</definition>
+        <argsstring></argsstring>
+        <name>HarmonyInstance</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetPlugin.HarmonyInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="52" column="20" bodyfile="BepInEx.Hacknet/HacknetPlugin.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ad3526bb7b58ceecb7f761110158f70da" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BepInEx.Hacknet.HacknetPlugin.HacknetPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>HacknetPlugin</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetPlugin.HacknetPlugin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="11" column="15" bodyfile="BepInEx.Hacknet/HacknetPlugin.cs" bodystart="11" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a809ed64899918ce4abd208eea59d4bfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BepInEx.Hacknet.HacknetPlugin.Load</definition>
+        <argsstring>()</argsstring>
+        <name>Load</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetPlugin.Load</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="54" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a07ec0303c5ed5dff6ec3a9a8316defe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void BepInEx.Hacknet.HacknetPlugin.PostLoad</definition>
+        <argsstring>()</argsstring>
+        <name>PostLoad</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetPlugin.PostLoad</qualifiedname>
+        <reimplementedby refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a48c0e69e49c8b4dc9fa03c6e41e8d3e5">PostLoad</reimplementedby>
+        <briefdescription>
+<para>Runs after all plugins have executed their Load method. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="59" column="25" bodyfile="BepInEx.Hacknet/HacknetPlugin.cs" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ade785474c706e87a1bd6ea47cc2c4499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool BepInEx.Hacknet.HacknetPlugin.Unload</definition>
+        <argsstring>()</argsstring>
+        <name>Unload</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetPlugin.Unload</qualifiedname>
+        <reimplementedby refid="class_example_mod2_1_1_example_mod_plugin2_1a57181fcf1a553203be4797a6e7c27d08">Unload</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="61" column="25" bodyfile="BepInEx.Hacknet/HacknetPlugin.cs" bodystart="61" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BepInEx.Hacknet.HacknetPlugin</label>
+        <link refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin"/>
+      </node>
+      <node id="2">
+        <label>ExampleMod2.ExampleModPlugin2</label>
+        <link refid="class_example_mod2_1_1_example_mod_plugin2"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Pathfinder.PathfinderAPIPlugin</label>
+        <link refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>PathfinderUpdater.PathfinderUpdaterPlugin</label>
+        <link refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="BepInEx.Hacknet/HacknetPlugin.cs" line="9" column="17" bodyfile="BepInEx.Hacknet/HacknetPlugin.cs" bodystart="10" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0a9258e921c4aff625f3cb7b500a0b05" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetPlugin</scope><name>Config</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ad3526bb7b58ceecb7f761110158f70da" prot="protected" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetPlugin</scope><name>HacknetPlugin</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1aca912b7edb13ad33099d62935a18426a" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetPlugin</scope><name>HarmonyInstance</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0d55b507fbd084fc64acd800452d379e" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetPlugin</scope><name>InstalledGlobally</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a809ed64899918ce4abd208eea59d4bfa" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetPlugin</scope><name>Load</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a6aeff5c672bbe03e3a612ae2cb1e6c0d" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetPlugin</scope><name>Log</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a07ec0303c5ed5dff6ec3a9a8316defe7" prot="public" virt="virtual"><scope>BepInEx::Hacknet::HacknetPlugin</scope><name>PostLoad</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ade785474c706e87a1bd6ea47cc2c4499" prot="public" virt="virtual"><scope>BepInEx::Hacknet::HacknetPlugin</scope><name>Unload</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0dba3e1a3dc58eaa2b51011d77ad97e2" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetPlugin</scope><name>UserConfig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_updater_1_1_pathfinder_updater_plugin" kind="class" language="C#" prot="public">
+    <compoundname>PathfinderUpdater::PathfinderUpdaterPlugin</compoundname>
+    <basecompoundref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" prot="public" virt="non-virtual">BepInEx.Hacknet.HacknetPlugin</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a38a614a6c1dba3fd2f1e2de81214ddf1" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string PathfinderUpdater.PathfinderUpdaterPlugin.ModGUID</definition>
+        <argsstring></argsstring>
+        <name>ModGUID</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.ModGUID</qualifiedname>
+        <initializer>= &quot;com.Pathfinder.Updater&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="31" column="25" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a51d2a915f70fa1840dc46b9634e6f851" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string PathfinderUpdater.PathfinderUpdaterPlugin.ModName</definition>
+        <argsstring></argsstring>
+        <name>ModName</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.ModName</qualifiedname>
+        <initializer>= &quot;AutoUpdater&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="32" column="25" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a7b7f1ca8b9e5d40a07e6e6d8007059aa" prot="public" static="yes" mutable="no">
+        <type><ref refid="_hacknet_chainloader_8cs_1af64f7464b73095031bb06f582f1bb40d" kindref="member">Version</ref></type>
+        <definition>Version PathfinderUpdater.PathfinderUpdaterPlugin.VersionToRequest</definition>
+        <argsstring></argsstring>
+        <name>VersionToRequest</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.VersionToRequest</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="42" column="27" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a93749ae08cf34129fb0906aac3491a18" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool PathfinderUpdater.PathfinderUpdaterPlugin.NeedsUpdate</definition>
+        <argsstring></argsstring>
+        <name>NeedsUpdate</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.NeedsUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="43" column="24" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1afb4aa5d6a95813e546c2314bf908844e" prot="public" static="yes" mutable="no">
+        <type>readonly List&lt; <ref refid="class_pathfinder_updater_1_1_updater" kindref="compound">Updater</ref> &gt;</type>
+        <definition>readonly List&lt;Updater&gt; PathfinderUpdater.PathfinderUpdaterPlugin.Updaters</definition>
+        <argsstring></argsstring>
+        <name>Updaters</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.Updaters</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_pathfinder_updater_1_1_updater" kindref="compound">Updater</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="46" column="33" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a1a7dfb9637a6bde3fecb11a1242696f3" prot="package" static="yes" mutable="no">
+        <type>new static ConfigFile</type>
+        <definition>new static ConfigFile PathfinderUpdater.PathfinderUpdaterPlugin.Config</definition>
+        <argsstring></argsstring>
+        <name>Config</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.Config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="34" column="36" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1aab5fb7898b08c94c01000081dffcaa0e" prot="package" static="yes" mutable="no">
+        <type>ConfigEntry&lt; bool &gt;</type>
+        <definition>ConfigEntry&lt;bool&gt; PathfinderUpdater.PathfinderUpdaterPlugin.IsEnabled</definition>
+        <argsstring></argsstring>
+        <name>IsEnabled</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.IsEnabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="36" column="33" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a09e6d936dd2584953abc9282ac98f597" prot="package" static="yes" mutable="no">
+        <type>ConfigEntry&lt; bool &gt;</type>
+        <definition>ConfigEntry&lt;bool&gt; PathfinderUpdater.PathfinderUpdaterPlugin.EnablePreReleases</definition>
+        <argsstring></argsstring>
+        <name>EnablePreReleases</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.EnablePreReleases</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="37" column="33" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a4e33fa6e7143fdb15bf7ef5c9e892133" prot="package" static="yes" mutable="no">
+        <type>ConfigEntry&lt; bool &gt;</type>
+        <definition>ConfigEntry&lt;bool&gt; PathfinderUpdater.PathfinderUpdaterPlugin.NoRestartPrompt</definition>
+        <argsstring></argsstring>
+        <name>NoRestartPrompt</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.NoRestartPrompt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="38" column="33" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a9edbfeac6ca1f95151ea0a0f176cbb60" prot="package" static="yes" mutable="no">
+        <type>ConfigEntry&lt; string &gt;</type>
+        <definition>ConfigEntry&lt;string&gt; PathfinderUpdater.PathfinderUpdaterPlugin.AcceptedUpdate</definition>
+        <argsstring></argsstring>
+        <name>AcceptedUpdate</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.AcceptedUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="39" column="33" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a0e9f5b828bece7eae4d0aa3328fe78ea" prot="package" static="yes" mutable="no">
+        <type>ConfigEntry&lt; string &gt;</type>
+        <definition>ConfigEntry&lt;string&gt; PathfinderUpdater.PathfinderUpdaterPlugin.CurrentVersion</definition>
+        <argsstring></argsstring>
+        <name>CurrentVersion</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.CurrentVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="40" column="33" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a097857fd518bb67ccbdcadbddebcda78" prot="package" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_updater_1_1_updater" kindref="compound">Updater</ref></type>
+        <definition>Updater PathfinderUpdater.PathfinderUpdaterPlugin.PathfinderUpdater</definition>
+        <argsstring></argsstring>
+        <name>PathfinderUpdater</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.PathfinderUpdater</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="44" column="29" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a38b29d8a6bfb712cdd38ba8838bcde35" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; string &gt;</type>
+        <definition>readonly List&lt;string&gt; PathfinderUpdater.PathfinderUpdaterPlugin.UpdaterWhitelistGuids</definition>
+        <argsstring></argsstring>
+        <name>UpdaterWhitelistGuids</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.UpdaterWhitelistGuids</qualifiedname>
+        <initializer>= new List&lt;string&gt;
+    {
+        &quot;com.Pathfinder.API&quot;,
+        &quot;com.Pathfinder.Updater&quot;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="47" column="34" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="47" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a10745a2e30b94226c3eba662c487c60e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool PathfinderUpdater.PathfinderUpdaterPlugin.Load</definition>
+        <argsstring>()</argsstring>
+        <name>Load</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.Load</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="53" column="26" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="53" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a48c0e69e49c8b4dc9fa03c6e41e8d3e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void PathfinderUpdater.PathfinderUpdaterPlugin.PostLoad</definition>
+        <argsstring>()</argsstring>
+        <name>PostLoad</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.PostLoad</qualifiedname>
+        <reimplements refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a07ec0303c5ed5dff6ec3a9a8316defe7">PostLoad</reimplements>
+        <briefdescription>
+<para>Runs after all plugins have executed their Load method. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="76" column="26" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="76" bodyend="100"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a9e7f3bd68b4240937fef75c869c20487" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PathfinderUpdater.PathfinderUpdaterPlugin.RestartForUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>RestartForUpdate</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.RestartForUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="102" column="24" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="102" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a3185c0e5c8440c4071c709341950133e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>static async Task PathfinderUpdater.PathfinderUpdaterPlugin.PerformUpdateAsync</definition>
+        <argsstring>()</argsstring>
+        <name>PerformUpdateAsync</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.PerformUpdateAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="117" column="30" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="117" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a79ea2898fd8fbaa1705c05f8c46bbc2b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PathfinderUpdater.PathfinderUpdaterPlugin.PerformUpdateCheck</definition>
+        <argsstring>()</argsstring>
+        <name>PerformUpdateCheck</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.PerformUpdateCheck</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="127" column="24" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a40f05529a2a736c5bc7ec8e778be69e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool[]&gt;</type>
+        <definition>static async Task&lt; bool[]&gt; PathfinderUpdater.PathfinderUpdaterPlugin.PerformCheckAsync</definition>
+        <argsstring>(bool forceData=false)</argsstring>
+        <name>PerformCheckAsync</name>
+        <qualifiedname>PathfinderUpdater.PathfinderUpdaterPlugin.PerformCheckAsync</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>forceData</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="132" column="30" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="132" bodyend="143"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>HacknetPlugin</label>
+        <link refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin"/>
+      </node>
+      <node id="1">
+        <label>PathfinderUpdater.PathfinderUpdaterPlugin</label>
+        <link refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>HacknetPlugin</label>
+        <link refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin"/>
+      </node>
+      <node id="1">
+        <label>PathfinderUpdater.PathfinderUpdaterPlugin</label>
+        <link refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>PathfinderUpdater</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PathfinderUpdater.Updater</label>
+        <link refid="class_pathfinder_updater_1_1_updater"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderUpdater/PathfinderUpdaterPlugin.cs" line="29" column="7" bodyfile="PathfinderUpdater/PathfinderUpdaterPlugin.cs" bodystart="30" bodyend="144"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a9edbfeac6ca1f95151ea0a0f176cbb60" prot="package" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>AcceptedUpdate</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a1a7dfb9637a6bde3fecb11a1242696f3" prot="package" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>Config</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a0e9f5b828bece7eae4d0aa3328fe78ea" prot="package" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>CurrentVersion</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a09e6d936dd2584953abc9282ac98f597" prot="package" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>EnablePreReleases</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ad3526bb7b58ceecb7f761110158f70da" prot="protected" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>HacknetPlugin</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1aca912b7edb13ad33099d62935a18426a" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>HarmonyInstance</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0d55b507fbd084fc64acd800452d379e" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>InstalledGlobally</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1aab5fb7898b08c94c01000081dffcaa0e" prot="package" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>IsEnabled</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a10745a2e30b94226c3eba662c487c60e" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>Load</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a6aeff5c672bbe03e3a612ae2cb1e6c0d" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>Log</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a38a614a6c1dba3fd2f1e2de81214ddf1" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>ModGUID</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a51d2a915f70fa1840dc46b9634e6f851" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>ModName</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a93749ae08cf34129fb0906aac3491a18" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>NeedsUpdate</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a4e33fa6e7143fdb15bf7ef5c9e892133" prot="package" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>NoRestartPrompt</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a097857fd518bb67ccbdcadbddebcda78" prot="package" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>PathfinderUpdater</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a40f05529a2a736c5bc7ec8e778be69e5" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>PerformCheckAsync</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a3185c0e5c8440c4071c709341950133e" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>PerformUpdateAsync</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a79ea2898fd8fbaa1705c05f8c46bbc2b" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>PerformUpdateCheck</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a48c0e69e49c8b4dc9fa03c6e41e8d3e5" prot="public" virt="virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>PostLoad</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a9e7f3bd68b4240937fef75c869c20487" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>RestartForUpdate</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1ade785474c706e87a1bd6ea47cc2c4499" prot="public" virt="virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>Unload</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1afb4aa5d6a95813e546c2314bf908844e" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>Updaters</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a38b29d8a6bfb712cdd38ba8838bcde35" prot="private" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>UpdaterWhitelistGuids</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin_1a0dba3e1a3dc58eaa2b51011d77ad97e2" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>UserConfig</name></member>
+      <member refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin_1a7b7f1ca8b9e5d40a07e6e6d8007059aa" prot="public" virt="non-virtual"><scope>PathfinderUpdater::PathfinderUpdaterPlugin</scope><name>VersionToRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

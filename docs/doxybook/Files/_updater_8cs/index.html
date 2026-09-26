@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_updater_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderUpdater/Updater.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderUpdater/Updater.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_updater_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_updater_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderUpdater/Updater.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderupdaterupdatercs">PathfinderUpdater/Updater.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_updater/">PathfinderUpdater</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_system_1_1_i_o_1_1_compression/">System::IO::Compression</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_system_1_1_net_1_1_http/">System::Net::Http</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_system_1_1_net_1_1_http_1_1_headers/">System::Net::Http::Headers</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_newtonsoft_1_1_json_1_1_linq/">Newtonsoft::Json::Linq</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/">PathfinderUpdater::Updater</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="types">Types</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>using SemanticVersioning.Version</td>
+<td><strong><a href="../Files/_updater_8cs/#using-version">Version</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="types-documentation">Types Documentation</h2>
+<h3 id="using-version">using Version</h3>
+<pre><code class="language-csharp">using Version =  SemanticVersioning.Version;
+</code></pre>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Reflection;
+using System.IO.Compression;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using BepInEx.Hacknet;
+using BepInEx.Logging;
+using Newtonsoft.Json.Linq;
+
+using Version = SemanticVersioning.Version;
+using Pathfinder.Meta;
+
+namespace PathfinderUpdater;
+
+public class Updater
+{
+    private static Dictionary&lt;string, HttpResponseMessage&gt; UrlToResponseCache
+        = new Dictionary&lt;string, HttpResponseMessage&gt;();
+
+    public Type PluginType { get; private set; }
+
+    public static Updater Create&lt;PluginT&gt;(string githubApiUrl, string assetFile, string zipPath, bool includePrereleases = false)
+        where PluginT : HacknetPlugin
+    {
+        return new Updater(typeof(PluginT), githubApiUrl, assetFile, zipPath, includePrereleases);
+    }
+
+    public delegate Task&lt;Version&gt; FindVersionAction();
+    private FindVersionAction _FindVersion;
+    public FindVersionAction FindVersion { set =&gt; _FindVersion = value; }
+
+    public delegate Task&lt;Stream&gt; GetUpdateStreamAction(Version latest);
+    private GetUpdateStreamAction _GetUpdateStream;
+    public GetUpdateStreamAction GetUpdateStream { set =&gt; _GetUpdateStream = value; }
+
+    public delegate Task&lt;string&gt; HandleStreamDownloadAction(Stream stream);
+    private HandleStreamDownloadAction _HandleStreamDownload;
+    public HandleStreamDownloadAction HandleStreamDownload { set =&gt; _HandleStreamDownload = value; }
+
+    public string GithubApiUrl { get; set; }
+    public string AssetFileName { get; set; }
+    public string ZipEntryPath { get; set; }
+    public bool IncludePrerelease { get; set; }
+    private JToken _ReleaseData;
+
+    public string CurrentVersion { get; set; }
+    public Version LatestVersion { get; private set; }
+    public string PathToUpdate { get; private set; }
+    public string DownloadedTempPath { get; private set; }
+
+    public ManualLogSource Log { get; set; }
+
+    public Updater(
+        Type pluginType,
+        FindVersionAction findVersion,
+        GetUpdateStreamAction getUpdateStream = null,
+        HandleStreamDownloadAction handeStreamDownload = null
+    )
+    {
+        if(pluginType == null)
+            throw new ArgumentNullException(nameof(pluginType));
+
+        PluginType = pluginType;
+        FindVersion = findVersion ?? FindVersionDefault;
+        GetUpdateStream = getUpdateStream ?? GetUpdateStreamDefault;
+        HandleStreamDownload = handeStreamDownload ?? HandleStreamDownloadDefault;
+    }
+
+    public Updater(
+        Type pluginType,
+        string githubApiUrl,
+        string assetFileName,
+        string zipEntryPath,
+        bool includePrerelease = false) : this(pluginType, (FindVersionAction)null)
+    {
+        GithubApiUrl = githubApiUrl;
+        AssetFileName = assetFileName;
+        ZipEntryPath = zipEntryPath;
+        IncludePrerelease = includePrerelease;
+    }
+
+    public Updater(Type pluginType) : this(pluginType, (FindVersionAction)null)
+    {
+        var attribute = pluginType.GetCustomAttribute&lt;UpdaterAttribute&gt;();
+        if(attribute == null)
+            throw new InvalidOperationException($&quot;No UpdaterAttribute found on {pluginType.FullName}&quot;);
+
+        GithubApiUrl = attribute.GithubApiUrl;
+        AssetFileName = attribute.AssetFileName;
+        ZipEntryPath = attribute.ZipEntryPath;
+        IncludePrerelease = attribute.IncludePrerelease;
+    }
+
+    public static bool TryCreate(Type pluginType, out Updater updater, bool canSupportUpdaterData = false)
+    {
+        updater = null;
+        if(canSupportUpdaterData)
+        {
+            var memberInfos = pluginType.GetMember(&quot;__UpdaterData&quot;, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+            Tuple&lt;string, string, string, bool&gt; data;
+            if(memberInfos.Length &gt; 0)
+            {
+                switch(memberInfos[0])
+                {
+                    case PropertyInfo prop:
+                        if(!prop.CanRead) return false;
+                        if(prop.PropertyType == typeof(Tuple&lt;string, string, string&gt;))
+                        {
+                            var shortTuple = (Tuple&lt;string, string, string&gt;)prop.GetValue(null);
+                            data = new Tuple&lt;string, string, string, bool&gt;(shortTuple.Item1, shortTuple.Item2, shortTuple.Item3, false);
+                        }
+                        else if(prop.PropertyType == typeof(Tuple&lt;string, string, string, bool&gt;))
+                            data = (Tuple&lt;string, string, string, bool&gt;)prop.GetValue(null);
+                        else
+                        {
+                            return false;
+                        }
+                        break;
+                    case FieldInfo field:
+                        if(field.FieldType == typeof(Tuple&lt;string, string, string&gt;))
+                        {
+                            var shortTuple = (Tuple&lt;string, string, string&gt;)field.GetValue(null);
+                            data = new Tuple&lt;string, string, string, bool&gt;(shortTuple.Item1, shortTuple.Item2, shortTuple.Item3, false);
+                        }
+                        else if(field.FieldType == typeof(Tuple&lt;string, string, string, bool&gt;))
+                            data = (Tuple&lt;string, string, string, bool&gt;)field.GetValue(null);
+                        else
+                        {
+                            return false;
+                        }
+                        break;
+                    default:
+                        return false;
+                }
+                updater = new Updater(pluginType, data.Item1, data.Item2, data.Item3, data.Item4);
+                return true;
+            }
+        }
+
+        if(pluginType.GetCustomAttribute&lt;UpdaterAttribute&gt;() == null)
+            return false;
+        updater = new Updater(pluginType);
+        return true;
+    }
+
+    public async Task&lt;bool&gt; CheckForUpdate()
+    {
+        if(_FindVersion == null)
+            throw new InvalidOperationException(&quot;Missing FindVersion behavior&quot;);
+
+        LatestVersion = await _FindVersion.Invoke();
+        if(LatestVersion == null)
+            return false;
+
+        if(CurrentVersion == null)
+        {
+            Log.LogError($&quot;CurrentVersion for {PluginType.FullName} is null&quot;);
+            return true;
+        }
+
+        if (Version.Parse(CurrentVersion) == LatestVersion)
+            return false;
+
+        return true;
+    }
+
+    public async Task PerformDownload()
+    {
+        if(_GetUpdateStream == null)
+            throw new InvalidOperationException(&quot;Missing GetUpdateStream behavior&quot;);
+
+        if(_HandleStreamDownload == null)
+            throw new InvalidOperationException(&quot;Mission HandleStreamDownload behavior&quot;);
+
+        var stream = await _GetUpdateStream(LatestVersion);
+        PathToUpdate = await _HandleStreamDownload(stream);
+        CurrentVersion = LatestVersion.ToString();
+    }
+
+    public void PerformUpdate()
+    {
+        var origPath = PluginType.Assembly.Location;
+        File.Delete(origPath+&quot;.bak&quot;);
+        File.Move(origPath, origPath+&quot;.bak&quot;);
+        File.Move(PathToUpdate, origPath);
+    }
+
+    public bool TryDeleteDownloadedTempFile()
+    {
+        if(PathToUpdate == null)
+            return false;
+        File.Delete(PathToUpdate);
+        return !File.Exists(PathToUpdate);
+    }
+
+    public bool TryDeleteDllTempFile()
+    {
+        var executionTempPath = PluginType.Assembly.Location + &quot;.bak&quot;;
+        if(File.Exists(executionTempPath))
+            File.Delete(executionTempPath);
+        return !File.Exists(executionTempPath);
+    }
+
+    public HttpResponseMessage ForceResetReleaseData()
+    {
+        var task = Task.Run(async () =&gt; await ForceResetReleaseDataAsync());
+        task.Wait();
+        return task.Result;
+    }
+
+    public async Task&lt;HttpResponseMessage&gt; ForceResetReleaseDataAsync()
+    {
+        using(var client = new HttpClient())
+        {
+            client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue(&quot;a&quot;, &quot;1&quot;));
+            return UrlToResponseCache[GithubApiUrl] = await client.GetAsync(GithubApiUrl);
+        }
+    }
+
+    public async Task&lt;Version&gt; FindVersionDefault()
+    {
+        JArray releasesList;
+        try
+        {
+            HttpResponseMessage response;
+            if(!UrlToResponseCache.TryGetValue(GithubApiUrl, out response))
+                UrlToResponseCache[GithubApiUrl] = response = await ForceResetReleaseDataAsync();
+            var releaseDataContent = await response.Content.ReadAsStringAsync();
+            releasesList = JArray.Parse(releaseDataContent);
+
+        }
+        catch (Exception e)
+        {
+            Log?.Log(LogLevel.Error, e);
+            return null;
+        }
+
+        Version latestVersion = null;
+        foreach (var possibleRelease in releasesList)
+        {
+            var possibleTag = Version.Parse(possibleRelease.Value&lt;string&gt;(&quot;tag_name&quot;).Substring(1));
+            if (possibleTag.PreRelease != null &amp;&amp; !IncludePrerelease)
+                continue;
+
+            latestVersion = possibleTag;
+            _ReleaseData = possibleRelease;
+            break;
+        }
+        return latestVersion;
+    }
+
+    public async Task&lt;Stream&gt; GetUpdateStreamDefault(Version latest)
+    {
+        using(var client = new HttpClient())
+        {
+            client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue(&quot;a&quot;, &quot;1&quot;));
+            var releaseUrlData = await client.GetAsync(
+                _ReleaseData[&quot;assets&quot;]
+                    .First(x =&gt; x.Value&lt;string&gt;(&quot;name&quot;) == AssetFileName)
+                    .Value&lt;string&gt;(&quot;browser_download_url&quot;)
+            );
+            return await releaseUrlData.Content.ReadAsStreamAsync();
+        }
+    }
+
+    public async Task&lt;string&gt; HandleStreamDownloadDefault(Stream stream)
+    {
+        var assemblyFileName = PluginType.Assembly.Location;
+        var tempFileName = assemblyFileName+&quot;.temp&quot;;
+        using(var archive = new ZipArchive(stream))
+        using(var tempFile = File.OpenWrite(tempFileName))
+        {
+            var entryStream = archive.GetEntry(ZipEntryPath).Open();
+            await entryStream.CopyToAsync(tempFile);
+            await tempFile.FlushAsync();
+            return tempFileName;
+        }
+    }
+
+    public static void ForceResetAllReleaseData()
+    {
+        Task.Run(async () =&gt; await ForceResetAllReleaseDataAsync());
+    }
+
+    public static async Task ForceResetAllReleaseDataAsync()
+    {
+        var keys = UrlToResponseCache.Keys.ToArray();
+        using(var client = new HttpClient())
+        {
+            client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue(&quot;a&quot;, &quot;1&quot;));
+            foreach(var data in keys)
+                UrlToResponseCache[data] = await client.GetAsync(data);
+        }
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

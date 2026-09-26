@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_unload_event" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::BepInEx::UnloadEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public" virt="non-virtual">Pathfinder.Event.PathfinderEvent</basecompoundref>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_unload_event_1a001dafb3485dbdaa436994299d3d43ed" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Event.BepInEx.UnloadEvent.OnPluginUnload</definition>
+        <argsstring>(ref HacknetPlugin __instance)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.Event.BepInEx.UnloadEvent.OnPluginUnload</qualifiedname>
+        <param>
+          <type>ref <ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/BepInEx/UnloadEvent.cs" line="11" column="25" bodyfile="PathfinderAPI/Event/BepInEx/UnloadEvent.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.BepInEx.UnloadEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_unload_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Event.BepInEx.UnloadEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_unload_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/BepInEx/UnloadEvent.cs" line="7" column="7" bodyfile="PathfinderAPI/Event/BepInEx/UnloadEvent.cs" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::BepInEx::UnloadEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::BepInEx::UnloadEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_unload_event_1a001dafb3485dbdaa436994299d3d43ed" prot="private" virt="non-virtual"><scope>Pathfinder::Event::BepInEx::UnloadEvent</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::BepInEx::UnloadEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

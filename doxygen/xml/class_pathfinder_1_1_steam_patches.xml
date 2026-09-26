@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_steam_patches" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::SteamPatches</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_steam_patches_1ad9c313cf39576ab73e142bb382516a37" prot="package" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.SteamPatches.Prepare</definition>
+        <argsstring>(MethodBase original)</argsstring>
+        <name>Prepare</name>
+        <qualifiedname>Pathfinder.SteamPatches.Prepare</qualifiedname>
+        <param>
+          <type>MethodBase</type>
+          <declname>original</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/SteamPatches.cs" line="14" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_steam_patches_1add8d2aa870de96947a8c4c0e2fc71cd5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.SteamPatches.NoSteamCloudSavesIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>NoSteamCloudSavesIL</name>
+        <qualifiedname>Pathfinder.SteamPatches.NoSteamCloudSavesIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/SteamPatches.cs" line="19" column="25" bodyfile="PathfinderAPI/SteamPatches.cs" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_steam_patches_1ad12c8a86e31e74883844fc0ceaa6b721" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.SteamPatches.NoSteamErrorMessageIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>NoSteamErrorMessageIL</name>
+        <qualifiedname>Pathfinder.SteamPatches.NoSteamErrorMessageIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/SteamPatches.cs" line="31" column="25" bodyfile="PathfinderAPI/SteamPatches.cs" bodystart="31" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/SteamPatches.cs" line="11" column="7" bodyfile="PathfinderAPI/SteamPatches.cs" bodystart="12" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_steam_patches_1add8d2aa870de96947a8c4c0e2fc71cd5" prot="private" virt="non-virtual"><scope>Pathfinder::SteamPatches</scope><name>NoSteamCloudSavesIL</name></member>
+      <member refid="class_pathfinder_1_1_steam_patches_1ad12c8a86e31e74883844fc0ceaa6b721" prot="private" virt="non-virtual"><scope>Pathfinder::SteamPatches</scope><name>NoSteamErrorMessageIL</name></member>
+      <member refid="class_pathfinder_1_1_steam_patches_1ad9c313cf39576ab73e142bb382516a37" prot="package" virt="non-virtual"><scope>Pathfinder::SteamPatches</scope><name>Prepare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

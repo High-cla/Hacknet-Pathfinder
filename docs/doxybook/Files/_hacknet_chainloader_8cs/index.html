@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_hacknet_chainloader_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>BepInEx.Hacknet/HacknetChainloader.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "BepInEx.Hacknet/HacknetChainloader.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_hacknet_chainloader_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_hacknet_chainloader_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">BepInEx.Hacknet/HacknetChainloader.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="bepinexhacknethacknetchainloadercs">BepInEx.Hacknet/HacknetChainloader.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_bep_in_ex/">BepInEx</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_bep_in_ex_1_1_hacknet/">BepInEx::Hacknet</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_bep_in_ex_1_1_bootstrap/">BepInEx::Bootstrap</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_hacknet_1_1_extensions/">Hacknet::Extensions</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_hacknet_1_1_screens/">Hacknet::Screens</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_mono_1_1_cecil/">Mono::Cecil</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_mono_1_1_cecil_1_1_cil/">Mono::Cecil::Cil</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_mono_mod_1_1_cil/">MonoMod::Cil</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_version/">Version</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader/">BepInEx::Hacknet::HacknetChainloader</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="types">Types</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>using global::Hacknet</td>
+<td><strong><a href="../Files/_hacknet_chainloader_8cs/#using-hn">HN</a></strong></td>
+</tr>
+<tr>
+<td>using SemanticVersioning.Version</td>
+<td><strong><a href="../Files/_hacknet_chainloader_8cs/#using-version">Version</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="types-documentation">Types Documentation</h2>
+<h3 id="using-hn">using HN</h3>
+<pre><code class="language-csharp">using HN =  global::Hacknet;
+</code></pre>
+<h3 id="using-version">using Version</h3>
+<pre><code class="language-csharp">using Version =  SemanticVersioning.Version;
+</code></pre>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Reflection;
+using BepInEx.Logging;
+using BepInEx.Bootstrap;
+using Hacknet.Extensions;
+using Hacknet.Screens;
+using HarmonyLib;
+using Mono.Cecil;
+using Mono.Cecil.Cil;
+using MonoMod.Cil;
+using HN = global::Hacknet;
+using Version = SemanticVersioning.Version;
+
+namespace BepInEx.Hacknet;
+
+public class HacknetChainloader : BaseChainloader&lt;HacknetPlugin&gt;
+{
+    private static Tuple&lt;string, string, string&gt; __UpdaterData
+        = new Tuple&lt;string, string, string&gt;(
+            &quot;https://api.github.com/repos/Arkhist/Hacknet-Pathfinder/releases&quot;,
+            &quot;Pathfinder.Release.zip&quot;,
+            &quot;BepInEx/core/BepInEx.Hacknet.dll&quot;
+        );
+
+    public const string VERSION = &quot;5.4.0&quot;;
+    public static readonly Version Version = Version.Parse(VERSION);
+
+    public static HacknetChainloader Instance;
+
+    internal ManualLogSource Log = Logger.CreateLogSource(&quot;HacknetChainloader&quot;);
+    internal List&lt;string&gt; TemporaryPluginGUIDs = new List&lt;string&gt;();
+
+    internal Harmony HarmonyInstance;
+    private bool _firstLoadDone = false;
+
+    public override void Initialize(string gameExePath = null)
+    {
+        base.Initialize(gameExePath);
+        Instance = this;
+
+        HarmonyInstance = new Harmony(&quot;BepInEx.Hacknet.Chainloader&quot;);
+
+        HarmonyInstance.PatchAll(typeof(ExtensionPluginPatches));
+        LogWriteLineToDisk.LogWriter = (Logger.Listeners.FirstOrDefault(x =&gt; x is DiskLogListener) as DiskLogListener)?.LogWriter;
+        HarmonyInstance.PatchAll(typeof(LogWriteLineToDisk));
+    }
+
+    protected override IList&lt;PluginInfo&gt; DiscoverPlugins()
+    {
+        if (!_firstLoadDone)
+        {
+            _firstLoadDone = true;
+            return base.DiscoverPlugins();
+        }
+
+        var plugins = base.DiscoverPlugins();
+
+        // Stub any duplicate PluginInfos using the global ones to satisfy extension plugin dependencies
+        // ChainloaderFix warns and skips reloading the stubs
+        for (var i = 0; i &lt; plugins.Count; i++)
+        {
+            if (Plugins.TryGetValue(plugins[i].Metadata.GUID, out var globalPlugin))
+                plugins[i] = globalPlugin;
+        }
+
+        return plugins;
+    }
+
+    public override HacknetPlugin LoadPlugin(PluginInfo pluginInfo, Assembly pluginAssembly)
+    {
+        var type = pluginAssembly.GetType(pluginInfo.TypeName);
+
+        HacknetPlugin pluginInstance = (HacknetPlugin) Activator.CreateInstance(type);
+        if (!pluginInstance.Load())
+        {
+            throw new Exception($&quot;{pluginInfo.Metadata.GUID} returned false on its load method&quot;);
+        }
+        if (HN.Settings.IsInExtensionMode)
+            TemporaryPluginGUIDs.Add(pluginInfo.Metadata.GUID);
+
+        return pluginInstance;
+    }
+
+    public override void Execute()
+    {
+        base.Execute();
+        foreach(var p in Plugins)
+            ((HacknetPlugin)p.Value.Instance).PostLoad();
+    }
+
+    internal void UnloadTemps()
+    {
+        Log.LogMessage(&quot;Unloading extension plugins...&quot;);
+
+        foreach (var temp in TemporaryPluginGUIDs.Reverse&lt;string&gt;())
+        {
+            if (!((HacknetPlugin)this.Plugins[temp].Instance).Unload())
+            {
+                Log.LogError($&quot;{temp} failed to unload, this could cause problems without a game restart!&quot;);
+            }
+            this.Plugins.Remove(temp);
+
+            Log.LogMessage($&quot;Unloaded {temp}&quot;);
+        }
+        TemporaryPluginGUIDs.Clear();
+        ChainloaderFix.ClearRemaps();
+
+        Log.LogMessage(&quot;Finished unloading extension plugins&quot;);
+    }
+}
+
+[HarmonyPatch]
+internal static class ExtensionPluginPatches
+{
+    // BepInEx.Paths's setters are private, this creates setters we can use
+    private static readonly MethodInfo PluginPathSetter = AccessTools.PropertySetter(typeof(Paths), nameof(Paths.PluginPath));
+    private static readonly MethodInfo ConfigPathSetter = AccessTools.PropertySetter(typeof(Paths), nameof(Paths.ConfigPath));
+
+    private static bool FirstExtensionLoaded = false;
+
+    internal static bool LoadTempPlugins(ExtensionInfo info)
+    {
+        if (!FirstExtensionLoaded)
+        {
+            HacknetChainloader.Instance.HarmonyInstance.PatchAll(typeof(ChainloaderFix));
+            FirstExtensionLoaded = true;
+        }
+
+        try
+        {
+            HN.Settings.IsInExtensionMode = true;
+            ExtensionLoader.ActiveExtensionInfo = info;
+
+            var newPluginPath = Path.Combine(info.GetFullFolderPath(), &quot;Plugins&quot;);
+            var newConfigPath = Path.Combine(newPluginPath, &quot;Configs&quot;);
+
+            if (Directory.Exists(newPluginPath) &amp;&amp; Directory.GetFiles(newPluginPath, &quot;*.dll&quot;, SearchOption.AllDirectories).Length &gt; 0)
+            {
+                PluginPathSetter.Invoke(null, new object[] { newPluginPath });
+                ConfigPathSetter.Invoke(null, new object[] { newConfigPath });
+                HacknetChainloader.Instance.Execute();
+            }
+
+            return true;
+        }
+        catch (Exception ex)
+        {
+            HN.Settings.IsInExtensionMode = false;
+
+            HacknetChainloader.Instance.Log.LogError($&quot;A fatal exception occured while loading extension plugins, aborting:\n{ex}&quot;);
+
+            return false;
+        }
+    }
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(ExtensionsMenuScreen), nameof(ExtensionsMenuScreen.ActivateExtensionPage))]
+    internal static void LoadTempPluginsOnExtensionPage(ExtensionInfo info, ref bool __runOriginal)
+    {
+        if (!__runOriginal)
+            return;
+
+        __runOriginal = LoadTempPlugins(info);
+    }
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(HN.Game1), nameof(HN.Game1.LoadInitialScreens))]
+    internal static void LoadTempPluginsOnExtstart(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchLdsfld(AccessTools.Field(typeof(HN.Settings), nameof(HN.Settings.MenuStartup)))
+        );
+        ILLabel skipLabel = c.MarkLabel();
+
+        c.GotoPrev(MoveType.After,
+            x =&gt; x.MatchStsfld(AccessTools.Field(typeof(ExtensionLoader), nameof(ExtensionLoader.ActiveExtensionInfo)))
+        );
+        c.EmitDelegate&lt;Func&lt;bool&gt;&gt;(() =&gt;
+            LoadTempPlugins(ExtensionLoader.ActiveExtensionInfo)
+        );
+        c.Emit(OpCodes.Brfalse, skipLabel);
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(HN.OS), nameof(HN.OS.quitGame))]
+    internal static void UnloadOnOSQuitPostfix() =&gt; HacknetChainloader.Instance.UnloadTemps();
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(ExtensionsMenuScreen), nameof(ExtensionsMenuScreen.DrawExtensionInfoDetail))]
+    internal static void OnBackButtonPressIL(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchLdnull(),
+            x =&gt; x.MatchStfld(AccessTools.Field(typeof(ExtensionsMenuScreen), nameof(ExtensionsMenuScreen.ExtensionInfoToShow)))
+        );
+
+        c.Emit(OpCodes.Ldsfld, AccessTools.Field(typeof(HacknetChainloader), nameof(HacknetChainloader.Instance)));
+        c.Emit(OpCodes.Callvirt, AccessTools.Method(typeof(HacknetChainloader), nameof(HacknetChainloader.UnloadTemps)));
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(ExtensionsMenuScreen), nameof(ExtensionsMenuScreen.ExitExtensionsScreen))]
+    private static void OnMainMenuButtonPressPrefix() =&gt; HacknetChainloader.Instance.UnloadTemps();
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(AppDomain), &quot;get_BaseDirectory&quot;)]
+    private static bool ReturnCorrectDirectoryPrefix(out string __result)
+    {
+        __result = Paths.GameRootPath;
+        return false;
+    }
+}
+
+[HarmonyPatch]
+internal static class ChainloaderFix
+{
+    internal static Dictionary&lt;string, Assembly&gt; Remaps = new Dictionary&lt;string, Assembly&gt;();
+    internal static Dictionary&lt;string, AssemblyDefinition&gt; RemapDefinitions = new Dictionary&lt;string, AssemblyDefinition&gt;();
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(BaseChainloader&lt;HacknetPlugin&gt;), &quot;Execute&quot;)]
+    internal static void PluginCecilHacks(ILContext il)
+    {
+        var c = new ILCursor(il);
+
+        ILLabel skipTryCatch = null;
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchBr(out skipTryCatch),
+            // Logger.LogInfo($&quot;Loading [{item}]&quot;);
+            x =&gt; x.MatchNop(),
+            // .try
+            x =&gt; x.MatchLdstr(&quot;Loading [{0}]&quot;)
+        );
+        c.Index++;
+        c.MoveAfterLabels();
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldloc, 5);
+        c.EmitDelegate(bool(HacknetChainloader @this, PluginInfo item) =&gt;
+        {
+            if (item.Instance != null)
+            {
+                var error = $&quot;Skipping [{item}] because it was already loaded globally.&quot;;
+                @this.Log.LogWarning(error);
+                @this.DependencyErrors.Add(error);
+                return false;
+            }
+            return true;
+        });
+        c.Emit(OpCodes.Brfalse, skipTryCatch);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchCallOrCallvirt(AccessTools.Method(typeof(Assembly), &quot;LoadFile&quot;, new Type[] { typeof(string) }))
+        );
+
+        c.Remove();
+        c.EmitDelegate&lt;Func&lt;string, Assembly&gt;&gt;(path =&gt;
+        {
+            byte[] asmBytes;
+            string name;
+
+            var asm = AssemblyDefinition.ReadAssembly(path, new ReaderParameters()
+            {
+                AssemblyResolver = new RenamedAssemblyResolver()
+            });
+            name = asm.Name.Name;
+            asm.Name.Name = asm.Name.Name + &quot;-&quot; + DateTime.Now.Ticks;
+
+            using (var ms = new MemoryStream())
+            {
+                asm.Write(ms);
+                asmBytes = ms.ToArray();
+            }
+
+            var loaded = Assembly.Load(asmBytes);
+            Remaps[name] = loaded;
+            RemapDefinitions[name] = asm;
+
+            return loaded;
+        });
+    }
+    internal static void ClearRemaps()
+    {
+        Remaps.Clear();
+        foreach (var asm in RemapDefinitions.Values)
+            asm.Dispose();
+        RemapDefinitions.Clear();
+    }
+}
+internal class RenamedAssemblyResolver : DefaultAssemblyResolver
+{
+    public override AssemblyDefinition Resolve(AssemblyNameReference name, ReaderParameters parameters) =&gt;
+        ChainloaderFix.RemapDefinitions.TryGetValue(name.Name, out var asm)
+            ? asm
+            : base.Resolve(name, parameters);
+}
+
+[HarmonyPatch]
+internal static class LogWriteLineToDisk
+{
+    internal static TextWriter LogWriter = null;
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(Console), nameof(Console.WriteLine), new Type[] { typeof(string) })]
+    internal static void WriteWriteLineToLog(string value)
+    {
+        LogWriter?.WriteLine(value);
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

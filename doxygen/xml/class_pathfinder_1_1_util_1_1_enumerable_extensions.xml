@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_enumerable_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::EnumerableExtensions</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_enumerable_extensions_1a3b2a6b22e1fdd774a412e463f1bc4403" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>? T</type>
+        <definition>static ? T Pathfinder.Util.EnumerableExtensions.FirstOrNull&lt; T &gt;</definition>
+        <argsstring>(this IEnumerable&lt; T &gt; source)</argsstring>
+        <name>FirstOrNull&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Util.EnumerableExtensions.FirstOrNull&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IEnumerable&lt; T &gt;</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/EnumerableExtensions.cs" line="6" column="19" bodyfile="PathfinderAPI/Util/EnumerableExtensions.cs" bodystart="6" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_enumerable_extensions_1a7c4dc190b370f465109a6d7e8ce12cea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>? T</type>
+        <definition>static ? T Pathfinder.Util.EnumerableExtensions.FirstOrNull&lt; T &gt;</definition>
+        <argsstring>(this IEnumerable&lt; T &gt; source, Func&lt; T, bool &gt; predicate)</argsstring>
+        <name>FirstOrNull&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Util.EnumerableExtensions.FirstOrNull&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IEnumerable&lt; T &gt;</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Func&lt; T, bool &gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/EnumerableExtensions.cs" line="13" column="19" bodyfile="PathfinderAPI/Util/EnumerableExtensions.cs" bodystart="13" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/EnumerableExtensions.cs" line="4" column="15" bodyfile="PathfinderAPI/Util/EnumerableExtensions.cs" bodystart="5" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_enumerable_extensions_1a3b2a6b22e1fdd774a412e463f1bc4403" prot="public" virt="non-virtual"><scope>Pathfinder::Util::EnumerableExtensions</scope><name>FirstOrNull&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_enumerable_extensions_1a7c4dc190b370f465109a6d7e8ce12cea" prot="public" virt="non-virtual"><scope>Pathfinder::Util::EnumerableExtensions</scope><name>FirstOrNull&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

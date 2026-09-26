@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_computer_extensions_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Port/ComputerExtensions.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Port/ComputerExtensions.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_computer_extensions_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_computer_extensions_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Port/ComputerExtensions.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapiportcomputerextensionscs">PathfinderAPI/Port/ComputerExtensions.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_port/">Pathfinder::Port</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_port_1_1_port_data/">Pathfinder::Port::PortData</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_port_1_1_computer_extensions/">Pathfinder::Port::ComputerExtensions</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Runtime.CompilerServices;
+using BepInEx.Logging;
+using Hacknet;
+using HarmonyLib;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Mono.Cecil.Cil;
+using MonoMod.Cil;
+using Pathfinder.Util;
+
+namespace Pathfinder.Port;
+
+[Obsolete(&quot;Use PortState or PortRecord instead&quot;)]
+public class PortData : IEquatable&lt;PortData&gt;
+{
+    public string Protocol { get; }
+    public string DisplayName { get; set; }
+    public int Port { get; set; }
+    public int OriginalPort { get; private set; }
+    public bool Cracked { get; set; } = false;
+
+    public PortData(string proto, int portNum, string displayName)
+    {
+        Protocol = proto;
+        Port = portNum;
+        OriginalPort = portNum;
+        DisplayName = displayName;
+    }
+
+    internal PortData(string proto, int origPortNum, int portNum, string displayName)
+    {
+        Protocol = proto;
+        Port = portNum;
+        OriginalPort = origPortNum;
+        DisplayName = displayName;
+    }
+
+    public PortData Clone()
+    {
+        var ret = new PortData(Protocol, Port, DisplayName)
+        {
+            OriginalPort = OriginalPort
+        };
+        return ret;
+    }
+
+    public bool Equals(PortData other)
+    {
+        return !object.ReferenceEquals(other, null) &amp;&amp; Protocol == other.Protocol &amp;&amp; Port == other.Port &amp;&amp; OriginalPort == other.OriginalPort;
+    }
+    public static bool operator ==(PortData first, PortData second)
+    {
+        return first?.Equals(second) ?? second is null;
+    }
+    public static bool operator !=(PortData first, PortData second)
+    {
+        return !(first == second);
+    }
+    public override bool Equals(object obj)
+    {
+        if (ReferenceEquals(null, obj))
+            return false;
+        if (ReferenceEquals(this, obj))
+            return true;
+        if (obj.GetType() != this.GetType())
+            return false;
+        return Equals((PortData)obj);
+    }
+    public override int GetHashCode()
+    {
+        unchecked
+        {
+            var hashCode = (Protocol != null ? Protocol.GetHashCode() : 0);
+            hashCode = (hashCode * 397) ^ Port;
+            hashCode = (hashCode * 397) ^ OriginalPort;
+            return hashCode;
+        }
+    }
+}
+
+[HarmonyPatch]
+public static class ComputerExtensions
+{
+    internal static readonly Dictionary&lt;string, PortRecord&gt; OGPorts;
+    private static readonly Dictionary&lt;int, string&gt; OGPortToProto = new Dictionary&lt;int, string&gt;()
+    {
+        {22, &quot;ssh&quot;},
+        {21, &quot;ftp&quot;},
+        {25, &quot;smtp&quot;},
+        {80, &quot;web&quot;},
+        {1433, &quot;sql&quot;},
+        {104, &quot;medical&quot;},
+        {6881, &quot;torrent&quot;},
+        {443, &quot;ssl&quot;},
+        {192, &quot;pacific&quot;},
+        {554, &quot;rtsp&quot;},
+        // no cracker but still ports
+        {211, &quot;transfer&quot;},
+        {9418, &quot;version&quot;},
+        {3724, &quot;blizzard&quot;},
+        {3659, &quot;eos&quot;},
+        // ...what the fuck?
+        {32, &quot;sigscramble&quot;}
+    };
+
+    static ComputerExtensions()
+    {
+        OGPorts = new Dictionary&lt;string, PortRecord&gt;();
+        PortExploits.populate();
+        foreach (var port in PortExploits.portNums.Where(x =&gt; PortExploits.services.ContainsKey(x)))
+        {
+            OGPorts.Add(OGPortToProto[port], new PortRecord(OGPortToProto[port], PortExploits.services[port], port));
+        }
+    }
+
+    private static readonly ConditionalWeakTable&lt;Computer, Dictionary&lt;string, PortState&gt;&gt; PortTable = new ConditionalWeakTable&lt;Computer, Dictionary&lt;string, PortState&gt;&gt;();
+
+    public static void AddPort(this Computer comp, string protocol, int portNum, string displayName)
+    {
+        var record = PortManager.GetPortRecordFromProtocol(protocol);
+        if(record == null)
+            record = new PortRecord(protocol, displayName, portNum);
+        comp.AddPort(record.CreateState(null, displayName, portNum));
+    }
+    [Obsolete(&quot;Use AddPort(PortRecord) or AddPort(PortState) instead&quot;)]
+    public static void AddPort(this Computer comp, PortData port)
+    {
+        var ports = PortTable.GetOrCreateValue(comp);
+        if (ports.ContainsKey(port.Protocol))
+            return;
+        comp.AddPort(port.Protocol, port.Port, port.DisplayName);
+    }
+    public static void AddPort(this Computer comp, PortRecord record)
+    {
+        record.ThrowNull(nameof(record));
+        if(!PortManager.IsPortRecordRegistered(record))
+        {
+            Logger.Log(LogLevel.Warning, $&quot;Protocol '{record.Protocol}' not registered, please correct, this will crash in 6.0.0&quot;);
+            PortManager.RegisterPort(record);
+        }
+
+        comp.AddPort(record.CreateState(comp));
+    }
+    public static void AddPort(this Computer comp, PortState port)
+    {
+        if(port == null)
+            throw new ArgumentNullException(nameof(port));
+
+        if(port.Computer != null &amp;&amp; port.Computer != comp)
+            throw new InvalidOperationException($&quot;{nameof(port)} already has a Computer assigned to it&quot;);
+
+        if(port.Record == null)
+            throw new InvalidOperationException($&quot;{nameof(port)}.{nameof(port.Record)} can not be null&quot;);
+
+        if(!PortManager.IsPortRecordRegistered(port.Record))
+        {
+            Logger.Log(LogLevel.Warning, $&quot;Protocol '{port.Record.Protocol}' not registered, please correct, this will crash in 6.0.0&quot;);
+            PortManager.RegisterPort(port.Record);
+        }
+
+        var ports = PortTable.GetOrCreateValue(comp);
+        if (ports.ContainsKey(port.Record.Protocol))
+            return;
+
+        ports.Add(port.Record.Protocol, port);
+        port.Computer = comp;
+    }
+
+    public static bool RemovePort(this Computer comp, string protocol)
+    {
+        return PortTable.GetOrCreateValue(comp).Remove(protocol);
+    }
+
+    public static bool RemovePort(this Computer comp, PortRecord record)
+    {
+        return comp.RemovePort(record.Protocol);
+    }
+
+    public static PortState GetPortState(this Computer comp, string protocol)
+    {
+        PortTable.GetOrCreateValue(comp).TryGetValue(protocol, out var ret);
+        return ret;
+    }
+
+    [Obsolete(&quot;Use GetPortState(string) instead&quot;)]
+    public static PortData GetPort(this Computer comp, string protocol)
+    {
+        return (PortData)comp.GetPortState(protocol);
+    }
+
+    public static List&lt;PortState&gt; GetAllPortStates(this Computer comp)
+    {
+        return PortTable.GetOrCreateValue(comp).Values.ToList();
+    }
+
+    [Obsolete(&quot;Use GetAllPortStates() instead&quot;)]
+    public static List&lt;PortData&gt; GetAllPorts(this Computer comp)
+    {
+        return PortTable.GetOrCreateValue(comp).Values.Select(record =&gt; (PortData)record).ToList();
+    }
+
+    public static Dictionary&lt;string, PortState&gt; GetPortStateDict(this Computer comp)
+    {
+        return PortTable.GetOrCreateValue(comp);
+    }
+
+    [Obsolete(&quot;Use GetPortStateDict() instead&quot;)]
+    public static Dictionary&lt;string, PortData&gt; GetPortDict(this Computer comp)
+    {
+        return comp.GetPortStateDict()
+            .Select(pair =&gt; new KeyValuePair&lt;string, PortData&gt;(pair.Key, (PortData)pair.Value))
+            .ToDictionary(p =&gt; p.Key, p =&gt; p.Value);
+    }
+
+    public static bool HasInitializedPorts(Computer comp) =&gt; PortTable.TryGetValue(comp, out _);
+
+    public static int CountOpenPorts(this Computer comp)
+    {
+        return comp.GetAllPortStates().Count(x =&gt; x.Cracked);
+    }
+
+    public static void openPort(this Computer comp, string protocol, string ipFrom)
+    {
+        if (PortTable.GetOrCreateValue(comp).TryGetValue(protocol, out var port))
+        {
+            port.Cracked = true;
+        }
+        comp.log($&quot;{ipFrom} Opened Port#{port?.PortNumber ?? -1}&quot;);
+        if (!comp.silent)
+        {
+            comp.sendNetworkMessage($&quot;cPortOpen {comp.ip} {ipFrom} {port?.PortNumber ?? -1}&quot;);
+        }
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Computer), nameof(Computer.openPort))]
+    private static bool OpenPortPrefix(Computer __instance, int portNum, string ipFrom)
+    {
+        var ports = __instance.GetAllPortStates();
+        var port = ports.FirstOrDefault(x =&gt; x.Record.OriginalPortNumber == portNum);
+        if (port != null)
+        {
+            port.Cracked = true;
+        }
+        __instance.log($&quot;{ipFrom} Opened Port#{portNum}&quot;);
+        if (!__instance.silent)
+        {
+            __instance.sendNetworkMessage($&quot;cPortOpen {__instance.ip} {ipFrom} {portNum}&quot;);
+        }
+        return false;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Computer), nameof(Computer.openPorts))]
+    private static bool OpenPortsPrefix(Computer __instance)
+    {
+        return false;
+    }
+
+    public static void closePort(this Computer comp, string protocol, string ipFrom)
+    {
+        if (PortTable.GetOrCreateValue(comp).TryGetValue(protocol, out var port))
+        {
+            port.Cracked = false;
+        }
+        comp.log($&quot;{ipFrom} Closed Port#{port?.PortNumber ?? -1}&quot;);
+        if (!comp.silent)
+        {
+            comp.sendNetworkMessage($&quot;cPortClose {comp.ip} {ipFrom} {port?.PortNumber ?? -1}&quot;);
+        }
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Computer), nameof(Computer.closePort))]
+    private static bool ClosePortPrefix(Computer __instance, int portNum, string ipFrom)
+    {
+        var ports = __instance.GetAllPortStates();
+        var port = ports.FirstOrDefault(x =&gt; x.Record.OriginalPortNumber == portNum);
+        if (port != null)
+        {
+            port.Cracked = false;
+        }
+        __instance.log($&quot;{ipFrom} Closed Port#{portNum}&quot;);
+        if (!__instance.silent)
+        {
+            __instance.sendNetworkMessage($&quot;cPortClose {__instance.ip} {ipFrom} {portNum}&quot;);
+        }
+        return false;
+    }
+
+    public static bool isPortOpen(this Computer comp, string protocol)
+    {
+        return comp.GetPortState(protocol)?.Cracked ?? false;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Computer), nameof(Computer.isPortOpen))]
+    private static bool IsPortOpenPrefix(Computer __instance, int portNum, out bool __result)
+    {
+        if (!OGPortToProto.TryGetValue(portNum, out var proto))
+            throw new ArgumentException(&quot;Checking if a port is open by it's number is only supported for base game ports!&quot;, nameof(portNum));
+        __result = __instance.GetPortState(proto)?.Cracked ?? false;
+        return false;
+    }
+
+    public static void ClearPorts(this Computer comp)
+    {
+        PortTable.GetOrCreateValue(comp).Clear();
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Computer), nameof(Computer.GetCodePortNumberFromDisplayPort))]
+    private static bool DisplayToCodePrefix(Computer __instance, int displayPort, out int __result)
+    {
+        __result = __instance.GetAllPortStates().FirstOrDefault(x =&gt; x.PortNumber == displayPort)?.Record.OriginalPortNumber ?? displayPort;
+        return false;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(Computer), nameof(Computer.GetDisplayPortNumberFromCodePort))]
+    private static bool CodeToDisplayPrefix(Computer __instance, int codePort, out int __result)
+    {
+        __result = __instance.GetAllPortStates().FirstOrDefault(x =&gt; x.Record.OriginalPortNumber == codePort)?.PortNumber ?? codePort;
+        return false;
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(Programs), nameof(Programs.probe))]
+    private static void FixCommandProbe(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchNop(),
+            x =&gt; x.MatchLdcI4(0),
+            x =&gt; x.MatchStloc(2),
+            x =&gt; x.MatchBr(out _),
+            x =&gt; x.MatchNop(),
+            x =&gt; x.MatchLdarg(1)
+        );
+
+        var begin = c.MarkLabel();
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchLdarg(1),
+            x =&gt; x.MatchLdstr(&quot;---------------------------------&quot;),
+            x =&gt; x.MatchCallOrCallvirt(AccessTools.Method(typeof(OS), nameof(OS.write)))
+        );
+
+        var endIndex = c.Index;
+        c.GotoLabel(begin);
+        c.RemoveRange(endIndex - c.Index);
+
+        c.Emit(OpCodes.Ldarg_1);
+        c.Emit(OpCodes.Ldloc_1);
+        c.EmitDelegate&lt;Action&lt;OS, Computer&gt;&gt;((os, comp) =&gt;
+        {
+            foreach (var port in comp.GetAllPortStates())
+            {
+                os.write($&quot;Port#: {port.PortNumber}  -  {port.DisplayName}{(port.Cracked ? &quot; : OPEN&quot; : &quot;&quot;)}&quot;);
+                Thread.Sleep(120);
+            }
+        });
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(DisplayModule), nameof(DisplayModule.doProbeDisplay))]
+    private static void FixDisplayProbe(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchLdcI4(0),
+            x =&gt; x.MatchStloc(6),
+            x =&gt; x.MatchBr(out _),
+            x =&gt; x.MatchNop(),
+            x =&gt; x.MatchLdloca(0),
+            x =&gt; x.MatchLdarg(0),
+            x =&gt; x.MatchLdfld(AccessTools.Field(typeof(DisplayModule), nameof(DisplayModule.y))),
+            x =&gt; x.MatchLdcI4(4),
+            x =&gt; x.MatchAdd(),
+            x =&gt; x.MatchStfld(AccessTools.Field(typeof(Rectangle), nameof(Rectangle.Y)))
+        );
+
+        var begin = c.MarkLabel();
+        c.GotoNext(MoveType.Before, x =&gt; x.MatchRet());
+        var end = c.Index;
+        c.GotoLabel(begin);
+        c.RemoveRange(end - c.Index);
+
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldloc_1);
+        c.Emit(OpCodes.Ldloc_0);
+        c.Emit(OpCodes.Ldloc, 10);
+        c.EmitDelegate&lt;Action&lt;DisplayModule, Computer, Rectangle, Vector2&gt;&gt;((display, comp, rect, pos) =&gt;
+        {
+            var batch = display.spriteBatch;
+            var os = display.os;
+            foreach (var port in comp.GetAllPortStates())
+            {
+                rect.Y = display.y + 4;
+                pos.Y = rect.Y + 4;
+                batch.Draw(Utils.white, rect, port.Cracked ? os.unlockedColor : os.lockedColor);
+                batch.Draw(port.Cracked ? display.openLockSprite : display.lockSprite, pos, Color.White);
+                string portNumText = $&quot;Port#: {port.PortNumber}&quot;;
+                var start = GuiData.font.MeasureString(portNumText);
+                batch.DrawString(GuiData.font, portNumText, new Vector2(display.x, display.y + 3), Color.White);
+                string portNameText = $&quot; - {port.DisplayName}&quot;;
+                var second = GuiData.smallfont.MeasureString(portNameText);
+                float num2 = rect.Width - start.X - 50f;
+                float scale = Math.Min(1f, num2 / second.X);
+                batch.DrawString(GuiData.smallfont, portNameText, new Vector2(display.x + start.X, display.y + 4), Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
+                display.y += 45;
+            }
+        });
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(FastBasicAdministrator), nameof(FastBasicAdministrator.disconnectionDetected))]
+    private static void ResetPortsFastPostfix(FastBasicAdministrator __instance, Computer c, OS os)
+    {
+        foreach (var port in c.GetAllPortStates().Where(x =&gt; x.Cracked))
+            c.closePort(port.Record.Protocol, &quot;LOCAL_ADMIN&quot;);
+        if (!__instance.IsSuper)
+            os.delayer.Post(os.delayer.nextPairs.Last().Condition, () =&gt;
+            {
+                foreach (var port in c.GetAllPortStates().Where(x =&gt; x.Cracked))
+                    c.closePort(port.Record.Protocol, &quot;LOCAL_ADMIN&quot;);
+            });
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(FastProgressOnlyAdministrator), nameof(FastProgressOnlyAdministrator.disconnectionDetected))]
+    private static void ResetPortsProgressOnlyPostfix(Computer c)
+    {
+        foreach (var port in c.GetAllPortStates().Where(x =&gt; x.Cracked))
+            c.closePort(port.Record.Protocol, &quot;LOCAL_ADMIN&quot;);
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(BasicAdministrator), nameof(BasicAdministrator.disconnectionDetected))]
+    private static void ResetPortsBasicPostfix(Computer c, OS os)
+    {
+        os.delayer.Post(os.delayer.nextPairs.Last().Condition, () =&gt;
+        {
+            foreach (var port in c.GetAllPortStates().Where(x =&gt; x.Cracked))
+                c.closePort(port.Record.Protocol, &quot;LOCAL_ADMIN&quot;);
+        });
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(ProgramRunner), nameof(ProgramRunner.AttemptExeProgramExecution))]
+    private static void FixPortCrackers(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchLdcI4(0),
+            x =&gt; x.MatchStloc(9),
+            x =&gt; x.MatchBr(out _),
+            x =&gt; x.MatchNop(),
+            x =&gt; x.MatchLdloc(0),
+            x =&gt; x.MatchLdfld(AccessTools.Field(typeof(Computer), nameof(Computer.ports))),
+            x =&gt; x.MatchLdloc(9),
+            x =&gt; x.MatchCallOrCallvirt(AccessTools.Method(typeof(List&lt;int&gt;), &quot;get_Item&quot;))
+        );
+
+        c.RemoveRange(36);
+
+        c.Emit(OpCodes.Ldloc_0);
+        c.Emit(OpCodes.Ldloc, 11);
+        c.EmitDelegate&lt;Func&lt;Computer, int, int&gt;&gt;((comp, port) =&gt;
+        {
+            if (comp.GetAllPortStates().Any(x =&gt; x.Record.OriginalPortNumber == port))
+                return port;
+            return -1;
+        });
+        c.Emit(OpCodes.Stloc, 10);
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(OS), nameof(OS.launchExecutable))]
+    private static void FixPortHack(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchNop(),
+            x =&gt; x.MatchLdcI4(0),
+            x =&gt; x.MatchStloc(5),
+            x =&gt; x.MatchLdcI4(0),
+            x =&gt; x.MatchStloc(1),
+            x =&gt; x.MatchBr(out _)
+        );
+
+        c.RemoveRange(30);
+
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldfld, AccessTools.Field(typeof(OS), nameof(OS.connectedComp)));
+        c.Emit(OpCodes.Call, AccessTools.Method(typeof(ComputerExtensions), nameof(CountOpenPorts)));
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(ComputerLoader), nameof(ComputerLoader.loadPortsIntoComputer))]
+    private static bool LoadPortsIntoComputerReplacement(string portsList, object computer_obj)
+    {
+        PortManager.LoadPortsFromStringVanilla((Computer)computer_obj, portsList);
+        return false;
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_event_1_1_gameplay" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Event::Gameplay</compoundname>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event" prot="public">Pathfinder::Event::Gameplay::CommandExecuteEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_execute_event" prot="public">Pathfinder::Event::Gameplay::ExecutableExecuteEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event" prot="public">Pathfinder::Event::Gameplay::ExecutableListEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event" prot="public">Pathfinder::Event::Gameplay::OSUpdateEvent</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_pathfinder_1_1_event_1_1_gameplay_1ade3e7d7f22ff1d463238ee0936e08e36" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ExecutionResult</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.ExecutionResult</qualifiedname>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_gameplay_1ade3e7d7f22ff1d463238ee0936e08e36a38c300f4fc9ce8a77aad4a30de05cad8" prot="public">
+          <name>NotFound</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_gameplay_1ade3e7d7f22ff1d463238ee0936e08e36a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_gameplay_1ade3e7d7f22ff1d463238ee0936e08e36a5a505009b7fa84e920ee7d59ae4b61b9" prot="public">
+          <name>StartupSuccess</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_event_1_1_gameplay_1ade3e7d7f22ff1d463238ee0936e08e36aa149e85a44aeec9140e92733d9ed694e" prot="public">
+          <name>Cancelled</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/ExecutableExecuteEvent.cs" line="112" column="7" bodyfile="PathfinderAPI/Event/Gameplay/ExecutableExecuteEvent.cs" bodystart="113" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

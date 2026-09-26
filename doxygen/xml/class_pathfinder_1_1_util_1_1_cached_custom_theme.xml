@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_cached_custom_theme" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::CachedCustomTheme</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a3b25459b990140e8afc3633e2fd525cf" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; string, <ref refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a195e936042c4a3dd2b369baeabd021aa" kindref="member">RefColorFieldDelegate</ref> &gt;</type>
+        <definition>readonly Dictionary&lt;string, RefColorFieldDelegate&gt; Pathfinder.Util.CachedCustomTheme.OSColorFieldsFast</definition>
+        <argsstring></argsstring>
+        <name>OSColorFieldsFast</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.OSColorFieldsFast</qualifiedname>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a195e936042c4a3dd2b369baeabd021aa" kindref="member">RefColorFieldDelegate</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="17" column="40" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a74ad9586cbd15271a1864ee0cd488039" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+        <definition>ElementInfo Pathfinder.Util.CachedCustomTheme.ThemeInfo</definition>
+        <argsstring></argsstring>
+        <name>ThemeInfo</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.ThemeInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="33" column="24" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a711f2d85481e2d0099172793049b0647" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D Pathfinder.Util.CachedCustomTheme.BackgroundImage</definition>
+        <argsstring></argsstring>
+        <name>BackgroundImage</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.BackgroundImage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="34" column="22" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a2dedb81eb5b270bc9c855d506c8771fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Util.CachedCustomTheme.Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.Path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="36" column="19" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1aedcc007c08ddb912c4554cd5b7c5d053" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Util.CachedCustomTheme.Loaded</definition>
+        <argsstring></argsstring>
+        <name>Loaded</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.Loaded</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="37" column="17" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a1b98da78927b2cb257935bd983d854bf" prot="private" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] Pathfinder.Util.CachedCustomTheme.TextureData</definition>
+        <argsstring></argsstring>
+        <name>TextureData</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.TextureData</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="35" column="18" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a195e936042c4a3dd2b369baeabd021aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate ref Color</type>
+        <definition>delegate ref Color Pathfinder.Util.CachedCustomTheme.RefColorFieldDelegate</definition>
+        <argsstring>(OS instance)</argsstring>
+        <name>RefColorFieldDelegate</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.RefColorFieldDelegate</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="15" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a52bcbe8fdedb008fad7b7a126b47049c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Util.CachedCustomTheme.CachedCustomTheme</definition>
+        <argsstring>(string themeFileName)</argsstring>
+        <name>CachedCustomTheme</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.CachedCustomTheme</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>themeFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="39" column="12" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="39" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1aac0e7ee8cc2ba3f1f301fb61e4de6795" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.CachedCustomTheme.Load</definition>
+        <argsstring>(bool isMainThread)</argsstring>
+        <name>Load</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.Load</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isMainThread</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="51" column="17" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="51" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1ac25be9ffab4b881df033dca978542b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.CachedCustomTheme.ApplyTo</definition>
+        <argsstring>(OS os)</argsstring>
+        <name>ApplyTo</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.ApplyTo</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="114" column="17" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="114" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1ae60e1faa6c31f1ee9d2ec429a911606b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.CachedCustomTheme.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="145" column="17" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="145" bodyend="148"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1acf42cae24ba863a88c89e24f67427f93" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Util.CachedCustomTheme.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="20" column="26" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="20" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a1f3165a2d2613266f76c0c81bb36be17" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>OSTheme</type>
+        <definition>static OSTheme Pathfinder.Util.CachedCustomTheme.GetLayoutForTheme</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetLayoutForTheme</name>
+        <qualifiedname>Pathfinder.Util.CachedCustomTheme.GetLayoutForTheme</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="96" column="28" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="96" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IDisposable</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Util.CachedCustomTheme</label>
+        <link refid="class_pathfinder_1_1_util_1_1_cached_custom_theme"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IDisposable</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Util.CachedCustomTheme</label>
+        <link refid="class_pathfinder_1_1_util_1_1_cached_custom_theme"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Util/CachedCustomTheme.cs" line="13" column="7" bodyfile="PathfinderAPI/Util/CachedCustomTheme.cs" bodystart="14" bodyend="149"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1ac25be9ffab4b881df033dca978542b62" prot="public" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>ApplyTo</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a711f2d85481e2d0099172793049b0647" prot="public" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>BackgroundImage</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a52bcbe8fdedb008fad7b7a126b47049c" prot="public" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>CachedCustomTheme</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1ae60e1faa6c31f1ee9d2ec429a911606b" prot="public" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>Dispose</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a1f3165a2d2613266f76c0c81bb36be17" prot="private" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>GetLayoutForTheme</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1acf42cae24ba863a88c89e24f67427f93" prot="package" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>Initialize</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1aac0e7ee8cc2ba3f1f301fb61e4de6795" prot="public" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>Load</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1aedcc007c08ddb912c4554cd5b7c5d053" prot="public" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>Loaded</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a3b25459b990140e8afc3633e2fd525cf" prot="private" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>OSColorFieldsFast</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a2dedb81eb5b270bc9c855d506c8771fa" prot="public" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>Path</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a195e936042c4a3dd2b369baeabd021aa" prot="public" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>RefColorFieldDelegate</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a1b98da78927b2cb257935bd983d854bf" prot="private" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>TextureData</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_cached_custom_theme_1a74ad9586cbd15271a1864ee0cd488039" prot="public" virt="non-virtual"><scope>Pathfinder::Util::CachedCustomTheme</scope><name>ThemeInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_event_executor_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Util/XML/EventExecutor.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Util/XML/EventExecutor.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_event_executor_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_event_executor_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Util/XML/EventExecutor.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapiutilxmleventexecutorcs">PathfinderAPI/Util/XML/EventExecutor.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_util/">Pathfinder::Util</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_util_1_1_x_m_l/">Pathfinder::Util::XML</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor/">Pathfinder::Util::XML::EventExecutor</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Xml;
+
+namespace Pathfinder.Util.XML;
+
+public delegate void ReadExecution(EventExecutor exec, ElementInfo info);
+
+[Flags]
+public enum ParseOption
+{
+    None = 0,
+    ParseInterior = 0b1,
+    FireOnEnd = 0b10,
+    DontAllowOthers = 0b100
+}
+
+public class EventExecutor : EventReader
+{
+    private struct ExecutorHolder
+    {
+        public ReadExecution Executor;
+        public ParseOption Options;
+    }
+
+    private struct ExecutorState
+    {
+        public XmlReader Reader;
+        public string Text;
+        public Dictionary&lt;string, List&lt;ExecutorHolder&gt;&gt; Temps;
+        public Dictionary&lt;string, List&lt;ExecutorHolder&gt;&gt; AllExecs;
+        public List&lt;ReadExecution&gt; CurrentExecs;
+        public Stack&lt;ElementInfo&gt; ElementStack;
+        public List&lt;string&gt; ParentNames;
+    }
+
+    private readonly Stack&lt;ExecutorState&gt; stateStack = new Stack&lt;ExecutorState&gt;();
+
+    private readonly Dictionary&lt;string, List&lt;ExecutorHolder&gt;&gt; Executors = new Dictionary&lt;string, List&lt;ExecutorHolder&gt;&gt;();
+
+    private Dictionary&lt;string, List&lt;ExecutorHolder&gt;&gt; TemporaryExecutors =
+        new Dictionary&lt;string, List&lt;ExecutorHolder&gt;&gt;();
+
+    private Dictionary&lt;string, List&lt;ExecutorHolder&gt;&gt; _allExecs = null;
+
+    private Dictionary&lt;string, List&lt;ExecutorHolder&gt;&gt; AllExecutors
+    {
+        get
+        {
+            if (_allExecs != null)
+                return _allExecs;
+
+            var ret = new Dictionary&lt;string, List&lt;ExecutorHolder&gt;&gt;();
+            foreach (var exec in Executors)
+            {
+                ret[exec.Key] = new List&lt;ExecutorHolder&gt;(exec.Value);
+            }
+
+            foreach (var temp in TemporaryExecutors)
+            {
+                if (ret.ContainsKey(temp.Key))
+                    ret[temp.Key].AddRange(temp.Value);
+                else
+                    ret[temp.Key] = new List&lt;ExecutorHolder&gt;(temp.Value);
+            }
+
+            _allExecs = ret;
+            return ret;
+        }
+    }
+
+    private Stack&lt;ElementInfo&gt; currentElementStack = new Stack&lt;ElementInfo&gt;();
+    private List&lt;ReadExecution&gt; currentExecutors;
+
+    public EventExecutor() {}
+
+    public EventExecutor(string text, bool isPath) : base(text, isPath)
+    {
+    }
+
+    public EventExecutor(XmlReader rdr) : base(rdr)
+    {
+    }
+
+    public void SaveState()
+    {
+        stateStack.Push(new ExecutorState
+        {
+            Reader = Reader,
+            Text = Text,
+            Temps = TemporaryExecutors,
+            AllExecs = _allExecs,
+            CurrentExecs = currentExecutors,
+            ElementStack = currentElementStack,
+            ParentNames = ParentNames
+        });
+
+        Reader = null;
+        Text = null;
+        TemporaryExecutors = new Dictionary&lt;string, List&lt;ExecutorHolder&gt;&gt;();
+        _allExecs = null;
+        currentExecutors = new List&lt;ReadExecution&gt;();
+        currentElementStack = new Stack&lt;ElementInfo&gt;();
+        ParentNames = new List&lt;string&gt;();
+    }
+
+    public void PopState()
+    {
+        var state = stateStack.Pop();
+        Reader = state.Reader;
+        Text = state.Text;
+        TemporaryExecutors = state.Temps;
+        _allExecs = state.AllExecs;
+        currentExecutors = state.CurrentExecs;
+        currentElementStack = state.ElementStack;
+        ParentNames = state.ParentNames;
+    }
+
+    public void RegisterExecutor(string element, ReadExecution executor, ParseOption options = ParseOption.None)
+    {
+        if (!Executors.ContainsKey(element))
+            Executors.Add(element, new List&lt;ExecutorHolder&gt;());
+        if (!TemporaryExecutors.ContainsKey(element))
+            TemporaryExecutors.Add(element, new List&lt;ExecutorHolder&gt;());
+
+        if (Executors[element].Any(x =&gt; (x.Options &amp; ParseOption.DontAllowOthers) != 0) ||
+            TemporaryExecutors[element].Any(x =&gt; (x.Options &amp; ParseOption.DontAllowOthers) != 0))
+        {
+            return;
+        }
+
+        if ((options &amp; ParseOption.DontAllowOthers) != 0)
+        {
+            Executors[element].Clear();
+            TemporaryExecutors[element].Clear();
+        }
+
+        Executors[element].Add(new ExecutorHolder {Executor = executor, Options = options});
+    }
+
+    public void RegisterTempExecutor(string element, ReadExecution executor, ParseOption options = ParseOption.None)
+    {
+        if (!TemporaryExecutors.ContainsKey(element))
+            TemporaryExecutors.Add(element, new List&lt;ExecutorHolder&gt;());
+        if (!Executors.ContainsKey(element))
+            Executors.Add(element, new List&lt;ExecutorHolder&gt;());
+
+        if (TemporaryExecutors[element].Any(x =&gt; (x.Options &amp; ParseOption.DontAllowOthers) != 0) ||
+            Executors[element].Any(x =&gt; (x.Options &amp; ParseOption.DontAllowOthers) != 0))
+        {
+            return;
+        }
+
+        if ((options &amp; ParseOption.DontAllowOthers) != 0)
+        {
+            TemporaryExecutors[element].Clear();
+        }
+
+        TemporaryExecutors[element].Add(new ExecutorHolder {Executor = executor, Options = options});
+    }
+
+#pragma warning disable 618
+    protected override void ReadElement(Dictionary&lt;string, string&gt; attributes)
+    {
+        base.ReadElement(attributes);
+
+        if (currentElementStack.Count == 0)
+        {
+            if (FindExecutors(CurrentNamespace, out var executors))
+            {
+                var element = new ElementInfo()
+                {
+                    Name = Reader.Name,
+                    Attributes = attributes
+                };
+
+                var interiors = executors.Where(x =&gt; (x.Options &amp; ParseOption.ParseInterior) != 0)
+                    .Select(x =&gt; x.Executor).ToList();
+
+                if (interiors.Count &gt; 0)
+                {
+                    element.Content = null;
+                    currentElementStack.Push(element);
+                    currentExecutors = interiors;
+                }
+
+                foreach (var executor in executors)
+                {
+                    if ((executor.Options &amp; ParseOption.ParseInterior) == 0 &amp;&amp;
+                        (executor.Options &amp; ParseOption.FireOnEnd) == 0)
+                        executor.Executor(this, element);
+                }
+            }
+        }
+        else
+        {
+            var topElement = currentElementStack.Peek();
+            var element = new ElementInfo(Reader.Name, attributes: attributes).SetParent(topElement);
+            currentElementStack.Push(element);
+        }
+    }
+
+    protected override void ReadEndElement()
+    {
+        base.ReadEndElement();
+
+        if (currentElementStack.Count != 0)
+        {
+            var top = currentElementStack.Pop();
+            if (!Reader.IsEmptyElement &amp;&amp; top.Children.Count == 0 &amp;&amp; top.Content == null)
+                top.Content = &quot;&quot;;
+            if (currentElementStack.Count == 0)
+                foreach (var executor in currentExecutors)
+                    executor(this, top);
+        }
+
+        if (FindExecutors(CurrentNamespace, out var executors))
+        {
+            foreach (var executor in executors)
+            {
+                if ((executor.Options &amp; ParseOption.FireOnEnd) != 0)
+                {
+                    executor.Executor(this, null);
+                }
+            }
+        }
+    }
+
+    protected override void ReadText()
+    {
+        base.ReadText();
+
+        if (currentElementStack.Count != 0)
+        {
+            var topElement = currentElementStack.Peek();
+            if (topElement.Content == null)
+                topElement.Content = Reader.Value;
+            else
+                topElement.Content += &quot;\n&quot; + Reader.Value;
+            topElement.AddChild(ElementInfo.FromText(Reader.Value));
+        }
+    }
+
+    protected override void EndRead()
+    {
+        _allExecs = null;
+        TemporaryExecutors.Clear();
+    }
+
+    private bool FindExecutors(string name, out List&lt;ExecutorHolder&gt; executors)
+    {
+        while (true)
+        {
+            if (AllExecutors.TryGetValue(name, out executors))
+            {
+                if (executors.Any(x =&gt; (x.Options &amp; ParseOption.DontAllowOthers) != 0))
+                    executors = executors.Where(x =&gt; (x.Options &amp; ParseOption.ParseInterior) != 0).Take(1).ToList();
+                return true;
+            }
+
+            if (!name.Contains(&quot;.&quot;))
+            {
+                if (AllExecutors.TryGetValue(&quot;*&quot;, out executors))
+                {
+                    if (executors.Any(x =&gt; (x.Options &amp; ParseOption.DontAllowOthers) != 0))
+                        executors = executors.Where(x =&gt; (x.Options &amp; ParseOption.ParseInterior) != 0).Take(1).ToList();
+                    return true;
+                }
+
+                return false;
+            }
+
+            name = name.Substring(name.IndexOf('.') + 1);
+        }
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

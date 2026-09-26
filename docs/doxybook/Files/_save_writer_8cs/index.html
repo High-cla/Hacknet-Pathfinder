@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_save_writer_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Replacements/SaveWriter.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Replacements/SaveWriter.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_save_writer_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_save_writer_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Replacements/SaveWriter.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapireplacementssavewritercs">PathfinderAPI/Replacements/SaveWriter.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_replacements/">Pathfinder::Replacements</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_save_writer/">Pathfinder::Replacements::SaveWriter</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Globalization;
+using System.Text;
+using System.Xml;
+using System.Xml.Linq;
+using Hacknet;
+using Hacknet.Factions;
+using Hacknet.PlatformAPI.Storage;
+using HarmonyLib;
+using Microsoft.Xna.Framework;
+using Pathfinder.Action;
+using Pathfinder.Administrator;
+using Pathfinder.Daemon;
+using Pathfinder.Event;
+using Pathfinder.Event.Saving;
+using Pathfinder.Port;
+using Pathfinder.Util;
+
+namespace Pathfinder.Replacements;
+
+[HarmonyPatch]
+public static class SaveWriter
+{
+    public static XElement GetHacknetSaveElement(OS os)
+    {
+        var result = new XElement(&quot;HacknetSave&quot;);
+        result.SetAttributeValue(&quot;generatedMissionCount&quot;, MissionGenerator.generationCount);
+        result.SetAttributeValue(&quot;Username&quot;, os.username);
+        result.SetAttributeValue(&quot;Language&quot;, os.LanguageCreatedIn);
+        result.SetAttributeValue(&quot;DLCMode&quot;, os.IsInDLCMode);
+        result.SetAttributeValue(&quot;DisableEmailIcon&quot;, os.DisableEmailIcon);
+        return result;
+    }
+
+    public static XElement GetActionSaveElement(SerializableAction action)
+    {
+        if (action is PathfinderAction pfAction)
+        {
+            return pfAction.GetSaveElement();
+        }
+
+        var actionType = action.GetType();
+        var saveTag = actionType.Name;
+        if (saveTag.StartsWith(&quot;Hacknet.&quot;))
+        {
+            saveTag = saveTag.Substring(&quot;Hacknet.&quot;.Length);
+        }
+        if (saveTag.StartsWith(&quot;SA&quot;))
+        {
+            saveTag = saveTag.Substring(&quot;SA&quot;.Length);
+        }
+        var result = new XElement(saveTag);
+        string contentValue = null;
+        var fields = actionType.GetFields();
+        foreach (var field in fields)
+        {
+            if (Utils.FieldContainsAttributeOfType(field, typeof(XMLContentAttribute)))
+            {
+                if (contentValue != null)
+                {
+                    throw new InvalidOperationException(&quot;More than one field in object &quot; + action.ToString() + &quot; is a content serializable type&quot;);
+                }
+                contentValue = string.Format(CultureInfo.InvariantCulture, &quot;{0}&quot;, new object[] { field.GetValue(action) });
+            }
+            else
+            {
+                var fieldVal = string.Format(CultureInfo.InvariantCulture, &quot;{0}&quot;, new object[] { field.GetValue(action) });
+                result.SetAttributeValue(field.Name, fieldVal);
+            }
+        }
+
+        if (contentValue != null)
+            result.Value = contentValue;
+
+        return result;
+    }
+
+    public static XElement GetConditionSaveElement(SerializableCondition cond)
+    {
+        if (cond is PathfinderCondition pfCond)
+        {
+            return pfCond.GetSaveElement();
+        }
+
+        var condType = cond.GetType();
+        var saveTag = condType.Name;
+        if (saveTag.StartsWith(&quot;Hacknet.&quot;))
+        {
+            saveTag = saveTag.Substring(&quot;Hacknet.&quot;.Length);
+        }
+        if (saveTag.StartsWith(&quot;SC&quot;))
+        {
+            saveTag = saveTag.Substring(&quot;SC&quot;.Length);
+        }
+        var result = new XElement(saveTag);
+        var fields = condType.GetFields();
+        foreach (var field in fields)
+        {
+            var fieldVal = string.Format(CultureInfo.InvariantCulture, &quot;{0}&quot;, new object[1] { field.GetValue(cond) });
+            result.SetAttributeValue(field.Name, fieldVal);
+        }
+
+        return result;
+    }
+
+    public static XElement GetConditionalActionSetSaveElement(SerializableConditionalActionSet set)
+    {
+        var result = GetConditionSaveElement(set.Condition);
+        for (var i = 0; i &lt; set.Actions.Count; i++)
+            result.Add(GetActionSaveElement(set.Actions[i]));
+        return result;
+    }
+
+    public static XElement GetConditionalActionsSaveElement(RunnableConditionalActions actions)
+    {
+        var result = new XElement(&quot;ConditionalActions&quot;);
+        foreach (var action in actions.Actions)
+        {
+            result.Add(GetConditionalActionSetSaveElement(action));
+        }
+        return result;
+    }
+
+    public static XElement GetDLCSaveElement(OS os)
+    {
+        var result = new XElement(&quot;DLC&quot;);
+        result.SetAttributeValue(&quot;Active&quot;, os.IsInDLCMode.ToString());
+        result.SetAttributeValue(&quot;LoadedContent&quot;, os.HasLoadedDLCContent.ToString());
+        var DLCFlags = new XElement(&quot;Flags&quot;);
+        DLCFlags.SetAttributeValue(&quot;OriginalFaction&quot;, os.PreDLCFaction);
+        result.Add(DLCFlags);
+        var OriginalNodes = new XElement(&quot;OriginalVisibleNodes&quot;);
+        OriginalNodes.SetValue(os.PreDLCVisibleNodesCache);
+        result.Add(OriginalNodes);
+        result.Add(GetConditionalActionsSaveElement(os.ConditionalActions));
+        return result;
+    }
+
+    public static XElement GetFlagsSaveElement(ProgressionFlags flags)
+    {
+        var result = new XElement(&quot;Flags&quot;);
+        var flagsBuild = new StringBuilder();
+        foreach (var flag in flags.Flags)
+        {
+            flagsBuild.Append(flag.Replace(&quot;,&quot;, &quot;[%%COMMAREPLACED%%]&quot;));
+            flagsBuild.Append(&quot;,&quot;);
+        }
+        if (flagsBuild.Length &gt; 0)
+        {
+            flagsBuild.Length--;
+        }
+        result.SetValue(flagsBuild.ToString());
+        return result;
+    }
+
+    public static XElement GetNetmapVisibleNodesSaveElement(NetworkMap nmap)
+    {
+        var result = new XElement(&quot;visible&quot;);
+        var visible = new StringBuilder();
+        for (var i = 0; i &lt; nmap.visibleNodes.Count; i++)
+        {
+            visible.Append(nmap.visibleNodes[i] + ((i != nmap.visibleNodes.Count - 1) ? &quot; &quot; : &quot;&quot;));
+        }
+        result.SetValue(visible.ToString());
+        return result;
+    }
+
+    public static XElement GetFirewallSaveElement(Firewall firewall)
+    {
+        var result = new XElement(&quot;firewall&quot;);
+        result.SetAttributeValue(&quot;complexity&quot;, firewall.complexity);
+        result.SetAttributeValue(&quot;solution&quot;, firewall.solution);
+        result.SetAttributeValue(&quot;additionalDelay&quot;, firewall.additionalDelay.ToString(CultureInfo.InvariantCulture));
+        return result;
+    }
+
+    public static XElement GetPortSaveElement(Computer node)
+    {
+        var result = new XElement(&quot;ports&quot;);
+        foreach (var port in node.GetAllPortStates())
+        {
+            result.Add(
+                new XElement(port.Record.Protocol,
+                    new XElement(&quot;Original&quot;, port.Record.OriginalPortNumber),
+                    new XElement(&quot;Number&quot;, port.PortNumber),
+                    new XElement(&quot;Display&quot;, port.DisplayName)
+                ));
+        }
+        return result;
+    }
+
+    public static XElement GetUserDetailSaveElement(UserDetail user)
+    {
+        var result = new XElement(&quot;user&quot;);
+        result.SetAttributeValue(&quot;name&quot;, user.name);
+        result.SetAttributeValue(&quot;pass&quot;, user.pass);
+        result.SetAttributeValue(&quot;type&quot;, user.type);
+        result.SetAttributeValue(&quot;known&quot;, user.known);
+        return result;
+    }
+
+    public static XElement GetMemoryContentsSaveElement(MemoryContents contents)
+    {
+        var result = new XElement(&quot;Memory&quot;);
+        if (contents.DataBlocks != null &amp;&amp; contents.DataBlocks.Count &gt; 0)
+        {
+            var dataTag = new XElement(&quot;Data&quot;);
+            foreach (var dataBlock in contents.DataBlocks)
+            {
+                var blockTag = new XElement(&quot;Block&quot;);
+                blockTag.SetValue(dataBlock);
+                dataTag.Add(blockTag);
+            }
+            result.Add(dataTag);
+        }
+        if (contents.CommandsRun != null &amp;&amp; contents.CommandsRun.Count &gt; 0)
+        {
+            var dataTag = new XElement(&quot;Commands&quot;);
+            foreach (var command in contents.CommandsRun)
+            {
+                var blockTag = new XElement(&quot;Command&quot;);
+                blockTag.SetValue(command);
+                dataTag.Add(blockTag);
+            }
+            result.Add(dataTag);
+        }
+        if (contents.FileFragments != null &amp;&amp; contents.FileFragments.Count &gt; 0)
+        {
+            var dataTag = new XElement(&quot;FileFragments&quot;);
+            foreach (var fileFrag in contents.FileFragments)
+            {
+                var blockTag = new XElement(&quot;File&quot;);
+                blockTag.SetAttributeValue(&quot;name&quot;, fileFrag.Key);
+                blockTag.SetValue(fileFrag.Value);
+                dataTag.Add(blockTag);
+            }
+            result.Add(dataTag);
+        }
+        if (contents.Images != null &amp;&amp; contents.Images.Count &gt; 0)
+        {
+            var dataTag = new XElement(&quot;Images&quot;);
+            foreach (var image in contents.Images)
+            {
+                var blockTag = new XElement(&quot;Image&quot;);
+                blockTag.SetValue(image);
+                dataTag.Add(blockTag);
+            }
+            result.Add(dataTag);
+        }
+        return result;
+    }
+
+    public static XElement GetFolderSaveElement(Folder folder)
+    {
+        var result = new XElement(&quot;folder&quot;);
+        result.SetAttributeValue(&quot;name&quot;, folder.name);
+
+        foreach (var internalFolder in folder.folders)
+            result.Add(GetFolderSaveElement(internalFolder));
+
+        foreach (var file in folder.files)
+        {
+            var fileTag = new XElement(&quot;file&quot;);
+            fileTag.SetAttributeValue(&quot;name&quot;, file.name);
+            fileTag.SetValue(file.data);
+            result.Add(fileTag);
+        }
+
+        return result;
+    }
+
+    public static XElement GetFilesystemSaveElement(FileSystem fs)
+    {
+        var result = new XElement(&quot;filesystem&quot;);
+        result.Add(GetFolderSaveElement(fs.root));
+        return result;
+    }
+
+    public static XElement GetDaemonSaveElement(object daemon)
+    {
+        XElement CreateDaemonElement(object daemonObj, string name, string[] fields, string[] attribNames)
+        {
+            var type = daemonObj.GetType();
+            fields.ThrowNotSameSizeAs(nameof(fields), attribNames, nameof(attribNames));
+            var daemonElement = new XElement(name);
+            for (int i = 0; i &lt; fields.Length; i++)
+            {
+                var content = AccessTools.Field(type, fields[i]);
+                string contentString = null;
+                if (content.FieldType == typeof(Color))
+                    contentString = Utils.convertColorToParseableString((Color) content.GetValue(daemonObj));
+                else
+                    contentString = content.GetValue(daemonObj)?.ToString() ?? &quot;&quot;;
+                daemonElement.SetAttributeValue(attribNames[i], contentString);
+            }
+
+            return daemonElement;
+        }
+
+        XElement result = null;
+
+        if (daemon is BaseDaemon pfDaemon)
+        {
+            return pfDaemon.GetSaveElement();
+        }
+
+        switch (daemon)
+        {
+            case MailServer _:
+                result = CreateDaemonElement(daemon, &quot;MailServer&quot;, 
+                    new[] {&quot;name&quot;, &quot;themeColor&quot;}, 
+                    new[] {&quot;name&quot;, &quot;color&quot;}
+                );
+                break;
+            case MissionListingServer listServer:
+                if (listServer.HasCustomColor)
+                    result = CreateDaemonElement(daemon, &quot;MissionListingServer&quot;,
+                        new[]
+                        {
+                            &quot;name&quot;, &quot;groupName&quot;, &quot;isPublic&quot;, &quot;missionAssigner&quot;, &quot;listingTitle&quot;, &quot;IconReloadPath&quot;,
+                            &quot;themeColor&quot;, &quot;ArticleFolderPath&quot;
+                        },
+                        new[] {&quot;name&quot;, &quot;group&quot;, &quot;public&quot;, &quot;assign&quot;, &quot;title&quot;, &quot;icon&quot;, &quot;color&quot;, &quot;articles&quot;}
+                    );
+                else
+                    result = CreateDaemonElement(daemon, &quot;MissionListingServer&quot;,
+                        new[] {&quot;name&quot;, &quot;groupName&quot;, &quot;isPublic&quot;, &quot;missionAssigner&quot;, &quot;listingTitle&quot;},
+                        new[] {&quot;name&quot;, &quot;group&quot;, &quot;public&quot;, &quot;assign&quot;, &quot;title&quot;}
+                    );
+                break;
+            case AddEmailDaemon _:
+                result = CreateDaemonElement(daemon, &quot;AddEmailServer&quot;,
+                    new[] {&quot;name&quot;,},
+                    new[] {&quot;name&quot;}
+                );
+                break;
+            case MessageBoardDaemon _:
+                result = CreateDaemonElement(daemon, &quot;MessageBoard&quot;,
+                    new[] {&quot;name&quot;, &quot;BoardName&quot;},
+                    new[] {&quot;name&quot;, &quot;boardName&quot;}
+                );
+                break;
+            case OnlineWebServerDaemon _:
+                result = CreateDaemonElement(daemon, &quot;OnlineWebServer&quot;,
+                    new[] {&quot;name&quot;, &quot;webURL&quot;},
+                    new[] {&quot;name&quot;, &quot;url&quot;}
+                );
+                break;
+            case WebServerDaemon _:
+                result = CreateDaemonElement(daemon, &quot;WebServer&quot;,
+                    new[] {&quot;name&quot;, &quot;saveURL&quot;},
+                    new[] {&quot;name&quot;, &quot;url&quot;}
+                );
+                break;
+            case AcademicDatabaseDaemon _:
+                result = CreateDaemonElement(daemon, &quot;AcademicDatabse&quot;,
+                    new[] {&quot;name&quot;},
+                    new[] {&quot;name&quot;}
+                );
+                break;
+            case MissionHubServer _:
+                result = CreateDaemonElement(daemon, &quot;MissionHubServer&quot;, new string[0], new string[0]);
+                break;
+            case DeathRowDatabaseDaemon _:
+                result = CreateDaemonElement(daemon, &quot;DeathRowDatabase&quot;, new string[0], new string[0]);
+                break;
+            case MedicalDatabaseDaemon _:
+                result = CreateDaemonElement(daemon, &quot;MedicalDatabase&quot;, new string[0], new string[0]);
+                break;
+            case HeartMonitorDaemon _:
+                result = CreateDaemonElement(daemon, &quot;HeartMonitor&quot;, new[] {&quot;PatientID&quot;}, new[] {&quot;patient&quot;});
+                break;
+            case PointClickerDaemon _:
+                result = CreateDaemonElement(daemon, &quot;PointClicker&quot;, new string[0], new string[0]);
+                break;
+            case ISPDaemon _:
+                result = CreateDaemonElement(daemon, &quot;ispSystem&quot;, new string[0], new string[0]);
+                break;
+            case PorthackHeartDaemon _:
+                result = CreateDaemonElement(daemon, &quot;porthackheart&quot;, new string[0], new string[0]);
+                break;
+            case SongChangerDaemon _:
+                result = CreateDaemonElement(daemon, &quot;SongChangerDaemon&quot;, new string[0], new string[0]);
+                break;
+            case UploadServerDaemon _:
+                result = CreateDaemonElement(daemon, &quot;UploadServerDaemon&quot;,
+                    new[] {&quot;name&quot;, &quot;Foldername&quot;, &quot;themeColor&quot;, &quot;needsAuthentication&quot;, &quot;hasReturnViewButton&quot;},
+                    new[] {&quot;name&quot;, &quot;foldername&quot;, &quot;color&quot;, &quot;needsAuth&quot;, &quot;hasReturnViewButton&quot;}
+                );
+                break;
+            case DLCHubServer _:
+                result = CreateDaemonElement(daemon, &quot;DHSDaemon&quot;, new string[0], new string[0]);
+                break;
+            case DatabaseDaemon database:
+                result = CreateDaemonElement(daemon, &quot;DatabaseDaemon&quot;,
+                    new[] {&quot;name&quot;, &quot;Permissions&quot;, &quot;DataTypeIdentifier&quot;, &quot;Foldername&quot;},
+                    new[] {&quot;Name&quot;, &quot;Permissions&quot;, &quot;DataType&quot;, &quot;Foldername&quot;}
+                );
+                if (database.HadThemeColorApplied)
+                {
+                    result.SetAttributeValue(&quot;Color&quot;, Utils.convertColorToParseableString(database.ThemeColor));
+                }
+                if (database.adminResetPassEmailAccount.HasContent())
+                {
+                    result.SetAttributeValue(&quot;AdminEmailAccount&quot;, database.adminResetPassEmailAccount);
+                    result.SetAttributeValue(&quot;AdminEmailHostID&quot;, database.adminResetEmailHostID);
+                }
+
+                break;
+            case WhitelistConnectionDaemon _:
+                result = CreateDaemonElement(daemon, &quot;WhitelistAuthenticatorDaemon&quot;, 
+                    new[] {&quot;AuthenticatesItself&quot;},
+                    new[] {&quot;SelfAuthenticating&quot;}
+                );
+                break;
+            case IRCDaemon _:
+                result = CreateDaemonElement(daemon, &quot;IRCDaemon&quot;, new string[0], new string[0]);
+                break;
+            case MarkovTextDaemon _:
+                result = CreateDaemonElement(daemon, &quot;MarkovTextDaemon&quot;,
+                    new[] {&quot;name&quot;, &quot;corpusFolderPath&quot;},
+                    new[] {&quot;Name&quot;, &quot;SourceFilesContentFolder&quot;}
+                );
+                break;
+            case AircraftDaemon aircraft:
+                result = CreateDaemonElement(daemon, &quot;AircraftDaemon&quot;,
+                    new[] {&quot;name&quot;, &quot;FlightProgress&quot;},
+                    new[] {&quot;Name&quot;, &quot;Progress&quot;}
+                );
+                result.SetAttributeValue(&quot;OriginX&quot;, aircraft.mapOrigin.X);
+                result.SetAttributeValue(&quot;OriginY&quot;, aircraft.mapOrigin.Y);
+                result.SetAttributeValue(&quot;DestX&quot;, aircraft.mapDest.X);
+                result.SetAttributeValue(&quot;DestY&quot;, aircraft.mapDest.Y);
+                break;
+            case LogoCustomConnectDisplayDaemon _:
+                result = CreateDaemonElement(daemon, &quot;LogoCustomConnectDisplayDaemon&quot;,
+                    new[] {&quot;logoImageName&quot;, &quot;titleImageName&quot;, &quot;LogoShouldClipOverdraw&quot;, &quot;buttonAlignmentName&quot;},
+                    new[] {&quot;logo&quot;, &quot;title&quot;, &quot;overdrawLogo&quot;, &quot;buttonAlignment&quot;}
+                );
+                break;
+            case CustomConnectDisplayDaemon _:
+                result = CreateDaemonElement(daemon, &quot;CustomConnectDisplayDaemon&quot;, new string[0], new string[0]);
+                break;
+            case LogoDaemon _:
+                result = CreateDaemonElement(daemon, &quot;LogoDaemon&quot;,
+                    new[] {&quot;LogoImagePath&quot;, &quot;showsTitle&quot;, &quot;TextColor&quot;, &quot;name&quot;},
+                    new[] {&quot;LogoImagePath&quot;, &quot;ShowsTitle&quot;, &quot;TextColor&quot;, &quot;Name&quot;}
+                );
+                break;
+            case DLCCreditsDaemon credits:
+                result = CreateDaemonElement(daemon, &quot;DLCCredits&quot;, new string[0], new string[0]);
+                if (credits.OverrideTitle != null)
+                {
+                    result.SetAttributeValue(&quot;Title&quot;, credits.OverrideTitle);
+                }
+                if (credits.OverrideButtonText != null)
+                {
+                    result.SetAttributeValue(&quot;Button&quot;, credits.OverrideButtonText);
+                }
+                if (credits.ConditionalActionsToLoadOnButtonPress != null)
+                {
+                    result.SetAttributeValue(&quot;Action&quot;, credits.ConditionalActionsToLoadOnButtonPress);
+                }
+
+                break;
+            case FastActionHost fah:
+                result = CreateDaemonElement(daemon, &quot;FastActionHost&quot;, new string[0], new string[0]);
+                fah.folder.files = fah.DelayedActions.GetAllFilesForActions();
+                break;
+        }
+
+        return result;
+    }
+
+    public static XElement GetNodeSaveElement(Computer node)
+    {
+        var result = new XElement(&quot;computer&quot;);
+        result.SetAttributeValue(&quot;name&quot;, node.name);
+        result.SetAttributeValue(&quot;ip&quot;, node.ip);
+        result.SetAttributeValue(&quot;type&quot;, node.type);
+        var spec = &quot;none&quot;;
+        if (node.os.netMap.mailServer.Equals(node))
+        {
+            spec = &quot;mail&quot;;
+        }
+        if (node.os.thisComputer.Equals(node))
+        {
+            spec = &quot;player&quot;;
+        }
+        if (node.Equals(node.os.netMap.academicDatabase)) // academicDatabase can be null
+        {
+            spec = &quot;academic&quot;;
+        }
+        result.SetAttributeValue(&quot;spec&quot;, spec);
+        result.SetAttributeValue(&quot;id&quot;, node.idName);
+        if (node.icon != null)
+        {
+            result.SetAttributeValue(&quot;icon&quot;, node.icon);
+        }
+        if (node.attatchedDeviceIDs != null)
+        {
+            result.SetAttributeValue(&quot;devices&quot;, node.attatchedDeviceIDs);
+        }
+        if (node.HasTracker)
+        {
+            result.SetAttributeValue(&quot;tracker&quot;, &quot;true&quot;);
+        }
+
+        var locationTag = new XElement(&quot;location&quot;);
+        locationTag.SetAttributeValue(&quot;x&quot;, node.location.X.ToString(CultureInfo.InvariantCulture));
+        locationTag.SetAttributeValue(&quot;y&quot;, node.location.Y.ToString(CultureInfo.InvariantCulture));
+        result.Add(locationTag);
+
+        var securityTag = new XElement(&quot;security&quot;);
+        securityTag.SetAttributeValue(&quot;level&quot;, node.securityLevel);
+        securityTag.SetAttributeValue(&quot;traceTime&quot;, node.traceTime.ToString(CultureInfo.InvariantCulture));
+        if (node.startingOverloadTicks &gt; 0f)
+        {
+            securityTag.SetAttributeValue(&quot;proxyTime&quot;, (node.hasProxy ? node.startingOverloadTicks.ToString(CultureInfo.InvariantCulture) : &quot;-1&quot;));
+        }
+        securityTag.SetAttributeValue(&quot;adminIP&quot;, node.adminIP);
+        securityTag.SetAttributeValue(&quot;portsToCrack&quot;, node.portsNeededForCrack);
+        result.Add(securityTag);
+
+        result.Add(GetPortSaveElement(node));
+
+        XElement adminTag = null;
+        string adminType;
+        switch (node.admin)
+        {
+            case null:
+                adminType = &quot;none&quot;;
+                break;
+            case BaseAdministrator pfAdmin:
+                adminTag = pfAdmin.GetSaveElement();
+                adminType = node.admin.GetType().Name;
+                break;
+            case FastBasicAdministrator _:
+                adminType = &quot;fast&quot;;
+                break;
+            case FastProgressOnlyAdministrator _:
+                adminType = &quot;progress&quot;;
+                break;
+            case BasicAdministrator _:
+                adminType = &quot;basic&quot;;
+                break;
+            default:
+                adminType = node.admin.GetType().Name;
+                break;
+        }
+
+        adminTag ??= new XElement(&quot;admin&quot;);
+
+        adminTag.SetAttributeValue(&quot;type&quot;, adminType);
+        adminTag.SetAttributeValue(&quot;resetPass&quot;, node.admin?.ResetsPassword ?? false);
+        adminTag.SetAttributeValue(&quot;isSuper&quot;, node.admin?.IsSuper ?? false);
+        result.Add(adminTag);
+
+        var linksTag = new XElement(&quot;links&quot;);
+        var links = new StringBuilder();
+        foreach (var link in node.links)
+            links.Append(&quot; &quot; + link);
+
+        linksTag.SetValue(links.ToString());
+        result.Add(linksTag);
+
+        if (node.firewall != null)
+            result.Add(GetFirewallSaveElement(node.firewall));
+
+        var usersTag = new XElement(&quot;users&quot;);
+        foreach (var detail in node.users)
+            usersTag.Add(GetUserDetailSaveElement(detail));
+
+        result.Add(usersTag);
+
+        if (node.Memory != null)
+            result.Add(GetMemoryContentsSaveElement(node.Memory));
+
+
+        var daemonsTag = new XElement(&quot;daemons&quot;);
+
+        daemonsTag.Add(node.daemons.Select(GetDaemonSaveElement).ToArray());
+
+        result.Add(daemonsTag);
+
+        result.Add(GetFilesystemSaveElement(node.files));
+
+        var eventResult = EventManager&lt;SaveComputerEvent&gt;.InvokeAll(new SaveComputerEvent(node.os, node, result));
+        return eventResult.Cancelled ? null : eventResult.Element;
+    }
+
+    public static XElement GetNetmapNodesSaveElement(NetworkMap nmap)
+    {
+        var result = new XElement(&quot;network&quot;);
+        result.Add(nmap.nodes.Select(GetNodeSaveElement).Where(x =&gt; x != null).ToArray());
+        return result;
+    }
+
+    public static XElement GetNetmapSaveElement(NetworkMap nmap)
+    {
+        var result = new XElement(&quot;NetworkMap&quot;);
+        result.SetAttributeValue(&quot;sort&quot;, nmap.SortingAlgorithm);
+        result.Add(GetNetmapVisibleNodesSaveElement(nmap));
+        result.Add(GetNetmapNodesSaveElement(nmap));
+        return result;
+    }
+
+    public static XElement GetMissionSaveElement(ActiveMission mission)
+    {
+        var result = new XElement(&quot;mission&quot;);
+        if (mission == null) {
+            result.SetAttributeValue(&quot;next&quot;, &quot;NULL_MISSION&quot;);
+            result.SetAttributeValue(&quot;goals&quot;, &quot;none&quot;);
+            result.SetAttributeValue(&quot;activeCheck&quot;, &quot;none&quot;);
+            return result;
+        }
+        result.SetAttributeValue(&quot;next&quot;, mission.nextMission);
+        result.SetAttributeValue(&quot;goals&quot;, mission.reloadGoalsSourceFile);
+        result.SetAttributeValue(&quot;reqRank&quot;, mission.requiredRank);
+
+        if (mission.wasAutoGenerated)
+        {
+            result.SetAttributeValue(&quot;genTarget&quot;, mission.genTarget);
+            result.SetAttributeValue(&quot;genFile&quot;, mission.genFile);
+            result.SetAttributeValue(&quot;genPath&quot;, mission.genPath);
+            result.SetAttributeValue(&quot;genTargetName&quot;, mission.genTargetName);
+            result.SetAttributeValue(&quot;genOther&quot;, mission.genOther);
+        }
+
+        result.SetAttributeValue(&quot;activeCheck&quot;, mission.activeCheck);
+
+        var email = new XElement(&quot;email&quot;);
+        email.SetAttributeValue(&quot;sender&quot;, mission.email.sender);
+        email.SetAttributeValue(&quot;subject&quot;, mission.email.subject);
+        email.SetValue(mission.email.body);
+        result.Add(email);
+
+        var endFunctionVal = new XElement(&quot;endFunc&quot;);
+        endFunctionVal.SetAttributeValue(&quot;val&quot;, mission.endFunctionValue);
+        endFunctionVal.SetAttributeValue(&quot;name&quot;, mission.endFunctionName);
+        result.Add(endFunctionVal);
+
+        var postingTag = new XElement(&quot;posting&quot;);
+        postingTag.SetAttributeValue(&quot;title&quot;, mission.postingTitle);
+        postingTag.SetValue(mission.postingBody);
+        result.Add(postingTag);
+        return result;
+    }
+
+    public static XElement GetFactionSaveElement(Faction faction)
+    {
+        var tagName = &quot;Faction&quot;;
+        switch (faction)
+        {
+            case EntropyFaction _:
+                tagName = &quot;EntropyFaction&quot;;
+                break;
+            case HubFaction _:
+                tagName = &quot;HubFaction&quot;;
+                break;
+            case CustomFaction _:
+                tagName = &quot;CustomFaction&quot;;
+                break;
+        }
+        var result = new XElement(tagName);
+        result.SetAttributeValue(&quot;name&quot;, faction.name);
+        result.SetAttributeValue(&quot;id&quot;, faction.idName);
+        result.SetAttributeValue(&quot;neededVal&quot;, faction.neededValue);
+        result.SetAttributeValue(&quot;playerVal&quot;, faction.playerValue);
+        result.SetAttributeValue(&quot;playerHasPassed&quot;, faction.playerHasPassedValue);
+
+        if (faction is CustomFaction customFaction)
+        {
+            foreach (var action in customFaction.CustomActions)
+            {
+                var actionElement = new XElement(&quot;Action&quot;);
+                actionElement.SetAttributeValue(&quot;ValueRequired&quot;, action.ValueRequiredForTrigger);
+                if (action.FlagsRequiredForTrigger != null)
+                {
+                    actionElement.SetAttributeValue(&quot;Flags&quot;, action.FlagsRequiredForTrigger);
+                }
+
+                actionElement.Add(action.TriggerActions.Select(GetActionSaveElement).ToArray());
+
+                result.Add(actionElement);
+            }
+        }
+
+        return result;
+    }
+
+    public static XElement GetAllFactionsSaveElement(AllFactions factions)
+    {
+        var result = new XElement(&quot;AllFactions&quot;);
+        result.SetAttributeValue(&quot;current&quot;, factions.currentFaction);
+        foreach (var faction in factions.factions)
+            result.Add(GetFactionSaveElement(faction.Value));
+        return result;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(OS), nameof(OS.writeSaveGame))]
+    internal static bool SaveWriteReplacementPrefix(ref OS __instance, string filename)
+    {
+        var settings = new XmlWriterSettings
+        {
+            Indent = true
+        };
+        var builder = new StringBuilder();
+
+        using (var writer = XmlWriter.Create(builder, settings))
+        {
+            var saveElement = GetHacknetSaveElement(__instance);
+            saveElement.Add(GetDLCSaveElement(__instance));
+            saveElement.Add(GetFlagsSaveElement(__instance.Flags));
+            saveElement.Add(GetNetmapSaveElement(__instance.netMap));
+            saveElement.Add(GetMissionSaveElement(__instance.currentMission));
+
+            var branchMissionsTag = new XElement(&quot;branchMissions&quot;);
+            foreach (var branch in __instance.branchMissions)
+                branchMissionsTag.Add(GetMissionSaveElement(branch));
+
+            saveElement.Add(branchMissionsTag);
+
+            saveElement.Add(GetAllFactionsSaveElement(__instance.allFactions));
+
+            var otherTag = new XElement(&quot;other&quot;);
+            otherTag.SetAttributeValue(&quot;music&quot;, MusicManager.currentSongName);
+            otherTag.SetAttributeValue(&quot;homeNode&quot;, __instance.homeNodeID);
+            otherTag.SetAttributeValue(&quot;homeAssetsNode&quot;, __instance.homeAssetServerID);
+            saveElement.Add(otherTag);
+
+            EventManager&lt;SaveEvent&gt;.InvokeAll(new SaveEvent(__instance, saveElement, filename));
+
+            writer.WriteStartDocument();
+
+            saveElement.WriteTo(writer);
+
+            writer.WriteEndDocument();
+        }
+
+        SaveFileManager.WriteSaveData(builder.Replace(&quot;\t&quot;, &quot;  &quot;).ToString(), filename);
+
+        return false;
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_extension_info_loader" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Replacements::ExtensionInfoLoader</compoundname>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor" prot="public">Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutor</innerclass>
+    <innerclass refid="struct_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_holder" prot="private">Pathfinder::Replacements::ExtensionInfoLoader::ExtensionInfoExecutorHolder</innerclass>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a281b1cc18a7678ed885fe9f7fda972d5" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; string &gt;</type>
+        <definition>readonly List&lt;string&gt; Pathfinder.Replacements.ExtensionInfoLoader.ValidLanguages</definition>
+        <argsstring></argsstring>
+        <name>ValidLanguages</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.ValidLanguages</qualifiedname>
+        <initializer>= new List&lt;string&gt;
+    {
+        &quot;en-us&quot;, &quot;de-de&quot;, &quot;fr-be&quot;, &quot;ru-ru&quot;, &quot;es-ar&quot;, &quot;ko-kr&quot;, &quot;ja-jp&quot;, &quot;zh-cn&quot;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="34" column="34" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a3347897d0bc8f05c748dd6deae59483c" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; ExtensionInfoExecutorHolder &gt;</type>
+        <definition>readonly List&lt;ExtensionInfoExecutorHolder&gt; Pathfinder.Replacements.ExtensionInfoLoader.CustomExecutors</definition>
+        <argsstring></argsstring>
+        <name>CustomExecutors</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.CustomExecutors</qualifiedname>
+        <initializer>= new List&lt;ExtensionInfoExecutorHolder&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="41" column="34" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a4bb309f554ea476e29ac42c5511a23b3" prot="private" static="yes" mutable="no">
+        <type>readonly <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref></type>
+        <definition>readonly EventExecutor Pathfinder.Replacements.ExtensionInfoLoader.executor</definition>
+        <argsstring></argsstring>
+        <name>executor</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.executor</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="67" column="43" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a320311fabd5f32b9b95396295ee59ed8" prot="private" static="yes" mutable="no">
+        <type>ExtensionInfo</type>
+        <definition>ExtensionInfo Pathfinder.Replacements.ExtensionInfoLoader.extInfo</definition>
+        <argsstring></argsstring>
+        <name>extInfo</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.extInfo</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="69" column="34" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1af607a13714dfe70d93a8335b25fffe50" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ExtensionInfoLoader.AddLanguage</definition>
+        <argsstring>(string language)</argsstring>
+        <name>AddLanguage</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.AddLanguage</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>language</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="39" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a6121a76390ee68ae36f971cb419ee940" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ExtensionInfoLoader.RegisterExecutor&lt; T &gt;</definition>
+        <argsstring>(string element, ParseOption options=ParseOption.None)</argsstring>
+        <name>RegisterExecutor&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.RegisterExecutor&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>element</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+          <declname>options</declname>
+          <defval>ParseOption.None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="43" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a056292bc21647a98451e8a85bd0e51c2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ExtensionInfoLoader.RegisterExecutor</definition>
+        <argsstring>(Type executorType, string element, ParseOption options=ParseOption.None)</argsstring>
+        <name>RegisterExecutor</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.RegisterExecutor</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>executorType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>element</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+          <declname>options</declname>
+          <defval>ParseOption.None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="44" column="24" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="44" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a1aaaf00d145047147e59422322d65171" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ExtensionInfoLoader.UnregisterExecutor&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>UnregisterExecutor&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.UnregisterExecutor&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="56" column="19" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1aee827a81812a2a8241ec197eb9c29c13" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ExtensionInfo</type>
+        <definition>static ExtensionInfo Pathfinder.Replacements.ExtensionInfoLoader.LoadExtensionInfo</definition>
+        <argsstring>(string folderpath)</argsstring>
+        <name>LoadExtensionInfo</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.LoadExtensionInfo</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>folderpath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="135" column="33" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="135" bodyend="173"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a582cb4860a3dbaf407f5fc5c90294e81" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ExtensionInfoLoader.OnPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.OnPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="62" column="25" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a47472fc4006acf2b47c445bd5392f63c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoLoader</definition>
+        <argsstring>()</argsstring>
+        <name>ExtensionInfoLoader</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.ExtensionInfoLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="71" column="12" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="71" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1af049617476d6c2aeeb13449c36ad81d0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Replacements.ExtensionInfoLoader.LoadExtensionInfoPrefix</definition>
+        <argsstring>(string folderpath, out ExtensionInfo __result)</argsstring>
+        <name>LoadExtensionInfoPrefix</name>
+        <qualifiedname>Pathfinder.Replacements.ExtensionInfoLoader.LoadExtensionInfoPrefix</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>folderpath</declname>
+        </param>
+        <param>
+          <type>out ExtensionInfo</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="129" column="25" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="129" bodyend="133"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" line="13" column="15" bodyfile="PathfinderAPI/Replacements/ExtensionInfoLoader.cs" bodystart="14" bodyend="174"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1af607a13714dfe70d93a8335b25fffe50" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>AddLanguage</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a3347897d0bc8f05c748dd6deae59483c" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>CustomExecutors</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a4bb309f554ea476e29ac42c5511a23b3" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>executor</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a47472fc4006acf2b47c445bd5392f63c" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>ExtensionInfoLoader</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a320311fabd5f32b9b95396295ee59ed8" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>extInfo</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1aee827a81812a2a8241ec197eb9c29c13" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>LoadExtensionInfo</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1af049617476d6c2aeeb13449c36ad81d0" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>LoadExtensionInfoPrefix</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a582cb4860a3dbaf407f5fc5c90294e81" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a056292bc21647a98451e8a85bd0e51c2" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>RegisterExecutor</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a6121a76390ee68ae36f971cb419ee940" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>RegisterExecutor&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a1aaaf00d145047147e59422322d65171" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>UnregisterExecutor&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_extension_info_loader_1a281b1cc18a7678ed885fe9f7fda972d5" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ExtensionInfoLoader</scope><name>ValidLanguages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Replacements::ContentLoader::ComputerHolder</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder_1a49be0d920ae623ae161aaf37264d51a7" prot="package" static="no" mutable="no">
+        <type>Computer</type>
+        <definition>Computer Pathfinder.Replacements.ContentLoader.ComputerHolder.Comp</definition>
+        <argsstring></argsstring>
+        <name>Comp</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerHolder.Comp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="39" column="27" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder_1acd0bb757d59494700039b6e42539d702" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Replacements.ContentLoader.ComputerHolder.ComputerHolder</definition>
+        <argsstring>()</argsstring>
+        <name>ComputerHolder</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerHolder.ComputerHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="40" column="18" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder_1ae193d77d73ec0e3e8c29e3dddfbe565b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Pathfinder.Replacements.ContentLoader.ComputerHolder.operator Computer</definition>
+        <argsstring>(ComputerHolder holder)</argsstring>
+        <name>operator Computer</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerHolder.operator Computer</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder" kindref="compound">ComputerHolder</ref></type>
+          <declname>holder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="42" column="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="37" column="11" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="38" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder_1a49be0d920ae623ae161aaf37264d51a7" prot="package" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerHolder</scope><name>Comp</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder_1acd0bb757d59494700039b6e42539d702" prot="package" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerHolder</scope><name>ComputerHolder</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder_1ae193d77d73ec0e3e8c29e3dddfbe565b" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerHolder</scope><name>operator Computer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

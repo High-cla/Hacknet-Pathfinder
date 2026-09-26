@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_action_1_1_pathfinder_condition" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Action::PathfinderCondition</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SerializableCondition</basecompoundref>
+    <basecompoundref refid="interface_pathfinder_1_1_util_1_1_i_xml_name" prot="public" virt="non-virtual">Pathfinder.Util.IXmlName</basecompoundref>
+    <derivedcompoundref refid="class_example_mod2_1_1_test_condition" prot="public" virt="non-virtual">ExampleMod2.TestCondition</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_action_1_1_pathfinder_condition_1abc66aeeb5bbde09071662c8fe94b765c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Action.PathfinderCondition.XmlName</definition>
+        <argsstring></argsstring>
+        <name>XmlName</name>
+        <qualifiedname>Pathfinder.Action.PathfinderCondition.XmlName</qualifiedname>
+        <reimplements refid="interface_pathfinder_1_1_util_1_1_i_xml_name_1a24234a830cba81c9782f3396fc7db61b">XmlName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/PathfinderCondition.cs" line="10" column="19" bodyfile="PathfinderAPI/Action/PathfinderCondition.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_pathfinder_condition_1a42179aaf35c166a1bca7913a4e2c1351" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>XElement</type>
+        <definition>virtual XElement Pathfinder.Action.PathfinderCondition.GetSaveElement</definition>
+        <argsstring>()</argsstring>
+        <name>GetSaveElement</name>
+        <qualifiedname>Pathfinder.Action.PathfinderCondition.GetSaveElement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/PathfinderCondition.cs" line="12" column="29" bodyfile="PathfinderAPI/Action/PathfinderCondition.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_pathfinder_condition_1a644171e2250bb4be6b18fa42b00d923e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Action.PathfinderCondition.LoadFromXml</definition>
+        <argsstring>(ElementInfo info)</argsstring>
+        <name>LoadFromXml</name>
+        <qualifiedname>Pathfinder.Action.PathfinderCondition.LoadFromXml</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/PathfinderCondition.cs" line="17" column="25" bodyfile="PathfinderAPI/Action/PathfinderCondition.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>ExampleMod2.TestCondition</label>
+        <link refid="class_example_mod2_1_1_test_condition"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Action.PathfinderCondition</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_condition"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SerializableCondition</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Action.PathfinderCondition</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_condition"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SerializableCondition</label>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Action/PathfinderCondition.cs" line="8" column="17" bodyfile="PathfinderAPI/Action/PathfinderCondition.cs" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_condition_1a42179aaf35c166a1bca7913a4e2c1351" prot="public" virt="virtual"><scope>Pathfinder::Action::PathfinderCondition</scope><name>GetSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_condition_1a644171e2250bb4be6b18fa42b00d923e" prot="public" virt="virtual"><scope>Pathfinder::Action::PathfinderCondition</scope><name>LoadFromXml</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_condition_1abc66aeeb5bbde09071662c8fe94b765c" prot="public" virt="non-virtual"><scope>Pathfinder::Action::PathfinderCondition</scope><name>XmlName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

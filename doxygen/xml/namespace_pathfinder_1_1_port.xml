@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_port" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Port</compoundname>
+    <innerclass refid="class_pathfinder_1_1_port_1_1_computer_extensions" prot="public">Pathfinder::Port::ComputerExtensions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_port_1_1_port_data" prot="public">Pathfinder::Port::PortData</innerclass>
+    <innerclass refid="class_pathfinder_1_1_port_1_1_port_manager" prot="public">Pathfinder::Port::PortManager</innerclass>
+    <innerclass refid="class_pathfinder_1_1_port_1_1_port_record" prot="public">Pathfinder::Port::PortRecord</innerclass>
+    <innerclass refid="class_pathfinder_1_1_port_1_1_port_state" prot="public">Pathfinder::Port::PortState</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

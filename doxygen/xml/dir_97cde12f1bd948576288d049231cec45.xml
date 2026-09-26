@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_97cde12f1bd948576288d049231cec45" kind="dir">
+    <compoundname>PathfinderAPI/Daemon</compoundname>
+    <innerfile refid="_base_daemon_8cs">BaseDaemon.cs</innerfile>
+    <innerfile refid="_daemon_manager_8cs">DaemonManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Daemon/"/>
+  </compounddef>
+</doxygen>

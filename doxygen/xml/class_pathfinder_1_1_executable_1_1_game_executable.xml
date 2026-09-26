@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_executable_1_1_game_executable" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Executable::GameExecutable</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_executable_1_1_base_executable" prot="public" virt="non-virtual">Pathfinder.Executable.BaseExecutable</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_executable_1_1_game_executable_1a7b0d75581448ea04a9f7f43958c4ad45" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Pathfinder.Executable.GameExecutable.Lifetime</definition>
+        <argsstring></argsstring>
+        <name>Lifetime</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.Lifetime</qualifiedname>
+        <briefdescription>
+<para>Lifetime value of the executable, added to upon being added to the OS on every Update. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="20" column="18" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_executable_1_1_game_executable_1a9c75f5092c58947c128a46c4eca5ed18" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_pathfinder_1_1_executable_1af8bf6b8a1c41136a98f76c4f4c651d51" kindref="member">CompletionResult</ref></type>
+        <definition>CompletionResult Pathfinder.Executable.GameExecutable.Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.Result</qualifiedname>
+        <briefdescription>
+<para>Status of the executable, sets isExiting if not set to CompletionResult.Running. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="26" column="29" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_executable_1_1_game_executable_1a5fd2494defe9082e295ea4006da59a29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>virtual bool Pathfinder.Executable.GameExecutable.CanAddToSystem</definition>
+        <argsstring></argsstring>
+        <name>CanAddToSystem</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.CanAddToSystem</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Determines whether the executable is added to the OS when executed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="38" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_executable_1_1_game_executable_1ac273e478966d20e5ddedaed3dcecba20" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>virtual bool Pathfinder.Executable.GameExecutable.CanBeKilled</definition>
+        <argsstring></argsstring>
+        <name>CanBeKilled</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.CanBeKilled</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Determines whether the executable can be killed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="42" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_executable_1_1_game_executable_1ac42603cff48c165ea855d6eb5c70ccd9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>virtual string Pathfinder.Executable.GameExecutable.ErrorReturn</definition>
+        <argsstring></argsstring>
+        <name>ErrorReturn</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.ErrorReturn</qualifiedname>
+        <briefdescription>
+<para>Written to the terminal if failed or errored when not null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="47" column="27" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_executable_1_1_game_executable_1a3dd00625c3b3dd17f73772d2731434e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>virtual bool Pathfinder.Executable.GameExecutable.IgnoreProxyFailPrint</definition>
+        <argsstring></argsstring>
+        <name>IgnoreProxyFailPrint</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.IgnoreProxyFailPrint</qualifiedname>
+        <briefdescription>
+<para>Determines whether the vanilla proxy fail behavior should also happen. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="52" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_executable_1_1_game_executable_1a2c9b95d34fae64b08f5cbe5f292accaf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>virtual bool Pathfinder.Executable.GameExecutable.IgnoreMemoryBehaviorPrint</definition>
+        <argsstring></argsstring>
+        <name>IgnoreMemoryBehaviorPrint</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.IgnoreMemoryBehaviorPrint</qualifiedname>
+        <briefdescription>
+<para>Determines whether the vanilla no available memory fail behavior should also happen. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="57" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_executable_1_1_game_executable_1a407670ad0eb2bea659974de599298f52" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_pathfinder_1_1_executable_1af8bf6b8a1c41136a98f76c4f4c651d51" kindref="member">CompletionResult</ref></type>
+        <definition>CompletionResult Pathfinder.Executable.GameExecutable._Result</definition>
+        <argsstring></argsstring>
+        <name>_Result</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable._Result</qualifiedname>
+        <initializer>= <ref refid="namespace_pathfinder_1_1_executable_1af8bf6b8a1c41136a98f76c4f4c651d51a5bda814c4aedb126839228f1a3d92f09" kindref="member">CompletionResult.Running</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="21" column="30" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1ad0f00228886667efaf65884b0ebd2493" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Executable.GameExecutable.GameExecutable</definition>
+        <argsstring>()</argsstring>
+        <name>GameExecutable</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.GameExecutable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="59" column="12" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a9247a9031ef0cad209fcfe74470a3f2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Executable.GameExecutable.Assign</definition>
+        <argsstring>(Rectangle location, OS os, string[] args)</argsstring>
+        <name>Assign</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.Assign</qualifiedname>
+        <param>
+          <type>Rectangle</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="63" column="17" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1af9e3b3d20a7170378e17d83c891d8c70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Executable.GameExecutable.OnInitialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnInitialize</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.OnInitialize</qualifiedname>
+        <briefdescription>
+<para>Called immediately before being added to OS.exes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="73" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1ab03fd61e31c7182739c81b0247fdff53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Executable.GameExecutable.OnCompleteError</definition>
+        <argsstring>()</argsstring>
+        <name>OnCompleteError</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.OnCompleteError</qualifiedname>
+        <briefdescription>
+<para>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Error. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="79" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1af185ae8b85fcbebb63b9a4eabadd5ec0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Executable.GameExecutable.OnCompleteFailure</definition>
+        <argsstring>()</argsstring>
+        <name>OnCompleteFailure</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.OnCompleteFailure</qualifiedname>
+        <briefdescription>
+<para>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Failure. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="84" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a1e31428fc68b7b0a72689d7d1dafc76c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Executable.GameExecutable.OnCompleteKilled</definition>
+        <argsstring>()</argsstring>
+        <name>OnCompleteKilled</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.OnCompleteKilled</qualifiedname>
+        <briefdescription>
+<para>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Killed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="90" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a15c273f6b1a750c1f339d14e01f2cc01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Executable.GameExecutable.OnCompleteSuccess</definition>
+        <argsstring>()</argsstring>
+        <name>OnCompleteSuccess</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.OnCompleteSuccess</qualifiedname>
+        <briefdescription>
+<para>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Success. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="95" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a61504b9acb76d249c61156b4e21f3abf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Executable.GameExecutable.OnComplete</definition>
+        <argsstring>()</argsstring>
+        <name>OnComplete</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.OnComplete</qualifiedname>
+        <briefdescription>
+<para>Called immediately before being removed from OS.exes. Called after any dedicated completion method. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="100" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a308f0b89ac80b68da0399f1f46666fa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Executable.GameExecutable.OnNoAvailableRam</definition>
+        <argsstring>()</argsstring>
+        <name>OnNoAvailableRam</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.OnNoAvailableRam</qualifiedname>
+        <briefdescription>
+<para>Called when not enough ram is available to run the executable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="105" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1aa117ad3b32dfb2cf5a24f79c5baaefb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Executable.GameExecutable.OnProxyBypassFailure</definition>
+        <argsstring>()</argsstring>
+        <name>OnProxyBypassFailure</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.OnProxyBypassFailure</qualifiedname>
+        <briefdescription>
+<para>Called when the computer has an active proxy and the executable could not bypass it. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="109" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a5220422bb44b07d7c49f120a28d6cf08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Executable.GameExecutable.OnUpdate</definition>
+        <argsstring>(float delta)</argsstring>
+        <name>OnUpdate</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.OnUpdate</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+<para>Called every Update when Result is CompletitionResult.Running. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The time since the last OS.Update call</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="114" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1ae27f9da9d9846cf2532a825146ccd488" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Pathfinder.Executable.GameExecutable.CatchException</definition>
+        <argsstring>(Exception exception)</argsstring>
+        <name>CatchException</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.CatchException</qualifiedname>
+        <param>
+          <type>Exception</type>
+          <declname>exception</declname>
+        </param>
+        <briefdescription>
+<para>Called when an exception in thrown for this executable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The thrown exception</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the exception is caught, false if it propagates</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="121" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a3acb082f8349d58fc1d9d4f5b873323f" prot="public" static="no" const="no" explicit="no" inline="yes" sealed="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Executable.GameExecutable.LoadContent</definition>
+        <argsstring>()</argsstring>
+        <name>LoadContent</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.LoadContent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="123" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a31d2c480eee7ca4d0b66252da25439f4" prot="public" static="no" const="no" explicit="no" inline="yes" sealed="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Executable.GameExecutable.Completed</definition>
+        <argsstring>()</argsstring>
+        <name>Completed</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.Completed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="125" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="125" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a1ec624f881ea96c22c391788aaf9aefb" prot="public" static="no" const="no" explicit="no" inline="yes" sealed="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Executable.GameExecutable.Killed</definition>
+        <argsstring>()</argsstring>
+        <name>Killed</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.Killed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="158" column="25" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="158" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a29c15f539dab4736bc5535104ff5b0dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Executable.GameExecutable.Update</definition>
+        <argsstring>(float t)</argsstring>
+        <name>Update</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.Update</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="165" column="26" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="165" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_game_executable_1a3b4b544f051acf24c9c694d5ab11df4d" prot="public" static="no" const="no" explicit="no" inline="yes" sealed="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Pathfinder.Executable.GameExecutable.GetIdentifier</definition>
+        <argsstring>()</argsstring>
+        <name>GetIdentifier</name>
+        <qualifiedname>Pathfinder.Executable.GameExecutable.GetIdentifier</qualifiedname>
+        <reimplements refid="class_pathfinder_1_1_executable_1_1_base_executable_1a23717a2e6bf0e5301fc861eebada2c7b">GetIdentifier</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/GameExecutable.cs" line="182" column="27" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="182" bodyend="185"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseExecutable</label>
+        <link refid="class_pathfinder_1_1_executable_1_1_base_executable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ExeModule</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Executable.GameExecutable</label>
+        <link refid="class_pathfinder_1_1_executable_1_1_game_executable"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseExecutable</label>
+        <link refid="class_pathfinder_1_1_executable_1_1_base_executable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ExeModule</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Executable.GameExecutable</label>
+        <link refid="class_pathfinder_1_1_executable_1_1_game_executable"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Executable/GameExecutable.cs" line="14" column="7" bodyfile="PathfinderAPI/Executable/GameExecutable.cs" bodystart="15" bodyend="186"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a407670ad0eb2bea659974de599298f52" prot="private" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>_Result</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_base_executable_1af32dafdcbb5ec900be0c9d99e451defe" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>Args</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a9247a9031ef0cad209fcfe74470a3f2a" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>Assign</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_base_executable_1a165d0b6fc47dc62b662ef18efaabc668" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>BaseExecutable</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a5fd2494defe9082e295ea4006da59a29" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>CanAddToSystem</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1ac273e478966d20e5ddedaed3dcecba20" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>CanBeKilled</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1ae27f9da9d9846cf2532a825146ccd488" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>CatchException</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a31d2c480eee7ca4d0b66252da25439f4" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>Completed</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1ac42603cff48c165ea855d6eb5c70ccd9" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>ErrorReturn</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1ad0f00228886667efaf65884b0ebd2493" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>GameExecutable</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a3b4b544f051acf24c9c694d5ab11df4d" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>GetIdentifier</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a2c9b95d34fae64b08f5cbe5f292accaf" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>IgnoreMemoryBehaviorPrint</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a3dd00625c3b3dd17f73772d2731434e9" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>IgnoreProxyFailPrint</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a1ec624f881ea96c22c391788aaf9aefb" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>Killed</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a7b0d75581448ea04a9f7f43958c4ad45" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>Lifetime</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a3acb082f8349d58fc1d9d4f5b873323f" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>LoadContent</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a61504b9acb76d249c61156b4e21f3abf" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>OnComplete</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1ab03fd61e31c7182739c81b0247fdff53" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>OnCompleteError</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1af185ae8b85fcbebb63b9a4eabadd5ec0" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>OnCompleteFailure</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a1e31428fc68b7b0a72689d7d1dafc76c" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>OnCompleteKilled</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a15c273f6b1a750c1f339d14e01f2cc01" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>OnCompleteSuccess</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1af9e3b3d20a7170378e17d83c891d8c70" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>OnInitialize</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a308f0b89ac80b68da0399f1f46666fa1" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>OnNoAvailableRam</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1aa117ad3b32dfb2cf5a24f79c5baaefb2" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>OnProxyBypassFailure</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a5220422bb44b07d7c49f120a28d6cf08" prot="public" virt="virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>OnUpdate</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a9c75f5092c58947c128a46c4eca5ed18" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>Result</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_game_executable_1a29c15f539dab4736bc5535104ff5b0dc" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::GameExecutable</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

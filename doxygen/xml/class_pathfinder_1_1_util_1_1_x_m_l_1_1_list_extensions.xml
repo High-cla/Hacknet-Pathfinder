@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_list_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::XML::ListExtensions</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_list_extensions_1a67214b5aaba503c1dc5665eeea48f881" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+        <definition>static ElementInfo Pathfinder.Util.XML.ListExtensions.GetElement</definition>
+        <argsstring>(this IEnumerable&lt; ElementInfo &gt; list, string elementName)</argsstring>
+        <name>GetElement</name>
+        <qualifiedname>Pathfinder.Util.XML.ListExtensions.GetElement</qualifiedname>
+        <param>
+          <type>this IEnumerable&lt; <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>elementName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="248" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_list_extensions_1a6bdbdf79e86ededf13abb1bccb4353f3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Util.XML.ListExtensions.TryGetElement</definition>
+        <argsstring>(this IEnumerable&lt; ElementInfo &gt; list, string elementName, out ElementInfo info)</argsstring>
+        <name>TryGetElement</name>
+        <qualifiedname>Pathfinder.Util.XML.ListExtensions.TryGetElement</qualifiedname>
+        <param>
+          <type>this IEnumerable&lt; <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>elementName</declname>
+        </param>
+        <param>
+          <type>out <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="250" column="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="246" column="15" bodyfile="PathfinderAPI/Util/XML/ElementInfo.cs" bodystart="247" bodyend="252"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_list_extensions_1a67214b5aaba503c1dc5665eeea48f881" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ListExtensions</scope><name>GetElement</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_list_extensions_1a6bdbdf79e86ededf13abb1bccb4353f3" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ListExtensions</scope><name>TryGetElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

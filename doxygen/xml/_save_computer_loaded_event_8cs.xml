@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_save_computer_loaded_event_8cs" kind="file" language="C#">
+    <compoundname>SaveComputerLoadedEvent.cs</compoundname>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event" prot="public">Pathfinder::Event::Loading::SaveComputerLoadedEvent</innerclass>
+    <innernamespace refid="namespace_pathfinder">Pathfinder</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event">Pathfinder::Event</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_loading">Pathfinder::Event::Loading</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">HarmonyLib;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l" kindref="compound">Pathfinder.Util.XML</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_event_1_1_loading" kindref="compound">Pathfinder.Event.Loading</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">[HarmonyPatch]</highlight></codeline>
+<codeline lineno="8" refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event" kindref="compound">SaveComputerLoadedEvent</ref><sp/>:<sp/><ref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" kindref="compound">PathfinderEvent</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>OS<sp/><ref refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event_1a036203cd5cb843217dbe0cf9064ab9c8" kindref="member">Os</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Computer<sp/><ref refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event_1a87c163fbecafe60d2c88c087d4d3a71a" kindref="member">Comp</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref><sp/><ref refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event_1a82d38ffe9c73533841eca8998c5c1569" kindref="member">Info</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event" kindref="compound">SaveComputerLoadedEvent</ref>(OS<sp/>os,<sp/>Computer<sp/>comp,<sp/><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref><sp/>info)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event_1a036203cd5cb843217dbe0cf9064ab9c8" kindref="member">Os</ref><sp/>=<sp/>os;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event_1a87c163fbecafe60d2c88c087d4d3a71a" kindref="member">Comp</ref><sp/>=<sp/>comp;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event_1a82d38ffe9c73533841eca8998c5c1569" kindref="member">Info</ref><sp/>=<sp/>info;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderAPI/Event/Loading/SaveComputerLoadedEvent.cs"/>
+  </compounddef>
+</doxygen>

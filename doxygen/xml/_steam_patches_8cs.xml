@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_steam_patches_8cs" kind="file" language="C#">
+    <compoundname>SteamPatches.cs</compoundname>
+    <innerclass refid="class_pathfinder_1_1_steam_patches" prot="public">Pathfinder::SteamPatches</innerclass>
+    <innernamespace refid="namespace_pathfinder">Pathfinder</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Reflection;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">HarmonyLib;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Mono.Cecil.Cil;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">MonoMod.Cil;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_options" kindref="compound">Pathfinder.Options</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder" kindref="compound">Pathfinder</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">[HarmonyPatch]</highlight></codeline>
+<codeline lineno="11" refid="class_pathfinder_1_1_steam_patches" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pathfinder_1_1_steam_patches" kindref="compound">SteamPatches</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyPrepare]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Prepare(MethodBase<sp/>original)<sp/>=&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin" kindref="compound">PathfinderAPIPlugin</ref>.<ref refid="class_pathfinder_1_1_pathfinder_a_p_i_plugin_1a691b59a4e979bf52d117c977b9e430b4" kindref="member">GameIsSteamVersion</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyILManipulator]</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyPatch(typeof(PlatformAPISettings),<sp/>nameof(PlatformAPISettings.InitPlatformAPI))]</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>NoSteamCloudSavesIL(ILContext<sp/>il)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ILCursor<sp/>c<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ILCursor(il);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.GotoNext(MoveType.Before,<sp/>x<sp/>=&gt;<sp/>x.MatchStsfld(AccessTools.Field(typeof(PlatformAPISettings),<sp/>nameof(PlatformAPISettings.RemoteStorageRunning))));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.Emit(OpCodes.Pop);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.Emit(OpCodes.Ldc_I4_0);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyILManipulator]</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyPatch(typeof(MainMenu),<sp/>nameof(MainMenu.drawMainMenuButtons))]</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>NoSteamErrorMessageIL(ILContext<sp/>il)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ILCursor<sp/>c<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ILCursor(il);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.GotoNext(MoveType.Before,<sp/>x<sp/>=&gt;<sp/>x.MatchLdsfld(AccessTools.Field(typeof(PlatformAPISettings),<sp/>nameof(PlatformAPISettings.RemoteStorageRunning))));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.RemoveRange(3);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.Emit(OpCodes.Ldsfld,<sp/>AccessTools.Field(typeof(PathfinderOptions),<sp/>nameof(PathfinderOptions.DisableSteamCloudError)));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.Emit(OpCodes.Ldfld,<sp/>AccessTools.Field(typeof(<ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref>),<sp/>nameof(<ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref>.<ref refid="class_pathfinder_1_1_options_1_1_option_checkbox_1ae424c31d4d80118239eecfa5fddfee79" kindref="member">Value</ref>)));</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.GotoNext(MoveType.Before,<sp/>x<sp/>=&gt;<sp/>x.MatchLdstr(out<sp/>_));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c.Next.Operand<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Steam<sp/>Cloud<sp/>saving<sp/>disabled<sp/>by<sp/>Pathfinder&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderAPI/SteamPatches.cs"/>
+  </compounddef>
+</doxygen>

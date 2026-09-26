@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Classes/class_pathfinder_1_1_executable_1_1_game_executable/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Pathfinder::Executable::GameExecutable - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Pathfinder::Executable::GameExecutable";
+        var mkdocs_page_input_path = "doxybook/Classes/class_pathfinder_1_1_executable_1_1_game_executable.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Classes/class_pathfinder_1_1_executable_1_1_game_executable/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Files/">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Pathfinder::Executable::GameExecutable</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderexecutablegameexecutable">Pathfinder::Executable::GameExecutable</h1>
+<p>Inherits from <a href="../Classes/class_pathfinder_1_1_executable_1_1_base_executable/">Pathfinder.Executable.BaseExecutable</a>, ExeModule</p>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-gameexecutable">GameExecutable</a></strong>()</td>
+</tr>
+<tr>
+<td>void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-assign">Assign</a></strong>(Rectangle location, OS os, string[] args)</td>
+</tr>
+<tr>
+<td>virtual void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-oninitialize">OnInitialize</a></strong>()<br>Called immediately before being added to OS.exes.</td>
+</tr>
+<tr>
+<td>virtual void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-oncompleteerror">OnCompleteError</a></strong>()<br>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Error.</td>
+</tr>
+<tr>
+<td>virtual void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-oncompletefailure">OnCompleteFailure</a></strong>()<br>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Failure.</td>
+</tr>
+<tr>
+<td>virtual void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-oncompletekilled">OnCompleteKilled</a></strong>()<br>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Killed.</td>
+</tr>
+<tr>
+<td>virtual void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-oncompletesuccess">OnCompleteSuccess</a></strong>()<br>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Success.</td>
+</tr>
+<tr>
+<td>virtual void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-oncomplete">OnComplete</a></strong>()<br>Called immediately before being removed from OS.exes. Called after any dedicated completion method.</td>
+</tr>
+<tr>
+<td>virtual void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-onnoavailableram">OnNoAvailableRam</a></strong>()<br>Called when not enough ram is available to run the executable.</td>
+</tr>
+<tr>
+<td>virtual void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-onproxybypassfailure">OnProxyBypassFailure</a></strong>()<br>Called when the computer has an active proxy and the executable could not bypass it.</td>
+</tr>
+<tr>
+<td>virtual void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-onupdate">OnUpdate</a></strong>(float delta)<br>Called every Update when Result is CompletitionResult.Running.</td>
+</tr>
+<tr>
+<td>virtual bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-catchexception">CatchException</a></strong>(Exception exception)<br>Called when an exception in thrown for this executable.</td>
+</tr>
+<tr>
+<td>override void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-loadcontent">LoadContent</a></strong>()</td>
+</tr>
+<tr>
+<td>override void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-completed">Completed</a></strong>()</td>
+</tr>
+<tr>
+<td>override void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-killed">Killed</a></strong>()</td>
+</tr>
+<tr>
+<td>override void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-update">Update</a></strong>(float t)</td>
+</tr>
+<tr>
+<td>virtual override string</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#function-getidentifier">GetIdentifier</a></strong>()</td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-properties">Public Properties</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>float</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#property-lifetime">Lifetime</a></strong> <br>Lifetime value of the executable, added to upon being added to the OS on every Update.</td>
+</tr>
+<tr>
+<td><a href="../Namespaces/namespace_pathfinder_1_1_executable/#enum-completionresult">CompletionResult</a></td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#property-result">Result</a></strong> <br>Status of the executable, sets isExiting if not set to CompletionResult.Running.</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#property-canaddtosystem">CanAddToSystem</a></strong> <br>Determines whether the executable is added to the OS when executed.</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#property-canbekilled">CanBeKilled</a></strong> <br>Determines whether the executable can be killed.</td>
+</tr>
+<tr>
+<td>string</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#property-errorreturn">ErrorReturn</a></strong> <br>Written to the terminal if failed or errored when not null.</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#property-ignoreproxyfailprint">IgnoreProxyFailPrint</a></strong> <br>Determines whether the vanilla proxy fail behavior should also happen.</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_game_executable/#property-ignorememorybehaviorprint">IgnoreMemoryBehaviorPrint</a></strong> <br>Determines whether the vanilla no available memory fail behavior should also happen.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="additional-inherited-members">Additional inherited members</h2>
+<p><strong>Public Functions inherited from <a href="../Classes/class_pathfinder_1_1_executable_1_1_base_executable/">Pathfinder.Executable.BaseExecutable</a></strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_base_executable/#function-baseexecutable">BaseExecutable</a></strong>(Rectangle location, OS operatingSystem, string[] args)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Public Attributes inherited from <a href="../Classes/class_pathfinder_1_1_executable_1_1_base_executable/">Pathfinder.Executable.BaseExecutable</a></strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>string[]</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_executable_1_1_base_executable/#variable-args">Args</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-gameexecutable">function GameExecutable</h3>
+<pre><code class="language-csharp">GameExecutable()
+</code></pre>
+<h3 id="function-assign">function Assign</h3>
+<pre><code class="language-csharp">void Assign(
+    Rectangle location,
+    OS os,
+    string[] args
+)
+</code></pre>
+<h3 id="function-oninitialize">function OnInitialize</h3>
+<pre><code class="language-csharp">virtual void OnInitialize()
+</code></pre>
+<p>Called immediately before being added to OS.exes. </p>
+<h3 id="function-oncompleteerror">function OnCompleteError</h3>
+<pre><code class="language-csharp">virtual void OnCompleteError()
+</code></pre>
+<p>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Error. </p>
+<h3 id="function-oncompletefailure">function OnCompleteFailure</h3>
+<pre><code class="language-csharp">virtual void OnCompleteFailure()
+</code></pre>
+<p>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Failure. </p>
+<h3 id="function-oncompletekilled">function OnCompleteKilled</h3>
+<pre><code class="language-csharp">virtual void OnCompleteKilled()
+</code></pre>
+<p>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Killed. </p>
+<h3 id="function-oncompletesuccess">function OnCompleteSuccess</h3>
+<pre><code class="language-csharp">virtual void OnCompleteSuccess()
+</code></pre>
+<p>Called immediately before being removed from OS.exes. Called when Result is CompletionResult.Success. </p>
+<h3 id="function-oncomplete">function OnComplete</h3>
+<pre><code class="language-csharp">virtual void OnComplete()
+</code></pre>
+<p>Called immediately before being removed from OS.exes. Called after any dedicated completion method. </p>
+<h3 id="function-onnoavailableram">function OnNoAvailableRam</h3>
+<pre><code class="language-csharp">virtual void OnNoAvailableRam()
+</code></pre>
+<p>Called when not enough ram is available to run the executable. </p>
+<h3 id="function-onproxybypassfailure">function OnProxyBypassFailure</h3>
+<pre><code class="language-csharp">virtual void OnProxyBypassFailure()
+</code></pre>
+<p>Called when the computer has an active proxy and the executable could not bypass it. </p>
+<h3 id="function-onupdate">function OnUpdate</h3>
+<pre><code class="language-csharp">virtual void OnUpdate(
+    float delta
+)
+</code></pre>
+<p>Called every Update when Result is CompletitionResult.Running. </p>
+<p><strong>Parameters</strong>: </p>
+<ul>
+<li><strong>delta</strong> The time since the last OS.Update call</li>
+</ul>
+<h3 id="function-catchexception">function CatchException</h3>
+<pre><code class="language-csharp">virtual bool CatchException(
+    Exception exception
+)
+</code></pre>
+<p>Called when an exception in thrown for this executable. </p>
+<p><strong>Parameters</strong>: </p>
+<ul>
+<li><strong>exception</strong> The thrown exception</li>
+</ul>
+<p><strong>Return</strong>: True if the exception is caught, false if it propagates</p>
+<h3 id="function-loadcontent">function LoadContent</h3>
+<pre><code class="language-csharp">override void LoadContent()
+</code></pre>
+<h3 id="function-completed">function Completed</h3>
+<pre><code class="language-csharp">override void Completed()
+</code></pre>
+<h3 id="function-killed">function Killed</h3>
+<pre><code class="language-csharp">override void Killed()
+</code></pre>
+<h3 id="function-update">function Update</h3>
+<pre><code class="language-csharp">override void Update(
+    float t
+)
+</code></pre>
+<h3 id="function-getidentifier">function GetIdentifier</h3>
+<pre><code class="language-csharp">virtual override string GetIdentifier()
+</code></pre>
+<p><strong>Reimplements</strong>: <a href="../Classes/class_pathfinder_1_1_executable_1_1_base_executable/#function-getidentifier">Pathfinder::Executable::BaseExecutable::GetIdentifier</a></p>
+<h2 id="public-property-documentation">Public Property Documentation</h2>
+<h3 id="property-lifetime">property Lifetime</h3>
+<pre><code class="language-csharp">float Lifetime;
+</code></pre>
+<p>Lifetime value of the executable, added to upon being added to the OS on every Update. </p>
+<h3 id="property-result">property Result</h3>
+<pre><code class="language-csharp">CompletionResult Result;
+</code></pre>
+<p>Status of the executable, sets isExiting if not set to CompletionResult.Running. </p>
+<h3 id="property-canaddtosystem">property CanAddToSystem</h3>
+<pre><code class="language-csharp">bool CanAddToSystem = true;
+</code></pre>
+<p>Determines whether the executable is added to the OS when executed. </p>
+<h3 id="property-canbekilled">property CanBeKilled</h3>
+<pre><code class="language-csharp">bool CanBeKilled = true;
+</code></pre>
+<p>Determines whether the executable can be killed. </p>
+<h3 id="property-errorreturn">property ErrorReturn</h3>
+<pre><code class="language-csharp">string ErrorReturn;
+</code></pre>
+<p>Written to the terminal if failed or errored when not null. </p>
+<h3 id="property-ignoreproxyfailprint">property IgnoreProxyFailPrint</h3>
+<pre><code class="language-csharp">bool IgnoreProxyFailPrint;
+</code></pre>
+<p>Determines whether the vanilla proxy fail behavior should also happen. </p>
+<h3 id="property-ignorememorybehaviorprint">property IgnoreMemoryBehaviorPrint</h3>
+<pre><code class="language-csharp">bool IgnoreMemoryBehaviorPrint;
+</code></pre>
+<p>Determines whether the vanilla no available memory fail behavior should also happen. </p>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:07 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

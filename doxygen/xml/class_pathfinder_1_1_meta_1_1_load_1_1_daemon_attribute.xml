@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Meta::Load::DaemonAttribute</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.BaseAttribute</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute_1a5dc4784b67273bf3f5cc0d4f3081550b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Meta.Load.DaemonAttribute.DaemonAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>DaemonAttribute</name>
+        <qualifiedname>Pathfinder.Meta.Load.DaemonAttribute.DaemonAttribute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/DaemonAttribute.cs" line="10" column="12" bodyfile="PathfinderAPI/Meta/Load/DaemonAttribute.cs" bodystart="10" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute_1a2b824b19b69245e4d0b275fe288922c1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Meta.Load.DaemonAttribute.CallOn</definition>
+        <argsstring>(HacknetPlugin plugin, MemberInfo targettedInfo)</argsstring>
+        <name>CallOn</name>
+        <qualifiedname>Pathfinder.Meta.Load.DaemonAttribute.CallOn</qualifiedname>
+        <param>
+          <type><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>targettedInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/DaemonAttribute.cs" line="14" column="38" bodyfile="PathfinderAPI/Meta/Load/DaemonAttribute.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.DaemonAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.DaemonAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Meta/Load/DaemonAttribute.cs" line="8" column="7" bodyfile="PathfinderAPI/Meta/Load/DaemonAttribute.cs" bodystart="9" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute_1a2b824b19b69245e4d0b275fe288922c1" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::DaemonAttribute</scope><name>CallOn</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute_1a5dc4784b67273bf3f5cc0d4f3081550b" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::DaemonAttribute</scope><name>DaemonAttribute</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute_1aa664b7e6caa44645ea2dce2999066d75" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::DaemonAttribute</scope><name>ThrowOnInvalidOperation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

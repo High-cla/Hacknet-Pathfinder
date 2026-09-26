@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_bep_in_ex_1_1_hacknet_1_1_load_bep_in_ex" kind="class" language="C#" prot="package">
+    <compoundname>BepInEx::Hacknet::LoadBepInEx</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_load_bep_in_ex_1a38db71a48b99c01b21b8052007b87a4e" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.LoadBepInEx.Load</definition>
+        <argsstring>()</argsstring>
+        <name>Load</name>
+        <qualifiedname>BepInEx.Hacknet.LoadBepInEx.Load</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/Entrypoint.cs" line="106" column="26" bodyfile="BepInEx.Hacknet/Entrypoint.cs" bodystart="106" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BepInEx.Hacknet/Entrypoint.cs" line="103" column="17" bodyfile="BepInEx.Hacknet/Entrypoint.cs" bodystart="104" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_load_bep_in_ex_1a38db71a48b99c01b21b8052007b87a4e" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::LoadBepInEx</scope><name>Load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

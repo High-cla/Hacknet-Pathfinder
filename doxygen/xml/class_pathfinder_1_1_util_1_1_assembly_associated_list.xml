@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_assembly_associated_list" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::AssemblyAssociatedList</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a90911dc657c960790d1965a931489223" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; Assembly, List&lt; T &gt; &gt;</type>
+        <definition>Dictionary&lt;Assembly, List&lt;T&gt; &gt; Pathfinder.Util.AssemblyAssociatedList&lt; T &gt;.asmDictionary</definition>
+        <argsstring></argsstring>
+        <name>asmDictionary</name>
+        <qualifiedname>Pathfinder.Util.AssemblyAssociatedList.asmDictionary</qualifiedname>
+        <initializer>= new Dictionary&lt;Assembly, List&lt;T&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="8" column="24" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a45635909bae9cb03580d2e7fc8509477" prot="private" static="no" mutable="no">
+        <type>ReadOnlyCollection&lt; T &gt;</type>
+        <definition>ReadOnlyCollection&lt;T&gt; Pathfinder.Util.AssemblyAssociatedList&lt; T &gt;._allItems</definition>
+        <argsstring></argsstring>
+        <name>_allItems</name>
+        <qualifiedname>Pathfinder.Util.AssemblyAssociatedList._allItems</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="9" column="32" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a5db5a7fc3e0c484f8ce15cdf89537aaa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyCollection&lt; T &gt;</type>
+        <definition>ReadOnlyCollection&lt;T&gt; Pathfinder.Util.AssemblyAssociatedList&lt; T &gt;.AllItems</definition>
+        <argsstring></argsstring>
+        <name>AllItems</name>
+        <qualifiedname>Pathfinder.Util.AssemblyAssociatedList.AllItems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="10" column="31" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a66c43ab9f374a741cc5d55153a5732b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyCollection&lt; T &gt;</type>
+        <definition>ReadOnlyCollection&lt;T&gt; Pathfinder.Util.AssemblyAssociatedList&lt; T &gt;.this[Assembly assembly]</definition>
+        <argsstring></argsstring>
+        <name>this[Assembly assembly]</name>
+        <qualifiedname>Pathfinder.Util.AssemblyAssociatedList.this[Assembly assembly]</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="18" column="31" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="19" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_assembly_associated_list_1aacb66d5f2aaf4d0382769c7300a1e227" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.AssemblyAssociatedList&lt; T &gt;.Add</definition>
+        <argsstring>(T val, Assembly owner)</argsstring>
+        <name>Add</name>
+        <qualifiedname>Pathfinder.Util.AssemblyAssociatedList.Add</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="28" column="17" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_assembly_associated_list_1aa2cf1ebcdbe4855e6a5a958a943f6f9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.AssemblyAssociatedList&lt; T &gt;.Remove</definition>
+        <argsstring>(T val, Assembly owner)</argsstring>
+        <name>Remove</name>
+        <qualifiedname>Pathfinder.Util.AssemblyAssociatedList.Remove</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="37" column="17" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="37" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a30dc91f0e422351649e353e4bc580876" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.AssemblyAssociatedList&lt; T &gt;.RemoveAll</definition>
+        <argsstring>(Predicate&lt; T &gt; predicate, Assembly owner)</argsstring>
+        <name>RemoveAll</name>
+        <qualifiedname>Pathfinder.Util.AssemblyAssociatedList.RemoveAll</qualifiedname>
+        <param>
+          <type>Predicate&lt; T &gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="46" column="17" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="46" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_assembly_associated_list_1aa03a5e24c6b4579ee816b41b1eca61c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pathfinder.Util.AssemblyAssociatedList&lt; T &gt;.RemoveAssembly</definition>
+        <argsstring>(Assembly asm, out List&lt; T &gt; removed)</argsstring>
+        <name>RemoveAssembly</name>
+        <qualifiedname>Pathfinder.Util.AssemblyAssociatedList.RemoveAssembly</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>asm</declname>
+        </param>
+        <param>
+          <type>out List&lt; T &gt;</type>
+          <declname>removed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="55" column="17" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="55" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_assembly_associated_list_1abb2dd918ab3bc41b670e523c1742c8b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.AssemblyAssociatedList&lt; T &gt;.InvalidateCache</definition>
+        <argsstring>()</argsstring>
+        <name>InvalidateCache</name>
+        <qualifiedname>Pathfinder.Util.AssemblyAssociatedList.InvalidateCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="66" column="18" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a617ca0d80c4a5d04b698060be569d119" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.AssemblyAssociatedList&lt; T &gt;.RefreshCache</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshCache</name>
+        <qualifiedname>Pathfinder.Util.AssemblyAssociatedList.RefreshCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="71" column="18" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="71" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="6" column="7" bodyfile="PathfinderAPI/Util/AssemblyAssociatedList.cs" bodystart="7" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a45635909bae9cb03580d2e7fc8509477" prot="private" virt="non-virtual"><scope>Pathfinder::Util::AssemblyAssociatedList</scope><name>_allItems</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_assembly_associated_list_1aacb66d5f2aaf4d0382769c7300a1e227" prot="public" virt="non-virtual"><scope>Pathfinder::Util::AssemblyAssociatedList</scope><name>Add</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a5db5a7fc3e0c484f8ce15cdf89537aaa" prot="public" virt="non-virtual"><scope>Pathfinder::Util::AssemblyAssociatedList</scope><name>AllItems</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a90911dc657c960790d1965a931489223" prot="private" virt="non-virtual"><scope>Pathfinder::Util::AssemblyAssociatedList</scope><name>asmDictionary</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_assembly_associated_list_1abb2dd918ab3bc41b670e523c1742c8b8" prot="private" virt="non-virtual"><scope>Pathfinder::Util::AssemblyAssociatedList</scope><name>InvalidateCache</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a617ca0d80c4a5d04b698060be569d119" prot="private" virt="non-virtual"><scope>Pathfinder::Util::AssemblyAssociatedList</scope><name>RefreshCache</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_assembly_associated_list_1aa2cf1ebcdbe4855e6a5a958a943f6f9f" prot="public" virt="non-virtual"><scope>Pathfinder::Util::AssemblyAssociatedList</scope><name>Remove</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a30dc91f0e422351649e353e4bc580876" prot="public" virt="non-virtual"><scope>Pathfinder::Util::AssemblyAssociatedList</scope><name>RemoveAll</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_assembly_associated_list_1aa03a5e24c6b4579ee816b41b1eca61c2" prot="public" virt="non-virtual"><scope>Pathfinder::Util::AssemblyAssociatedList</scope><name>RemoveAssembly</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_assembly_associated_list_1a66c43ab9f374a741cc5d55153a5732b5" prot="public" virt="non-virtual"><scope>Pathfinder::Util::AssemblyAssociatedList</scope><name>this[Assembly assembly]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

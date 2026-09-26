@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_89e07f822fd1e32f24f514dda2c6d817" kind="dir">
+    <compoundname>PathfinderAPI/Replacements</compoundname>
+    <innerfile refid="_actions_loader_8cs">ActionsLoader.cs</innerfile>
+    <innerfile refid="_content_loader_8cs">ContentLoader.cs</innerfile>
+    <innerfile refid="_extension_info_loader_8cs">ExtensionInfoLoader.cs</innerfile>
+    <innerfile refid="_file_encrypter_replacement_8cs">FileEncrypterReplacement.cs</innerfile>
+    <innerfile refid="_mission_loader_8cs">MissionLoader.cs</innerfile>
+    <innerfile refid="_object_serializer_replacement_8cs">ObjectSerializerReplacement.cs</innerfile>
+    <innerfile refid="_replacements_common_8cs">ReplacementsCommon.cs</innerfile>
+    <innerfile refid="_save_loader_8cs">SaveLoader.cs</innerfile>
+    <innerfile refid="_save_writer_8cs">SaveWriter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_bep_in_ex_1_1_hacknet_1_1_renamed_assembly_resolver" kind="class" language="C#" prot="package">
+    <compoundname>BepInEx::Hacknet::RenamedAssemblyResolver</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DefaultAssemblyResolver</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_renamed_assembly_resolver_1a25d1b45c7104e5c56d4cb0d66f72118f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override AssemblyDefinition</type>
+        <definition>override AssemblyDefinition BepInEx.Hacknet.RenamedAssemblyResolver.Resolve</definition>
+        <argsstring>(AssemblyNameReference name, ReaderParameters parameters)</argsstring>
+        <name>Resolve</name>
+        <qualifiedname>BepInEx.Hacknet.RenamedAssemblyResolver.Resolve</qualifiedname>
+        <param>
+          <type>AssemblyNameReference</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>ReaderParameters</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="292" column="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BepInEx.Hacknet.RenamedAssemblyResolver</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DefaultAssemblyResolver</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BepInEx.Hacknet.RenamedAssemblyResolver</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DefaultAssemblyResolver</label>
+      </node>
+    </collaborationgraph>
+    <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="290" column="9" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="291" bodyend="296"/>
+    <listofallmembers>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_renamed_assembly_resolver_1a25d1b45c7104e5c56d4cb0d66f72118f" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::RenamedAssemblyResolver</scope><name>Resolve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_updater_1_1_main_menu_override" kind="class" language="C#" prot="package">
+    <compoundname>PathfinderUpdater::MainMenuOverride</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_main_menu_override_1a856833a5f4361367858f6ccfe1175beb" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref></type>
+        <definition>OptionCheckbox PathfinderUpdater.MainMenuOverride.IsEnabledBox</definition>
+        <argsstring></argsstring>
+        <name>IsEnabledBox</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.IsEnabledBox</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref>(&quot;Enabled&quot;, &quot;Enables the auto updater&quot;, PathfinderUpdaterPlugin.IsEnabled.Value)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="15" column="35" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_main_menu_override_1a7b0131ef6438aa9c1c9a97e2d7a7875d" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref></type>
+        <definition>OptionCheckbox PathfinderUpdater.MainMenuOverride.IncludePrerelease</definition>
+        <argsstring></argsstring>
+        <name>IncludePrerelease</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.IncludePrerelease</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref>(&quot;IncludePreReleases&quot;, &quot;Autoupdate to pre-releases&quot;, PathfinderUpdaterPlugin.EnablePreReleases.Value)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="16" column="35" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_main_menu_override_1ac7347bfd0c33c4a8bc4c21ceb5991598" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+        <definition>PFButton PathfinderUpdater.MainMenuOverride.CheckForUpdate</definition>
+        <argsstring></argsstring>
+        <name>CheckForUpdate</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.CheckForUpdate</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(10, 10, 160, 30, &quot;Check For Update&quot;, new Color(255, 255, 87))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="18" column="29" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_main_menu_override_1a2c58d44ba7bf50bbcc536523a6e443a4" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string PathfinderUpdater.MainMenuOverride.UPDATE_STRING</definition>
+        <argsstring></argsstring>
+        <name>UPDATE_STRING</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.UPDATE_STRING</qualifiedname>
+        <initializer>= &quot;Update&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="19" column="26" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_main_menu_override_1a612737fe4a8bb8c07e717aba81e36201" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+        <definition>PFButton PathfinderUpdater.MainMenuOverride.PerformUpdate</definition>
+        <argsstring></argsstring>
+        <name>PerformUpdate</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.PerformUpdate</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(180, 10, 160, 30, UPDATE_STRING)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="20" column="29" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_main_menu_override_1abe9b83cfbd885b352aa25c4f29b410ea" prot="private" static="yes" mutable="no">
+        <type>RestartPopupScreen</type>
+        <definition>RestartPopupScreen PathfinderUpdater.MainMenuOverride.popupScreen</definition>
+        <argsstring></argsstring>
+        <name>popupScreen</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.popupScreen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="21" column="39" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_main_menu_override_1a913f23566f2d6b869c7a86f46cef4bf2" prot="package" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref></type>
+        <definition>OptionCheckbox PathfinderUpdater.MainMenuOverride.NoRestartPrompt</definition>
+        <argsstring></argsstring>
+        <name>NoRestartPrompt</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.NoRestartPrompt</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref>(&quot;NoRestartPrompt&quot;, &quot;Prevents a restart prompt appearing&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="17" column="36" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_main_menu_override_1aa22f89642ed22ba1bab67084b5c3c9fb" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool PathfinderUpdater.MainMenuOverride.CanCheckForUpdate</definition>
+        <argsstring></argsstring>
+        <name>CanCheckForUpdate</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.CanCheckForUpdate</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="76" column="25" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_main_menu_override_1afc8e78f6c906de51476f4516f524d23e" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool PathfinderUpdater.MainMenuOverride.CanPerformUpdate</definition>
+        <argsstring></argsstring>
+        <name>CanPerformUpdate</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.CanPerformUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="77" column="25" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="77" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_main_menu_override_1aa47f8bc7cc0cd20a4908601422c55457" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PathfinderUpdater.MainMenuOverride.PFAPILoaded</definition>
+        <argsstring>()</argsstring>
+        <name>PFAPILoaded</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.PFAPILoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="26" column="26" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="26" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_main_menu_override_1ac631d129f365eb63ab5feb1cab942adc" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PathfinderUpdater.MainMenuOverride.OptionsSaved</definition>
+        <argsstring>(CustomOptionsSaveEvent args)</argsstring>
+        <name>OptionsSaved</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.OptionsSaved</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_options_1_1_custom_options_save_event" kindref="compound">CustomOptionsSaveEvent</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="36" column="26" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_main_menu_override_1a15c145b39107bde87060ffccab1cd87f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>static async Task PathfinderUpdater.MainMenuOverride.PerformCheckAndUpdateButtonAsync</definition>
+        <argsstring>(PFButton updateButton=null, PFButton checkButton=null)</argsstring>
+        <name>PerformCheckAndUpdateButtonAsync</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.PerformCheckAndUpdateButtonAsync</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+          <declname>updateButton</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+          <declname>checkButton</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="45" column="32" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="45" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_main_menu_override_1a8aba045fdeb017e57612a7afd64d31cc" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PathfinderUpdater.MainMenuOverride.OnDrawMainMenu</definition>
+        <argsstring>(MainMenuEvent args)</argsstring>
+        <name>OnDrawMainMenu</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.OnDrawMainMenu</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event" kindref="compound">MainMenuEvent</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="78" column="26" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="78" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_main_menu_override_1a5f78cc6c1af697cf1437df704391d686" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>static async Task PathfinderUpdater.MainMenuOverride.PerformUpdateAndUpdateButtonAsync</definition>
+        <argsstring>(GameScreen menu, PFButton updateButton=null)</argsstring>
+        <name>PerformUpdateAndUpdateButtonAsync</name>
+        <qualifiedname>PathfinderUpdater.MainMenuOverride.PerformUpdateAndUpdateButtonAsync</qualifiedname>
+        <param>
+          <type>GameScreen</type>
+          <declname>menu</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+          <declname>updateButton</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/MainMenuOverride.cs" line="60" column="31" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="60" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>Option</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option"/>
+      </node>
+      <node id="2">
+        <label>Pathfinder.Options.OptionCheckbox</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option_checkbox"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PathfinderUpdater.MainMenuOverride</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>NoRestartPrompt</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderUpdater/MainMenuOverride.cs" line="13" column="17" bodyfile="PathfinderUpdater/MainMenuOverride.cs" bodystart="14" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1aa22f89642ed22ba1bab67084b5c3c9fb" prot="private" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>CanCheckForUpdate</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1afc8e78f6c906de51476f4516f524d23e" prot="private" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>CanPerformUpdate</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1ac7347bfd0c33c4a8bc4c21ceb5991598" prot="private" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>CheckForUpdate</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1a7b0131ef6438aa9c1c9a97e2d7a7875d" prot="private" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>IncludePrerelease</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1a856833a5f4361367858f6ccfe1175beb" prot="private" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>IsEnabledBox</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1a913f23566f2d6b869c7a86f46cef4bf2" prot="package" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>NoRestartPrompt</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1a8aba045fdeb017e57612a7afd64d31cc" prot="package" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>OnDrawMainMenu</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1ac631d129f365eb63ab5feb1cab942adc" prot="package" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>OptionsSaved</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1a15c145b39107bde87060ffccab1cd87f" prot="package" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>PerformCheckAndUpdateButtonAsync</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1a612737fe4a8bb8c07e717aba81e36201" prot="private" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>PerformUpdate</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1a5f78cc6c1af697cf1437df704391d686" prot="private" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>PerformUpdateAndUpdateButtonAsync</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1aa47f8bc7cc0cd20a4908601422c55457" prot="package" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>PFAPILoaded</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1abe9b83cfbd885b352aa25c4f29b410ea" prot="private" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>popupScreen</name></member>
+      <member refid="class_pathfinder_updater_1_1_main_menu_override_1a2c58d44ba7bf50bbcc536523a6e443a4" prot="private" virt="non-virtual"><scope>PathfinderUpdater::MainMenuOverride</scope><name>UPDATE_STRING</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

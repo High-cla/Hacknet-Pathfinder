@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::Performance::NodeLookup</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a283b7ab1ed7cac5bc200788d811d2ea2" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyComputerLoaderLookup</definition>
+        <argsstring>(out Computer __result, string target)</argsstring>
+        <name>ModifyComputerLoaderLookup</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyComputerLoaderLookup</qualifiedname>
+        <param>
+          <type>out Computer</type>
+          <declname>__result</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="16" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a4c48ff2ddd0a2d1bad4e7662767a3221" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyProgramsLookup</definition>
+        <argsstring>(out Computer __result, string ip_Or_ID_or_Name)</argsstring>
+        <name>ModifyProgramsLookup</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyProgramsLookup</qualifiedname>
+        <param>
+          <type>out Computer</type>
+          <declname>__result</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ip_Or_ID_or_Name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="24" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a1e1c6507d56f8a752531c0753e2bd177" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.OnChangeIPTrigger</definition>
+        <argsstring>(SAChangeIP __instance, out string __state)</argsstring>
+        <name>OnChangeIPTrigger</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.OnChangeIPTrigger</qualifiedname>
+        <param>
+          <type>SAChangeIP</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>__state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="32" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a5641958aac13dd6c0d96a086dbb6dd76" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.OnChangeIPTrigger2</definition>
+        <argsstring>(SAChangeIP __instance, string __state)</argsstring>
+        <name>OnChangeIPTrigger2</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.OnChangeIPTrigger2</qualifiedname>
+        <param>
+          <type>SAChangeIP</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>__state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="39" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="39" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1ac4cf7dc404c32c1c9892e4efe515953c" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.OnAircraftDaemonChangeIP</definition>
+        <argsstring>()</argsstring>
+        <name>OnAircraftDaemonChangeIP</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.OnAircraftDaemonChangeIP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="50" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a3138e885ebcfbbdc26fd34de8a5d93e0" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.RebuildBeforePostLoad</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>RebuildBeforePostLoad</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.RebuildBeforePostLoad</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="58" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="58" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a8bb67b53a074a342b1000f9ef5779360" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.RebuildBeforePostLoadDLC</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>RebuildBeforePostLoadDLC</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.RebuildBeforePostLoadDLC</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="70" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="70" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1acdb3270e3a353480a3246d63f129b494" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.RebuildAfterNodeGen</definition>
+        <argsstring>()</argsstring>
+        <name>RebuildAfterNodeGen</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.RebuildAfterNodeGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="85" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a18195fcaa5f8d99c9b60ca8478afa900" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.RebuildOnEndLoad</definition>
+        <argsstring>(OS __instance)</argsstring>
+        <name>RebuildOnEndLoad</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.RebuildOnEndLoad</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="92" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a3e60e961f48a8d7c9c3dbae4b59ee676" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.ClearOnQuitGame</definition>
+        <argsstring>()</argsstring>
+        <name>ClearOnQuitGame</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ClearOnQuitGame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="99" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1ac3be7a5d2b3b502faa0926a65de99396" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.RebuildInDebugCommand</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>RebuildInDebugCommand</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.RebuildInDebugCommand</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="106" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="106" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1aabb47644abe75a470e28225233a2f8d5" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyISPDaemonDrawIPEntryScreen</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>ModifyISPDaemonDrawIPEntryScreen</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyISPDaemonDrawIPEntryScreen</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="130" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="130" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1ab6f3c40a76c86967e1f1a637d01be5c2" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyISPDaemonDrawLoadingScreen</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>ModifyISPDaemonDrawLoadingScreen</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyISPDaemonDrawLoadingScreen</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="173" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="173" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a7366611d6451cbb457e60c0b8f901628" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyMissionFunctionsFindComp</definition>
+        <argsstring>(string target, ref Computer __result)</argsstring>
+        <name>ModifyMissionFunctionsFindComp</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyMissionFunctionsFindComp</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>ref Computer</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="212" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="212" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a52e1319ab57fd1049900fd86c41e6c8b" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyMultiplayerGetComp</definition>
+        <argsstring>(string ip, OS os, ref Computer __result)</argsstring>
+        <name>ModifyMultiplayerGetComp</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyMultiplayerGetComp</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>ref Computer</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="220" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="220" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1ab804944691a89c5349a8b4e4b60c3f4f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyNetworkMapDiscoverNodeString</definition>
+        <argsstring>(NetworkMap __instance, string cName)</argsstring>
+        <name>ModifyNetworkMapDiscoverNodeString</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyNetworkMapDiscoverNodeString</qualifiedname>
+        <param>
+          <type>NetworkMap</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="228" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="228" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1af3c3603277260d6c27673b25e150d8d3" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyProgramsComputerExists</definition>
+        <argsstring>(OS os, string ip, ref bool __result)</argsstring>
+        <name>ModifyProgramsComputerExists</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ModifyProgramsComputerExists</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>ref bool</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="239" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="239" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a4ab445d1eb46946eff29eeb94ac261c0" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.Performance.NodeLookup.ScanReplacement</definition>
+        <argsstring>(string[] args, OS os)</argsstring>
+        <name>ScanReplacement</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ScanReplacement</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="247" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="247" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a33fbcff810d2f3dcb7aa7007e0dd9763" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.ConnectILManipulator</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>ConnectILManipulator</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.ConnectILManipulator</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="264" column="26" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="264" bodyend="323"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a4bc27f385658d31b822d8c642ef75615" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.Performance.NodeLookup.AddMissionGenComputer</definition>
+        <argsstring>(object __result)</argsstring>
+        <name>AddMissionGenComputer</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.Performance.NodeLookup.AddMissionGenComputer</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="121" column="25" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="121" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" line="12" column="17" bodyfile="PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs" bodystart="13" bodyend="324"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a4bc27f385658d31b822d8c642ef75615" prot="private" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>AddMissionGenComputer</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a3e60e961f48a8d7c9c3dbae4b59ee676" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ClearOnQuitGame</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a33fbcff810d2f3dcb7aa7007e0dd9763" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ConnectILManipulator</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a283b7ab1ed7cac5bc200788d811d2ea2" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ModifyComputerLoaderLookup</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1aabb47644abe75a470e28225233a2f8d5" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ModifyISPDaemonDrawIPEntryScreen</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1ab6f3c40a76c86967e1f1a637d01be5c2" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ModifyISPDaemonDrawLoadingScreen</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a7366611d6451cbb457e60c0b8f901628" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ModifyMissionFunctionsFindComp</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a52e1319ab57fd1049900fd86c41e6c8b" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ModifyMultiplayerGetComp</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1ab804944691a89c5349a8b4e4b60c3f4f" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ModifyNetworkMapDiscoverNodeString</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1af3c3603277260d6c27673b25e150d8d3" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ModifyProgramsComputerExists</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a4c48ff2ddd0a2d1bad4e7662767a3221" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ModifyProgramsLookup</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1ac4cf7dc404c32c1c9892e4efe515953c" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>OnAircraftDaemonChangeIP</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a1e1c6507d56f8a752531c0753e2bd177" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>OnChangeIPTrigger</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a5641958aac13dd6c0d96a086dbb6dd76" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>OnChangeIPTrigger2</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1acdb3270e3a353480a3246d63f129b494" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>RebuildAfterNodeGen</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a3138e885ebcfbbdc26fd34de8a5d93e0" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>RebuildBeforePostLoad</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a8bb67b53a074a342b1000f9ef5779360" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>RebuildBeforePostLoadDLC</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1ac3be7a5d2b3b502faa0926a65de99396" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>RebuildInDebugCommand</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a18195fcaa5f8d99c9b60ca8478afa900" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>RebuildOnEndLoad</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup_1a4ab445d1eb46946eff29eeb94ac261c0" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::Performance::NodeLookup</scope><name>ScanReplacement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

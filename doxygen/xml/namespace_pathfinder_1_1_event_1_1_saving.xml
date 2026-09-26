@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_event_1_1_saving" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Event::Saving</compoundname>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event" prot="public">Pathfinder::Event::Saving::SaveComputerEvent</innerclass>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event" prot="public">Pathfinder::Event::Saving::SaveEvent</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/Saving/SaveComputerEvent.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

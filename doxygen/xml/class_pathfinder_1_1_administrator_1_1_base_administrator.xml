@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_administrator_1_1_base_administrator" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Administrator::BaseAdministrator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Hacknet.Administrator</basecompoundref>
+    <basecompoundref refid="interface_pathfinder_1_1_util_1_1_i_xml_name" prot="public" virt="non-virtual">Pathfinder.Util.IXmlName</basecompoundref>
+    <derivedcompoundref refid="class_example_mod2_1_1_test_administrator" prot="public" virt="non-virtual">ExampleMod2.TestAdministrator</derivedcompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_administrator_1_1_base_administrator_1ac0110c0b40ef4b88bc2c9bfb355bc55f" prot="protected" static="no" mutable="no">
+        <type>Computer</type>
+        <definition>Computer Pathfinder.Administrator.BaseAdministrator.computer</definition>
+        <argsstring></argsstring>
+        <name>computer</name>
+        <qualifiedname>Pathfinder.Administrator.BaseAdministrator.computer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/BaseAdministrator.cs" line="10" column="24" bodyfile="PathfinderAPI/Administrator/BaseAdministrator.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_administrator_1_1_base_administrator_1a35c2b067c7b221cbb6602fd1e0dfae37" prot="protected" static="no" mutable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Administrator.BaseAdministrator.opSystem</definition>
+        <argsstring></argsstring>
+        <name>opSystem</name>
+        <qualifiedname>Pathfinder.Administrator.BaseAdministrator.opSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/BaseAdministrator.cs" line="11" column="18" bodyfile="PathfinderAPI/Administrator/BaseAdministrator.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_administrator_1_1_base_administrator_1a811d03d7887d47a0de0c7a8f58c63a24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Administrator.BaseAdministrator.XmlName</definition>
+        <argsstring></argsstring>
+        <name>XmlName</name>
+        <qualifiedname>Pathfinder.Administrator.BaseAdministrator.XmlName</qualifiedname>
+        <reimplements refid="interface_pathfinder_1_1_util_1_1_i_xml_name_1a24234a830cba81c9782f3396fc7db61b">XmlName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/BaseAdministrator.cs" line="19" column="19" bodyfile="PathfinderAPI/Administrator/BaseAdministrator.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_base_administrator_1ab2bf6e0d92778ce43018a9814fbbaa76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Administrator.BaseAdministrator.BaseAdministrator</definition>
+        <argsstring>(Computer computer, OS opSystem)</argsstring>
+        <name>BaseAdministrator</name>
+        <qualifiedname>Pathfinder.Administrator.BaseAdministrator.BaseAdministrator</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>computer</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>opSystem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/BaseAdministrator.cs" line="13" column="12" bodyfile="PathfinderAPI/Administrator/BaseAdministrator.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_base_administrator_1a0af5f02fdc5c48bff66e3e7176b8c3c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Administrator.BaseAdministrator.LoadFromXml</definition>
+        <argsstring>(ElementInfo info)</argsstring>
+        <name>LoadFromXml</name>
+        <qualifiedname>Pathfinder.Administrator.BaseAdministrator.LoadFromXml</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/BaseAdministrator.cs" line="21" column="25" bodyfile="PathfinderAPI/Administrator/BaseAdministrator.cs" bodystart="21" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_base_administrator_1ab847a1e5e4885e576e071f6bdc599db5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>XElement</type>
+        <definition>virtual XElement Pathfinder.Administrator.BaseAdministrator.GetSaveElement</definition>
+        <argsstring>()</argsstring>
+        <name>GetSaveElement</name>
+        <qualifiedname>Pathfinder.Administrator.BaseAdministrator.GetSaveElement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/BaseAdministrator.cs" line="29" column="29" bodyfile="PathfinderAPI/Administrator/BaseAdministrator.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>ExampleMod2.TestAdministrator</label>
+        <link refid="class_example_mod2_1_1_test_administrator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Hacknet::Administrator</label>
+      </node>
+      <node id="3">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Administrator.BaseAdministrator</label>
+        <link refid="class_pathfinder_1_1_administrator_1_1_base_administrator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Hacknet::Administrator</label>
+      </node>
+      <node id="3">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Administrator.BaseAdministrator</label>
+        <link refid="class_pathfinder_1_1_administrator_1_1_base_administrator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Administrator/BaseAdministrator.cs" line="8" column="17" bodyfile="PathfinderAPI/Administrator/BaseAdministrator.cs" bodystart="9" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_administrator_1_1_base_administrator_1ab2bf6e0d92778ce43018a9814fbbaa76" prot="public" virt="non-virtual"><scope>Pathfinder::Administrator::BaseAdministrator</scope><name>BaseAdministrator</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_base_administrator_1ac0110c0b40ef4b88bc2c9bfb355bc55f" prot="protected" virt="non-virtual"><scope>Pathfinder::Administrator::BaseAdministrator</scope><name>computer</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_base_administrator_1ab847a1e5e4885e576e071f6bdc599db5" prot="public" virt="virtual"><scope>Pathfinder::Administrator::BaseAdministrator</scope><name>GetSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_base_administrator_1a0af5f02fdc5c48bff66e3e7176b8c3c8" prot="public" virt="virtual"><scope>Pathfinder::Administrator::BaseAdministrator</scope><name>LoadFromXml</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_base_administrator_1a35c2b067c7b221cbb6602fd1e0dfae37" prot="protected" virt="non-virtual"><scope>Pathfinder::Administrator::BaseAdministrator</scope><name>opSystem</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_base_administrator_1a811d03d7887d47a0de0c7a8f58c63a24" prot="public" virt="non-virtual"><scope>Pathfinder::Administrator::BaseAdministrator</scope><name>XmlName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

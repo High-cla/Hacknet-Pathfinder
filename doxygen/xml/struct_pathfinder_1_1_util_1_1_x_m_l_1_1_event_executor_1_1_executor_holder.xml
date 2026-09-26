@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1_1_executor_holder" kind="struct" language="C#" prot="private">
+    <compoundname>Pathfinder::Util::XML::EventExecutor::ExecutorHolder</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1_1_executor_holder_1a56574d04f80e26b57f6c13d2f100f1bb" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1a32d0cb4080ab398042039ebfa187e88e" kindref="member">ReadExecution</ref></type>
+        <definition>ReadExecution Pathfinder.Util.XML.EventExecutor.ExecutorHolder.Executor</definition>
+        <argsstring></argsstring>
+        <name>Executor</name>
+        <qualifiedname>Pathfinder.Util.XML.EventExecutor.ExecutorHolder.Executor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventExecutor.cs" line="20" column="30" bodyfile="PathfinderAPI/Util/XML/EventExecutor.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1_1_executor_holder_1a303cc94f6ce1889636e0db83043bebbf" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+        <definition>ParseOption Pathfinder.Util.XML.EventExecutor.ExecutorHolder.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <qualifiedname>Pathfinder.Util.XML.EventExecutor.ExecutorHolder.Options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventExecutor.cs" line="21" column="28" bodyfile="PathfinderAPI/Util/XML/EventExecutor.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/XML/EventExecutor.cs" line="18" column="12" bodyfile="PathfinderAPI/Util/XML/EventExecutor.cs" bodystart="19" bodyend="22"/>
+    <listofallmembers>
+      <member refid="struct_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1_1_executor_holder_1a56574d04f80e26b57f6c13d2f100f1bb" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventExecutor::ExecutorHolder</scope><name>Executor</name></member>
+      <member refid="struct_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1_1_executor_holder_1a303cc94f6ce1889636e0db83043bebbf" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventExecutor::ExecutorHolder</scope><name>Options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

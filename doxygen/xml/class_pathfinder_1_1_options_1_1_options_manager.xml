@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_options_1_1_options_manager" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Options::OptionsManager</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_options_manager_1a9218baca912ef3942bf07fa1213c24f5" prot="public" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; string, <ref refid="class_pathfinder_1_1_options_1_1_options_tab" kindref="compound">OptionsTab</ref> &gt;</type>
+        <definition>readonly Dictionary&lt;string, OptionsTab&gt; Pathfinder.Options.OptionsManager.Tabs</definition>
+        <argsstring></argsstring>
+        <name>Tabs</name>
+        <qualifiedname>Pathfinder.Options.OptionsManager.Tabs</qualifiedname>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_pathfinder_1_1_options_1_1_options_tab" kindref="compound">OptionsTab</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/OptionsManager.cs" line="7" column="39" bodyfile="PathfinderAPI/Options/OptionsManager.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_options_manager_1aae6ed226550fb015f062076e4222d3a9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Options.OptionsManager.OptionsManager</definition>
+        <argsstring>()</argsstring>
+        <name>OptionsManager</name>
+        <qualifiedname>Pathfinder.Options.OptionsManager.OptionsManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/OptionsManager.cs" line="9" column="12" bodyfile="PathfinderAPI/Options/OptionsManager.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_options_manager_1a5a8d65c767d95f697ba1042c44b09e9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Options.OptionsManager.AddOption</definition>
+        <argsstring>(string tag, Option opt)</argsstring>
+        <name>AddOption</name>
+        <qualifiedname>Pathfinder.Options.OptionsManager.AddOption</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_options_1_1_option" kindref="compound">Option</ref></type>
+          <declname>opt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/OptionsManager.cs" line="11" column="24" bodyfile="PathfinderAPI/Options/OptionsManager.cs" bodystart="11" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Options/OptionsManager.cs" line="5" column="15" bodyfile="PathfinderAPI/Options/OptionsManager.cs" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_options_1_1_options_manager_1a5a8d65c767d95f697ba1042c44b09e9f" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionsManager</scope><name>AddOption</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_options_manager_1aae6ed226550fb015f062076e4222d3a9" prot="private" virt="non-virtual"><scope>Pathfinder::Options::OptionsManager</scope><name>OptionsManager</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_options_manager_1a9218baca912ef3942bf07fa1213c24f5" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionsManager</scope><name>Tabs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_starting_actions_after_nodes" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::StartingActionsAfterNodes</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_starting_actions_after_nodes_1a7aff77295be8cd4462572d734a713ca9" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.StartingActionsAfterNodes.FixStartingActionsIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>FixStartingActionsIL</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.StartingActionsAfterNodes.FixStartingActionsIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/StartingActionsAfterNodes.cs" line="14" column="26" bodyfile="PathfinderAPI/BaseGameFixes/StartingActionsAfterNodes.cs" bodystart="14" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_starting_actions_after_nodes_1a4ea69d50d9b634c5db5aa152145dae5f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.StartingActionsAfterNodes.RunStartingActions</definition>
+        <argsstring>(ref OS __instance)</argsstring>
+        <name>RunStartingActions</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.StartingActionsAfterNodes.RunStartingActions</qualifiedname>
+        <param>
+          <type>ref OS</type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/StartingActionsAfterNodes.cs" line="29" column="26" bodyfile="PathfinderAPI/BaseGameFixes/StartingActionsAfterNodes.cs" bodystart="29" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/StartingActionsAfterNodes.cs" line="10" column="17" bodyfile="PathfinderAPI/BaseGameFixes/StartingActionsAfterNodes.cs" bodystart="11" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_starting_actions_after_nodes_1a7aff77295be8cd4462572d734a713ca9" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::StartingActionsAfterNodes</scope><name>FixStartingActionsIL</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_starting_actions_after_nodes_1a4ea69d50d9b634c5db5aa152145dae5f" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::StartingActionsAfterNodes</scope><name>RunStartingActions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

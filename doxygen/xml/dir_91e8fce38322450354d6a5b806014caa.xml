@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_91e8fce38322450354d6a5b806014caa" kind="dir">
+    <compoundname>PathfinderAPI/Meta/Load</compoundname>
+    <innerfile refid="_action_attribute_8cs">ActionAttribute.cs</innerfile>
+    <innerfile refid="_administrator_attribute_8cs">AdministratorAttribute.cs</innerfile>
+    <innerfile refid="_attribute_manager_8cs">AttributeManager.cs</innerfile>
+    <innerfile refid="_base_attribute_8cs">BaseAttribute.cs</innerfile>
+    <innerfile refid="_command_attribute_8cs">CommandAttribute.cs</innerfile>
+    <innerfile refid="_computer_executor_attribute_8cs">ComputerExecutorAttribute.cs</innerfile>
+    <innerfile refid="_condition_attribute_8cs">ConditionAttribute.cs</innerfile>
+    <innerfile refid="_daemon_attribute_8cs">DaemonAttribute.cs</innerfile>
+    <innerfile refid="_event_attribute_8cs">EventAttribute.cs</innerfile>
+    <innerfile refid="_executable_attribute_8cs">ExecutableAttribute.cs</innerfile>
+    <innerfile refid="_extension_info_executor_attribute_8cs">ExtensionInfoExecutorAttribute.cs</innerfile>
+    <innerfile refid="_goal_attribute_8cs">GoalAttribute.cs</innerfile>
+    <innerfile refid="_hacknet_plugin_extensions_8cs">HacknetPluginExtensions.cs</innerfile>
+    <innerfile refid="_ignore_event_attribute_8cs">IgnoreEventAttribute.cs</innerfile>
+    <innerfile refid="_ignore_plugin_attribute_8cs">IgnorePluginAttribute.cs</innerfile>
+    <innerfile refid="_mission_executor_attribute_8cs">MissionExecutorAttribute.cs</innerfile>
+    <innerfile refid="_option_attribute_8cs">OptionAttribute.cs</innerfile>
+    <innerfile refid="_options_tab_attribute_8cs">OptionsTabAttribute.cs</innerfile>
+    <innerfile refid="_port_attribute_8cs">PortAttribute.cs</innerfile>
+    <innerfile refid="_save_executor_attribute_8cs">SaveExecutorAttribute.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Meta/Load/"/>
+  </compounddef>
+</doxygen>

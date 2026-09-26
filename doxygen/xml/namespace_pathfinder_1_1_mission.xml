@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_mission" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Mission</compoundname>
+    <innerclass refid="class_pathfinder_1_1_mission_1_1_goal_manager" prot="public">Pathfinder::Mission::GoalManager</innerclass>
+    <innerclass refid="class_pathfinder_1_1_mission_1_1_pathfinder_goal" prot="public">Pathfinder::Mission::PathfinderGoal</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Mission/GoalManager.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

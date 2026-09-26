@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_content_loader_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Replacements/ContentLoader.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Replacements/ContentLoader.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_content_loader_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_content_loader_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Replacements/ContentLoader.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapireplacementscontentloadercs">PathfinderAPI/Replacements/ContentLoader.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_replacements/">Pathfinder::Replacements</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_content_loader/">Pathfinder::Replacements::ContentLoader</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor/">Pathfinder::Replacements::ContentLoader::ComputerExecutor</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder/">Pathfinder::Replacements::ContentLoader::ComputerHolder</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Reflection;
+using System.Xml;
+using Hacknet;
+using Hacknet.Extensions;
+using HarmonyLib;
+using Microsoft.Xna.Framework;
+using MonoMod.Cil;
+using Pathfinder.Administrator;
+using Pathfinder.Daemon;
+using Pathfinder.Event;
+using Pathfinder.Port;
+using Pathfinder.Util;
+using Pathfinder.Util.XML;
+// tired of seeing the unused parameter warning, there were 90 of them
+// ReSharper disable UnusedParameter.Local
+
+namespace Pathfinder.Replacements;
+
+[HarmonyPatch]
+public static class ContentLoader
+{
+    public abstract class ComputerExecutor
+    {
+        public OS Os { get; private set; }
+        private ComputerHolder _comp;
+        public Computer Comp =&gt; _comp;
+
+        public virtual void Init(OS os, ref ComputerHolder comp)
+        {
+            Os = os;
+            _comp = comp;
+        }
+
+        public abstract void Execute(EventExecutor exec, ElementInfo info);
+    }
+
+    public class ComputerHolder
+    {
+        internal Computer Comp;
+        internal ComputerHolder() {}
+
+        public static implicit operator Computer(ComputerHolder holder) =&gt; holder.Comp;
+    }
+
+    private struct ComputerExecutorHolder
+    {
+        public string Element;
+        public Type ExecutorType;
+        public ParseOption Options;
+    }
+
+    private static readonly List&lt;ComputerExecutorHolder&gt; CustomExecutors = new List&lt;ComputerExecutorHolder&gt;();
+
+    public static void RegisterExecutor&lt;T&gt;(string element, ParseOption options = ParseOption.None) where T : ComputerExecutor, new() =&gt; RegisterExecutor(typeof(T), element, options);
+    public static void RegisterExecutor(Type executorType, string element, ParseOption options = ParseOption.None)
+    {
+        executorType.ThrowNotInherit&lt;ComputerExecutor&gt;(nameof(executorType));
+        executorType.ThrowNoDefaultCtor(nameof(executorType));
+        CustomExecutors.Add(new ComputerExecutorHolder
+        {
+            Element = element,
+            ExecutorType = executorType,
+            Options = options
+        });
+    }
+
+    public static void UnregisterExecutor&lt;T&gt;() where T : ComputerExecutor, new()
+    {
+        var tType = typeof(T);
+        CustomExecutors.RemoveAll(x =&gt; x.ExecutorType == tType);
+    }
+
+    private static void OnPluginUnload(Assembly pluginAsm)
+    {
+        CustomExecutors.RemoveAll(x =&gt; x.ExecutorType.Assembly == pluginAsm);
+    }
+
+    private static readonly EventExecutor executor = new EventExecutor();
+
+    private static OS os = null;
+    private static Computer comp = null;
+    private static Computer eos = null;
+    private static readonly List&lt;Computer&gt; eosList = new List&lt;Computer&gt;();
+    private static ComputerHolder holder = null;
+
+    static ContentLoader()
+    {
+        EventManager.onPluginUnload += OnPluginUnload;
+
+        executor.RegisterExecutor(&quot;Computer&quot;, (exec, info) =&gt;
+        {
+            var typeString = info.Attributes.GetString(&quot;type&quot;, &quot;1&quot;);
+            byte type;
+            if (!byte.TryParse(typeString, out type))
+            {
+                if (typeString.ToLowerInvariant() == &quot;empty&quot;)
+                    type = 4;
+                else
+                    throw new FormatException(&quot;Invalid computer type&quot;);
+            }
+
+            comp = new Computer(
+                info.Attributes.GetString(&quot;name&quot;, &quot;UNKNOWN&quot;).Filter(),
+                info.Attributes.GetString(&quot;ip&quot;, NetworkMap.generateRandomIP()).Filter(),
+                os.netMap.getRandomPosition(),
+                info.Attributes.GetInt(&quot;security&quot;),
+                type,
+                os
+            )
+            {
+                idName = info.Attributes.GetString(&quot;id&quot;, &quot;UNKNOWN&quot;).Filter(),
+                AllowsDefaultBootModule = info.Attributes.GetBool(&quot;allowsDefaultBootModule&quot;, true),
+                icon = info.Attributes.GetString(&quot;icon&quot;, null)
+            };
+            holder.Comp = comp;
+
+            if (type == 4)
+            {
+                var home = comp.files.root.searchForFolder(&quot;home&quot;);
+                if (home != null)
+                {
+                    home.folders.Clear();
+                    home.files.Clear();
+                }
+            }
+        });
+        executor.RegisterExecutor(&quot;Computer.file&quot;, (exec, info) =&gt;
+        {
+            var path = info.Attributes.GetString(&quot;path&quot;, &quot;home&quot;);
+            var name = info.Attributes.GetString(&quot;name&quot;, &quot;Data&quot;).Filter();
+            var contents = (info.Content ?? Computer.generateBinaryString(500)).Filter();
+            var eduSafe = info.Attributes.GetBool(&quot;EduSafe&quot;, true);
+            var eduOnly = info.Attributes.GetBool(&quot;EduSafeOnly&quot;);
+
+            if ((!eduSafe &amp;&amp; Settings.EducationSafeBuild) || (eduOnly &amp;&amp; Settings.EducationSafeBuild))
+                return;
+
+            var folder = comp.getFolderFromPath(path, true);
+            var existing = folder.searchForFile(name);
+            if (existing != null)
+            {
+                existing.data = contents;
+            }
+            else
+            {
+                folder.files.Add(new FileEntry(contents, name));
+            }
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.encryptedFile&quot;, (exec, info) =&gt;
+        {
+            var path = info.Attributes.GetString(&quot;path&quot;, &quot;home&quot;);
+            var name = info.Attributes.GetString(&quot;name&quot;, &quot;Data&quot;).Filter();
+            var contents = (info.Content ?? Computer.generateBinaryString(500)).Filter();
+            var header = info.Attributes.GetString(&quot;header&quot;, &quot;ERROR&quot;);
+            var sourceIP = info.Attributes.GetString(&quot;ip&quot;, &quot;ERROR&quot;);
+            var password = info.Attributes.GetString(&quot;pass&quot;);
+            var extension = info.Attributes.GetString(&quot;extension&quot;, null);
+            var isDouble = info.Attributes.GetBool(&quot;double&quot;);
+
+            var encryptedText = FileEncrypter.EncryptString(
+                contents,
+                header,
+                sourceIP,
+                password,
+                extension
+            );
+            if (isDouble)
+            {
+                encryptedText = FileEncrypter.EncryptString(
+                    encryptedText,
+                    header,
+                    sourceIP,
+                    password,
+                    &quot;_LAYER2.dec&quot;
+                );
+            }
+
+            var folder = comp.getFolderFromPath(path, true);
+            var existing = folder.searchForFile(name);
+            if (existing != null)
+            {
+                existing.data = encryptedText;
+            }
+            else
+            {
+                folder.files.Add(new FileEntry(encryptedText, name));
+            }
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.memoryDumpFile&quot;, (exec, info) =&gt;
+        {
+            var path = info.Attributes.GetString(&quot;path&quot;, &quot;home&quot;);
+            var name = info.Attributes.GetString(&quot;name&quot;, &quot;Data&quot;).Filter();
+            var contents = ReplacementsCommon.LoadMemoryContents(info).GetEncodedFileString();
+
+            var folder = comp.getFolderFromPath(path, true);
+            var existing = folder.searchForFile(name);
+            if (existing != null)
+            {
+                existing.data = contents;
+            }
+            else
+            {
+                folder.files.Add(new FileEntry(contents, name));
+            }
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.customthemefile&quot;, (exec, info) =&gt;
+        {
+            var path = info.Attributes.GetString(&quot;path&quot;, &quot;home&quot;);
+            var name = info.Attributes.GetString(&quot;name&quot;, &quot;Data&quot;).Filter();
+            var contents = ThemeManager.getThemeDataStringForCustomTheme(info.Attributes.GetOrThrow(&quot;themePath&quot;, &quot;Invalid theme path for customthemefile&quot;));
+            if (contents == null)
+                throw new FormatException(&quot;Invalid theme path for customthemefile&quot;);
+
+            var folder = comp.getFolderFromPath(path, true);
+            var existing = folder.searchForFile(name);
+            if (existing != null)
+            {
+                existing.data = contents;
+            }
+            else
+            {
+                folder.files.Add(new FileEntry(contents, name));
+            }
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.positionNear&quot;, (exec, info) =&gt;
+        {
+            var nearNodeId = info.Attributes.GetString(&quot;target&quot;);
+            var position = info.Attributes.GetInt(&quot;position&quot;) + 1;
+            var total = info.Attributes.GetInt(&quot;total&quot;, 3);
+            var force = info.Attributes.GetBool(&quot;force&quot;);
+            var extraDistance = Math.Max(-1f, Math.Min(1f, info.Attributes.GetFloat(&quot;extraDistance&quot;)));
+
+            var sourceComp = comp;
+            var origOs = os;
+
+            ComputerLoader.postAllLoadedActions += () =&gt;
+            {
+                var nearNode = Programs.getComputer(os, nearNodeId);
+                if (nearNode != null)
+                    sourceComp.location = nearNode.location + Corporation.getNearbyNodeOffset(nearNode.location, position, total, origOs.netMap, extraDistance, force);
+            };
+        });
+        executor.RegisterExecutor(&quot;Computer.proxy&quot;, (exec, info) =&gt;
+        {
+            var time = info.Attributes.GetFloat(&quot;time&quot;, 1f);
+            if (time &gt; 0f)
+            {
+                comp.addProxy(Computer.BASE_PROXY_TICKS * time);
+            }
+            else
+            {
+                comp.hasProxy = false;
+                comp.proxyActive = false;
+            }
+        });
+        executor.RegisterExecutor(&quot;Computer.portsForCrack&quot;, (exec, info) =&gt;
+        {
+            var num = info.Attributes.GetInt(&quot;val&quot;, -1);
+            if (num != -1)
+            {
+                comp.portsNeededForCrack = num - 1;
+            }
+        });
+        executor.RegisterExecutor(&quot;Computer.firewall&quot;, (exec, info) =&gt;
+        {
+            var level = info.Attributes.GetInt(&quot;level&quot;, 1);
+            if (level &gt; 0)
+            {
+                if (info.Attributes.TryGetValue(&quot;solution&quot;, out var solution))
+                {
+                    comp.addFirewall(level, solution, info.Attributes.GetFloat(&quot;additionalTime&quot;));
+                }
+                else
+                {
+                    comp.addFirewall(level);
+                }
+            }
+            else
+            {
+                comp.firewall = null;
+            }
+        });
+        executor.RegisterExecutor(&quot;Computer.link&quot;, (exec, info) =&gt;
+        {
+            var linked = Programs.getComputer(os, info.Attributes.GetString(&quot;target&quot;));
+            if (linked != null)
+                comp.links.Add(os.netMap.nodes.IndexOf(linked));
+        });
+        executor.RegisterExecutor(&quot;Computer.dlink&quot;, (exec, info) =&gt;
+        {
+            var linked = info.Attributes.GetString(&quot;target&quot;);
+            var source = comp;
+            var origOS = os;
+
+            ComputerLoader.postAllLoadedActions += () =&gt;
+            {
+                var linkedNode = Programs.getComputer(os, linked);
+                if (linkedNode != null)
+                    source.links.Add(origOS.netMap.nodes.IndexOf(linkedNode));
+            };
+        });
+        executor.RegisterExecutor(&quot;Computer.trace&quot;, (exec, info) =&gt;
+        {
+            comp.traceTime = info.Attributes.GetFloat(&quot;time&quot;, 1f);
+        });
+        executor.RegisterExecutor(&quot;Computer.adminPass&quot;, (exec, info) =&gt;
+        {
+            comp.setAdminPassword(info.Attributes.GetString(&quot;pass&quot;, PortExploits.getRandomPassword()));
+        });
+        executor.RegisterExecutor(&quot;Computer.admin&quot;, (exec, info) =&gt; AdministratorManager.LoadAdministrator(info, comp, os));
+        executor.RegisterExecutor(&quot;Computer.ports&quot;, (exec, info) =&gt;
+        {
+            PortManager.LoadPortsFromStringVanilla(comp, info.Content);
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.portRemap&quot;, (exec, info) =&gt;
+        {
+            PortManager.LoadPortRemapsFromStringVanilla(comp, info.Content);
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.PFPorts&quot;, (exec, info) =&gt;
+        {
+            if(info.Children.Count != 0)
+                PortManager.LoadPortsFromChildren(comp, info.Children, info.Attributes.GetBool(&quot;replace&quot;));
+            else
+                PortManager.LoadPortsFromString(comp, info.Content, info.Attributes.GetBool(&quot;replace&quot;));
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.ExternalCounterpart&quot;, (exec, info) =&gt;
+        {
+            comp.externalCounterpart = new ExternalCounterpart(info.Attributes.GetString(&quot;name&quot;), ExternalCounterpart.getIPForServerName(info.Attributes.GetString(&quot;id&quot;)));
+        });
+        executor.RegisterExecutor(&quot;Computer.account&quot;, (exec, info) =&gt;
+        {
+            var username = info.Attributes.GetString(&quot;username&quot;, &quot;ERROR&quot;).Filter();
+            var pass = info.Attributes.GetString(&quot;password&quot;, &quot;ERROR&quot;).Filter();
+            var typeString = info.Attributes.GetString(&quot;type&quot;).ToLower();
+            byte type = 0;
+            switch (typeString)
+            {
+                case &quot;admin&quot;:
+                    type = 0;
+                    break;
+                case &quot;all&quot;:
+                    type = 1;
+                    break;
+                case &quot;mail&quot;:
+                    type = 2;
+                    break;
+                case &quot;missionlist&quot;:
+                    type = 3;
+                    break;
+                default:
+                    type = info.Attributes.GetByte(&quot;type&quot;, 0);
+                    break;
+            }
+
+            var noneExists = true;
+            for (int i = 0; i &lt; comp.users.Count; i++)
+            {
+                var user = comp.users[i];
+                if (user.name == username)
+                {
+                    user.pass = pass;
+                    user.type = type;
+
+                    comp.users[i] = user;
+
+                    if (username == &quot;admin&quot;)
+                        comp.adminPass = pass;
+
+                    noneExists = false;
+                }
+            }
+
+            if (noneExists)
+            {
+                comp.users.Add(new UserDetail(username, pass, type));
+            }
+        });
+        executor.RegisterExecutor(&quot;Computer.tracker&quot;, (exec, info) =&gt; comp.HasTracker = true);
+        executor.RegisterExecutor(&quot;Computer.missionListingServer&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new MissionListingServer(
+                comp,
+                info.Attributes.GetString(&quot;name&quot;, &quot;ERROR&quot;),
+                info.Attributes.GetString(&quot;group&quot;, &quot;ERROR&quot;),
+                os,
+                info.Attributes.GetBool(&quot;public&quot;)
+            )
+            {
+                missionAssigner = info.Attributes.GetBool(&quot;assigner&quot;)
+            });
+        });
+        executor.RegisterExecutor(&quot;Computer.variableMissionListingServer&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new MissionListingServer(
+                comp,
+                info.Attributes.GetString(&quot;name&quot;, null).Filter(),
+                info.Attributes.GetString(&quot;iconPath&quot;, null),
+                info.Attributes.GetString(&quot;articleFolderPath&quot;, null),
+                info.Attributes.GetColor(&quot;color&quot;, Color.IndianRed).Value,
+                os,
+                info.Attributes.GetBool(&quot;public&quot;),
+                info.Attributes.GetBool(&quot;assigner&quot;)
+            )
+            {
+                listingTitle = info.Attributes.GetString(&quot;title&quot;, null)
+            });
+        });
+        executor.RegisterExecutor(&quot;Computer.missionHubServer&quot;, (exec, info) =&gt;
+        {
+            var missionPath = ExtensionLoader.ActiveExtensionInfo.FolderPath + &quot;/&quot; + info.Attributes.GetString(&quot;missionFolderPath&quot;, null);
+            missionPath = missionPath.Replace(&quot;\\&quot;, &quot;/&quot;);
+            if (!missionPath.EndsWith(&quot;/&quot;))
+                missionPath += &quot;/&quot;;
+
+            comp.daemons.Add(new MissionHubServer(
+                comp,
+                info.Attributes.GetString(&quot;serviceName&quot;, null),
+                info.Attributes.GetString(&quot;groupName&quot;, null).Filter(),
+                os
+            )
+            {
+                MissionSourceFolderPath = missionPath,
+                themeColor = info.Attributes.GetColor(&quot;themeColor&quot;, Color.PaleTurquoise).Value,
+                themeColorBackground = info.Attributes.GetColor(&quot;backgroundColor&quot;, Color.PaleTurquoise).Value,
+                themeColorLine = info.Attributes.GetColor(&quot;lineColor&quot;, Color.PaleTurquoise).Value,
+                allowAbandon = info.Attributes.GetBool(&quot;allowAbandon&quot;, true)
+            });
+        });
+        executor.RegisterExecutor(&quot;Computer.mailServer&quot;, (exec, info) =&gt;
+        {
+            var ms = new MailServer(
+                comp,
+                info.Attributes.GetString(&quot;name&quot;, &quot;Mail Server&quot;),
+                os
+            )
+            {
+                shouldGenerateJunkEmails = info.Attributes.GetBool(&quot;generateJunk&quot;, true),
+            };
+
+            var color = info.Attributes.GetColor(&quot;color&quot;, null);
+            if (color != null)
+                ms.setThemeColor(color.Value);
+
+            foreach (var emailInfo in info.Children.Where(x =&gt; x.Name == &quot;email&quot;))
+            {
+                var sender = emailInfo.Attributes.GetString(&quot;sender&quot;, &quot;UNKNOWN&quot;).Filter();
+                var subject = emailInfo.Attributes.GetString(&quot;subject&quot;, &quot;UNKNOWN&quot;).Filter();
+                var content = (emailInfo.Content ?? &quot;UNKNOWN&quot;).Filter();
+                if (emailInfo.Attributes.TryGetValue(&quot;recipient&quot;, out var recp))
+                {
+                    recp = recp.Filter();
+                    var email = MailServer.generateEmail(subject, content, sender);
+                    ms.setupComplete = (System.Action)Delegate.Combine(ms.setupComplete, (System.Action)(() =&gt;
+                    {
+                        ms.addMail(email, recp);
+                    }));
+                }
+            }
+
+            comp.daemons.Add(ms);
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.addEmailDaemon&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new AddEmailDaemon(comp, &quot;Final Task&quot;, os));
+        });
+        executor.RegisterExecutor(&quot;Computer.deathRowDatabase&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new DeathRowDatabaseDaemon(comp, &quot;Death Row Database&quot;, os));
+        });
+        executor.RegisterExecutor(&quot;Computer.academicDatabase&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new AcademicDatabaseDaemon(comp, &quot;International Academic Database&quot;, os));
+        });
+        executor.RegisterExecutor(&quot;Computer.ispSystem&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new ISPDaemon(comp, os));
+        });
+        executor.RegisterExecutor(&quot;Computer.messageBoard&quot;, (exec, info) =&gt;
+        {
+            var messageBoard = new MessageBoardDaemon(comp, os)
+            {
+                name = info.Attributes.GetString(&quot;name&quot;, &quot;Anonymous&quot;),
+                BoardName = info.Attributes.GetString(&quot;name&quot;, &quot;Anonymous&quot;)
+            };
+
+            foreach (var message in info.Children.Where(x =&gt; x.Name == &quot;thread&quot;))
+            {
+                var path = message.Content ?? &quot;UNKNOWN&quot;;
+                if (Settings.IsInExtensionMode)
+                    path = ExtensionLoader.ActiveExtensionInfo.FolderPath + &quot;/&quot; + path;
+                else if (!path.StartsWith(&quot;Content/Missions/&quot;))
+                    path = &quot;Content/Missions/&quot; + path;
+
+                messageBoard.AddThread(Utils.readEntireFile(path));
+            }
+
+            comp.daemons.Add(messageBoard);
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.addAvconDemoEndDaemon&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new AvconDemoEndDaemon(comp, &quot;Demo End&quot;, os));
+        });
+        executor.RegisterExecutor(&quot;Computer.addWebServer&quot;, (exec, info) =&gt;
+        {
+            var webServer = new WebServerDaemon(
+                comp,
+                info.Attributes.GetString(&quot;name&quot;, &quot;Web Server&quot;),
+                os,
+                info.Attributes.GetOrThrow(&quot;url&quot;, &quot;addWebServer requires a url&quot;)
+            );
+            webServer.registerAsDefaultBootDaemon();
+            comp.daemons.Add(webServer);
+        });
+        executor.RegisterExecutor(&quot;Computer.addOnlineWebServer&quot;, (exec, info) =&gt;
+        {
+            var onlineWebServer = new OnlineWebServerDaemon(
+                comp,
+                info.Attributes.GetString(&quot;name&quot;, &quot;Web Server&quot;),
+                os
+            );
+            if (info.Attributes.TryGetValue(&quot;url&quot;, out var url))
+            {
+                onlineWebServer.setURL(url);
+            }
+            onlineWebServer.registerAsDefaultBootDaemon();
+            comp.daemons.Add(onlineWebServer);
+        });
+        executor.RegisterExecutor(&quot;Computer.uploadServerDaemon&quot;, (exec, info) =&gt;
+        {
+            var uploadServer = new UploadServerDaemon(
+                comp,
+                info.Attributes.GetString(&quot;name&quot;, &quot;File Upload Server&quot;),
+                info.Attributes.GetColor(&quot;color&quot;, new Color(0, 94, 38)).Value,
+                os,
+                info.Attributes.GetString(&quot;folder&quot;, null),
+                info.Attributes.GetBool(&quot;needsAuth&quot;)
+            )
+            {
+                hasReturnViewButton = info.Attributes.GetBool(&quot;hasReturnViewButton&quot;)
+            };
+
+            uploadServer.registerAsDefaultBootDaemon();
+            comp.daemons.Add(uploadServer);
+        });
+        executor.RegisterExecutor(&quot;Computer.MedicalDatabase&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new MedicalDatabaseDaemon(comp, os));
+        });
+        executor.RegisterExecutor(&quot;Computer.HeartMonitor&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new HeartMonitorDaemon(comp, os)
+            {
+                PatientID = info.Attributes.GetString(&quot;patient&quot;, &quot;UNKNOWN&quot;)
+            });
+        });
+        executor.RegisterExecutor(&quot;Computer.PointClicker&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new PointClickerDaemon(comp, &quot;Point Clicker!&quot;, os));
+        });
+        executor.RegisterExecutor(&quot;Computer.SongChangerDaemon&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new SongChangerDaemon(comp, os));
+        });
+        executor.RegisterExecutor(&quot;Computer.DHSDaemon&quot;, (exec, info) =&gt;
+        {
+            if (!DLC1SessionUpgrader.HasDLC1Installed)
+                throw new NotSupportedException(&quot;Labyrinths DLC must be installed for DHSDaemon!&quot;);
+
+            var dlcHub = new DLCHubServer(
+                comp,
+                &quot;DHS&quot;,
+                info.Attributes.GetString(&quot;groupName&quot;, &quot;UNKNOWN&quot;),
+                os
+            )
+            {
+                AddsFactionPointForMissionCompleteion = info.Attributes.GetBool(&quot;addsFactionPointOnMissionComplete&quot;, true),
+                AutoClearMissionsOnSingleComplete = info.Attributes.GetBool(&quot;autoClearMissionsOnPlayerComplete&quot;, true),
+                AllowContractAbbandon = info.Attributes.GetBool(&quot;allowContractAbbandon&quot;),
+                themeColor = info.Attributes.GetColor(&quot;themeColor&quot;, new Color(38, 201, 155)).Value
+            };
+
+            foreach (var userInfo in info.Children.Where(x =&gt; x.Name.ToLower() == &quot;user&quot; || x.Name.ToLower() == &quot;agent&quot;))
+            {
+                if (userInfo.Attributes.TryGetValue(&quot;name&quot;, out var name))
+                {
+                    dlcHub.AddAgent(
+                        name.Filter(),
+                        userInfo.Attributes.GetString(&quot;pass&quot;, &quot;password&quot;).Filter(),
+                        userInfo.Attributes.GetColor(&quot;color&quot;, Color.LightGreen).Value
+                    );
+                }
+            }
+
+            comp.daemons.Add(dlcHub);
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.CustomConnectDisplayDaemon&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new CustomConnectDisplayDaemon(comp, os));
+        });
+        executor.RegisterExecutor(&quot;Computer.DatabaseDaemon&quot;, (exec, info) =&gt;
+        {
+            if (!DLC1SessionUpgrader.HasDLC1Installed)
+                throw new NotSupportedException(&quot;Labyrinths DLC must be installed for DatabaseDaemon!&quot;);
+
+            comp.daemons.Add(new DatabaseDaemon(
+                comp,
+                os,
+                info.Attributes.GetString(&quot;Name&quot;, &quot;Database&quot;),
+                DatabaseDaemon.GetDatabasePermissionsFromString(info.Attributes.GetString(&quot;Permissions&quot;)),
+                info.Attributes.GetString(&quot;DataType&quot;, null),
+                info.Attributes.GetString(&quot;Foldername&quot;, null),
+                info.Attributes.GetColor(&quot;Color&quot;)
+            )
+            {
+                adminResetEmailHostID = info.Attributes.GetString(&quot;AdminEmailHostID&quot;, null),
+                adminResetPassEmailAccount = info.Attributes.GetString(&quot;AdminEmailAccount&quot;),
+                Dataset = info.Children.Count == 0 ? null : info.Children.Cast&lt;object&gt;().ToList()
+            });
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.WhitelistAuthenticatorDaemon&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new WhitelistConnectionDaemon(comp, os)
+            {
+                RemoteSourceIP = info.Attributes.GetString(&quot;Remote&quot;, null),
+                AuthenticatesItself = info.Attributes.GetBool(&quot;SelfAuthenticating&quot;, true)
+            });
+        });
+        executor.RegisterExecutor(&quot;Computer.MarkovTextDaemon&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new MarkovTextDaemon(
+                comp,
+                os,
+                info.Attributes.GetString(&quot;Name&quot;, null),
+                info.Attributes.GetString(&quot;SourceFilesContentFolder&quot;, null)
+            ));
+        });
+        executor.RegisterExecutor(&quot;Computer.IRCDaemon&quot;, (exec, info) =&gt;
+        {
+            var irc = new IRCDaemon(comp, os, info.Attributes.GetString(&quot;name&quot;, &quot;IRC Server&quot;))
+            {
+                ThemeColor = info.Attributes.GetColor(&quot;themeColor&quot;, new Color(184, 2, 141)).Value,
+                RequiresLogin = info.Attributes.GetBool(&quot;needsLogin&quot;, false)
+            };
+
+            foreach (var child in info.Children)
+            {
+                switch (child.Name.ToLower())
+                {
+                    case &quot;user&quot;:
+                    case &quot;agent&quot;:
+                        if (child.Attributes.TryGetValue(&quot;name&quot;, out var name))
+                        {
+                            irc.UserColors.Add(name.Filter(), child.Attributes.GetColor(&quot;color&quot;, Color.LightGreen).Value);
+                        }
+                        break;
+                    case &quot;post&quot;:
+                        if (child.Content != null &amp;&amp; child.Attributes.TryGetValue(&quot;user&quot;, out var user))
+                        {
+                            irc.StartingMessages.Add(new KeyValuePair&lt;string, string&gt;(user.Filter(), child.Content.Filter()));
+                        }
+                        break;
+                }
+            }
+
+            comp.daemons.Add(irc);
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.AircraftDaemon&quot;, (exec, info) =&gt;
+        {
+            if (!DLC1SessionUpgrader.HasDLC1Installed)
+                throw new NotSupportedException(&quot;Labrinths DLC has to be installed for aircraft daemon!&quot;);
+
+            comp.daemons.Add(new AircraftDaemon(
+                comp,
+                os,
+                info.Attributes.GetString(&quot;Name&quot;, null),
+                info.Attributes.GetVector(&quot;OriginX&quot;, &quot;OriginY&quot;, Vector2.Zero).Value,
+                info.Attributes.GetVector(&quot;DestX&quot;, &quot;DestY&quot;, Vector2.One * 0.5f).Value,
+                info.Attributes.GetFloat(&quot;Progress&quot;, 0.5f)
+            ));
+        });
+        executor.RegisterExecutor(&quot;Computer.LogoCustomConnectDisplayDaemon&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new LogoCustomConnectDisplayDaemon(
+                comp,
+                os,
+                info.Attributes.GetString(&quot;logo&quot;, null),
+                info.Attributes.GetString(&quot;title&quot;, null),
+                info.Attributes.GetBool(&quot;overdrawLogo&quot;),
+                info.Attributes.GetString(&quot;buttonAlignment&quot;, null)
+            ));
+        });
+        executor.RegisterExecutor(&quot;Computer.LogoDaemon&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new LogoDaemon(
+                comp,
+                os,
+                comp.name,
+                info.Attributes.GetBool(&quot;ShowsTitle&quot;, true),
+                info.Attributes.GetString(&quot;LogoImagePath&quot;, null)
+            )
+            {
+                TextColor = info.Attributes.GetColor(&quot;TextColor&quot;, Color.White).Value,
+                BodyText = info.Content
+            });
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.DLCCredits&quot;, (exec, info) =&gt;
+        {
+            DLCCreditsDaemon credits;
+            string title, text = null;
+            if (info.Attributes.TryGetValue(&quot;Title&quot;, out title) | info.Attributes.TryGetValue(&quot;ButtonText&quot;, out text))
+            {
+                credits = new DLCCreditsDaemon(comp, os, title.Filter(), text.Filter());
+            }
+            else
+            {
+                credits = new DLCCreditsDaemon(comp, os);
+            }
+
+            credits.ConditionalActionsToLoadOnButtonPress = info.Attributes.GetString(&quot;ConditionalActionSetToRunOnButtonPressPath&quot;, null);
+            comp.daemons.Add(credits);
+        });
+        executor.RegisterExecutor(&quot;Computer.CreditsDaemon&quot;, (exec, info) =&gt;
+        {
+            DLCCreditsDaemon credits;
+            string title, text = null;
+            if (info.Attributes.TryGetValue(&quot;Title&quot;, out title) | info.Attributes.TryGetValue(&quot;ButtonText&quot;, out text))
+            {
+                credits = new DLCCreditsDaemon(comp, os, title.Filter(), text.Filter());
+            }
+            else
+            {
+                credits = new DLCCreditsDaemon(comp, os);
+            }
+
+            credits.ConditionalActionsToLoadOnButtonPress = info.Attributes.GetString(&quot;ConditionalActionSetToRunOnButtonPressPath&quot;, null);
+            comp.daemons.Add(credits);
+        });
+        executor.RegisterExecutor(&quot;Computer.FastActionHost&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new FastActionHost(comp, os, comp.name));
+        });
+        executor.RegisterExecutor(&quot;Computer.PorthackHeart&quot;, (exec, info) =&gt;
+        {
+            comp.daemons.Add(new PorthackHeartDaemon(comp, os));
+        });
+        executor.RegisterExecutor(&quot;Computer.Memory&quot;, (exec, info) =&gt; comp.Memory = ReplacementsCommon.LoadMemoryContents(info), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.eosDevice&quot;, (exec, info) =&gt;
+        {
+            eos = new Computer(
+                info.Attributes.GetString(&quot;name&quot;, &quot;Unregistered eOS Device&quot;).Filter(),
+                NetworkMap.generateRandomIP(),
+                os.netMap.getRandomPosition(),
+                0,
+                5,
+                os
+            )
+            {
+                idName = info.Attributes.GetString(&quot;id&quot;, comp.idName + &quot;_eos&quot;),
+                icon = info.Attributes.GetString(&quot;icon&quot;, &quot;ePhone&quot;),
+                location = comp.location + Corporation.getNearbyNodeOffset(comp.location, Utils.random.Next(12), 12, os.netMap),
+                portsNeededForCrack = 2
+            };
+            eosList.Add(eos);
+
+            PortManager.LoadPortsFromStringVanilla(eos, &quot;22,3659&quot;);
+            eos.setAdminPassword(info.Attributes.GetString(&quot;passOverride&quot;, &quot;alpine&quot;));
+
+            EOSComp.GenerateEOSFilesystem(eos);
+            if (info.Attributes.GetBool(&quot;empty&quot;, false))
+            {
+                var apps = eos.files.root.searchForFolder(&quot;eos&quot;).searchForFolder(&quot;apps&quot;);
+                apps?.folders.Clear();
+                apps?.files.Clear();
+            }
+
+            os.netMap.nodes.Add(eos);
+
+            if (comp.attatchedDeviceIDs != null)
+                comp.attatchedDeviceIDs += &quot;,&quot;;
+            comp.attatchedDeviceIDs += eos.idName;
+        });
+        executor.RegisterExecutor(&quot;Computer.eosDevice.note&quot;, (exec, info) =&gt;
+        {
+            var noteFile = info.Attributes.GetString(&quot;filename&quot;, null)?.Filter();
+            var content = info.Content.TrimStart().Filter();
+            var notesFolder = eos.files.root.searchForFolder(&quot;eos&quot;).searchForFolder(&quot;notes&quot;);
+
+            if (noteFile == null)
+            {
+                var firstNewline = content.IndexOf('\n');
+                if (firstNewline == -1)
+                    firstNewline = content.Length;
+                noteFile = content.Substring(0, firstNewline);
+                if (noteFile.Length &gt; 50)
+                    noteFile = noteFile.Substring(0, 47) + &quot;...&quot;;
+            }
+            notesFolder.files.Add(new FileEntry(content, noteFile));
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;Computer.eosDevice.mail&quot;, (exec, info) =&gt;
+        {
+            var username = info.Attributes.GetString(&quot;username&quot;, null)?.Filter();
+            var password = info.Attributes.GetString(&quot;pass&quot;, null)?.Filter();
+            var mailFolder = eos.files.root.searchForFolder(&quot;eos&quot;).searchForFolder(&quot;mail&quot;);
+
+            mailFolder.files.Add(new FileEntry(
+                $&quot;MAIL ACCOUNT : {username}\nAccount   :{username}\nPassword :{password}\nLast Sync :{DateTime.Now.ToString()}\n\n{Computer.generateBinaryString(512)}&quot;,
+                username + &quot;.act&quot;
+            ));
+        });
+        executor.RegisterExecutor(&quot;Computer.eosDevice.file&quot;, (exec, info) =&gt;
+        {
+            eos.getFolderFromPath(info.Attributes.GetString(&quot;path&quot;, &quot;home&quot;)).files.Add(new FileEntry(
+                (info.Content ?? &quot;&quot;).Filter().TrimStart(),
+                info.Attributes.GetString(&quot;name&quot;, null)
+            ));
+        }, ParseOption.ParseInterior);
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(ComputerLoader), nameof(ComputerLoader.loadComputer))]
+    private static bool LoadComputerPrefix(string filename, bool preventAddingToNetmap, bool preventInitDaemons, out object __result)
+    {
+        __result = LoadComputer(filename, preventAddingToNetmap, preventInitDaemons);
+        return false;
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(ExtensionLoader), nameof(ExtensionLoader.LoadNewExtensionSession))]
+    private static void ReplaceLoadFactionIL(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.Before,
+            x =&gt; x.MatchLdloc(4),
+            x =&gt; x.MatchCallOrCallvirt(AccessTools.Method(typeof(XmlReader), nameof(XmlReader.Create), new Type[] { typeof(Stream) })),
+            x =&gt; x.MatchStloc(5),
+            x =&gt; x.MatchLdloc(5),
+            x =&gt; x.MatchCallOrCallvirt(AccessTools.Method(typeof(Faction), nameof(Faction.loadFromSave)))
+        );
+
+        c.Index++;
+        c.RemoveRange(4);
+        c.EmitDelegate&lt;Func&lt;FileStream, Faction&gt;&gt;(file =&gt;
+        {
+            var factionExec = new EventExecutor(new StreamReader(file).ReadToEnd(), false);
+            ElementInfo factionInfo = null;
+            factionExec.RegisterExecutor(&quot;*&quot;, (exec, info) =&gt;
+            {
+                factionInfo = info;
+            }, ParseOption.ParseInterior);
+            factionExec.Parse();
+            return ReplacementsCommon.LoadFaction(factionInfo);
+        });
+    }
+
+    public static Computer LoadComputer(string filename, bool preventAddingToNetmap = false, bool preventInitDaemons = false)
+    {
+        filename = LocalizedFileLoader.GetLocalizedFilepath(filename);
+
+        os = OS.currentInstance;
+
+        executor.SetText(filename, true);
+
+        holder = new ComputerHolder();
+
+        foreach (var custom in CustomExecutors)
+        {
+            var customInstance = (ComputerExecutor) Activator.CreateInstance(custom.ExecutorType);
+            customInstance.Init(os, ref holder);
+            executor.RegisterTempExecutor(custom.Element, customInstance.Execute, custom.Options);
+        }
+
+        foreach (var customDaemon in DaemonManager.CustomDaemons)
+        {
+            executor.RegisterTempExecutor(&quot;Computer.&quot; + customDaemon.Name, (exec, info) =&gt;
+            {
+                DaemonManager.TryLoadCustomDaemon(info, comp, os);
+            }, ParseOption.ParseInterior);
+        }
+
+        ReplacementsCommon.isPathfinderComputer = true;
+        if (!executor.TryParse(out var ex))
+        {
+            ReplacementsCommon.isPathfinderComputer = false;
+            throw new FormatException($&quot;{filename}: {ex.Message}&quot;, ex);
+        }
+        ReplacementsCommon.isPathfinderComputer = false;
+
+        var ret = comp;
+        comp = null;
+
+        if (ret == null)
+            return null;
+
+        if (!ComputerExtensions.HasInitializedPorts(ret))
+        {
+            PortManager.LoadPortsFromChildren(ret, ReplacementsCommon.defaultPorts, false);
+        }
+
+        if (!preventInitDaemons)
+            ret.initDaemons();
+        if (!preventAddingToNetmap)
+        {
+            os.netMap.nodes.Add(ret);
+            foreach (Computer eosDevice in eosList)
+                ComputerLookup.Add(eosDevice);
+            ComputerLookup.Add(ret);
+
+            if (eosList.Count &gt; 0)
+            {
+                var devices = new List&lt;Computer&gt;(eosList);
+                var origOs = os;
+
+                ComputerLoader.postAllLoadedActions += ()=&gt;{
+                    int i = origOs.netMap.nodes.IndexOf(ret);
+                    foreach (Computer eosDevice in devices)
+                        eosDevice.links.Add(i);
+                };
+            }
+        }
+
+        os = null;
+        eos = null;
+        eosList.Clear();
+        holder = null;
+
+        return ret;
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_fix_extension_tests" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::BaseGameFixes::FixExtensionTests</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_fix_extension_tests_1afc35ec95394235ad97742ec19c0504b8" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.FixExtensionTests.TestMissionStartingMissionNONEFix</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>TestMissionStartingMissionNONEFix</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.FixExtensionTests.TestMissionStartingMissionNONEFix</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/FixExtensionTests.cs" line="16" column="26" bodyfile="PathfinderAPI/BaseGameFixes/FixExtensionTests.cs" bodystart="16" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_fix_extension_tests_1a8339759a8ce09a6194ad5f1f5e752a63" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.FixExtensionTests.ExtensionInfoStartingMissionNONEFix</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>ExtensionInfoStartingMissionNONEFix</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.FixExtensionTests.ExtensionInfoStartingMissionNONEFix</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/FixExtensionTests.cs" line="49" column="26" bodyfile="PathfinderAPI/BaseGameFixes/FixExtensionTests.cs" bodystart="49" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/FixExtensionTests.cs" line="11" column="15" bodyfile="PathfinderAPI/BaseGameFixes/FixExtensionTests.cs" bodystart="12" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_fix_extension_tests_1a8339759a8ce09a6194ad5f1f5e752a63" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::FixExtensionTests</scope><name>ExtensionInfoStartingMissionNONEFix</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_fix_extension_tests_1afc35ec95394235ad97742ec19c0504b8" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::FixExtensionTests</scope><name>TestMissionStartingMissionNONEFix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

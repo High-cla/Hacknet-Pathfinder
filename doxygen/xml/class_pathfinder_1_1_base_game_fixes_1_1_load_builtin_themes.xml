@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_load_builtin_themes" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::LoadBuiltinThemes</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_load_builtin_themes_1a5b081d2018b8b8708e367788fbae1369" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.LoadBuiltinThemes.PatchEnumFind</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>PatchEnumFind</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.LoadBuiltinThemes.PatchEnumFind</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+<para>Replaces dumb manual enumeration name lookup with <computeroutput>Enum.TryParse</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The original code does a <computeroutput>.ToLower()</computeroutput> on the enum code to check against the theme, as the original code <computeroutput>.ToLower()&apos;s</computeroutput> the theme name. We don&apos;t, so we just ignore case completely instead. Does the same thing. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/LoadBuiltinThemes.cs" line="21" column="22" bodyfile="PathfinderAPI/BaseGameFixes/LoadBuiltinThemes.cs" bodystart="21" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/LoadBuiltinThemes.cs" line="10" column="9" bodyfile="PathfinderAPI/BaseGameFixes/LoadBuiltinThemes.cs" bodystart="10" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_load_builtin_themes_1a5b081d2018b8b8708e367788fbae1369" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::LoadBuiltinThemes</scope><name>PatchEnumFind</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

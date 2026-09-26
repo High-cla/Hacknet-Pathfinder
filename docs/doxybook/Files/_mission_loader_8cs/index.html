@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_mission_loader_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Replacements/MissionLoader.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Replacements/MissionLoader.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_mission_loader_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_mission_loader_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Replacements/MissionLoader.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapireplacementsmissionloadercs">PathfinderAPI/Replacements/MissionLoader.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_replacements/">Pathfinder::Replacements</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_mission_loader/">Pathfinder::Replacements::MissionLoader</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor/">Pathfinder::Replacements::MissionLoader::MissionExecutor</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Reflection;
+using Hacknet;
+using Hacknet.Extensions;
+using Hacknet.Mission;
+using HarmonyLib;
+using Pathfinder.Event;
+using Pathfinder.Mission;
+using Pathfinder.Util;
+using Pathfinder.Util.XML;
+
+namespace Pathfinder.Replacements;
+
+[HarmonyPatch]
+public static class MissionLoader
+{
+    public abstract class MissionExecutor
+    {
+        public OS Os { get; private set; }
+        public ActiveMission Mission { get; private set; }
+
+        public virtual void Init(OS os, ref ActiveMission mission)
+        {
+            Os = os;
+            Mission = mission;
+        }
+
+        public abstract void Execute(EventExecutor exec, ElementInfo info);
+    }
+
+    private struct MissionExecutorHolder
+    {
+        public string Element;
+        public Type ExecutorType;
+        public ParseOption Options;
+    }
+
+    private static readonly List&lt;MissionExecutorHolder&gt; CustomExecutors = new List&lt;MissionExecutorHolder&gt;();
+
+    public static void RegisterExecutor&lt;T&gt;(string element, ParseOption options = ParseOption.None) where T : MissionExecutor, new() =&gt; RegisterExecutor(typeof(T), element, options);
+    public static void RegisterExecutor(Type executorType, string element, ParseOption options = ParseOption.None)
+    {
+        executorType.ThrowNotInherit&lt;MissionExecutor&gt;(nameof(executorType));
+        if(!executorType.GetConstructors().Any(ctor =&gt; ctor.GetParameters().Length == 0))
+            throw new ArgumentException(&quot;Type of executor registered must have a default constructor&quot;, nameof(executorType));
+
+        CustomExecutors.Add(new MissionExecutorHolder
+        {
+            Element = element,
+            ExecutorType = executorType,
+            Options = options
+        });
+    }
+
+    public static void UnregisterExecutor&lt;T&gt;() where T : MissionExecutor, new()
+    {
+        var tType = typeof(T);
+        CustomExecutors.RemoveAll(x =&gt; x.ExecutorType == tType);
+    }
+
+    private static void OnPluginUnload(Assembly pluginAsm)
+    {
+        CustomExecutors.RemoveAll(x =&gt; x.ExecutorType.Assembly == pluginAsm);
+    }
+
+    private static EventExecutor executor = new EventExecutor();
+    private static ActiveMission mission = null;
+    private static List&lt;ActiveMission&gt; branches = null;
+    private static bool hasMissionTag = false;
+
+    static MissionLoader()
+    {
+        EventManager.onPluginUnload += OnPluginUnload;
+
+        executor.RegisterExecutor(&quot;mission&quot;, (exec, info) =&gt;
+        {
+            hasMissionTag = true;
+            mission.activeCheck = info.Attributes.GetBool(&quot;activeCheck&quot;);
+            mission.ShouldIgnoreSenderVerification = info.Attributes.GetBool(&quot;shouldIgnoreSenderVerification&quot;);
+        });
+        executor.RegisterExecutor(&quot;mission.generationKeys&quot;, (exec, info) =&gt;
+        {
+            if (!string.IsNullOrEmpty(info.Content))
+            {
+                info.Attributes.Add(&quot;Data&quot;, info.Content);
+            }
+            MissionGenerator.setMissionGenerationKeys(info.Attributes);
+            if (ComputerLoader.MissionPreLoadComplete != null)
+                ComputerLoader.MissionPreLoadComplete();
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;mission.goals.goal&quot;, (exec, info) =&gt; mission.goals.Add(LoadGoal(info)), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;mission.missionStart&quot;, (exec, info) =&gt;
+        {
+            var function = info.Content ?? throw new FormatException(&quot;missionStart with no mission function!&quot;);
+            var val = info.Attributes.GetInt(&quot;val&quot;, 1);
+            if (info.Attributes.GetBool(&quot;suppress&quot;, Settings.IsInExtensionMode))
+            {
+                mission.addStartFunction(val, function);
+            }
+            else
+            {
+                MissionFunctions.runCommand(val, function);
+            }
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;mission.missionEnd&quot;, (exec, info) =&gt;
+        {
+            mission.addEndFunction(info.Attributes.GetInt(&quot;val&quot;, 1), info.Content ?? throw new FormatException(&quot;missionEnd with no mission function!&quot;));
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;mission.nextMission&quot;, (exec, info) =&gt;
+        {
+            mission.willSendEmail = !info.Attributes.GetBool(&quot;IsSilent&quot;, false);
+            mission.nextMission = info.Content ?? &quot;NONE&quot;;
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;mission.branchMissions.branch&quot;, (exec, info) =&gt;
+        {
+            var filePrefix = Settings.IsInExtensionMode ? ExtensionLoader.ActiveExtensionInfo.FolderPath + &quot;/&quot; : &quot;Content/Missions/&quot;;
+            var currentMission = mission;
+            var currentBranches = branches;
+            mission = null;
+            branches = null;
+            exec.SaveState();
+            currentBranches.Add(LoadContentMission(filePrefix + info.Content));
+            exec.PopState();
+            mission = currentMission;
+            branches = currentBranches;
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;mission.branchMissions&quot;, (exec, info) =&gt; OS.currentInstance.branchMissions = branches, ParseOption.FireOnEnd);
+        executor.RegisterExecutor(&quot;mission.posting&quot;, (exec, info) =&gt;
+        {
+            mission.postingTitle = info.Attributes.GetString(&quot;title&quot;, &quot;UNKNOWN&quot;).Filter();
+            mission.postingBody = (info.Content ?? &quot;UNKNOWN&quot;).Filter();
+            mission.postingAcceptFlagRequirements = info.Attributes.GetString(&quot;reqs&quot;).Split(Utils.commaDelim, StringSplitOptions.RemoveEmptyEntries);
+            mission.requiredRank = info.Attributes.GetInt(&quot;requiredRank&quot;);
+            mission.difficulty = info.Attributes.GetInt(&quot;difficulty&quot;);
+            mission.client = info.Attributes.GetString(&quot;client&quot;).Filter();
+            mission.target = info.Attributes.GetString(&quot;target&quot;).Filter();
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;mission.email.sender&quot;, (exec, info) =&gt; mission.email.sender = info.Content.Filter(), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;mission.email.subject&quot;, (exec, info) =&gt; mission.email.subject = info.Content.Filter(), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;mission.email.body&quot;, (exec, info) =&gt; mission.email.body = info.Content.Filter(), ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;mission.email.attachments.link&quot;, (exec, info) =&gt;
+        {
+            var comp = info.Attributes.GetComp(&quot;comp&quot;, SearchType.Id);
+            if (comp != null)
+                mission.email.attachments.Add($&quot;link#%#{comp.name}#%#{comp.ip}&quot;);
+        });
+        executor.RegisterExecutor(&quot;mission.email.attachments.account&quot;, (exec, info) =&gt;
+        {
+            var comp = info.Attributes.GetComp(&quot;comp&quot;);
+            mission.email.attachments.Add(
+                $&quot;account#%#{comp.name}#%#{comp.ip}#%#{info.Attributes.GetString(&quot;user&quot;, &quot;UNKNOWN&quot;).Filter()}#%#{info.Attributes.GetString(&quot;pass&quot;, &quot;UNKNOWN&quot;).Filter()}&quot;
+            );
+        });
+        executor.RegisterExecutor(&quot;mission.email.attachments.note&quot;, (exec, info) =&gt;
+        {
+            mission.email.attachments.Add($&quot;note#%#{info.Attributes.GetString(&quot;title&quot;, &quot;Data&quot;).Filter()}#%#{info.Content.Filter()}&quot;);
+        }, ParseOption.ParseInterior);
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(ComputerLoader), nameof(ComputerLoader.readMission))]
+    private static bool ReadMissionPrefix(string filename, out object __result)
+    {
+        __result = LoadContentMission(filename);
+        return false;
+    }
+
+    public static ActiveMission LoadContentMission(string filename)
+    {
+        if (ComputerLoader.MissionPreLoadComplete != null)
+            ComputerLoader.MissionPreLoadComplete();
+
+        mission = new ActiveMission(new List&lt;MisisonGoal&gt;(), null, default)
+        {
+            willSendEmail = true,
+            reloadGoalsSourceFile = filename
+        };
+        branches = new List&lt;ActiveMission&gt;();
+        mission.email.attachments = new List&lt;string&gt;();
+
+        hasMissionTag = false;
+
+        executor.SetText(LocalizedFileLoader.GetLocalizedFilepath(filename), true);
+
+        foreach (var custom in CustomExecutors)
+        {
+            var customInstance = (MissionExecutor)Activator.CreateInstance(custom.ExecutorType);
+            customInstance.Init(OS.currentInstance, ref mission);
+            executor.RegisterTempExecutor(custom.Element, customInstance.Execute, custom.Options);
+        }
+
+        if (!executor.TryParse(out var ex))
+        {
+            throw new FormatException($&quot;{filename}: {ex.Message}&quot;, ex);
+        }
+
+        var ret = mission;
+        mission = null;
+        branches = null;
+
+        return hasMissionTag ? ret : null;
+    }
+
+    public static MisisonGoal LoadGoal(ElementInfo info)
+    {
+        var type = info.Attributes.GetString(&quot;type&quot;).ToLower();
+
+        var os = OS.currentInstance;
+
+        if (GoalManager.TryLoadCustomGoal(type, out var customGoal))
+        {
+            if (customGoal is PathfinderGoal pfGoal)
+                pfGoal.LoadFromXML(info);
+            return customGoal;
+        }
+
+        switch (type)
+        {
+            case &quot;filedeletion&quot;:
+                var compName = info.Attributes.GetString(&quot;target&quot;).Filter();
+                return new FileDeletionMission(
+                    info.Attributes.GetString(&quot;path&quot;).Filter(),
+                    info.Attributes.GetString(&quot;file&quot;).Filter(),
+                    ComputerLookup.FindById(compName)?.ip ?? compName,
+                    os
+                );
+            case &quot;clearfolder&quot;:
+                return new FileDeleteAllMission(
+                    info.Attributes.GetString(&quot;path&quot;).Filter(),
+                    info.Attributes.GetComp(&quot;target&quot;).ip,
+                    os
+                );
+            case &quot;filedownload&quot;:
+                return new FileDownloadMission(
+                    info.Attributes.GetString(&quot;path&quot;).Filter(),
+                    info.Attributes.GetString(&quot;file&quot;).Filter(),
+                    info.Attributes.GetComp(&quot;target&quot;).ip,
+                    os
+                );
+            case &quot;filechange&quot;:
+                return new FileChangeMission(
+                    info.Attributes.GetString(&quot;path&quot;).Filter(),
+                    info.Attributes.GetString(&quot;file&quot;).Filter(),
+                    info.Attributes.GetComp(&quot;target&quot;).ip,
+                    info.Attributes.GetString(&quot;keyword&quot;).Filter(),
+                    os,
+                    info.Attributes.GetBool(&quot;removal&quot;)
+                )
+                {
+                    caseSensitive = info.Attributes.GetBool(&quot;filechange&quot;)
+                };
+            case &quot;getadmin&quot;:
+                return new GetAdminMission(info.Attributes.GetComp(&quot;target&quot;).ip, os);
+            case &quot;getstring&quot;:
+                return new GetStringMission(info.Attributes.GetString(&quot;target&quot;).Filter());
+            case &quot;delay&quot;:
+                return new DelayMission(info.Attributes.GetFloat(&quot;time&quot;, 1f));
+            case &quot;hasflag&quot;:
+                return new CheckFlagSetMission(info.Attributes.GetString(&quot;target&quot;).Filter(), os);
+            case &quot;fileupload&quot;:
+                return new FileUploadMission(
+                    info.Attributes.GetString(&quot;path&quot;).Filter(),
+                    info.Attributes.GetString(&quot;file&quot;).Filter(),
+                    info.Attributes.GetComp(&quot;target&quot;).ip,
+                    info.Attributes.GetComp(&quot;destTarget&quot;).ip,
+                    info.Attributes.GetString(&quot;destPath&quot;).Filter(),
+                    os,
+                    info.Attributes.GetBool(&quot;decrypt&quot;),
+                    info.Attributes.GetString(&quot;decryptPass&quot;).Filter()
+                );
+            case &quot;adddegree&quot;:
+                return new AddDegreeMission(
+                    info.Attributes.GetString(&quot;owner&quot;).Filter(),
+                    info.Attributes.GetString(&quot;degree&quot;).Filter(),
+                    info.Attributes.GetString(&quot;uni&quot;).Filter(),
+                    info.Attributes.GetFloat(&quot;gpa&quot;, -1f),
+                    os
+                );
+            case &quot;wipedegrees&quot;:
+                return new WipeDegreesMission(info.Attributes.GetString(&quot;owner&quot;).Filter(), os);
+            case &quot;removedeathrowrecord&quot;:
+                return new DeathRowRecordRemovalMission(
+                    info.Attributes.GetString(&quot;fname&quot;, info.Attributes.GetString(&quot;name&quot;).Split(' ')[0]),
+                    info.Attributes.GetString(&quot;lname&quot;, info.Attributes.GetString(&quot;name&quot;).Split(' ')[1]),
+                    os
+                );
+            case &quot;modifydeathrowrecord&quot;:
+                return new DeathRowRecordModifyMission(
+                    info.Attributes.GetString(&quot;fname&quot;, info.Attributes.GetString(&quot;name&quot;).Split(' ')[0]),
+                    info.Attributes.GetString(&quot;lname&quot;, info.Attributes.GetString(&quot;name&quot;).Split(' ')[1]),
+                    info.Content,
+                    os
+                );
+            case &quot;sendemail&quot;:
+                return new SendEmailMission(
+                    info.Attributes.GetString(&quot;mailServer&quot;, &quot;jmail&quot;).Filter(),
+                    info.Attributes.GetString(&quot;recipient&quot;).Filter(),
+                    info.Attributes.GetString(&quot;subject&quot;).Filter(),
+                    os
+                );
+            case &quot;databaseentrychange&quot;:
+                return new DatabaseEntryChangeMission(
+                    info.Attributes.GetComp(&quot;comp&quot;).ip,
+                    os,
+                    info.Attributes.GetString(&quot;operation&quot;).Filter(),
+                    info.Attributes.GetString(&quot;fieldName&quot;).Filter(),
+                    info.Attributes.GetString(&quot;targetValue&quot;).Filter(),
+                    info.Attributes.GetString(&quot;recordName&quot;).Filter()
+                );
+            case &quot;getadminpasswordstring&quot;:
+                return new GetAdminPasswordStringMission(info.Attributes.GetComp(&quot;target&quot;).ip, os);
+            default:
+                throw new KeyNotFoundException(&quot;Unknown goal type&quot;);
+        }
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_executable_1_1_exe_module_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Executable::ExeModuleExtensions</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_exe_module_extensions_1af5a6fbad9aef547f4dd079b973c131a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Executable.ExeModuleExtensions.CanKill</definition>
+        <argsstring>(this ExeModule module)</argsstring>
+        <name>CanKill</name>
+        <qualifiedname>Pathfinder.Executable.ExeModuleExtensions.CanKill</qualifiedname>
+        <param>
+          <type>this ExeModule</type>
+          <declname>module</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExeModuleExtensions.cs" line="7" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_exe_module_extensions_1a87102c4a048bcb767b2cab43961887c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Executable.ExeModuleExtensions.Kill</definition>
+        <argsstring>(this ExeModule module)</argsstring>
+        <name>Kill</name>
+        <qualifiedname>Pathfinder.Executable.ExeModuleExtensions.Kill</qualifiedname>
+        <param>
+          <type>this ExeModule</type>
+          <declname>module</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExeModuleExtensions.cs" line="15" column="24" bodyfile="PathfinderAPI/Executable/ExeModuleExtensions.cs" bodystart="15" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Executable/ExeModuleExtensions.cs" line="5" column="15" bodyfile="PathfinderAPI/Executable/ExeModuleExtensions.cs" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_executable_1_1_exe_module_extensions_1af5a6fbad9aef547f4dd079b973c131a5" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExeModuleExtensions</scope><name>CanKill</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_exe_module_extensions_1a87102c4a048bcb767b2cab43961887c3" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExeModuleExtensions</scope><name>Kill</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

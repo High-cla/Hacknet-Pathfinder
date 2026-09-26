@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_executable_1_1_base_executable" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Executable::BaseExecutable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ExeModule</basecompoundref>
+    <derivedcompoundref refid="class_example_mod2_1_1_test_exe" prot="public" virt="non-virtual">ExampleMod2.TestExe</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_executable_1_1_game_executable" prot="public" virt="non-virtual">Pathfinder.Executable.GameExecutable</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_executable_1_1_base_executable_1af32dafdcbb5ec900be0c9d99e451defe" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] Pathfinder.Executable.BaseExecutable.Args</definition>
+        <argsstring></argsstring>
+        <name>Args</name>
+        <qualifiedname>Pathfinder.Executable.BaseExecutable.Args</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/BaseExecutable.cs" line="11" column="19" bodyfile="PathfinderAPI/Executable/BaseExecutable.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_base_executable_1a23717a2e6bf0e5301fc861eebada2c7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Pathfinder.Executable.BaseExecutable.GetIdentifier</definition>
+        <argsstring>()</argsstring>
+        <name>GetIdentifier</name>
+        <qualifiedname>Pathfinder.Executable.BaseExecutable.GetIdentifier</qualifiedname>
+        <reimplementedby refid="class_pathfinder_1_1_executable_1_1_game_executable_1a3b4b544f051acf24c9c694d5ab11df4d">GetIdentifier</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/BaseExecutable.cs" line="9" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_base_executable_1a165d0b6fc47dc62b662ef18efaabc668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Executable.BaseExecutable.BaseExecutable</definition>
+        <argsstring>(Rectangle location, OS operatingSystem, string[] args)</argsstring>
+        <name>BaseExecutable</name>
+        <qualifiedname>Pathfinder.Executable.BaseExecutable.BaseExecutable</qualifiedname>
+        <param>
+          <type>Rectangle</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>operatingSystem</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/BaseExecutable.cs" line="13" column="12" bodyfile="PathfinderAPI/Executable/BaseExecutable.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ExampleMod2.TestExe</label>
+        <link refid="class_example_mod2_1_1_test_exe"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ExeModule</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Executable.BaseExecutable</label>
+        <link refid="class_pathfinder_1_1_executable_1_1_base_executable"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Pathfinder.Executable.GameExecutable</label>
+        <link refid="class_pathfinder_1_1_executable_1_1_game_executable"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ExeModule</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Executable.BaseExecutable</label>
+        <link refid="class_pathfinder_1_1_executable_1_1_base_executable"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Executable/BaseExecutable.cs" line="6" column="17" bodyfile="PathfinderAPI/Executable/BaseExecutable.cs" bodystart="7" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_executable_1_1_base_executable_1af32dafdcbb5ec900be0c9d99e451defe" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::BaseExecutable</scope><name>Args</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_base_executable_1a165d0b6fc47dc62b662ef18efaabc668" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::BaseExecutable</scope><name>BaseExecutable</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_base_executable_1a23717a2e6bf0e5301fc861eebada2c7b" prot="public" virt="virtual"><scope>Pathfinder::Executable::BaseExecutable</scope><name>GetIdentifier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

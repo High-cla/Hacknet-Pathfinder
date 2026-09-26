@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::XML::ElementInfoStringExtensions</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a839dc42a7a92060b26904b7052cb72d2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Util.XML.ElementInfoStringExtensions.TryAsBoolean</definition>
+        <argsstring>(this string content, out bool result)</argsstring>
+        <name>TryAsBoolean</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoStringExtensions.TryAsBoolean</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="198" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a3931f0184c09d85cc5b49ebd34e4c247" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Util.XML.ElementInfoStringExtensions.TryAsInt</definition>
+        <argsstring>(this string content, out int result)</argsstring>
+        <name>TryAsInt</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoStringExtensions.TryAsInt</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="200" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1aca047c89491516111b6413f70df5601e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Util.XML.ElementInfoStringExtensions.TryAsFloat</definition>
+        <argsstring>(this string content, out float result)</argsstring>
+        <name>TryAsFloat</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoStringExtensions.TryAsFloat</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="202" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a83eac4eed74d5008a826f85abf129442" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Util.XML.ElementInfoStringExtensions.AsBooleanSafe</definition>
+        <argsstring>(this string content, bool defaultVal=default)</argsstring>
+        <name>AsBooleanSafe</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoStringExtensions.AsBooleanSafe</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>defaultVal</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="205" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a786379d7ffc9dee29b8d0840d6ad8997" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Pathfinder.Util.XML.ElementInfoStringExtensions.AsIntSafe</definition>
+        <argsstring>(this string content, int defaultVal=default)</argsstring>
+        <name>AsIntSafe</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoStringExtensions.AsIntSafe</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>defaultVal</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="209" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a52eb7687e93c29bc603490990de81614" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Pathfinder.Util.XML.ElementInfoStringExtensions.AsFloatSafe</definition>
+        <argsstring>(this string content, float defaultVal=default)</argsstring>
+        <name>AsFloatSafe</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoStringExtensions.AsFloatSafe</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>defaultVal</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="213" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a897c77dbb04a3490cc1ad78f7dc77e1d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Util.XML.ElementInfoStringExtensions.AsBoolean</definition>
+        <argsstring>(this string content, string valName=&quot;content&quot;)</argsstring>
+        <name>AsBoolean</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoStringExtensions.AsBoolean</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>valName</declname>
+          <defval>&quot;content&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="218" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1afe4892a6dd4eb231c4d63d57a86ad294" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Pathfinder.Util.XML.ElementInfoStringExtensions.AsInt</definition>
+        <argsstring>(this string content, string valName=&quot;content&quot;)</argsstring>
+        <name>AsInt</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoStringExtensions.AsInt</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>valName</declname>
+          <defval>&quot;content&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="222" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a4d22cb0d72118bffef24f5a17423e936" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Pathfinder.Util.XML.ElementInfoStringExtensions.AsFloat</definition>
+        <argsstring>(this string content, string valName=&quot;content&quot;)</argsstring>
+        <name>AsFloat</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoStringExtensions.AsFloat</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>valName</declname>
+          <defval>&quot;content&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="226" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="196" column="15" bodyfile="PathfinderAPI/Util/XML/ElementInfo.cs" bodystart="197" bodyend="230"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a897c77dbb04a3490cc1ad78f7dc77e1d" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoStringExtensions</scope><name>AsBoolean</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a83eac4eed74d5008a826f85abf129442" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoStringExtensions</scope><name>AsBooleanSafe</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a4d22cb0d72118bffef24f5a17423e936" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoStringExtensions</scope><name>AsFloat</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a52eb7687e93c29bc603490990de81614" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoStringExtensions</scope><name>AsFloatSafe</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1afe4892a6dd4eb231c4d63d57a86ad294" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoStringExtensions</scope><name>AsInt</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a786379d7ffc9dee29b8d0840d6ad8997" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoStringExtensions</scope><name>AsIntSafe</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a839dc42a7a92060b26904b7052cb72d2" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoStringExtensions</scope><name>TryAsBoolean</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1aca047c89491516111b6413f70df5601e" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoStringExtensions</scope><name>TryAsFloat</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions_1a3931f0184c09d85cc5b49ebd34e4c247" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoStringExtensions</scope><name>TryAsInt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

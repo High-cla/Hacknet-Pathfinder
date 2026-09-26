@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_mission_loader" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Replacements::MissionLoader</compoundname>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor" prot="public">Pathfinder::Replacements::MissionLoader::MissionExecutor</innerclass>
+    <innerclass refid="struct_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_holder" prot="private">Pathfinder::Replacements::MissionLoader::MissionExecutorHolder</innerclass>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1a93ae66d607c4c459922c24c41153a1f2" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; MissionExecutorHolder &gt;</type>
+        <definition>readonly List&lt;MissionExecutorHolder&gt; Pathfinder.Replacements.MissionLoader.CustomExecutors</definition>
+        <argsstring></argsstring>
+        <name>CustomExecutors</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.CustomExecutors</qualifiedname>
+        <initializer>= new List&lt;MissionExecutorHolder&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="37" column="34" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1a5f47f9fc37ffb79c498bceae02eca726" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref></type>
+        <definition>EventExecutor Pathfinder.Replacements.MissionLoader.executor</definition>
+        <argsstring></argsstring>
+        <name>executor</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.executor</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="65" column="34" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1afba68bc61f29414dda2905b02740d733" prot="private" static="yes" mutable="no">
+        <type>ActiveMission</type>
+        <definition>ActiveMission Pathfinder.Replacements.MissionLoader.mission</definition>
+        <argsstring></argsstring>
+        <name>mission</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.mission</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="66" column="34" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1a80b99fec53c18683987be435aa036368" prot="private" static="yes" mutable="no">
+        <type>List&lt; ActiveMission &gt;</type>
+        <definition>List&lt;ActiveMission&gt; Pathfinder.Replacements.MissionLoader.branches</definition>
+        <argsstring></argsstring>
+        <name>branches</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.branches</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="67" column="25" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1a77c31066714b6ef51c707b26a7fbc5e5" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Replacements.MissionLoader.hasMissionTag</definition>
+        <argsstring></argsstring>
+        <name>hasMissionTag</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.hasMissionTag</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="68" column="25" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1afb7068a40727ba8c75aaa85688716be1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.MissionLoader.RegisterExecutor&lt; T &gt;</definition>
+        <argsstring>(string element, ParseOption options=ParseOption.None)</argsstring>
+        <name>RegisterExecutor&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.RegisterExecutor&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>element</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+          <declname>options</declname>
+          <defval>ParseOption.None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="39" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1a82a4226a0959a1958ce5a2ceb56af666" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.MissionLoader.RegisterExecutor</definition>
+        <argsstring>(Type executorType, string element, ParseOption options=ParseOption.None)</argsstring>
+        <name>RegisterExecutor</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.RegisterExecutor</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>executorType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>element</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+          <declname>options</declname>
+          <defval>ParseOption.None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="40" column="24" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="40" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1aa7293b30167f157f9c6d95e8621cd1ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.MissionLoader.UnregisterExecutor&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>UnregisterExecutor&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.UnregisterExecutor&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="54" column="19" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1ac255e19eecaa2daabda58cb7136422d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActiveMission</type>
+        <definition>static ActiveMission Pathfinder.Replacements.MissionLoader.LoadContentMission</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>LoadContentMission</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.LoadContentMission</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="167" column="33" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="167" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1ae86e7f877bafbe5233cd4f9cc9a273e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MisisonGoal</type>
+        <definition>static MisisonGoal Pathfinder.Replacements.MissionLoader.LoadGoal</definition>
+        <argsstring>(ElementInfo info)</argsstring>
+        <name>LoadGoal</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.LoadGoal</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="203" column="31" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="203" bodyend="314"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1a7340927a9d8070d9611b390af76b6c32" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.MissionLoader.OnPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.OnPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="60" column="25" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1a9dde5a1daa554636bec624a9a6324f01" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Replacements.MissionLoader.MissionLoader</definition>
+        <argsstring>()</argsstring>
+        <name>MissionLoader</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.MissionLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="70" column="12" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="70" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1aa16ee8b8541bf46527913c1bfd4d5054" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Replacements.MissionLoader.ReadMissionPrefix</definition>
+        <argsstring>(string filename, out object __result)</argsstring>
+        <name>ReadMissionPrefix</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.ReadMissionPrefix</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="161" column="25" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="161" bodyend="165"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="14" column="15" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="15" bodyend="315"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1a80b99fec53c18683987be435aa036368" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>branches</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1a93ae66d607c4c459922c24c41153a1f2" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>CustomExecutors</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1a5f47f9fc37ffb79c498bceae02eca726" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>executor</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1a77c31066714b6ef51c707b26a7fbc5e5" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>hasMissionTag</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1ac255e19eecaa2daabda58cb7136422d2" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>LoadContentMission</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1ae86e7f877bafbe5233cd4f9cc9a273e5" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>LoadGoal</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1afba68bc61f29414dda2905b02740d733" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>mission</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1a9dde5a1daa554636bec624a9a6324f01" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>MissionLoader</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1a7340927a9d8070d9611b390af76b6c32" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1aa16ee8b8541bf46527913c1bfd4d5054" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>ReadMissionPrefix</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1a82a4226a0959a1958ce5a2ceb56af666" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>RegisterExecutor</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1afb7068a40727ba8c75aaa85688716be1" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>RegisterExecutor&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1aa7293b30167f157f9c6d95e8621cd1ba" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader</scope><name>UnregisterExecutor&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

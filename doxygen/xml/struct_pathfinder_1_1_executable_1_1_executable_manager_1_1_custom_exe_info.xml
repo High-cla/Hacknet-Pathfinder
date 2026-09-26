@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info" kind="struct" language="C#" prot="public">
+    <compoundname>Pathfinder::Executable::ExecutableManager::CustomExeInfo</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info_1a9987ef27dbb6c104b869c33d72a19543" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Executable.ExecutableManager.CustomExeInfo.ExeData</definition>
+        <argsstring></argsstring>
+        <name>ExeData</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.CustomExeInfo.ExeData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="20" column="23" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info_1a4238ec26ed55a01516377423caf8caa4" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Executable.ExecutableManager.CustomExeInfo.XmlId</definition>
+        <argsstring></argsstring>
+        <name>XmlId</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.CustomExeInfo.XmlId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="21" column="23" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info_1a1aee9b248a435e5c6182b0c00f21b3e5" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type Pathfinder.Executable.ExecutableManager.CustomExeInfo.ExeType</definition>
+        <argsstring></argsstring>
+        <name>ExeType</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.CustomExeInfo.ExeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="22" column="21" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="18" column="11" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="19" bodyend="23"/>
+    <listofallmembers>
+      <member refid="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info_1a9987ef27dbb6c104b869c33d72a19543" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager::CustomExeInfo</scope><name>ExeData</name></member>
+      <member refid="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info_1a1aee9b248a435e5c6182b0c00f21b3e5" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager::CustomExeInfo</scope><name>ExeType</name></member>
+      <member refid="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info_1a4238ec26ed55a01516377423caf8caa4" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager::CustomExeInfo</scope><name>XmlId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

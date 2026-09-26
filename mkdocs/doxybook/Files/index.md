@@ -1,0 +1,183 @@
+---
+title: Files
+
+---
+
+# Files
+
+
+
+
+* **dir [BepInEx.Hacknet](../Files/dir_f1f34bbd6bfca1c5ef1dc9c3da2fba3c/#dir-bepinex.hacknet)** 
+    * **file [BepInEx.Hacknet/ConsoleLogger.cs](../Files/_console_logger_8cs/#file-consolelogger.cs)** 
+    * **file [BepInEx.Hacknet/Entrypoint.cs](../Files/_entrypoint_8cs/#file-entrypoint.cs)** 
+    * **file [BepInEx.Hacknet/HacknetChainloader.cs](../Files/_hacknet_chainloader_8cs/#file-hacknetchainloader.cs)** 
+    * **file [BepInEx.Hacknet/HacknetPlugin.cs](../Files/_hacknet_plugin_8cs/#file-hacknetplugin.cs)** 
+* **dir [ExampleMod](../Files/dir_f315876eefae3e6920361198a157926f/#dir-examplemod)** 
+    * **file [ExampleMod/ExampleModPlugin.cs](../Files/_example_mod_plugin_8cs/#file-examplemodplugin.cs)** 
+* **dir [PathfinderAPI](../Files/dir_d8e5fbc2710b5a598f40a3403307c33e/#dir-pathfinderapi)** 
+    * **file [PathfinderAPI/Logger.cs](../Files/_logger_8cs/#file-logger.cs)** 
+    * **file [PathfinderAPI/MiscPatches.cs](../Files/_misc_patches_8cs/#file-miscpatches.cs)** 
+    * **dir [PathfinderAPI/Action](../Files/dir_056587678e2b1bc6b050d65c4a76d798/#dir-pathfinderapi/action)** 
+        * **file [PathfinderAPI/Action/ActionDelayDecorator.cs](../Files/_action_delay_decorator_8cs/#file-actiondelaydecorator.cs)** 
+        * **file [PathfinderAPI/Action/ActionManager.cs](../Files/_action_manager_8cs/#file-actionmanager.cs)** 
+        * **file [PathfinderAPI/Action/ConditionManager.cs](../Files/_condition_manager_8cs/#file-conditionmanager.cs)** 
+        * **file [PathfinderAPI/Action/DelayablePathfinderAction.cs](../Files/_delayable_pathfinder_action_8cs/#file-delayablepathfinderaction.cs)** 
+        * **file [PathfinderAPI/Action/PathfinderAction.cs](../Files/_pathfinder_action_8cs/#file-pathfinderaction.cs)** 
+        * **file [PathfinderAPI/Action/PathfinderCondition.cs](../Files/_pathfinder_condition_8cs/#file-pathfindercondition.cs)** 
+    * **dir [PathfinderAPI/Administrator](../Files/dir_f4277721644e0e55536dc049f7aad866/#dir-pathfinderapi/administrator)** 
+        * **file [PathfinderAPI/Administrator/AdministratorManager.cs](../Files/_administrator_manager_8cs/#file-administratormanager.cs)** 
+        * **file [PathfinderAPI/Administrator/BaseAdministrator.cs](../Files/_base_administrator_8cs/#file-baseadministrator.cs)** 
+    * **dir [PathfinderAPI/BaseGameFixes](../Files/dir_8864d67b635af673ee3aa248f9329144/#dir-pathfinderapi/basegamefixes)** 
+        * **file [PathfinderAPI/BaseGameFixes/AutoClearMissionsOnSingleComplete.cs](../Files/_auto_clear_missions_on_single_complete_8cs/#file-autoclearmissionsonsinglecomplete.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/AvoidNullDerefOnThemeChange.cs](../Files/_avoid_null_deref_on_theme_change_8cs/#file-avoidnullderefonthemechange.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/ClearPostLoadActions.cs](../Files/_clear_post_load_actions_8cs/#file-clearpostloadactions.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/DontLosePlayerCompAdmin.cs](../Files/_dont_lose_player_comp_admin_8cs/#file-dontloseplayercompadmin.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/FixExtensionTests.cs](../Files/_fix_extension_tests_8cs/#file-fixextensiontests.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/FixTutorialStartup.cs](../Files/_fix_tutorial_startup_8cs/#file-fixtutorialstartup.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/FlickeringTextReportNull.cs](../Files/_flickering_text_report_null_8cs/#file-flickeringtextreportnull.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/HHBS.cs](../Files/_h_h_b_s_8cs/#file-hhbs.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/KeepBranchesOnMailMissionCompletion.cs](../Files/_keep_branches_on_mail_mission_completion_8cs/#file-keepbranchesonmailmissioncompletion.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/KillExeCheckIdentifierName.cs](../Files/_kill_exe_check_identifier_name_8cs/#file-killexecheckidentifiername.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/ListingServerFixes.cs](../Files/_listing_server_fixes_8cs/#file-listingserverfixes.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/LoadBuiltinThemes.cs](../Files/_load_builtin_themes_8cs/#file-loadbuiltinthemes.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/MissionListingServerLoadTime.cs](../Files/_mission_listing_server_load_time_8cs/#file-missionlistingserverloadtime.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/NeedsMissionComplete.cs](../Files/_needs_mission_complete_8cs/#file-needsmissioncomplete.cs)** 
+        * **dir [PathfinderAPI/BaseGameFixes/Performance](../Files/dir_38fd49a41aff99fc4e137df9b9aebf6a/#dir-pathfinderapi/basegamefixes/performance)** 
+            * **file [PathfinderAPI/BaseGameFixes/Performance/CatModuleRendering.cs](../Files/_cat_module_rendering_8cs/#file-catmodulerendering.cs)** 
+            * **file [PathfinderAPI/BaseGameFixes/Performance/NodeLookup.cs](../Files/_node_lookup_8cs/#file-nodelookup.cs)** 
+            * **file [PathfinderAPI/BaseGameFixes/Performance/ThemeCaching.cs](../Files/_theme_caching_8cs/#file-themecaching.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/PreventSkippingETAS.cs](../Files/_prevent_skipping_e_t_a_s_8cs/#file-preventskippingetas.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/RandomIPNoRepeats.cs](../Files/_random_i_p_no_repeats_8cs/#file-randomipnorepeats.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/ReloadExtensionNodes.cs](../Files/_reload_extension_nodes_8cs/#file-reloadextensionnodes.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/SelfAuthenticatingHostWhitelistDisplay.cs](../Files/_self_authenticating_host_whitelist_display_8cs/#file-selfauthenticatinghostwhitelistdisplay.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/SendEmailMission.cs](../Files/_send_email_mission_8cs/#file-sendemailmission.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/SequencerNodeDimmingFix.cs](../Files/_sequencer_node_dimming_fix_8cs/#file-sequencernodedimmingfix.cs)** 
+        * **file [PathfinderAPI/BaseGameFixes/StartingActionsAfterNodes.cs](../Files/_starting_actions_after_nodes_8cs/#file-startingactionsafternodes.cs)** 
+    * **dir [PathfinderAPI/Command](../Files/dir_783014f3742045186764dbbccbe085ef/#dir-pathfinderapi/command)** 
+        * **file [PathfinderAPI/Command/CommandManager.cs](../Files/_command_manager_8cs/#file-commandmanager.cs)** 
+        * **file [PathfinderAPI/Command/DebugCommands.cs](../Files/_debug_commands_8cs/#file-debugcommands.cs)** 
+    * **dir [PathfinderAPI/Daemon](../Files/dir_97cde12f1bd948576288d049231cec45/#dir-pathfinderapi/daemon)** 
+        * **file [PathfinderAPI/Daemon/BaseDaemon.cs](../Files/_base_daemon_8cs/#file-basedaemon.cs)** 
+        * **file [PathfinderAPI/Daemon/DaemonManager.cs](../Files/_daemon_manager_8cs/#file-daemonmanager.cs)** 
+    * **dir [PathfinderAPI/Event](../Files/dir_1dfeb2b5caba1a89ef12217d4abd4037/#dir-pathfinderapi/event)** 
+        * **file [PathfinderAPI/Event/EventManager.cs](../Files/_event_manager_8cs/#file-eventmanager.cs)** 
+        * **dir [PathfinderAPI/Event/BepInEx](../Files/dir_3d15a13670d47cbdae133f6b0314d68b/#dir-pathfinderapi/event/bepinex)** 
+            * **file [PathfinderAPI/Event/BepInEx/LoadEvent.cs](../Files/_load_event_8cs/#file-loadevent.cs)** 
+            * **file [PathfinderAPI/Event/BepInEx/PostLoadEvent.cs](../Files/_post_load_event_8cs/#file-postloadevent.cs)** 
+            * **file [PathfinderAPI/Event/BepInEx/UnloadEvent.cs](../Files/_unload_event_8cs/#file-unloadevent.cs)** 
+        * **dir [PathfinderAPI/Event/Gameplay](../Files/dir_d76c38fc8e3b0bf0490c1935a400d1d6/#dir-pathfinderapi/event/gameplay)** 
+            * **file [PathfinderAPI/Event/Gameplay/CommandExecuteEvent.cs](../Files/_command_execute_event_8cs/#file-commandexecuteevent.cs)** 
+            * **file [PathfinderAPI/Event/Gameplay/ExecutableExecuteEvent.cs](../Files/_executable_execute_event_8cs/#file-executableexecuteevent.cs)** 
+            * **file [PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs](../Files/_executable_list_event_8cs/#file-executablelistevent.cs)** 
+            * **file [PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs](../Files/_o_s_update_event_8cs/#file-osupdateevent.cs)** 
+        * **dir [PathfinderAPI/Event/Loading](../Files/dir_e9e13770b5a4d8966a954b0c82957ff2/#dir-pathfinderapi/event/loading)** 
+            * **file [PathfinderAPI/Event/Loading/ExtensionLoadEvent.cs](../Files/_extension_load_event_8cs/#file-extensionloadevent.cs)** 
+            * **file [PathfinderAPI/Event/Loading/OSLoadedEvent.cs](../Files/_o_s_loaded_event_8cs/#file-osloadedevent.cs)** 
+            * **file [PathfinderAPI/Event/Loading/SaveComputerLoadedEvent.cs](../Files/_save_computer_loaded_event_8cs/#file-savecomputerloadedevent.cs)** 
+            * **file [PathfinderAPI/Event/Loading/TextReplaceEvent.cs](../Files/_text_replace_event_8cs/#file-textreplaceevent.cs)** 
+        * **dir [PathfinderAPI/Event/Menu](../Files/dir_1f3f6a993741855a0ecbd5fe837ebe0e/#dir-pathfinderapi/event/menu)** 
+            * **file [PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs](../Files/_draw_main_menu_button_event_8cs/#file-drawmainmenubuttonevent.cs)** 
+            * **file [PathfinderAPI/Event/Menu/DrawMainMenuEvent.cs](../Files/_draw_main_menu_event_8cs/#file-drawmainmenuevent.cs)** 
+            * **file [PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs](../Files/_draw_main_menu_titles_event_8cs/#file-drawmainmenutitlesevent.cs)** 
+            * **file [PathfinderAPI/Event/Menu/MainMenuEvent.cs](../Files/_main_menu_event_8cs/#file-mainmenuevent.cs)** 
+        * **dir [PathfinderAPI/Event/Options](../Files/dir_5f8b7f92276fad07d091c0b6b77a4753/#dir-pathfinderapi/event/options)** 
+            * **file [PathfinderAPI/Event/Options/CustomOptionsSaveEvent.cs](../Files/_custom_options_save_event_8cs/#file-customoptionssaveevent.cs)** 
+        * **dir [PathfinderAPI/Event/Pathfinder](../Files/dir_3d546d51d85520f59a2bf65e8b79afdb/#dir-pathfinderapi/event/pathfinder)** 
+            * **file [PathfinderAPI/Event/Pathfinder/BuildAutocompletesEvent.cs](../Files/_build_autocompletes_event_8cs/#file-buildautocompletesevent.cs)** 
+        * **dir [PathfinderAPI/Event/Saving](../Files/dir_bcdd58ecdd917ad1a7be535ab4add651/#dir-pathfinderapi/event/saving)** 
+            * **file [PathfinderAPI/Event/Saving/SaveComputerEvent.cs](../Files/_save_computer_event_8cs/#file-savecomputerevent.cs)** 
+            * **file [PathfinderAPI/Event/Saving/SaveEvent.cs](../Files/_save_event_8cs/#file-saveevent.cs)** 
+        * **file [PathfinderAPI/Event/PathfinderEvent.cs](../Files/_pathfinder_event_8cs/#file-pathfinderevent.cs)** 
+    * **dir [PathfinderAPI/Executable](../Files/dir_d17a11844036d05556c6f05eb25050bd/#dir-pathfinderapi/executable)** 
+        * **file [PathfinderAPI/Executable/BaseExecutable.cs](../Files/_base_executable_8cs/#file-baseexecutable.cs)** 
+        * **file [PathfinderAPI/Executable/ExeModuleExtensions.cs](../Files/_exe_module_extensions_8cs/#file-exemoduleextensions.cs)** 
+        * **file [PathfinderAPI/Executable/ExecutableManager.cs](../Files/_executable_manager_8cs/#file-executablemanager.cs)** 
+        * **file [PathfinderAPI/Executable/GameExecutable.cs](../Files/_game_executable_8cs/#file-gameexecutable.cs)** 
+    * **dir [PathfinderAPI/GUI](../Files/dir_07c1492d530bad73baa43ccde6c0d420/#dir-pathfinderapi/gui)** 
+        * **file [PathfinderAPI/GUI/ArbitraryCodeWarning.cs](../Files/_arbitrary_code_warning_8cs/#file-arbitrarycodewarning.cs)** 
+        * **file [PathfinderAPI/GUI/ExtensionListScroll.cs](../Files/_extension_list_scroll_8cs/#file-extensionlistscroll.cs)** 
+        * **file [PathfinderAPI/GUI/PFButton.cs](../Files/_p_f_button_8cs/#file-pfbutton.cs)** 
+        * **file [PathfinderAPI/GUI/PluginInfo.cs](../Files/_plugin_info_8cs/#file-plugininfo.cs)** 
+        * **file [PathfinderAPI/GUI/PluginListScreen.cs](../Files/_plugin_list_screen_8cs/#file-pluginlistscreen.cs)** 
+    * **dir [PathfinderAPI/Meta](../Files/dir_319fa88de735b08b0f773e2d3f2f21ca/#dir-pathfinderapi/meta)** 
+        * **dir [PathfinderAPI/Meta/Load](../Files/dir_91e8fce38322450354d6a5b806014caa/#dir-pathfinderapi/meta/load)** 
+            * **file [PathfinderAPI/Meta/Load/ActionAttribute.cs](../Files/_action_attribute_8cs/#file-actionattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/AdministratorAttribute.cs](../Files/_administrator_attribute_8cs/#file-administratorattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/AttributeManager.cs](../Files/_attribute_manager_8cs/#file-attributemanager.cs)** 
+            * **file [PathfinderAPI/Meta/Load/BaseAttribute.cs](../Files/_base_attribute_8cs/#file-baseattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/CommandAttribute.cs](../Files/_command_attribute_8cs/#file-commandattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/ComputerExecutorAttribute.cs](../Files/_computer_executor_attribute_8cs/#file-computerexecutorattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/ConditionAttribute.cs](../Files/_condition_attribute_8cs/#file-conditionattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/DaemonAttribute.cs](../Files/_daemon_attribute_8cs/#file-daemonattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/EventAttribute.cs](../Files/_event_attribute_8cs/#file-eventattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/ExecutableAttribute.cs](../Files/_executable_attribute_8cs/#file-executableattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/ExtensionInfoExecutorAttribute.cs](../Files/_extension_info_executor_attribute_8cs/#file-extensioninfoexecutorattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/GoalAttribute.cs](../Files/_goal_attribute_8cs/#file-goalattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/HacknetPluginExtensions.cs](../Files/_hacknet_plugin_extensions_8cs/#file-hacknetpluginextensions.cs)** 
+            * **file [PathfinderAPI/Meta/Load/IgnoreEventAttribute.cs](../Files/_ignore_event_attribute_8cs/#file-ignoreeventattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/IgnorePluginAttribute.cs](../Files/_ignore_plugin_attribute_8cs/#file-ignorepluginattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/MissionExecutorAttribute.cs](../Files/_mission_executor_attribute_8cs/#file-missionexecutorattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/OptionAttribute.cs](../Files/_option_attribute_8cs/#file-optionattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/OptionsTabAttribute.cs](../Files/_options_tab_attribute_8cs/#file-optionstabattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/PortAttribute.cs](../Files/_port_attribute_8cs/#file-portattribute.cs)** 
+            * **file [PathfinderAPI/Meta/Load/SaveExecutorAttribute.cs](../Files/_save_executor_attribute_8cs/#file-saveexecutorattribute.cs)** 
+        * **file [PathfinderAPI/Meta/PluginInfoAttribute.cs](../Files/_plugin_info_attribute_8cs/#file-plugininfoattribute.cs)** 
+        * **file [PathfinderAPI/Meta/PluginWebsiteAttribute.cs](../Files/_plugin_website_attribute_8cs/#file-pluginwebsiteattribute.cs)** 
+        * **file [PathfinderAPI/Meta/UpdaterAttribute.cs](../Files/_updater_attribute_8cs/#file-updaterattribute.cs)** 
+    * **dir [PathfinderAPI/Mission](../Files/dir_e04bde4d3111c4e9d1a55580b529605a/#dir-pathfinderapi/mission)** 
+        * **file [PathfinderAPI/Mission/GoalManager.cs](../Files/_goal_manager_8cs/#file-goalmanager.cs)** 
+        * **file [PathfinderAPI/Mission/PathfinderGoal.cs](../Files/_pathfinder_goal_8cs/#file-pathfindergoal.cs)** 
+    * **dir [PathfinderAPI/Options](../Files/dir_60c09bace9ea64433955ddf238dfeb6d/#dir-pathfinderapi/options)** 
+        * **file [PathfinderAPI/Options/Options.cs](../Files/_options_8cs/#file-options.cs)** 
+        * **file [PathfinderAPI/Options/OptionsManager.cs](../Files/_options_manager_8cs/#file-optionsmanager.cs)** 
+        * **file [PathfinderAPI/Options/PathfinderOptions.cs](../Files/_pathfinder_options_8cs/#file-pathfinderoptions.cs)** 
+        * **file [PathfinderAPI/Options/PathfinderOptionsMenu.cs](../Files/_pathfinder_options_menu_8cs/#file-pathfinderoptionsmenu.cs)** 
+    * **dir [PathfinderAPI/Port](../Files/dir_16ddb36905f0610e7a591793d4974e9b/#dir-pathfinderapi/port)** 
+        * **file [PathfinderAPI/Port/ComputerExtensions.cs](../Files/_computer_extensions_8cs/#file-computerextensions.cs)** 
+        * **file [PathfinderAPI/Port/PortManager.cs](../Files/_port_manager_8cs/#file-portmanager.cs)** 
+        * **file [PathfinderAPI/Port/PortRecord.cs](../Files/_port_record_8cs/#file-portrecord.cs)** 
+        * **file [PathfinderAPI/Port/PortState.cs](../Files/_port_state_8cs/#file-portstate.cs)** 
+    * **dir [PathfinderAPI/Replacements](../Files/dir_89e07f822fd1e32f24f514dda2c6d817/#dir-pathfinderapi/replacements)** 
+        * **file [PathfinderAPI/Replacements/ActionsLoader.cs](../Files/_actions_loader_8cs/#file-actionsloader.cs)** 
+        * **file [PathfinderAPI/Replacements/ContentLoader.cs](../Files/_content_loader_8cs/#file-contentloader.cs)** 
+        * **file [PathfinderAPI/Replacements/ExtensionInfoLoader.cs](../Files/_extension_info_loader_8cs/#file-extensioninfoloader.cs)** 
+        * **file [PathfinderAPI/Replacements/FileEncrypterReplacement.cs](../Files/_file_encrypter_replacement_8cs/#file-fileencrypterreplacement.cs)** 
+        * **file [PathfinderAPI/Replacements/MissionLoader.cs](../Files/_mission_loader_8cs/#file-missionloader.cs)** 
+        * **file [PathfinderAPI/Replacements/ObjectSerializerReplacement.cs](../Files/_object_serializer_replacement_8cs/#file-objectserializerreplacement.cs)** 
+        * **file [PathfinderAPI/Replacements/ReplacementsCommon.cs](../Files/_replacements_common_8cs/#file-replacementscommon.cs)** 
+        * **file [PathfinderAPI/Replacements/SaveLoader.cs](../Files/_save_loader_8cs/#file-saveloader.cs)** 
+        * **file [PathfinderAPI/Replacements/SaveWriter.cs](../Files/_save_writer_8cs/#file-savewriter.cs)** 
+    * **dir [PathfinderAPI/Util](../Files/dir_89f624449b77820a1c7b06f1cc1cfee6/#dir-pathfinderapi/util)** 
+        * **file [PathfinderAPI/Util/AssemblyAssociatedList.cs](../Files/_assembly_associated_list_8cs/#file-assemblyassociatedlist.cs)** 
+        * **file [PathfinderAPI/Util/CachedCustomTheme.cs](../Files/_cached_custom_theme_8cs/#file-cachedcustomtheme.cs)** 
+        * **file [PathfinderAPI/Util/ComputerLookup.cs](../Files/_computer_lookup_8cs/#file-computerlookup.cs)** 
+        * **file [PathfinderAPI/Util/DictionaryExtensions.cs](../Files/_dictionary_extensions_8cs/#file-dictionaryextensions.cs)** 
+        * **file [PathfinderAPI/Util/EnumerableExtensions.cs](../Files/_enumerable_extensions_8cs/#file-enumerableextensions.cs)** 
+        * **file [PathfinderAPI/Util/ErrorHelper.cs](../Files/_error_helper_8cs/#file-errorhelper.cs)** 
+        * **file [PathfinderAPI/Util/FixedSizeCacheDict.cs](../Files/_fixed_size_cache_dict_8cs/#file-fixedsizecachedict.cs)** 
+        * **file [PathfinderAPI/Util/InitializeAttribute.cs](../Files/_initialize_attribute_8cs/#file-initializeattribute.cs)** 
+        * **dir [PathfinderAPI/Util/XML](../Files/dir_b00f42bf1f4d963631f783013edbd51e/#dir-pathfinderapi/util/xml)** 
+            * **file [PathfinderAPI/Util/XML/ElementInfo.cs](../Files/_element_info_8cs/#file-elementinfo.cs)** 
+            * **file [PathfinderAPI/Util/XML/EventExecutor.cs](../Files/_event_executor_8cs/#file-eventexecutor.cs)** 
+            * **file [PathfinderAPI/Util/XML/EventReader.cs](../Files/_event_reader_8cs/#file-eventreader.cs)** 
+        * **file [PathfinderAPI/Util/StringExtensions.cs](../Files/_string_extensions_8cs/#file-stringextensions.cs)** 
+        * **file [PathfinderAPI/Util/XMLStorageAttribute.cs](../Files/_x_m_l_storage_attribute_8cs/#file-xmlstorageattribute.cs)** 
+        * **file [PathfinderAPI/Util/XMLTypeConverter.cs](../Files/_x_m_l_type_converter_8cs/#file-xmltypeconverter.cs)** 
+    * **file [PathfinderAPI/PathfinderAPIPlugin.cs](../Files/_pathfinder_a_p_i_plugin_8cs/#file-pathfinderapiplugin.cs)** 
+    * **file [PathfinderAPI/SteamPatches.cs](../Files/_steam_patches_8cs/#file-steampatches.cs)** 
+* **dir [PathfinderBuildTasks](../Files/dir_abd29e7af3723d4a127ecfe886b91c9a/#dir-pathfinderbuildtasks)** 
+    * **file [PathfinderBuildTasks/MoveDir.cs](../Files/_move_dir_8cs/#file-movedir.cs)** 
+* **dir [PathfinderPatcher](../Files/dir_b4488c8994418478ca9c1343a98cd7e8/#dir-pathfinderpatcher)** 
+    * **file [PathfinderPatcher/Program.cs](../Files/_program_8cs/#file-program.cs)** 
+* **dir [PathfinderUpdater](../Files/dir_e08b5bfbe17dc88d78f3031fe10484ae/#dir-pathfinderupdater)** 
+    * **file [PathfinderUpdater/MainMenuOverride.cs](../Files/_main_menu_override_8cs/#file-mainmenuoverride.cs)** 
+    * **file [PathfinderUpdater/PathfinderUpdaterPlugin.cs](../Files/_pathfinder_updater_plugin_8cs/#file-pathfinderupdaterplugin.cs)** 
+    * **file [PathfinderUpdater/RestartPopupScreen.cs](../Files/_restart_popup_screen_8cs/#file-restartpopupscreen.cs)** 
+    * **file [PathfinderUpdater/Updater.cs](../Files/_updater_8cs/#file-updater.cs)** 
+
+
+
+-------------------------------
+
+Updated on 2026-09-26 at 01:20:08 +0000

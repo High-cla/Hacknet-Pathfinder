@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Replacements::ContentLoader::ComputerExecutor</compoundname>
+    <derivedcompoundref refid="class_example_mod2_1_1_test_computer_executor" prot="public" virt="non-virtual">ExampleMod2.TestComputerExecutor</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1a79e1117c2f6a54757c771f4076440a47" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Replacements.ContentLoader.ComputerExecutor.Os</definition>
+        <argsstring></argsstring>
+        <name>Os</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerExecutor.Os</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="24" column="19" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1a584db800fdec0263dc3979b71a463bae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Computer</type>
+        <definition>Computer Pathfinder.Replacements.ContentLoader.ComputerExecutor.Comp</definition>
+        <argsstring></argsstring>
+        <name>Comp</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerExecutor.Comp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="26" column="25" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1a2a909dc9d42f305f7a9ccde325f176a3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder" kindref="compound">ComputerHolder</ref></type>
+        <definition>ComputerHolder Pathfinder.Replacements.ContentLoader.ComputerExecutor._comp</definition>
+        <argsstring></argsstring>
+        <name>_comp</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerExecutor._comp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="25" column="32" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1af4f941eef2848d68b0d101d5006edfd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Replacements.ContentLoader.ComputerExecutor.Init</definition>
+        <argsstring>(OS os, ref ComputerHolder comp)</argsstring>
+        <name>Init</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerExecutor.Init</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder" kindref="compound">ComputerHolder</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="28" column="29" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1a67e9ba2ed15404bee110595ae9dba7ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Replacements.ContentLoader.ComputerExecutor.Execute</definition>
+        <argsstring>(EventExecutor exec, ElementInfo info)</argsstring>
+        <name>Execute</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ComputerExecutor.Execute</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref></type>
+          <declname>exec</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="34" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ExampleMod2.TestComputerExecutor</label>
+        <link refid="class_example_mod2_1_1_test_computer_executor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Replacements.ContentLoader.ComputerExecutor</label>
+        <link refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor"/>
+      </node>
+    </inheritancegraph>
+    <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="22" column="21" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="23" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1a2a909dc9d42f305f7a9ccde325f176a3" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerExecutor</scope><name>_comp</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1a584db800fdec0263dc3979b71a463bae" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerExecutor</scope><name>Comp</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1a67e9ba2ed15404bee110595ae9dba7ed" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerExecutor</scope><name>Execute</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1af4f941eef2848d68b0d101d5006edfd0" prot="public" virt="virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerExecutor</scope><name>Init</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_1a79e1117c2f6a54757c771f4076440a47" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader::ComputerExecutor</scope><name>Os</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

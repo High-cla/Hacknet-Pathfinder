@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_flickering_text_report_null_8cs" kind="file" language="C#">
+    <compoundname>FlickeringTextReportNull.cs</compoundname>
+    <innerclass refid="class_pathfinder_1_1_base_game_fixes_1_1_flickering_text_report_null" prot="public">Pathfinder::BaseGameFixes::FlickeringTextReportNull</innerclass>
+    <innernamespace refid="namespace_pathfinder">Pathfinder</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_base_game_fixes">Pathfinder::BaseGameFixes</innernamespace>
+    <innernamespace refid="namespace_hacknet_1_1_effects">Hacknet::Effects</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Reflection;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet.Effects;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">HarmonyLib;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Mono.Cecil.Cil;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">MonoMod.Cil;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_base_game_fixes" kindref="compound">Pathfinder.BaseGameFixes</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">[HarmonyPatch]</highlight></codeline>
+<codeline lineno="10" refid="class_pathfinder_1_1_base_game_fixes_1_1_flickering_text_report_null" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pathfinder_1_1_base_game_fixes_1_1_flickering_text_report_null" kindref="compound">FlickeringTextReportNull</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyPatch(typeof(FlickeringTextEffect),<sp/>nameof(FlickeringTextEffect.GetReportString))]</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyILManipulator]</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetReportStringManipulator(ILContext<sp/>context,<sp/>ILLabel<sp/>retLabel)<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ILCursor<sp/>cursor<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">(context);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ILLabel<sp/>unskipLabel<sp/>=<sp/>context.DefineLabel();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cursor.Emit(OpCodes.Ldsfld,<sp/>typeof(FlickeringTextEffect).GetField(nameof(FlickeringTextEffect.LinedItemTarget),<sp/>BindingFlags.Static<sp/>|<sp/>BindingFlags.Public));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cursor.Emit(OpCodes.Brtrue,<sp/>unskipLabel);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cursor.Emit(OpCodes.Ldstr,<sp/></highlight><highlight class="stringliteral">&quot;FlickeringTextEffect<sp/>was<sp/>not<sp/>used<sp/>in<sp/>this<sp/>execution.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cursor.Emit(OpCodes.Br,<sp/>retLabel);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unskipLabel.Target<sp/>=<sp/>cursor.Next;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderAPI/BaseGameFixes/FlickeringTextReportNull.cs"/>
+  </compounddef>
+</doxygen>

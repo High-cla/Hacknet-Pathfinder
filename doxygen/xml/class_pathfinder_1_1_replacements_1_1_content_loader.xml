@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_content_loader" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Replacements::ContentLoader</compoundname>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor" prot="public">Pathfinder::Replacements::ContentLoader::ComputerExecutor</innerclass>
+    <innerclass refid="struct_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_holder" prot="private">Pathfinder::Replacements::ContentLoader::ComputerExecutorHolder</innerclass>
+    <innerclass refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder" prot="public">Pathfinder::Replacements::ContentLoader::ComputerHolder</innerclass>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a55b3be7674d53641fcdefc9762cce7f6" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; ComputerExecutorHolder &gt;</type>
+        <definition>readonly List&lt;ComputerExecutorHolder&gt; Pathfinder.Replacements.ContentLoader.CustomExecutors</definition>
+        <argsstring></argsstring>
+        <name>CustomExecutors</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.CustomExecutors</qualifiedname>
+        <initializer>= new List&lt;ComputerExecutorHolder&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="52" column="34" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a3b815960d9e14fdd1d45b0800e10259a" prot="private" static="yes" mutable="no">
+        <type>readonly <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref></type>
+        <definition>readonly EventExecutor Pathfinder.Replacements.ContentLoader.executor</definition>
+        <argsstring></argsstring>
+        <name>executor</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.executor</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="78" column="43" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a545f1e2fb3c0cf9f5be61015f5ce5851" prot="private" static="yes" mutable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Replacements.ContentLoader.os</definition>
+        <argsstring></argsstring>
+        <name>os</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.os</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="80" column="23" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a1816149c169f5b42beef260688b107be" prot="private" static="yes" mutable="no">
+        <type>Computer</type>
+        <definition>Computer Pathfinder.Replacements.ContentLoader.comp</definition>
+        <argsstring></argsstring>
+        <name>comp</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.comp</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="81" column="29" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_content_loader_1aa80eccf15c8dec454a6a7498847cf8e1" prot="private" static="yes" mutable="no">
+        <type>Computer</type>
+        <definition>Computer Pathfinder.Replacements.ContentLoader.eos</definition>
+        <argsstring></argsstring>
+        <name>eos</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.eos</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="82" column="29" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a83425011c8d028b4637dd9b8911b1311" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; Computer &gt;</type>
+        <definition>readonly List&lt;Computer&gt; Pathfinder.Replacements.ContentLoader.eosList</definition>
+        <argsstring></argsstring>
+        <name>eosList</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.eosList</qualifiedname>
+        <initializer>= new List&lt;Computer&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="83" column="34" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a0cd8f1413c79fa21616fea4d338c3a25" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder" kindref="compound">ComputerHolder</ref></type>
+        <definition>ComputerHolder Pathfinder.Replacements.ContentLoader.holder</definition>
+        <argsstring></argsstring>
+        <name>holder</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.holder</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="84" column="35" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1abd16fd5f4c62bb5b57c60d70398ecb7a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ContentLoader.RegisterExecutor&lt; T &gt;</definition>
+        <argsstring>(string element, ParseOption options=ParseOption.None)</argsstring>
+        <name>RegisterExecutor&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.RegisterExecutor&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>element</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+          <declname>options</declname>
+          <defval>ParseOption.None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="54" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a9b93ab760f577b63801f2987bdb6380c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ContentLoader.RegisterExecutor</definition>
+        <argsstring>(Type executorType, string element, ParseOption options=ParseOption.None)</argsstring>
+        <name>RegisterExecutor</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.RegisterExecutor</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>executorType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>element</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+          <declname>options</declname>
+          <defval>ParseOption.None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="55" column="24" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="55" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a5706d1c07c6ae1a4ae84c2e8da5ae97a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ContentLoader.UnregisterExecutor&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>UnregisterExecutor&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.UnregisterExecutor&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="67" column="19" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a510634d4d71fde99559050f0feca9198" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Computer</type>
+        <definition>static Computer Pathfinder.Replacements.ContentLoader.LoadComputer</definition>
+        <argsstring>(string filename, bool preventAddingToNetmap=false, bool preventInitDaemons=false)</argsstring>
+        <name>LoadComputer</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.LoadComputer</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preventAddingToNetmap</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preventInitDaemons</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="856" column="28" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="856" bodyend="928"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1adc3a9018bf141a835504e0c73e91657b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ContentLoader.OnPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.OnPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="73" column="25" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a54293d75e7e6c63f18c6802d4d5464c4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Replacements.ContentLoader.ContentLoader</definition>
+        <argsstring>()</argsstring>
+        <name>ContentLoader</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ContentLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="86" column="12" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="86" bodyend="817"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1ab86f992cb278c8d688f3fab278fdd28d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Replacements.ContentLoader.LoadComputerPrefix</definition>
+        <argsstring>(string filename, bool preventAddingToNetmap, bool preventInitDaemons, out object __result)</argsstring>
+        <name>LoadComputerPrefix</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.LoadComputerPrefix</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preventAddingToNetmap</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preventInitDaemons</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="821" column="25" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="821" bodyend="825"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_content_loader_1a5ed5aca13aa818dda5d8689081db6813" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ContentLoader.ReplaceLoadFactionIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>ReplaceLoadFactionIL</name>
+        <qualifiedname>Pathfinder.Replacements.ContentLoader.ReplaceLoadFactionIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="829" column="25" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="829" bodyend="854"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/ContentLoader.cs" line="20" column="15" bodyfile="PathfinderAPI/Replacements/ContentLoader.cs" bodystart="21" bodyend="929"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a1816149c169f5b42beef260688b107be" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>comp</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a54293d75e7e6c63f18c6802d4d5464c4" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>ContentLoader</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a55b3be7674d53641fcdefc9762cce7f6" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>CustomExecutors</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1aa80eccf15c8dec454a6a7498847cf8e1" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>eos</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a83425011c8d028b4637dd9b8911b1311" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>eosList</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a3b815960d9e14fdd1d45b0800e10259a" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>executor</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a0cd8f1413c79fa21616fea4d338c3a25" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>holder</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a510634d4d71fde99559050f0feca9198" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>LoadComputer</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1ab86f992cb278c8d688f3fab278fdd28d" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>LoadComputerPrefix</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1adc3a9018bf141a835504e0c73e91657b" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a545f1e2fb3c0cf9f5be61015f5ce5851" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>os</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a9b93ab760f577b63801f2987bdb6380c" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>RegisterExecutor</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1abd16fd5f4c62bb5b57c60d70398ecb7a" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>RegisterExecutor&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a5ed5aca13aa818dda5d8689081db6813" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>ReplaceLoadFactionIL</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_content_loader_1a5706d1c07c6ae1a4ae84c2e8da5ae97a" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ContentLoader</scope><name>UnregisterExecutor&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

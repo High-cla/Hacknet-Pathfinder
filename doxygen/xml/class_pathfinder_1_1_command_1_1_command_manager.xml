@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_command_1_1_command_manager" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Command::CommandManager</compoundname>
+    <innerclass refid="struct_pathfinder_1_1_command_1_1_command_manager_1_1_custom_command" prot="private">Pathfinder::Command::CommandManager::CustomCommand</innerclass>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_command_1_1_command_manager_1a0198e4547232f39afe4e9b81d9376642" prot="private" static="yes" mutable="no">
+        <type>readonly <ref refid="class_pathfinder_1_1_util_1_1_assembly_associated_list" kindref="compound">AssemblyAssociatedList</ref>&lt; CustomCommand &gt;</type>
+        <definition>readonly AssemblyAssociatedList&lt;CustomCommand&gt; Pathfinder.Command.CommandManager.CustomCommands</definition>
+        <argsstring></argsstring>
+        <name>CustomCommands</name>
+        <qualifiedname>Pathfinder.Command.CommandManager.CustomCommands</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_util_1_1_assembly_associated_list" kindref="compound">AssemblyAssociatedList</ref>&lt;CustomCommand&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/CommandManager.cs" line="23" column="52" bodyfile="PathfinderAPI/Command/CommandManager.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_command_manager_1a325107b64c04d684cac519a4a5a59046" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Command.CommandManager.CommandManager</definition>
+        <argsstring>()</argsstring>
+        <name>CommandManager</name>
+        <qualifiedname>Pathfinder.Command.CommandManager.CommandManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/CommandManager.cs" line="25" column="12" bodyfile="PathfinderAPI/Command/CommandManager.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_command_manager_1a01fd1ec121245a1e320d77b09be6c0d4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.CommandManager.OnCommandExecute</definition>
+        <argsstring>(CommandExecuteEvent args)</argsstring>
+        <name>OnCommandExecute</name>
+        <qualifiedname>Pathfinder.Command.CommandManager.OnCommandExecute</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event" kindref="compound">CommandExecuteEvent</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/CommandManager.cs" line="31" column="25" bodyfile="PathfinderAPI/Command/CommandManager.cs" bodystart="31" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_command_manager_1a970c280c129e046c84d335c14d3f0eda" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.CommandManager.OrigProgramListInit</definition>
+        <argsstring>()</argsstring>
+        <name>OrigProgramListInit</name>
+        <qualifiedname>Pathfinder.Command.CommandManager.OrigProgramListInit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/CommandManager.cs" line="55" column="25" bodyfile="PathfinderAPI/Command/CommandManager.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_command_manager_1a6bf324e64c4053ec476f57b63a412e14" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Command.CommandManager.ProgramListInitPrefix</definition>
+        <argsstring>()</argsstring>
+        <name>ProgramListInitPrefix</name>
+        <qualifiedname>Pathfinder.Command.CommandManager.ProgramListInitPrefix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/CommandManager.cs" line="59" column="25" bodyfile="PathfinderAPI/Command/CommandManager.cs" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_command_manager_1a14326b2d5861fd41d87954abac89c787" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.CommandManager.RebuildAutoComplete</definition>
+        <argsstring>()</argsstring>
+        <name>RebuildAutoComplete</name>
+        <qualifiedname>Pathfinder.Command.CommandManager.RebuildAutoComplete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/CommandManager.cs" line="65" column="25" bodyfile="PathfinderAPI/Command/CommandManager.cs" bodystart="65" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_command_manager_1a2de382d4592586396d0cbd15134b6be2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.CommandManager.OnPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.Command.CommandManager.OnPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/CommandManager.cs" line="76" column="25" bodyfile="PathfinderAPI/Command/CommandManager.cs" bodystart="76" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_command_manager_1a83c1994e04ed76e116430079b4b636cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.CommandManager.RegisterCommand</definition>
+        <argsstring>(string commandName, Action&lt; OS, string[]&gt; handler, bool addAutocomplete=true, bool caseSensitive=false)</argsstring>
+        <name>RegisterCommand</name>
+        <qualifiedname>Pathfinder.Command.CommandManager.RegisterCommand</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>commandName</declname>
+        </param>
+        <param>
+          <type>Action&lt; OS, string[]&gt;</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addAutocomplete</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>caseSensitive</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/CommandManager.cs" line="83" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_command_manager_1add702f31375b28999febe79a28fdb426" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.CommandManager.UnregisterCommand</definition>
+        <argsstring>(string commandName, Assembly pluginAsm=null)</argsstring>
+        <name>UnregisterCommand</name>
+        <qualifiedname>Pathfinder.Command.CommandManager.UnregisterCommand</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>commandName</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/CommandManager.cs" line="104" column="24" bodyfile="PathfinderAPI/Command/CommandManager.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_command_1_1_command_manager_1af016f46c9a8381564838db49508035e4" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Command.CommandManager.RegisterCommandInternal</definition>
+        <argsstring>(string commandName, Assembly pluginAsm, Action&lt; OS, string[]&gt; handler, bool addAutocomplete=true, bool caseSensitive=false)</argsstring>
+        <name>RegisterCommandInternal</name>
+        <qualifiedname>Pathfinder.Command.CommandManager.RegisterCommandInternal</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>commandName</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <param>
+          <type>Action&lt; OS, string[]&gt;</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addAutocomplete</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>caseSensitive</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Command/CommandManager.cs" line="86" column="26" bodyfile="PathfinderAPI/Command/CommandManager.cs" bodystart="86" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Command/CommandManager.cs" line="13" column="15" bodyfile="PathfinderAPI/Command/CommandManager.cs" bodystart="14" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_command_1_1_command_manager_1a325107b64c04d684cac519a4a5a59046" prot="private" virt="non-virtual"><scope>Pathfinder::Command::CommandManager</scope><name>CommandManager</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_command_manager_1a0198e4547232f39afe4e9b81d9376642" prot="private" virt="non-virtual"><scope>Pathfinder::Command::CommandManager</scope><name>CustomCommands</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_command_manager_1a01fd1ec121245a1e320d77b09be6c0d4" prot="private" virt="non-virtual"><scope>Pathfinder::Command::CommandManager</scope><name>OnCommandExecute</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_command_manager_1a2de382d4592586396d0cbd15134b6be2" prot="private" virt="non-virtual"><scope>Pathfinder::Command::CommandManager</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_command_manager_1a970c280c129e046c84d335c14d3f0eda" prot="private" virt="non-virtual"><scope>Pathfinder::Command::CommandManager</scope><name>OrigProgramListInit</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_command_manager_1a6bf324e64c4053ec476f57b63a412e14" prot="private" virt="non-virtual"><scope>Pathfinder::Command::CommandManager</scope><name>ProgramListInitPrefix</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_command_manager_1a14326b2d5861fd41d87954abac89c787" prot="private" virt="non-virtual"><scope>Pathfinder::Command::CommandManager</scope><name>RebuildAutoComplete</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_command_manager_1a83c1994e04ed76e116430079b4b636cd" prot="public" virt="non-virtual"><scope>Pathfinder::Command::CommandManager</scope><name>RegisterCommand</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_command_manager_1af016f46c9a8381564838db49508035e4" prot="package" virt="non-virtual"><scope>Pathfinder::Command::CommandManager</scope><name>RegisterCommandInternal</name></member>
+      <member refid="class_pathfinder_1_1_command_1_1_command_manager_1add702f31375b28999febe79a28fdb426" prot="public" virt="non-virtual"><scope>Pathfinder::Command::CommandManager</scope><name>UnregisterCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

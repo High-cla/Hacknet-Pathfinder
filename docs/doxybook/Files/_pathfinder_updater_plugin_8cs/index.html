@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_pathfinder_updater_plugin_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderUpdater/PathfinderUpdaterPlugin.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderUpdater/PathfinderUpdaterPlugin.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_pathfinder_updater_plugin_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_pathfinder_updater_plugin_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderUpdater/PathfinderUpdaterPlugin.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderupdaterpathfinderupdaterplugincs">PathfinderUpdater/PathfinderUpdaterPlugin.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_updater/">PathfinderUpdater</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_system_1_1_configuration/">System::Configuration</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_system_1_1_net/">System::Net</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_pathfinder_updater_plugin/">PathfinderUpdater::PathfinderUpdaterPlugin</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_mono_runtime_fix_config/">PathfinderUpdater::MonoRuntimeFixConfig</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="types">Types</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>using SemanticVersioning.Version</td>
+<td><strong><a href="../Files/_pathfinder_updater_plugin_8cs/#using-version">Version</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="types-documentation">Types Documentation</h2>
+<h3 id="using-version">using Version</h3>
+<pre><code class="language-csharp">using Version =  SemanticVersioning.Version;
+</code></pre>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Configuration;
+using System.Net;
+using BepInEx;
+using BepInEx.Configuration;
+using BepInEx.Hacknet;
+using Hacknet;
+using HarmonyLib;
+using Version = SemanticVersioning.Version;
+using System.Diagnostics;
+using System.Reflection;
+using Pathfinder.Meta;
+
+namespace PathfinderUpdater;
+
+[BepInPlugin(ModGUID, ModName, HacknetChainloader.VERSION)]
+[PluginInfo(&quot;An extension to Pathfinder which automatically updates BepInEx.Hacknet, PathfinderAPI, and PathfinderUpdater.&quot;,
+    Authors = new string[]
+    {
+        &quot;Windows10CE (Araon)&quot;, &quot;Spartan322 (George)&quot;
+    }
+)]
+[PluginWebsite(&quot;Github&quot;, &quot;https://github.com/Arkhist/Hacknet-Pathfinder&quot;)]
+[Updater(
+    &quot;https://api.github.com/repos/Arkhist/Hacknet-Pathfinder/releases&quot;,
+    &quot;Pathfinder.Release.zip&quot;,
+    &quot;BepInEx/plugins/PathfinderUpdater.dll&quot;
+)]
+[HarmonyPatch]
+public class PathfinderUpdaterPlugin : HacknetPlugin
+{
+    public const string ModGUID = &quot;com.Pathfinder.Updater&quot;;
+    public const string ModName = &quot;AutoUpdater&quot;;
+
+    new internal static ConfigFile Config;
+
+    internal static ConfigEntry&lt;bool&gt; IsEnabled;
+    internal static ConfigEntry&lt;bool&gt; EnablePreReleases;
+    internal static ConfigEntry&lt;bool&gt; NoRestartPrompt;
+    internal static ConfigEntry&lt;string&gt; AcceptedUpdate;
+    internal static ConfigEntry&lt;string&gt; CurrentVersion;
+
+    public static Version VersionToRequest = null;
+    public static bool NeedsUpdate;
+    internal static Updater PathfinderUpdater;
+
+    public static readonly List&lt;Updater&gt; Updaters = new List&lt;Updater&gt;();
+    private static readonly List&lt;string&gt; UpdaterWhitelistGuids = new List&lt;string&gt;
+    {
+        &quot;com.Pathfinder.API&quot;,
+        &quot;com.Pathfinder.Updater&quot;
+    };
+
+    public override bool Load()
+    {
+        Config = base.Config;
+
+        IsEnabled = Config.Bind&lt;bool&gt;(&quot;AutoUpdater&quot;, &quot;EnableAutoUpdates&quot;, true, &quot;Enables or disables automatic updates for PathfinderAPI&quot;);
+        EnablePreReleases = Config.Bind&lt;bool&gt;(&quot;AutoUpdater&quot;, &quot;UsePreReleases&quot;, false, &quot;Whether or not to automatically update to beta versions&quot;);
+        AcceptedUpdate = Config.Bind&lt;string&gt;(&quot;AutoUpdater&quot;, &quot;LatestAcceptedUpdate&quot;, &quot;&quot;, &quot;Used internally to keep track of whether you accepted the update or not&quot;);
+        CurrentVersion = Config.Bind&lt;string&gt;(&quot;AutoUpdater&quot;, &quot;CurrentVersion&quot;, HacknetChainloader.VERSION,
+            &quot;Used internally to keep track of version.\nIf you want to skip updating to a version but keep the updater on, set this manually to the latest verison.&quot;);
+        NoRestartPrompt = Config.Bind&lt;bool&gt;(&quot;AutoUpdater&quot;, &quot;NoRestartPrompt&quot;, false, &quot;Whether ot not the restart prompt will automatically appear when the update is finished&quot;);
+
+        HarmonyInstance.PatchAll(Assembly.GetExecutingAssembly());
+        if (Type.GetType(&quot;Mono.Runtime&quot;) != null)
+            HarmonyInstance.CreateClassProcessor(typeof(MonoRuntimeFixConfig), true).Patch();
+
+        if (!IsEnabled.Value)
+            return true;
+
+        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+
+        return true;
+    }
+
+    public override void PostLoad()
+    {
+        if(!IsEnabled.Value) return;
+        if(!Updater.TryCreate(typeof(HacknetChainloader), out var chainLoaderUpdater, true))
+            throw new InvalidOperationException(&quot;HacknetChainloader missing __UpdaterData&quot;);
+        Updaters.Add(chainLoaderUpdater);
+        chainLoaderUpdater.TryDeleteDllTempFile();
+        chainLoaderUpdater.IncludePrerelease = EnablePreReleases.Value;
+        chainLoaderUpdater.CurrentVersion = CurrentVersion.Value;
+
+        foreach(var kvPair in HacknetChainloader.Instance.Plugins)
+        {
+            if(!UpdaterWhitelistGuids.Contains(kvPair.Key)) continue;
+            var type = kvPair.Value.Instance.GetType();
+            if(!Updater.TryCreate(type, out var updater))
+                continue;
+            Updaters.Add(updater);
+            updater.TryDeleteDllTempFile();
+            updater.IncludePrerelease = EnablePreReleases.Value;
+            updater.CurrentVersion = CurrentVersion.Value;
+            if(kvPair.Key == UpdaterWhitelistGuids[0])
+                PathfinderUpdater = updater;
+        }
+        PerformUpdateCheck();
+    }
+
+    public static void RestartForUpdate()
+    {
+        AcceptedUpdate.Value = VersionToRequest.ToString();
+        MusicManager.stop();
+        Game1.threadsExiting = true;
+        Game1.getSingleton().Exit();
+        var cmdLine = Environment.CommandLine.Replace(Environment.GetCommandLineArgs()[0] + &quot; &quot;, &quot;&quot;);
+        Process.Start(new ProcessStartInfo
+        {
+            FileName = Assembly.GetExecutingAssembly().Location,
+            Arguments = cmdLine
+        });
+        Environment.Exit(0);
+    }
+
+    public static async Task PerformUpdateAsync()
+    {
+        foreach(var updater in Updaters)
+        {
+            await updater.PerformDownload();
+            updater.PerformUpdate();
+            updater.TryDeleteDownloadedTempFile();
+        }
+    }
+
+    public static void PerformUpdateCheck()
+    {
+        Task.Run(async() =&gt; await MainMenuOverride.PerformCheckAndUpdateButtonAsync());
+    }
+
+    public static async Task&lt;bool[]&gt; PerformCheckAsync(bool forceData = false)
+    {
+        var checks = new List&lt;bool&gt;(Updaters.Count);
+        if(forceData)
+            await Updater.ForceResetAllReleaseDataAsync();
+        foreach(var updater in Updaters)
+        {
+            checks.Add(await updater.CheckForUpdate());
+            VersionToRequest = updater.LatestVersion;
+        }
+        return checks.ToArray();
+    }
+}
+
+public static class MonoRuntimeFixConfig
+{
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(ConfigurationManager), &quot;OpenExeConfigurationInternal&quot;)]
+    private static void Prefix(out string exePath)
+    {
+        exePath = Paths.ExecutablePath;
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

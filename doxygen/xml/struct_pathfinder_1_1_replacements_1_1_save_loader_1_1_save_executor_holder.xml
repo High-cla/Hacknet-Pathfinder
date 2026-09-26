@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_holder" kind="struct" language="C#" prot="private">
+    <compoundname>Pathfinder::Replacements::SaveLoader::SaveExecutorHolder</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_holder_1a905b772abe93c64f72aceda33627e3fb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Replacements.SaveLoader.SaveExecutorHolder.Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <qualifiedname>Pathfinder.Replacements.SaveLoader.SaveExecutorHolder.Element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveLoader.cs" line="33" column="23" bodyfile="PathfinderAPI/Replacements/SaveLoader.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_holder_1a032e86fea936f8af2052903194883c0a" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type Pathfinder.Replacements.SaveLoader.SaveExecutorHolder.ExecutorType</definition>
+        <argsstring></argsstring>
+        <name>ExecutorType</name>
+        <qualifiedname>Pathfinder.Replacements.SaveLoader.SaveExecutorHolder.ExecutorType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveLoader.cs" line="34" column="21" bodyfile="PathfinderAPI/Replacements/SaveLoader.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_holder_1a6e4c6c88ca2a7e0d7e05a8ed766199e9" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" kindref="member">ParseOption</ref></type>
+        <definition>ParseOption Pathfinder.Replacements.SaveLoader.SaveExecutorHolder.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <qualifiedname>Pathfinder.Replacements.SaveLoader.SaveExecutorHolder.Options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/SaveLoader.cs" line="35" column="28" bodyfile="PathfinderAPI/Replacements/SaveLoader.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/SaveLoader.cs" line="31" column="12" bodyfile="PathfinderAPI/Replacements/SaveLoader.cs" bodystart="32" bodyend="36"/>
+    <listofallmembers>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_holder_1a905b772abe93c64f72aceda33627e3fb" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveLoader::SaveExecutorHolder</scope><name>Element</name></member>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_holder_1a032e86fea936f8af2052903194883c0a" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveLoader::SaveExecutorHolder</scope><name>ExecutorType</name></member>
+      <member refid="struct_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_holder_1a6e4c6c88ca2a7e0d7e05a8ed766199e9" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::SaveLoader::SaveExecutorHolder</scope><name>Options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

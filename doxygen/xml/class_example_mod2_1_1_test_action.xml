@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_example_mod2_1_1_test_action" kind="class" language="C#" prot="public">
+    <compoundname>ExampleMod2::TestAction</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action" prot="public" virt="non-virtual">Pathfinder.Action.DelayablePathfinderAction</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_action_1a72f52b8709a1612eeb13668485c6095b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ExampleMod2.TestAction.Min</definition>
+        <argsstring></argsstring>
+        <name>Min</name>
+        <qualifiedname>ExampleMod2.TestAction.Min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="163" column="19" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_action_1a725921a7a0c5037ff14844ed96af2c18" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ExampleMod2.TestAction.Max</definition>
+        <argsstring></argsstring>
+        <name>Max</name>
+        <qualifiedname>ExampleMod2.TestAction.Max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="165" column="19" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_action_1ab869f6c7f41dbedaad4599282dee371c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ExampleMod2.TestAction.stringToWrite</definition>
+        <argsstring></argsstring>
+        <name>stringToWrite</name>
+        <qualifiedname>ExampleMod2.TestAction.stringToWrite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="167" column="19" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_action_1a3fadbf6dc109d1978a64f18bc5be697c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ExampleMod2.TestAction.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>ExampleMod2.TestAction.min</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="169" column="17" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_action_1a24f9522e207d37203707f0641c5310de" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ExampleMod2.TestAction.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>ExampleMod2.TestAction.max</qualifiedname>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="170" column="17" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="170" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_action_1ad28d7aa124ba4fdde1202667bd49b35c" prot="private" static="yes" mutable="no">
+        <type>readonly Random</type>
+        <definition>readonly Random ExampleMod2.TestAction.Rand</definition>
+        <argsstring></argsstring>
+        <name>Rand</name>
+        <qualifiedname>ExampleMod2.TestAction.Rand</qualifiedname>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="172" column="36" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_example_mod2_1_1_test_action_1a148e4fd2c72391c6eeaecfe4cc8f03df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ExampleMod2.TestAction.Trigger</definition>
+        <argsstring>(OS os)</argsstring>
+        <name>Trigger</name>
+        <qualifiedname>ExampleMod2.TestAction.Trigger</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="174" column="26" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="174" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_example_mod2_1_1_test_action_1a9498c23d0daece705b0714bb7020040e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ExampleMod2.TestAction.LoadFromXml</definition>
+        <argsstring>(ElementInfo info)</argsstring>
+        <name>LoadFromXml</name>
+        <qualifiedname>ExampleMod2.TestAction.LoadFromXml</qualifiedname>
+        <reimplements refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action_1a37a9a6e1577d97e036a6f9ca3da04a43">LoadFromXml</reimplements>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="183" column="26" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="183" bodyend="191"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DelayablePathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ExampleMod2.TestAction</label>
+        <link refid="class_example_mod2_1_1_test_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="3">
+        <label>PathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_action"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SerializableAction</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DelayablePathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ExampleMod2.TestAction</label>
+        <link refid="class_example_mod2_1_1_test_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IXmlName</label>
+        <link refid="interface_pathfinder_1_1_util_1_1_i_xml_name"/>
+      </node>
+      <node id="3">
+        <label>PathfinderAction</label>
+        <link refid="class_pathfinder_1_1_action_1_1_pathfinder_action"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SerializableAction</label>
+      </node>
+    </collaborationgraph>
+    <location file="ExampleMod/ExampleModPlugin.cs" line="160" column="7" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="161" bodyend="192"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action_1a23ac37f5f78a0cb6ee50fc9316f7b742" prot="public" virt="non-virtual"><scope>ExampleMod2::TestAction</scope><name>Delay</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action_1a6fab93fe64fce106339149d0c631a02c" prot="public" virt="non-virtual"><scope>ExampleMod2::TestAction</scope><name>DelayHost</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_action_1a637969830847847e2560c81ea5d66e50" prot="public" virt="virtual"><scope>ExampleMod2::TestAction</scope><name>GetSaveElement</name></member>
+      <member refid="class_example_mod2_1_1_test_action_1a9498c23d0daece705b0714bb7020040e" prot="public" virt="virtual"><scope>ExampleMod2::TestAction</scope><name>LoadFromXml</name></member>
+      <member refid="class_example_mod2_1_1_test_action_1a725921a7a0c5037ff14844ed96af2c18" prot="public" virt="non-virtual"><scope>ExampleMod2::TestAction</scope><name>Max</name></member>
+      <member refid="class_example_mod2_1_1_test_action_1a24f9522e207d37203707f0641c5310de" prot="private" virt="non-virtual"><scope>ExampleMod2::TestAction</scope><name>max</name></member>
+      <member refid="class_example_mod2_1_1_test_action_1a72f52b8709a1612eeb13668485c6095b" prot="public" virt="non-virtual"><scope>ExampleMod2::TestAction</scope><name>Min</name></member>
+      <member refid="class_example_mod2_1_1_test_action_1a3fadbf6dc109d1978a64f18bc5be697c" prot="private" virt="non-virtual"><scope>ExampleMod2::TestAction</scope><name>min</name></member>
+      <member refid="class_example_mod2_1_1_test_action_1ad28d7aa124ba4fdde1202667bd49b35c" prot="private" virt="non-virtual"><scope>ExampleMod2::TestAction</scope><name>Rand</name></member>
+      <member refid="class_example_mod2_1_1_test_action_1ab869f6c7f41dbedaad4599282dee371c" prot="public" virt="non-virtual"><scope>ExampleMod2::TestAction</scope><name>stringToWrite</name></member>
+      <member refid="class_example_mod2_1_1_test_action_1a148e4fd2c72391c6eeaecfe4cc8f03df" prot="public" virt="non-virtual"><scope>ExampleMod2::TestAction</scope><name>Trigger</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_delayable_pathfinder_action_1a576a2d62e67adcf55a1db925df51fdc4" prot="public" virt="non-virtual" ambiguityscope="Pathfinder::Action::DelayablePathfinderAction."><scope>ExampleMod2::TestAction</scope><name>Trigger</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_pathfinder_action_1a63c7af8e1f65039066b336e0898cc259" prot="public" virt="non-virtual"><scope>ExampleMod2::TestAction</scope><name>XmlName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

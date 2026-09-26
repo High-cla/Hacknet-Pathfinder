@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_cached_custom_theme_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Util/CachedCustomTheme.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Util/CachedCustomTheme.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_cached_custom_theme_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_cached_custom_theme_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Util/CachedCustomTheme.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapiutilcachedcustomthemecs">PathfinderAPI/Util/CachedCustomTheme.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_util/">Pathfinder::Util</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_cached_custom_theme/">Pathfinder::Util::CachedCustomTheme</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using Hacknet;
+using HarmonyLib;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Mono.Cecil.Cil;
+using MonoMod.Cil;
+using MonoMod.Utils;
+using Pathfinder.Util.XML;
+
+namespace Pathfinder.Util;
+
+[HarmonyPatch]
+public class CachedCustomTheme : IDisposable
+{
+    public delegate ref Color RefColorFieldDelegate(OS instance);
+
+    private static readonly Dictionary&lt;string, RefColorFieldDelegate&gt; OSColorFieldsFast = new Dictionary&lt;string, RefColorFieldDelegate&gt;();
+
+    [Initialize]
+    internal static void Initialize()
+    {
+        foreach (var field in AccessTools.GetDeclaredFields(typeof(OS)).Where(x =&gt; x.FieldType == typeof(Color)))
+        {
+            var dynMethod = new DynamicMethodDefinition(field.Name, typeof(Color).MakeByRefType(), new Type[] {typeof(OS)});
+            var p = dynMethod.GetILProcessor();
+            p.Emit(OpCodes.Ldarg_0);
+            p.Emit(OpCodes.Ldflda, field);
+            p.Emit(OpCodes.Ret);
+            OSColorFieldsFast.Add(field.Name, dynMethod.Generate().CreateDelegate&lt;RefColorFieldDelegate&gt;());
+        }
+    }
+
+    public ElementInfo ThemeInfo { get; }
+    public Texture2D BackgroundImage { get; internal set; }
+    private byte[] TextureData = null;
+    public string Path { get; }
+    public bool Loaded { get; private set; } = false;
+
+    public CachedCustomTheme(string themeFileName)
+    {
+        Path = themeFileName;
+        ElementInfo themeInfo = null;
+
+        var executor = new EventExecutor(themeFileName.ContentFilePath(), true);
+        executor.RegisterExecutor(&quot;CustomTheme&quot;, (exec, info) =&gt; themeInfo = info, ParseOption.ParseInterior);
+        executor.Parse();
+
+        ThemeInfo = themeInfo ?? throw new FormatException($&quot;No CustomTheme element in {themeFileName}&quot;);
+    }
+
+    public void Load(bool isMainThread)
+    {
+        if (!ThemeInfo.Children.TryGetElement(&quot;backgroundImagePath&quot;, out var imagePath) || !imagePath.Content.HasContent())
+        {
+            Loaded = true;
+            return;
+        }
+
+        if (!isMainThread)
+        {
+            if (imagePath.Content.ContentFileExists())
+            {
+                TextureData = File.ReadAllBytes(imagePath.Content.ContentFilePath());
+            }
+            return;
+        }
+
+        if (TextureData != null)
+        {
+            using (var ms = new MemoryStream(TextureData))
+            {
+                BackgroundImage = Texture2D.FromStream(GuiData.spriteBatch.GraphicsDevice, ms);
+            }
+
+            TextureData = null;
+            Loaded = true;
+            return;
+        }
+
+        if (imagePath.Content.ContentFileExists())
+        {
+            using (FileStream imageSteam = File.OpenRead(imagePath.Content.ContentFilePath()))
+            {
+                BackgroundImage = Texture2D.FromStream(GuiData.spriteBatch.GraphicsDevice, imageSteam);
+            }
+        }
+        else
+        {
+            Logger.Log(BepInEx.Logging.LogLevel.Warning, &quot;Could not find theme background image &quot; + imagePath.Content + &quot; for theme &quot; + Path);
+        }
+        Loaded = true;
+    }
+
+    [HarmonyReversePatch]
+    [HarmonyPatch(typeof(CustomTheme), nameof(CustomTheme.GetThemeForLayout))]
+    private static OSTheme GetLayoutForTheme(string name)
+    {
+        void Manipulator(ILContext il)
+        {
+            ILCursor c = new ILCursor(il);
+
+            // instead of getting the theme string from this, get it from arg 0
+            while (c.TryGotoNext(x =&gt;
+                       x.MatchLdfld(AccessTools.Field(typeof(CustomTheme), nameof(CustomTheme.themeLayoutName)))))
+            {
+                c.Remove();
+            }
+        }
+
+        Manipulator(null);
+        return default;
+    }
+
+    public void ApplyTo(OS os)
+    {
+        if (!Loaded)
+            throw new InvalidOperationException(&quot;Can't apply a custom theme before it has finished loading!&quot;);
+
+        ThemeManager.switchTheme(os, OSTheme.HacknetBlue);
+
+        foreach (var setting in ThemeInfo.Children)
+        {
+            if (OSColorFieldsFast.TryGetValue(setting.Name, out var field))
+            {
+                ref Color fieldRef = ref field(os);
+                fieldRef = Utils.convertStringToColor(setting.Content);
+            }
+            else if (setting.Name == &quot;UseAspectPreserveBackgroundScaling&quot;)
+            {
+                if (bool.TryParse(setting.Content, out var preserve))
+                    os.UseAspectPreserveBackgroundScaling = preserve;
+            }
+            else if (setting.Name == &quot;themeLayoutName&quot;)
+            {
+                ThemeManager.switchThemeLayout(os, GetLayoutForTheme(setting.Content));
+            }
+        }
+
+        ThemeManager.backgroundImage = BackgroundImage;
+        ThemeManager.LastLoadedCustomThemePath = Path;
+        ThemeManager.currentTheme = OSTheme.Custom;
+        os.RefreshTheme();
+    }
+
+    public void Dispose()
+    {
+        BackgroundImage?.Dispose();
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

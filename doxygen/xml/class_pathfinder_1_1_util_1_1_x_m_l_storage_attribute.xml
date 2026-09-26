@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::XMLStorageAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1a4f629a5dcfbdb03aaf0188d6e8b0d0b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Util.XMLStorageAttribute.IsContent</definition>
+        <argsstring></argsstring>
+        <name>IsContent</name>
+        <qualifiedname>Pathfinder.Util.XMLStorageAttribute.IsContent</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XMLStorageAttribute.cs" line="11" column="17" bodyfile="PathfinderAPI/Util/XMLStorageAttribute.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1afbdad8572efb8edf6ef5270e584b28df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Type</type>
+        <definition>Type Pathfinder.Util.XMLStorageAttribute.Converter</definition>
+        <argsstring></argsstring>
+        <name>Converter</name>
+        <qualifiedname>Pathfinder.Util.XMLStorageAttribute.Converter</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XMLStorageAttribute.cs" line="12" column="17" bodyfile="PathfinderAPI/Util/XMLStorageAttribute.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1a4d2a5d1312d86d61b56b70913ef1a1be" prot="private" static="yes" mutable="no">
+        <type>const BindingFlags</type>
+        <definition>const BindingFlags Pathfinder.Util.XMLStorageAttribute.Flags</definition>
+        <argsstring></argsstring>
+        <name>Flags</name>
+        <qualifiedname>Pathfinder.Util.XMLStorageAttribute.Flags</qualifiedname>
+        <initializer>= BindingFlags.Instance | BindingFlags.Public</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XMLStorageAttribute.cs" line="14" column="32" bodyfile="PathfinderAPI/Util/XMLStorageAttribute.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1a9497a7f9b55e9b25644b3fbdca6f9c40" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Util.XMLStorageAttribute.WriteToElement</definition>
+        <argsstring>(IXmlName obj)</argsstring>
+        <name>WriteToElement</name>
+        <qualifiedname>Pathfinder.Util.XMLStorageAttribute.WriteToElement</qualifiedname>
+        <param>
+          <type><ref refid="interface_pathfinder_1_1_util_1_1_i_xml_name" kindref="compound">IXmlName</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XMLStorageAttribute.cs" line="15" column="28" bodyfile="PathfinderAPI/Util/XMLStorageAttribute.cs" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1a299164e4bbe7d761232c658fcc2e785b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement Pathfinder.Util.XMLStorageAttribute.WriteToElement</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>WriteToElement</name>
+        <qualifiedname>Pathfinder.Util.XMLStorageAttribute.WriteToElement</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XMLStorageAttribute.cs" line="22" column="28" bodyfile="PathfinderAPI/Util/XMLStorageAttribute.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1a5af9517176d6b0264597f372960b46a8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Util.XMLStorageAttribute.ReadFromElement</definition>
+        <argsstring>(ElementInfo info, object obj)</argsstring>
+        <name>ReadFromElement</name>
+        <qualifiedname>Pathfinder.Util.XMLStorageAttribute.ReadFromElement</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XMLStorageAttribute.cs" line="99" column="24" bodyfile="PathfinderAPI/Util/XMLStorageAttribute.cs" bodystart="99" bodyend="177"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1ae5989617eda56b416efd3c99a9d7f305" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Util.XMLStorageAttribute.WriteElementContent</definition>
+        <argsstring>(object obj, XElement element)</argsstring>
+        <name>WriteElementContent</name>
+        <qualifiedname>Pathfinder.Util.XMLStorageAttribute.WriteElementContent</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>XElement</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XMLStorageAttribute.cs" line="29" column="25" bodyfile="PathfinderAPI/Util/XMLStorageAttribute.cs" bodystart="29" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Util.XMLStorageAttribute</label>
+        <link refid="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Util.XMLStorageAttribute</label>
+        <link refid="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Util/XMLStorageAttribute.cs" line="9" column="7" bodyfile="PathfinderAPI/Util/XMLStorageAttribute.cs" bodystart="10" bodyend="178"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1afbdad8572efb8edf6ef5270e584b28df" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XMLStorageAttribute</scope><name>Converter</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1a4d2a5d1312d86d61b56b70913ef1a1be" prot="private" virt="non-virtual"><scope>Pathfinder::Util::XMLStorageAttribute</scope><name>Flags</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1a4f629a5dcfbdb03aaf0188d6e8b0d0b6" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XMLStorageAttribute</scope><name>IsContent</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1a5af9517176d6b0264597f372960b46a8" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XMLStorageAttribute</scope><name>ReadFromElement</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1ae5989617eda56b416efd3c99a9d7f305" prot="private" virt="non-virtual"><scope>Pathfinder::Util::XMLStorageAttribute</scope><name>WriteElementContent</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1a9497a7f9b55e9b25644b3fbdca6f9c40" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XMLStorageAttribute</scope><name>WriteToElement</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute_1a299164e4bbe7d761232c658fcc2e785b" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XMLStorageAttribute</scope><name>WriteToElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Meta::Load::OptionsTabAttribute</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.BaseAttribute</basecompoundref>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute_1a8c142525288ca86dc842a3e7a731f589" prot="package" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; <ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref>, string &gt;</type>
+        <definition>readonly Dictionary&lt;HacknetPlugin, string&gt; Pathfinder.Meta.Load.OptionsTabAttribute.pluginToOptionsTag</definition>
+        <argsstring></argsstring>
+        <name>pluginToOptionsTag</name>
+        <qualifiedname>Pathfinder.Meta.Load.OptionsTabAttribute.pluginToOptionsTag</qualifiedname>
+        <initializer>= new Dictionary&lt;<ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref>, string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/OptionsTabAttribute.cs" line="9" column="41" bodyfile="PathfinderAPI/Meta/Load/OptionsTabAttribute.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute_1a643c4f37450738724bad6b94d181b22a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.Load.OptionsTabAttribute.Tag</definition>
+        <argsstring></argsstring>
+        <name>Tag</name>
+        <qualifiedname>Pathfinder.Meta.Load.OptionsTabAttribute.Tag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/OptionsTabAttribute.cs" line="11" column="19" bodyfile="PathfinderAPI/Meta/Load/OptionsTabAttribute.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute_1a4e001b96e0352345d15e94db6b75ba9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Meta.Load.OptionsTabAttribute.OptionsTabAttribute</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>OptionsTabAttribute</name>
+        <qualifiedname>Pathfinder.Meta.Load.OptionsTabAttribute.OptionsTabAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/OptionsTabAttribute.cs" line="13" column="12" bodyfile="PathfinderAPI/Meta/Load/OptionsTabAttribute.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute_1a11b5d4d8b98be84fad6a13db2661f9de" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Pathfinder.Meta.Load.OptionsTabAttribute.CallOn</definition>
+        <argsstring>(HacknetPlugin plugin, MemberInfo targettedInfo)</argsstring>
+        <name>CallOn</name>
+        <qualifiedname>Pathfinder.Meta.Load.OptionsTabAttribute.CallOn</qualifiedname>
+        <param>
+          <type><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>targettedInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/OptionsTabAttribute.cs" line="18" column="38" bodyfile="PathfinderAPI/Meta/Load/OptionsTabAttribute.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.OptionsTabAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Attribute</label>
+      </node>
+      <node id="2">
+        <label>BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.OptionsTabAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Meta/Load/OptionsTabAttribute.cs" line="7" column="7" bodyfile="PathfinderAPI/Meta/Load/OptionsTabAttribute.cs" bodystart="8" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute_1a11b5d4d8b98be84fad6a13db2661f9de" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::OptionsTabAttribute</scope><name>CallOn</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute_1a4e001b96e0352345d15e94db6b75ba9a" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::OptionsTabAttribute</scope><name>OptionsTabAttribute</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute_1a8c142525288ca86dc842a3e7a731f589" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::OptionsTabAttribute</scope><name>pluginToOptionsTag</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute_1a643c4f37450738724bad6b94d181b22a" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::OptionsTabAttribute</scope><name>Tag</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute_1aa664b7e6caa44645ea2dce2999066d75" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::OptionsTabAttribute</scope><name>ThrowOnInvalidOperation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

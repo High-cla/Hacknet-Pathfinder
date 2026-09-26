@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_initialize_attribute" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::Util::InitializeAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Util.InitializeAttribute</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Util.InitializeAttribute</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Util/InitializeAttribute.cs" line="4" column="9" bodyfile="PathfinderAPI/Util/InitializeAttribute.cs" bodystart="4" bodyend="4"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

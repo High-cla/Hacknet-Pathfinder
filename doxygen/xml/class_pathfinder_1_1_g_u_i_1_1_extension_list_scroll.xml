@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_g_u_i_1_1_extension_list_scroll" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::GUI::ExtensionListScroll</compoundname>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_g_u_i_1_1_extension_list_scroll_1a0f37e3c0b47017b9c446d0cfc71b2f88" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.GUI.ExtensionListScroll.AddExtensionScrollWheelListenerManipulator</definition>
+        <argsstring>(ILContext context)</argsstring>
+        <name>AddExtensionScrollWheelListenerManipulator</name>
+        <qualifiedname>Pathfinder.GUI.ExtensionListScroll.AddExtensionScrollWheelListenerManipulator</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ExtensionListScroll.cs" line="15" column="21" bodyfile="PathfinderAPI/GUI/ExtensionListScroll.cs" bodystart="15" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_g_u_i_1_1_extension_list_scroll_1a089c3c3ccbbb2ad122eb1c245c198db4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.GUI.ExtensionListScroll.ScrollUpdate</definition>
+        <argsstring>(ExtensionsMenuScreen self, Vector2 drawPos, Rectangle fullScreen)</argsstring>
+        <name>ScrollUpdate</name>
+        <qualifiedname>Pathfinder.GUI.ExtensionListScroll.ScrollUpdate</qualifiedname>
+        <param>
+          <type>ExtensionsMenuScreen</type>
+          <declname>self</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>drawPos</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>fullScreen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ExtensionListScroll.cs" line="36" column="21" bodyfile="PathfinderAPI/GUI/ExtensionListScroll.cs" bodystart="36" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/GUI/ExtensionListScroll.cs" line="11" column="17" bodyfile="PathfinderAPI/GUI/ExtensionListScroll.cs" bodystart="11" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_extension_list_scroll_1a0f37e3c0b47017b9c446d0cfc71b2f88" prot="private" virt="non-virtual"><scope>Pathfinder::GUI::ExtensionListScroll</scope><name>AddExtensionScrollWheelListenerManipulator</name></member>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_extension_list_scroll_1a089c3c3ccbbb2ad122eb1c245c198db4" prot="private" virt="non-virtual"><scope>Pathfinder::GUI::ExtensionListScroll</scope><name>ScrollUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

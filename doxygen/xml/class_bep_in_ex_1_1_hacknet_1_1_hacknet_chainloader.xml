@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader" kind="class" language="C#" prot="public">
+    <compoundname>BepInEx::Hacknet::HacknetChainloader</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseChainloader&lt; HacknetPlugin &gt;</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a2b13800c9969b7d36d2dedbea4dfdd8c" prot="private" static="yes" mutable="no">
+        <type>Tuple&lt; string, string, string &gt;</type>
+        <definition>Tuple&lt;string, string, string&gt; BepInEx.Hacknet.HacknetChainloader.__UpdaterData</definition>
+        <argsstring></argsstring>
+        <name>__UpdaterData</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.__UpdaterData</qualifiedname>
+        <initializer>= new Tuple&lt;string, string, string&gt;(
+            &quot;https://api.github.com/repos/Arkhist/Hacknet-Pathfinder/releases&quot;,
+            &quot;Pathfinder.Release.zip&quot;,
+            &quot;BepInEx/core/BepInEx.Hacknet.dll&quot;
+        )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="17" column="26" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a1efc8614cc3b9062940a66a1e49b3fb3" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string BepInEx.Hacknet.HacknetChainloader.VERSION</definition>
+        <argsstring></argsstring>
+        <name>VERSION</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.VERSION</qualifiedname>
+        <initializer>= &quot;5.4.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="24" column="25" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a0661ae41ffee13bdbe10caf375f4d436" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="_hacknet_chainloader_8cs_1af64f7464b73095031bb06f582f1bb40d" kindref="member">Version</ref></type>
+        <definition>readonly Version BepInEx.Hacknet.HacknetChainloader.Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.Version</qualifiedname>
+        <initializer>= Version.Parse(<ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a1efc8614cc3b9062940a66a1e49b3fb3" kindref="member">VERSION</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="25" column="36" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1abe41a14a292c402adbe744f29a092056" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader" kindref="compound">HacknetChainloader</ref></type>
+        <definition>HacknetChainloader BepInEx.Hacknet.HacknetChainloader.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="27" column="38" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1ab68616855c42b6d675d610899db23e8a" prot="package" static="no" mutable="no">
+        <type>ManualLogSource</type>
+        <definition>ManualLogSource BepInEx.Hacknet.HacknetChainloader.Log</definition>
+        <argsstring></argsstring>
+        <name>Log</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.Log</qualifiedname>
+        <initializer>= Logger.CreateLogSource(&quot;HacknetChainloader&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="29" column="30" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a672c2c9e8ac5bc729209c9025ff04eff" prot="package" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; BepInEx.Hacknet.HacknetChainloader.TemporaryPluginGUIDs</definition>
+        <argsstring></argsstring>
+        <name>TemporaryPluginGUIDs</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.TemporaryPluginGUIDs</qualifiedname>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="30" column="19" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a28738db948f85e9c690f0d180e668e31" prot="package" static="no" mutable="no">
+        <type>Harmony</type>
+        <definition>Harmony BepInEx.Hacknet.HacknetChainloader.HarmonyInstance</definition>
+        <argsstring></argsstring>
+        <name>HarmonyInstance</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.HarmonyInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="32" column="22" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a76a88a931b0c7fb702f2f318e2cd6091" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BepInEx.Hacknet.HacknetChainloader._firstLoadDone</definition>
+        <argsstring></argsstring>
+        <name>_firstLoadDone</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader._firstLoadDone</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="33" column="18" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1ad2e2e99f4ebb1e113354ec24a5a32d49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void BepInEx.Hacknet.HacknetChainloader.Initialize</definition>
+        <argsstring>(string gameExePath=null)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.Initialize</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>gameExePath</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="35" column="26" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="35" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1afa533658f4e90e9c6de611688af33e38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+        <definition>override HacknetPlugin BepInEx.Hacknet.HacknetChainloader.LoadPlugin</definition>
+        <argsstring>(PluginInfo pluginInfo, Assembly pluginAssembly)</argsstring>
+        <name>LoadPlugin</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.LoadPlugin</qualifiedname>
+        <param>
+          <type>PluginInfo</type>
+          <declname>pluginInfo</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAssembly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="68" column="35" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="68" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a34b983a726f187942bddcb9c9cf460ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void BepInEx.Hacknet.HacknetChainloader.Execute</definition>
+        <argsstring>()</argsstring>
+        <name>Execute</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.Execute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="83" column="26" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="83" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a091ca4f3a073eef3f20f0788ad541e04" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override IList&lt; PluginInfo &gt;</type>
+        <definition>override IList&lt; PluginInfo &gt; BepInEx.Hacknet.HacknetChainloader.DiscoverPlugins</definition>
+        <argsstring>()</argsstring>
+        <name>DiscoverPlugins</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.DiscoverPlugins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="47" column="30" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="47" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a8049c04f98909d07d4d8454014277c55" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BepInEx.Hacknet.HacknetChainloader.UnloadTemps</definition>
+        <argsstring>()</argsstring>
+        <name>UnloadTemps</name>
+        <qualifiedname>BepInEx.Hacknet.HacknetChainloader.UnloadTemps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="90" column="19" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="90" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseChainloader&lt; HacknetPlugin &gt;</label>
+      </node>
+      <node id="1">
+        <label>BepInEx.Hacknet.HacknetChainloader</label>
+        <link refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseChainloader&lt; HacknetPlugin &gt;</label>
+      </node>
+      <node id="1">
+        <label>BepInEx.Hacknet.HacknetChainloader</label>
+        <link refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BepInEx.Hacknet.HacknetChainloader</label>
+        <link refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="15" column="7" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="16" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a2b13800c9969b7d36d2dedbea4dfdd8c" prot="private" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>__UpdaterData</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a76a88a931b0c7fb702f2f318e2cd6091" prot="private" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>_firstLoadDone</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a091ca4f3a073eef3f20f0788ad541e04" prot="protected" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>DiscoverPlugins</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a34b983a726f187942bddcb9c9cf460ec" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>Execute</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a28738db948f85e9c690f0d180e668e31" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>HarmonyInstance</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1ad2e2e99f4ebb1e113354ec24a5a32d49" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>Initialize</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1abe41a14a292c402adbe744f29a092056" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>Instance</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1afa533658f4e90e9c6de611688af33e38" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>LoadPlugin</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1ab68616855c42b6d675d610899db23e8a" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>Log</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a672c2c9e8ac5bc729209c9025ff04eff" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>TemporaryPluginGUIDs</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a8049c04f98909d07d4d8454014277c55" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>UnloadTemps</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a1efc8614cc3b9062940a66a1e49b3fb3" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>VERSION</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader_1a0661ae41ffee13bdbe10caf375f4d436" prot="public" virt="non-virtual"><scope>BepInEx::Hacknet::HacknetChainloader</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

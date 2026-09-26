@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_util" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Util</compoundname>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_assembly_associated_list" prot="public">Pathfinder::Util::AssemblyAssociatedList</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_cached_custom_theme" prot="public">Pathfinder::Util::CachedCustomTheme</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_computer_lookup" prot="public">Pathfinder::Util::ComputerLookup</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_dictionary_extensions" prot="public">Pathfinder::Util::DictionaryExtensions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_enumerable_extensions" prot="public">Pathfinder::Util::EnumerableExtensions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_error_helper" prot="public">Pathfinder::Util::ErrorHelper</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict" prot="public">Pathfinder::Util::FixedSizeCacheDict</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_initialize_attribute" prot="package">Pathfinder::Util::InitializeAttribute</innerclass>
+    <innerclass refid="interface_pathfinder_1_1_util_1_1_i_xml_name" prot="public">Pathfinder::Util::IXmlName</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node" prot="public">Pathfinder::Util::LRUCacheLinkedListNode</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_string_extensions" prot="public">Pathfinder::Util::StringExtensions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute" prot="public">Pathfinder::Util::XMLStorageAttribute</innerclass>
+    <innernamespace refid="namespace_pathfinder_1_1_util_1_1_x_m_l">Pathfinder::Util::XML</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_pathfinder_1_1_util_1a5b40596d341233cc15e1d6301f84e9d5" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>SearchType</name>
+        <qualifiedname>Pathfinder.Util.SearchType</qualifiedname>
+        <enumvalue id="namespace_pathfinder_1_1_util_1a5b40596d341233cc15e1d6301f84e9d5a490aa6e856ccf208a054389e47ce0d06" prot="public">
+          <name>Id</name>
+          <initializer>= 0b001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_util_1a5b40596d341233cc15e1d6301f84e9d5af396ae69aa223c04dff639b3649ba1dd" prot="public">
+          <name>Ip</name>
+          <initializer>= 0b010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_util_1a5b40596d341233cc15e1d6301f84e9d5a49ee3087348e8d44e1feda1917443987" prot="public">
+          <name>Name</name>
+          <initializer>= 0b100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_util_1a5b40596d341233cc15e1d6301f84e9d5aed36a1ef76a59ee3f15180e0441188ad" prot="public">
+          <name>Any</name>
+          <initializer>= 0b111</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/ComputerLookup.cs" line="6" column="7" bodyfile="PathfinderAPI/Util/ComputerLookup.cs" bodystart="7" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/AssemblyAssociatedList.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

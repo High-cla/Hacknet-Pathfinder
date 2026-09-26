@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event" prot="public" virt="non-virtual">Pathfinder.Event.Menu.MainMenuEvent</basecompoundref>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1_1_title_data" prot="public">Pathfinder::Event::Menu::DrawMainMenuTitlesEvent::TitleData</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1ae4cc2e57a56ab31536af1e7a7a797540" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1_1_title_data" kindref="compound">TitleData</ref></type>
+        <definition>TitleData Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.Main</definition>
+        <argsstring></argsstring>
+        <name>Main</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.Main</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" line="18" column="22" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1a6a4543c7911cf30d9dc433968090b6cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1_1_title_data" kindref="compound">TitleData</ref></type>
+        <definition>TitleData Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.Sub</definition>
+        <argsstring></argsstring>
+        <name>Sub</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.Sub</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" line="19" column="22" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1a8364d27a969fb7553d1bbfa561f2c7e2" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.defaultTitleColor</definition>
+        <argsstring></argsstring>
+        <name>defaultTitleColor</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.defaultTitleColor</qualifiedname>
+        <initializer>= new Color(190, 190, 190, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" line="21" column="18" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1a83a0ab1c439d7c9bdc0aba0489e3c68a" prot="private" static="yes" mutable="no">
+        <type>SpriteFont</type>
+        <definition>SpriteFont Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.defaultTitleFont</definition>
+        <argsstring></argsstring>
+        <name>defaultTitleFont</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.defaultTitleFont</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" line="22" column="23" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1ad015a917c90a7244dbadbea257528d94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.DrawMainMenuTitlesEvent</definition>
+        <argsstring>(MainMenu menu, TitleData main, TitleData sub)</argsstring>
+        <name>DrawMainMenuTitlesEvent</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.DrawMainMenuTitlesEvent</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1aedef0c5fa6ff3d39495c831f8310d4b1" kindref="member">MainMenu</ref></type>
+          <declname>menu</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1_1_title_data" kindref="compound">TitleData</ref></type>
+          <declname>main</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1_1_title_data" kindref="compound">TitleData</ref></type>
+          <declname>sub</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" line="16" column="12" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1ab14aade124172b378e1ad990b83effe3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.EmitDelegate</definition>
+        <argsstring>(MainMenu menu, ref Rectangle rect)</argsstring>
+        <name>EmitDelegate</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.EmitDelegate</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1aedef0c5fa6ff3d39495c831f8310d4b1" kindref="member">MainMenu</ref></type>
+          <declname>menu</declname>
+        </param>
+        <param>
+          <type>ref Rectangle</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" line="24" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1ae3ff09aab897d33ee70d582e02c8a9ae" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.onDrawMainMenuTitlesIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>onDrawMainMenuTitlesIL</name>
+        <qualifiedname>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent.onDrawMainMenuTitlesIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" line="28" column="25" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" bodystart="28" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MainMenuEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MainMenuEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Event.Menu.DrawMainMenuTitlesEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" line="14" column="7" bodyfile="PathfinderAPI/Event/Menu/DrawMainMenuTitlesEvent.cs" bodystart="15" bodyend="105"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1a8364d27a969fb7553d1bbfa561f2c7e2" prot="private" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>defaultTitleColor</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1a83a0ab1c439d7c9bdc0aba0489e3c68a" prot="private" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>defaultTitleFont</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1ad015a917c90a7244dbadbea257528d94" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>DrawMainMenuTitlesEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1ab14aade124172b378e1ad990b83effe3" prot="private" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>EmitDelegate</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1ae4cc2e57a56ab31536af1e7a7a797540" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>Main</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1aedef0c5fa6ff3d39495c831f8310d4b1" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>MainMenu</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event_1a95d54f59bc389fe1dc4885f03a1cdc53" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>MainMenuEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1ae3ff09aab897d33ee70d582e02c8a9ae" prot="private" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>onDrawMainMenuTitlesIL</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1a6a4543c7911cf30d9dc433968090b6cf" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>Sub</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Menu::DrawMainMenuTitlesEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

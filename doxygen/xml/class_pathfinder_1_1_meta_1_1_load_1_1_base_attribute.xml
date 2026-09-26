@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Meta::Load::BaseAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_action_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.ActionAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_administrator_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.AdministratorAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.CommandAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_computer_executor_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.ComputerExecutorAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.ConditionAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.DaemonAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_event_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.EventAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_executable_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.ExecutableAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_goal_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.GoalAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_mission_executor_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.MissionExecutorAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_option_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.OptionAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.OptionsTabAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_port_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.PortAttribute</derivedcompoundref>
+    <derivedcompoundref refid="class_pathfinder_1_1_meta_1_1_load_1_1_save_executor_attribute" prot="public" virt="non-virtual">Pathfinder.Meta.Load.SaveExecutorAttribute</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute_1ae73104df3669857154c6568199b46ffc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Meta.Load.BaseAttribute.CallOn</definition>
+        <argsstring>(HacknetPlugin plugin, MemberInfo targettedInfo)</argsstring>
+        <name>CallOn</name>
+        <qualifiedname>Pathfinder.Meta.Load.BaseAttribute.CallOn</qualifiedname>
+        <param>
+          <type><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>targettedInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/BaseAttribute.cs" line="8" column="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute_1aa664b7e6caa44645ea2dce2999066d75" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Meta.Load.BaseAttribute.ThrowOnInvalidOperation</definition>
+        <argsstring>(bool evaluation, string message)</argsstring>
+        <name>ThrowOnInvalidOperation</name>
+        <qualifiedname>Pathfinder.Meta.Load.BaseAttribute.ThrowOnInvalidOperation</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>evaluation</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/BaseAttribute.cs" line="10" column="19" bodyfile="PathfinderAPI/Meta/Load/BaseAttribute.cs" bodystart="10" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Pathfinder.Meta.Load.ActionAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_action_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Pathfinder.Meta.Load.AdministratorAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_administrator_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Pathfinder.Meta.Load.CommandAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Pathfinder.Meta.Load.ComputerExecutorAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_computer_executor_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Pathfinder.Meta.Load.ConditionAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Pathfinder.Meta.Load.DaemonAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Pathfinder.Meta.Load.EventAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_event_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Pathfinder.Meta.Load.ExecutableAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_executable_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Pathfinder.Meta.Load.ExtensionInfoExecutorAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Pathfinder.Meta.Load.GoalAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_goal_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Pathfinder.Meta.Load.MissionExecutorAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_mission_executor_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Pathfinder.Meta.Load.OptionAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_option_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Pathfinder.Meta.Load.OptionsTabAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Pathfinder.Meta.Load.PortAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_port_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>Pathfinder.Meta.Load.SaveExecutorAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_save_executor_attribute"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.Load.BaseAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Meta/Load/BaseAttribute.cs" line="6" column="17" bodyfile="PathfinderAPI/Meta/Load/BaseAttribute.cs" bodystart="7" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute_1ae73104df3669857154c6568199b46ffc" prot="protected" virt="non-virtual"><scope>Pathfinder::Meta::Load::BaseAttribute</scope><name>CallOn</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute_1aa664b7e6caa44645ea2dce2999066d75" prot="package" virt="non-virtual"><scope>Pathfinder::Meta::Load::BaseAttribute</scope><name>ThrowOnInvalidOperation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

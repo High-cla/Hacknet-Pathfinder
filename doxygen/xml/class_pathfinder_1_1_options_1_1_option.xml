@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_options_1_1_option" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Options::Option</compoundname>
+    <derivedcompoundref refid="class_pathfinder_1_1_options_1_1_option_checkbox" prot="public" virt="non-virtual">Pathfinder.Options.OptionCheckbox</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_option_1a8a5ffb8bf834dd1f0856a1ba8c91ffad" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Options.Option.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>Pathfinder.Options.Option.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="9" column="19" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_option_1acca60cb3b298497f63701ec03dad1f41" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Options.Option.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>Pathfinder.Options.Option.Description</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="10" column="19" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_option_1a7a62d0d1464f75be3741166dc45f7d4e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Options.Option.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <qualifiedname>Pathfinder.Options.Option.Enabled</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="11" column="17" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_options_1_1_option_1a303f026b522418d1039693f494d88e1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>virtual int Pathfinder.Options.Option.SizeX</definition>
+        <argsstring></argsstring>
+        <name>SizeX</name>
+        <qualifiedname>Pathfinder.Options.Option.SizeX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="13" column="24" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_options_1_1_option_1ad765ab890d8b88e950309a1f3fc1e473" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>virtual int Pathfinder.Options.Option.SizeY</definition>
+        <argsstring></argsstring>
+        <name>SizeY</name>
+        <qualifiedname>Pathfinder.Options.Option.SizeY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="14" column="24" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_option_1a4159a9736da1f434a149ba22352f4783" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Options.Option.Option</definition>
+        <argsstring>(string name, string description=&quot;&quot;)</argsstring>
+        <name>Option</name>
+        <qualifiedname>Pathfinder.Options.Option.Option</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="16" column="12" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_option_1ab943e1f0393702de3126235d4b3799e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Options.Option.Draw</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Draw</name>
+        <qualifiedname>Pathfinder.Options.Option.Draw</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/Options.cs" line="22" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Options.Option</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option"/>
+      </node>
+      <node id="2">
+        <label>Pathfinder.Options.OptionCheckbox</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option_checkbox"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="PathfinderAPI/Options/Options.cs" line="7" column="17" bodyfile="PathfinderAPI/Options/Options.cs" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1acca60cb3b298497f63701ec03dad1f41" prot="public" virt="non-virtual"><scope>Pathfinder::Options::Option</scope><name>Description</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1ab943e1f0393702de3126235d4b3799e7" prot="public" virt="non-virtual"><scope>Pathfinder::Options::Option</scope><name>Draw</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1a7a62d0d1464f75be3741166dc45f7d4e" prot="public" virt="non-virtual"><scope>Pathfinder::Options::Option</scope><name>Enabled</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1a8a5ffb8bf834dd1f0856a1ba8c91ffad" prot="public" virt="non-virtual"><scope>Pathfinder::Options::Option</scope><name>Name</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1a4159a9736da1f434a149ba22352f4783" prot="public" virt="non-virtual"><scope>Pathfinder::Options::Option</scope><name>Option</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1a303f026b522418d1039693f494d88e1d" prot="public" virt="non-virtual"><scope>Pathfinder::Options::Option</scope><name>SizeX</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_option_1ad765ab890d8b88e950309a1f3fc1e473" prot="public" virt="non-virtual"><scope>Pathfinder::Options::Option</scope><name>SizeY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

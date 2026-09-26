@@ -1,0 +1,683 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_updater_1_1_updater" kind="class" language="C#" prot="public">
+    <compoundname>PathfinderUpdater::Updater</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_updater_1ab909724316902c9d5ee520ea5a6ca867" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, HttpResponseMessage &gt;</type>
+        <definition>Dictionary&lt;string, HttpResponseMessage&gt; PathfinderUpdater.Updater.UrlToResponseCache</definition>
+        <argsstring></argsstring>
+        <name>UrlToResponseCache</name>
+        <qualifiedname>PathfinderUpdater.Updater.UrlToResponseCache</qualifiedname>
+        <initializer>= new Dictionary&lt;string, HttpResponseMessage&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="16" column="31" bodyfile="PathfinderUpdater/Updater.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a0f00ed96ef32c6ce194e9cad0ea5e04b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>Type</type>
+        <definition>Type PathfinderUpdater.Updater.PluginType</definition>
+        <argsstring></argsstring>
+        <name>PluginType</name>
+        <qualifiedname>PathfinderUpdater.Updater.PluginType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="19" column="17" bodyfile="PathfinderUpdater/Updater.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a536e68f91189bb3bac7271051a9773a7" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_pathfinder_updater_1_1_updater_1a4279671201077432cb329884759d99ba" kindref="member">FindVersionAction</ref></type>
+        <definition>FindVersionAction PathfinderUpdater.Updater.FindVersion</definition>
+        <argsstring></argsstring>
+        <name>FindVersion</name>
+        <qualifiedname>PathfinderUpdater.Updater.FindVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="29" column="30" bodyfile="PathfinderUpdater/Updater.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a4e51130acb9d5625fc691de5fe48d8ef" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_pathfinder_updater_1_1_updater_1a597ee82805fded845300a2a2d59a41ae" kindref="member">GetUpdateStreamAction</ref></type>
+        <definition>GetUpdateStreamAction PathfinderUpdater.Updater.GetUpdateStream</definition>
+        <argsstring></argsstring>
+        <name>GetUpdateStream</name>
+        <qualifiedname>PathfinderUpdater.Updater.GetUpdateStream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="33" column="34" bodyfile="PathfinderUpdater/Updater.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a945baf19ba125718a52c65a7487a467c" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_pathfinder_updater_1_1_updater_1af820b90fb1361aa75326caf455304dc7" kindref="member">HandleStreamDownloadAction</ref></type>
+        <definition>HandleStreamDownloadAction PathfinderUpdater.Updater.HandleStreamDownload</definition>
+        <argsstring></argsstring>
+        <name>HandleStreamDownload</name>
+        <qualifiedname>PathfinderUpdater.Updater.HandleStreamDownload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="37" column="39" bodyfile="PathfinderUpdater/Updater.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a15e8b40c3d94ee84c78eba87d23a3a96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PathfinderUpdater.Updater.GithubApiUrl</definition>
+        <argsstring></argsstring>
+        <name>GithubApiUrl</name>
+        <qualifiedname>PathfinderUpdater.Updater.GithubApiUrl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="39" column="19" bodyfile="PathfinderUpdater/Updater.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a00778818262c65a980b99adaa8d09958" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PathfinderUpdater.Updater.AssetFileName</definition>
+        <argsstring></argsstring>
+        <name>AssetFileName</name>
+        <qualifiedname>PathfinderUpdater.Updater.AssetFileName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="40" column="19" bodyfile="PathfinderUpdater/Updater.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1aae63f5fdeea307d1e89504fe78dabbb9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PathfinderUpdater.Updater.ZipEntryPath</definition>
+        <argsstring></argsstring>
+        <name>ZipEntryPath</name>
+        <qualifiedname>PathfinderUpdater.Updater.ZipEntryPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="41" column="19" bodyfile="PathfinderUpdater/Updater.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1af1156d140014f8f65e031df51b527ebb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool PathfinderUpdater.Updater.IncludePrerelease</definition>
+        <argsstring></argsstring>
+        <name>IncludePrerelease</name>
+        <qualifiedname>PathfinderUpdater.Updater.IncludePrerelease</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="42" column="17" bodyfile="PathfinderUpdater/Updater.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a99372abd010d402ae093347c7e53cc78" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PathfinderUpdater.Updater.CurrentVersion</definition>
+        <argsstring></argsstring>
+        <name>CurrentVersion</name>
+        <qualifiedname>PathfinderUpdater.Updater.CurrentVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="45" column="19" bodyfile="PathfinderUpdater/Updater.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a58452097da4d7d0b698414ebe9639efe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="_hacknet_chainloader_8cs_1af64f7464b73095031bb06f582f1bb40d" kindref="member">Version</ref></type>
+        <definition>Version PathfinderUpdater.Updater.LatestVersion</definition>
+        <argsstring></argsstring>
+        <name>LatestVersion</name>
+        <qualifiedname>PathfinderUpdater.Updater.LatestVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="46" column="20" bodyfile="PathfinderUpdater/Updater.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a28303a69b629cd93e2f0388f95c26b4a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string PathfinderUpdater.Updater.PathToUpdate</definition>
+        <argsstring></argsstring>
+        <name>PathToUpdate</name>
+        <qualifiedname>PathfinderUpdater.Updater.PathToUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="47" column="19" bodyfile="PathfinderUpdater/Updater.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a652ccfea519f757a456db58e45d303e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string PathfinderUpdater.Updater.DownloadedTempPath</definition>
+        <argsstring></argsstring>
+        <name>DownloadedTempPath</name>
+        <qualifiedname>PathfinderUpdater.Updater.DownloadedTempPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="48" column="19" bodyfile="PathfinderUpdater/Updater.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_updater_1_1_updater_1a926deebbb832a4f7571724951dc4a78f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ManualLogSource</type>
+        <definition>ManualLogSource PathfinderUpdater.Updater.Log</definition>
+        <argsstring></argsstring>
+        <name>Log</name>
+        <qualifiedname>PathfinderUpdater.Updater.Log</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="50" column="28" bodyfile="PathfinderUpdater/Updater.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_updater_1af4cf64694764029719d11130e065b370" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pathfinder_updater_1_1_updater_1a4279671201077432cb329884759d99ba" kindref="member">FindVersionAction</ref></type>
+        <definition>FindVersionAction PathfinderUpdater.Updater._FindVersion</definition>
+        <argsstring></argsstring>
+        <name>_FindVersion</name>
+        <qualifiedname>PathfinderUpdater.Updater._FindVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="28" column="31" bodyfile="PathfinderUpdater/Updater.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_updater_1a4ed061affd201dfc417ef0e3ddfd00d5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pathfinder_updater_1_1_updater_1a597ee82805fded845300a2a2d59a41ae" kindref="member">GetUpdateStreamAction</ref></type>
+        <definition>GetUpdateStreamAction PathfinderUpdater.Updater._GetUpdateStream</definition>
+        <argsstring></argsstring>
+        <name>_GetUpdateStream</name>
+        <qualifiedname>PathfinderUpdater.Updater._GetUpdateStream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="32" column="35" bodyfile="PathfinderUpdater/Updater.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_updater_1acc5e4c09e75f715e34306403ad29b679" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pathfinder_updater_1_1_updater_1af820b90fb1361aa75326caf455304dc7" kindref="member">HandleStreamDownloadAction</ref></type>
+        <definition>HandleStreamDownloadAction PathfinderUpdater.Updater._HandleStreamDownload</definition>
+        <argsstring></argsstring>
+        <name>_HandleStreamDownload</name>
+        <qualifiedname>PathfinderUpdater.Updater._HandleStreamDownload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="36" column="40" bodyfile="PathfinderUpdater/Updater.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_updater_1_1_updater_1aabcf765a15c027e1cee8b5a7011b8126" prot="private" static="no" mutable="no">
+        <type>JToken</type>
+        <definition>JToken PathfinderUpdater.Updater._ReleaseData</definition>
+        <argsstring></argsstring>
+        <name>_ReleaseData</name>
+        <qualifiedname>PathfinderUpdater.Updater._ReleaseData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="43" column="20" bodyfile="PathfinderUpdater/Updater.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1ac2e05f55ca369bd140f77e2e02cab9c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pathfinder_updater_1_1_updater" kindref="compound">Updater</ref></type>
+        <definition>static Updater PathfinderUpdater.Updater.Create&lt; PluginT &gt;</definition>
+        <argsstring>(string githubApiUrl, string assetFile, string zipPath, bool includePrereleases=false)</argsstring>
+        <name>Create&lt; PluginT &gt;</name>
+        <qualifiedname>PathfinderUpdater.Updater.Create&lt; PluginT &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>githubApiUrl</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>assetFile</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>zipPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includePrereleases</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="21" column="19" bodyfile="PathfinderUpdater/Updater.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a0e2983bc9965902f5d8cd320831ae5db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool PathfinderUpdater.Updater.TryCreate</definition>
+        <argsstring>(Type pluginType, out Updater updater, bool canSupportUpdaterData=false)</argsstring>
+        <name>TryCreate</name>
+        <qualifiedname>PathfinderUpdater.Updater.TryCreate</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>pluginType</declname>
+        </param>
+        <param>
+          <type>out <ref refid="class_pathfinder_updater_1_1_updater" kindref="compound">Updater</ref></type>
+          <declname>updater</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>canSupportUpdaterData</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="93" column="24" bodyfile="PathfinderUpdater/Updater.cs" bodystart="93" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a618f8aa986f22ac67dc74177d42e74ca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PathfinderUpdater.Updater.ForceResetAllReleaseData</definition>
+        <argsstring>()</argsstring>
+        <name>ForceResetAllReleaseData</name>
+        <qualifiedname>PathfinderUpdater.Updater.ForceResetAllReleaseData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="279" column="24" bodyfile="PathfinderUpdater/Updater.cs" bodystart="279" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a14029c575d90e84297303e80191e2627" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>static async Task PathfinderUpdater.Updater.ForceResetAllReleaseDataAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ForceResetAllReleaseDataAsync</name>
+        <qualifiedname>PathfinderUpdater.Updater.ForceResetAllReleaseDataAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="284" column="30" bodyfile="PathfinderUpdater/Updater.cs" bodystart="284" bodyend="293"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a4279671201077432cb329884759d99ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate Task&lt; <ref refid="_hacknet_chainloader_8cs_1af64f7464b73095031bb06f582f1bb40d" kindref="member">Version</ref> &gt;</type>
+        <definition>delegate Task&lt; Version &gt; PathfinderUpdater.Updater.FindVersionAction</definition>
+        <argsstring>()</argsstring>
+        <name>FindVersionAction</name>
+        <qualifiedname>PathfinderUpdater.Updater.FindVersionAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="27" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a597ee82805fded845300a2a2d59a41ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate Task&lt; Stream &gt;</type>
+        <definition>delegate Task&lt; Stream &gt; PathfinderUpdater.Updater.GetUpdateStreamAction</definition>
+        <argsstring>(Version latest)</argsstring>
+        <name>GetUpdateStreamAction</name>
+        <qualifiedname>PathfinderUpdater.Updater.GetUpdateStreamAction</qualifiedname>
+        <param>
+          <type><ref refid="_hacknet_chainloader_8cs_1af64f7464b73095031bb06f582f1bb40d" kindref="member">Version</ref></type>
+          <declname>latest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="31" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1af820b90fb1361aa75326caf455304dc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate Task&lt; string &gt;</type>
+        <definition>delegate Task&lt; string &gt; PathfinderUpdater.Updater.HandleStreamDownloadAction</definition>
+        <argsstring>(Stream stream)</argsstring>
+        <name>HandleStreamDownloadAction</name>
+        <qualifiedname>PathfinderUpdater.Updater.HandleStreamDownloadAction</qualifiedname>
+        <param>
+          <type>Stream</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="35" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a623bd463eb1ef1d3a145a5e884eb752f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PathfinderUpdater.Updater.Updater</definition>
+        <argsstring>(Type pluginType, FindVersionAction findVersion, GetUpdateStreamAction getUpdateStream=null, HandleStreamDownloadAction handeStreamDownload=null)</argsstring>
+        <name>Updater</name>
+        <qualifiedname>PathfinderUpdater.Updater.Updater</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>pluginType</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_updater_1_1_updater_1a4279671201077432cb329884759d99ba" kindref="member">FindVersionAction</ref></type>
+          <declname>findVersion</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_updater_1_1_updater_1a597ee82805fded845300a2a2d59a41ae" kindref="member">GetUpdateStreamAction</ref></type>
+          <declname>getUpdateStream</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_updater_1_1_updater_1af820b90fb1361aa75326caf455304dc7" kindref="member">HandleStreamDownloadAction</ref></type>
+          <declname>handeStreamDownload</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="52" column="12" bodyfile="PathfinderUpdater/Updater.cs" bodystart="52" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a01499df968fedcb1b7e765a961644b9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PathfinderUpdater.Updater.Updater</definition>
+        <argsstring>(Type pluginType, string githubApiUrl, string assetFileName, string zipEntryPath, bool includePrerelease=false)</argsstring>
+        <name>Updater</name>
+        <qualifiedname>PathfinderUpdater.Updater.Updater</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>pluginType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>githubApiUrl</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>assetFileName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>zipEntryPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includePrerelease</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="68" column="12" bodyfile="PathfinderUpdater/Updater.cs" bodystart="68" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a5ab21d106647340ce33e1b9bfc1c0872" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PathfinderUpdater.Updater.Updater</definition>
+        <argsstring>(Type pluginType)</argsstring>
+        <name>Updater</name>
+        <qualifiedname>PathfinderUpdater.Updater.Updater</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>pluginType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="81" column="12" bodyfile="PathfinderUpdater/Updater.cs" bodystart="81" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a0d45349f38e3f3be66a6bece560537b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt; bool &gt; PathfinderUpdater.Updater.CheckForUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>CheckForUpdate</name>
+        <qualifiedname>PathfinderUpdater.Updater.CheckForUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="145" column="23" bodyfile="PathfinderUpdater/Updater.cs" bodystart="145" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a5f3e7170106cf9754726715adea0752f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task PathfinderUpdater.Updater.PerformDownload</definition>
+        <argsstring>()</argsstring>
+        <name>PerformDownload</name>
+        <qualifiedname>PathfinderUpdater.Updater.PerformDownload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="166" column="23" bodyfile="PathfinderUpdater/Updater.cs" bodystart="166" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a6947a246ea89caab220e9f2b5f14aeea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PathfinderUpdater.Updater.PerformUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>PerformUpdate</name>
+        <qualifiedname>PathfinderUpdater.Updater.PerformUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="179" column="17" bodyfile="PathfinderUpdater/Updater.cs" bodystart="179" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a8397320d0287c82f6f729b904c0ea7ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PathfinderUpdater.Updater.TryDeleteDownloadedTempFile</definition>
+        <argsstring>()</argsstring>
+        <name>TryDeleteDownloadedTempFile</name>
+        <qualifiedname>PathfinderUpdater.Updater.TryDeleteDownloadedTempFile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="187" column="17" bodyfile="PathfinderUpdater/Updater.cs" bodystart="187" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a8354df69a8a5d854127abca44fb3e5a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PathfinderUpdater.Updater.TryDeleteDllTempFile</definition>
+        <argsstring>()</argsstring>
+        <name>TryDeleteDllTempFile</name>
+        <qualifiedname>PathfinderUpdater.Updater.TryDeleteDllTempFile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="195" column="17" bodyfile="PathfinderUpdater/Updater.cs" bodystart="195" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a671a228b303ae94959655140494e1e91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage PathfinderUpdater.Updater.ForceResetReleaseData</definition>
+        <argsstring>()</argsstring>
+        <name>ForceResetReleaseData</name>
+        <qualifiedname>PathfinderUpdater.Updater.ForceResetReleaseData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="203" column="32" bodyfile="PathfinderUpdater/Updater.cs" bodystart="203" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1a816a46b76ffa2fce28ebf1387bc5aff2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; HttpResponseMessage &gt;</type>
+        <definition>async Task&lt; HttpResponseMessage &gt; PathfinderUpdater.Updater.ForceResetReleaseDataAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ForceResetReleaseDataAsync</name>
+        <qualifiedname>PathfinderUpdater.Updater.ForceResetReleaseDataAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="210" column="23" bodyfile="PathfinderUpdater/Updater.cs" bodystart="210" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1ab4215819066d7ec307e95d397f29792f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="_hacknet_chainloader_8cs_1af64f7464b73095031bb06f582f1bb40d" kindref="member">Version</ref> &gt;</type>
+        <definition>async Task&lt; Version &gt; PathfinderUpdater.Updater.FindVersionDefault</definition>
+        <argsstring>()</argsstring>
+        <name>FindVersionDefault</name>
+        <qualifiedname>PathfinderUpdater.Updater.FindVersionDefault</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="219" column="23" bodyfile="PathfinderUpdater/Updater.cs" bodystart="219" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1ac7d9d8e5182936e341fb6776e6d0727d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Stream &gt;</type>
+        <definition>async Task&lt; Stream &gt; PathfinderUpdater.Updater.GetUpdateStreamDefault</definition>
+        <argsstring>(Version latest)</argsstring>
+        <name>GetUpdateStreamDefault</name>
+        <qualifiedname>PathfinderUpdater.Updater.GetUpdateStreamDefault</qualifiedname>
+        <param>
+          <type><ref refid="_hacknet_chainloader_8cs_1af64f7464b73095031bb06f582f1bb40d" kindref="member">Version</ref></type>
+          <declname>latest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="251" column="23" bodyfile="PathfinderUpdater/Updater.cs" bodystart="251" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_updater_1_1_updater_1ab3ba0501898b8d283d7e61aff492e13d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; string &gt;</type>
+        <definition>async Task&lt; string &gt; PathfinderUpdater.Updater.HandleStreamDownloadDefault</definition>
+        <argsstring>(Stream stream)</argsstring>
+        <name>HandleStreamDownloadDefault</name>
+        <qualifiedname>PathfinderUpdater.Updater.HandleStreamDownloadDefault</qualifiedname>
+        <param>
+          <type>Stream</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderUpdater/Updater.cs" line="265" column="23" bodyfile="PathfinderUpdater/Updater.cs" bodystart="265" bodyend="277"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderUpdater/Updater.cs" line="14" column="7" bodyfile="PathfinderUpdater/Updater.cs" bodystart="15" bodyend="294"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_updater_1_1_updater_1af4cf64694764029719d11130e065b370" prot="private" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>_FindVersion</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a4ed061affd201dfc417ef0e3ddfd00d5" prot="private" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>_GetUpdateStream</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1acc5e4c09e75f715e34306403ad29b679" prot="private" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>_HandleStreamDownload</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1aabcf765a15c027e1cee8b5a7011b8126" prot="private" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>_ReleaseData</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a00778818262c65a980b99adaa8d09958" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>AssetFileName</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a0d45349f38e3f3be66a6bece560537b9" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>CheckForUpdate</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1ac2e05f55ca369bd140f77e2e02cab9c9" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>Create&lt; PluginT &gt;</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a99372abd010d402ae093347c7e53cc78" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>CurrentVersion</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a652ccfea519f757a456db58e45d303e6" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>DownloadedTempPath</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a536e68f91189bb3bac7271051a9773a7" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>FindVersion</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a4279671201077432cb329884759d99ba" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>FindVersionAction</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1ab4215819066d7ec307e95d397f29792f" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>FindVersionDefault</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a618f8aa986f22ac67dc74177d42e74ca" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>ForceResetAllReleaseData</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a14029c575d90e84297303e80191e2627" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>ForceResetAllReleaseDataAsync</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a671a228b303ae94959655140494e1e91" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>ForceResetReleaseData</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a816a46b76ffa2fce28ebf1387bc5aff2" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>ForceResetReleaseDataAsync</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a4e51130acb9d5625fc691de5fe48d8ef" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>GetUpdateStream</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a597ee82805fded845300a2a2d59a41ae" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>GetUpdateStreamAction</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1ac7d9d8e5182936e341fb6776e6d0727d" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>GetUpdateStreamDefault</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a15e8b40c3d94ee84c78eba87d23a3a96" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>GithubApiUrl</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a945baf19ba125718a52c65a7487a467c" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>HandleStreamDownload</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1af820b90fb1361aa75326caf455304dc7" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>HandleStreamDownloadAction</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1ab3ba0501898b8d283d7e61aff492e13d" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>HandleStreamDownloadDefault</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1af1156d140014f8f65e031df51b527ebb" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>IncludePrerelease</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a58452097da4d7d0b698414ebe9639efe" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>LatestVersion</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a926deebbb832a4f7571724951dc4a78f" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>Log</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a28303a69b629cd93e2f0388f95c26b4a" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>PathToUpdate</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a5f3e7170106cf9754726715adea0752f" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>PerformDownload</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a6947a246ea89caab220e9f2b5f14aeea" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>PerformUpdate</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a0f00ed96ef32c6ce194e9cad0ea5e04b" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>PluginType</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a0e2983bc9965902f5d8cd320831ae5db" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>TryCreate</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a8354df69a8a5d854127abca44fb3e5a6" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>TryDeleteDllTempFile</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a8397320d0287c82f6f729b904c0ea7ff" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>TryDeleteDownloadedTempFile</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a623bd463eb1ef1d3a145a5e884eb752f" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>Updater</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a01499df968fedcb1b7e765a961644b9c" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>Updater</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1a5ab21d106647340ce33e1b9bfc1c0872" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>Updater</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1ab909724316902c9d5ee520ea5a6ca867" prot="private" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>UrlToResponseCache</name></member>
+      <member refid="class_pathfinder_updater_1_1_updater_1aae63f5fdeea307d1e89504fe78dabbb9" prot="public" virt="non-virtual"><scope>PathfinderUpdater::Updater</scope><name>ZipEntryPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

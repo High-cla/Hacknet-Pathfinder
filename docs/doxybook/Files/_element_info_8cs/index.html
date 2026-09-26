@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_element_info_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Util/XML/ElementInfo.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Util/XML/ElementInfo.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_element_info_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_element_info_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Util/XML/ElementInfo.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapiutilxmlelementinfocs">PathfinderAPI/Util/XML/ElementInfo.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_util/">Pathfinder::Util</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_util_1_1_x_m_l/">Pathfinder::Util::XML</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_system_1_1_collections_1_1_generic/">System::Collections::Generic</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_system_1_1_linq/">System::Linq</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">Pathfinder::Util::XML::ElementInfo</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions/">Pathfinder::Util::XML::ElementInfoStringExtensions</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_list_extensions/">Pathfinder::Util::XML::ElementInfoListExtensions</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_list_extensions/">Pathfinder::Util::XML::ListExtensions</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions/">Pathfinder::Util::XML::ElementInfoDictionaryExtensions</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Xml;
+using System.Xml.Linq;
+
+namespace Pathfinder.Util.XML;
+
+public class ElementInfo
+{
+    private static ulong freeId = 0;
+
+    public string Name { get; set; }
+    public string Content {
+        get;
+        set;
+    } = null;
+    public ElementInfo Parent { get; set; }
+    public Dictionary&lt;string, string&gt; Attributes { get; set; } = new Dictionary&lt;string, string&gt;();
+    public List&lt;ElementInfo&gt; Children { get; set; } = new List&lt;ElementInfo&gt;();
+    public ulong NodeID { get; } = freeId++;
+    public XmlNodeType Type { get; set; }
+    public bool IsText =&gt; Type == XmlNodeType.Text;
+
+    public ElementInfo() { Type = XmlNodeType.Element; }
+
+    public ElementInfo(string name, string content = null, Dictionary&lt;string, string&gt; attributes = null, List&lt;ElementInfo&gt; children = null, ElementInfo parent = null)
+        : this()
+    {
+        Name = name;
+        if(content != null) Content = content;
+        Attributes = attributes ?? new Dictionary&lt;string, string&gt;();
+        Children = children ?? new List&lt;ElementInfo&gt;();
+        Parent = parent;
+    }
+
+    public override string ToString()
+    {
+        var builder = new StringBuilder();
+        var settings = new XmlWriterSettings
+        {
+            Indent = true
+        };
+        using (var writer = XmlWriter.Create(builder, settings))
+        {
+            WriteToXML(writer);
+        }
+        return builder.Replace(&quot;\t&quot;, &quot;  &quot;).ToString();
+    }
+
+    public bool TryContentAsBoolean(out bool result)
+        =&gt; Content.TryAsBoolean(out result);
+
+    public bool TryContentAsInt(out int result)
+        =&gt; Content.TryAsInt(out result);
+
+    public bool TryContentAsFloat(out float result)
+        =&gt; Content.TryAsFloat(out result);
+
+    public bool GetContentAsBoolean(bool defaultVal = default)
+        =&gt; TryContentAsBoolean(out var result) ? result : defaultVal;
+
+    public int GetContentAsInt(int defaultVal = default)
+        =&gt; TryContentAsInt(out var result) ? result : defaultVal;
+
+    public float GetContentAsFloat(float defaultVal = default)
+        =&gt; TryContentAsFloat(out var result) ? result : defaultVal;
+
+    public bool ContentAsBoolean()
+        =&gt; Content.AsBoolean(nameof(Content));
+
+    public int ContentAsInt()
+        =&gt; Content.AsInt(nameof(Content));
+
+    public float ContentAsFloat()
+        =&gt; Content.AsFloat(nameof(Content));
+
+    public bool TryAttributeAsBoolean(string attribName, out bool result)
+        =&gt; Attributes.TryAsBoolean(attribName, out result);
+
+    public bool TryAttributeAsInt(string attribName, out int result)
+        =&gt; Attributes.TryAsInt(attribName, out result);
+
+    public bool TryAttributeAsFloat(string attribName, out float result)
+        =&gt; Attributes.TryAsFloat(attribName, out result);
+
+    public bool GetAttributeAsBoolean(string attribName, bool defaultVal = default)
+        =&gt; TryAttributeAsBoolean(attribName, out var result) ? result : defaultVal;
+
+    public int GetAttributeAsInt(string attribName, int defaultVal = default)
+        =&gt; TryAttributeAsInt(attribName, out var result) ? result : defaultVal;
+
+    public float GetAttributeAsFloat(string attribName, float defaultVal = default)
+        =&gt; TryAttributeAsFloat(attribName, out var result) ? result : defaultVal;
+
+    public bool AttributeAsBoolean(string attribName)
+        =&gt; Attributes.AsBoolean(attribName, $&quot;{nameof(Attributes)}&quot;);
+
+    public int AttributeAsInt(string attribName)
+        =&gt; Attributes.AsInt(attribName, $&quot;{nameof(Attributes)}&quot;);
+
+    public float AttributeAsFloat(string attribName)
+        =&gt; Attributes.AsFloat(attribName, $&quot;{nameof(Attributes)}&quot;);
+
+    public bool TryAddChild(ElementInfo info)
+    {
+        if(Children == null) return false;
+        if(info.Parent != null)
+            info.Parent.Children.Remove(info);
+        Children.Add(info);
+        info.Parent = this;
+        return Children.Last() == info;
+    }
+
+    public bool TrySetParent(ElementInfo info)
+    {
+        return info.TryAddChild(this);
+    }
+
+    public bool TrySetAttribute(string key, string value)
+    {
+        if(Attributes == null) return false;
+        Attributes[key] = value;
+        return Attributes[key] == value;
+    }
+
+    public bool TryGetAttribute(string key, ref string value)
+    {
+        if(!Attributes?.TryGetValue(key, out value) ?? true) return false;
+        return true;
+    }
+
+    public ElementInfo AddChild(ElementInfo info)
+    {
+        TryAddChild(info);
+        return this;
+    }
+
+    public ElementInfo SetParent(ElementInfo info)
+    {
+        TrySetParent(info);
+        return this;
+    }
+
+    public ElementInfo SetAttribute(string key, string value)
+    {
+        TrySetAttribute(key, value);
+        return this;
+    }
+
+    public string GetAttribute(string key, string defaultValue = null)
+    {
+        TryGetAttribute(key, ref defaultValue);
+        return defaultValue;
+    }
+
+    public void WriteToXML(XmlWriter writer)
+    {
+        if(IsText)
+        {
+            writer.WriteString(Content);
+            return;
+        }
+        writer.WriteStartElement(Name, &quot;&quot;);
+        foreach (var attr in Attributes)
+            writer.WriteAttributeString(attr.Key, attr.Value);
+        foreach (var child in Children)
+            child.WriteToXML(writer);
+        writer.WriteEndElement();
+    }
+
+    public XElement ConvertToXElement()
+    {
+        XElement Xel = new(Name, Content);
+        foreach (KeyValuePair&lt;string, string&gt; elAt in Attributes)
+        {
+            Xel.SetAttributeValue(elAt.Key, elAt.Value);
+        }
+        foreach (ElementInfo elx in Children)
+        {
+            Xel.Add(elx.ConvertToXElement());
+        }
+        return Xel;
+    }
+    public static ElementInfo FromText(string input)
+        =&gt; new ElementInfo
+        {
+            Content = input,
+            Type = XmlNodeType.Text,
+            Attributes = null,
+            Children = null
+        };
+}
+
+public static class ElementInfoStringExtensions
+{
+    public static bool TryAsBoolean(this string content, out bool result)
+        =&gt; bool.TryParse(content, out result);
+    public static bool TryAsInt(this string content, out int result)
+        =&gt; int.TryParse(content, out result);
+    public static bool TryAsFloat(this string content, out float result)
+        =&gt; float.TryParse(content, out result);
+
+    public static bool AsBooleanSafe(this string content, bool defaultVal = default)
+        =&gt; content.TryAsBoolean(out var value)
+            ? value
+            : defaultVal;
+    public static int AsIntSafe(this string content, int defaultVal = default)
+        =&gt; content.TryAsInt(out var value)
+            ? value
+            : defaultVal;
+    public static float AsFloatSafe(this string content, float defaultVal = default)
+        =&gt; content.TryAsFloat(out var value)
+            ? value
+            : defaultVal;
+
+    public static bool AsBoolean(this string content, string valName = &quot;content&quot;)
+        =&gt; content.TryAsBoolean(out var value)
+            ? value
+            : throw new FormatException($&quot;Value of '{valName}' is '{content}' which is not true or false&quot;);
+    public static int AsInt(this string content, string valName = &quot;content&quot;)
+        =&gt; content.TryAsInt(out var value)
+            ? value
+            : throw new FormatException($&quot;Value of '{valName}' is '{content}' which is not an integer, e.g.: 0, 1, 2&quot;);
+    public static float AsFloat(this string content, string valName = &quot;content&quot;)
+        =&gt; content.TryAsFloat(out var value)
+            ? value
+            : throw new FormatException($&quot;Value of '{valName}' is '{content}' which is not a float, e.g.: 1.0&quot;);
+}
+
+public static class ElementInfoListExtensions
+{
+    public static ElementInfo GetElement(IEnumerable&lt;ElementInfo&gt; list, string elementName)
+    {
+        return list.FirstOrDefault(e =&gt; e.Name == elementName);
+    }
+    public static bool TryGetElement(IEnumerable&lt;ElementInfo&gt; list, string elementName, out ElementInfo info)
+    {
+        info = GetElement(list, elementName);
+        return info != null;
+    }
+}
+
+[Obsolete(&quot;Use ElementInfoListExtensions&quot;)]
+public static class ListExtensions
+{
+    public static ElementInfo GetElement(this IEnumerable&lt;ElementInfo&gt; list, string elementName)
+        =&gt; ElementInfoListExtensions.GetElement(list, elementName);
+    public static bool TryGetElement(this IEnumerable&lt;ElementInfo&gt; list, string elementName, out ElementInfo info)
+        =&gt; ElementInfoListExtensions.TryGetElement(list, elementName, out info);
+}
+
+public static class ElementInfoDictionaryExtensions
+{
+    public static bool TryAsBoolean(this IDictionary&lt;string, string&gt; attribute, string key, out bool result)
+    {
+        result = default;
+        if(attribute == null) return false;
+        return attribute.TryGetValue(key, out var str) ? str.TryAsBoolean(out result) : false;
+    }
+    public static bool TryAsInt(this IDictionary&lt;string, string&gt; attribute, string key, out int result)
+    {
+        result = default;
+        if(attribute == null) return false;
+        return attribute.TryGetValue(key, out var str) ? str.TryAsInt(out result) : false;
+    }
+    public static bool TryAsFloat(this IDictionary&lt;string, string&gt; attribute, string key, out float result)
+    {
+        result = default;
+        if(attribute == null) return false;
+        return attribute.TryGetValue(key, out var str) ? str.TryAsFloat(out result) : false;
+    }
+    public static bool AsBoolean(this IDictionary&lt;string, string&gt; attribute, string key, string dictName = &quot;attribute&quot;)
+        =&gt; attribute[key].AsBoolean($&quot;{dictName}[{key}]&quot;);
+    public static int AsInt(this IDictionary&lt;string, string&gt; attribute, string key, string dictName = &quot;attribute&quot;)
+        =&gt; attribute[key].AsInt($&quot;{dictName}[{key}]&quot;);
+    public static float AsFloat(this IDictionary&lt;string, string&gt; attribute, string key, string dictName = &quot;attribute&quot;)
+        =&gt; attribute[key].AsFloat($&quot;{dictName}[{key}]&quot;);
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

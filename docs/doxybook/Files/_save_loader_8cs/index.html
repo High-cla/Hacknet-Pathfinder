@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_save_loader_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Replacements/SaveLoader.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Replacements/SaveLoader.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_save_loader_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_save_loader_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Replacements/SaveLoader.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapireplacementssaveloadercs">PathfinderAPI/Replacements/SaveLoader.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_replacements/">Pathfinder::Replacements</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_hacknet_1_1_localization/">Hacknet::Localization</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_save_loader/">Pathfinder::Replacements::SaveLoader</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor/">Pathfinder::Replacements::SaveLoader::SaveExecutor</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Reflection;
+using Hacknet;
+using Hacknet.Factions;
+using Hacknet.Localization;
+using Hacknet.PlatformAPI.Storage;
+using HarmonyLib;
+using Microsoft.Xna.Framework;
+using Pathfinder.Event;
+using Pathfinder.Event.Loading;
+using Pathfinder.Port;
+using Pathfinder.Util;
+using Pathfinder.Util.XML;
+
+namespace Pathfinder.Replacements;
+
+[HarmonyPatch]
+public static class SaveLoader
+{
+    public abstract class SaveExecutor
+    {
+        public OS Os { get; private set; }
+
+        public virtual void Init(OS os)
+        {
+            Os = os;
+        }
+
+        public abstract void Execute(EventExecutor exec, ElementInfo info);
+    }
+
+    private struct SaveExecutorHolder
+    {
+        public string Element;
+        public Type ExecutorType;
+        public ParseOption Options;
+    }
+
+    private static readonly List&lt;SaveExecutorHolder&gt; CustomExecutors = new List&lt;SaveExecutorHolder&gt;();
+
+    public static void RegisterExecutor&lt;T&gt;(string element, ParseOption options = ParseOption.None) where T : SaveExecutor, new() =&gt; RegisterExecutor(typeof(T), element, options);
+    public static void RegisterExecutor(Type executorType, string element, ParseOption options = ParseOption.None)
+    {
+        executorType.ThrowNotInherit&lt;SaveExecutor&gt;(nameof(executorType));
+        if(!executorType.GetConstructors().Any(ctor =&gt; ctor.GetParameters().Length == 0))
+            throw new ArgumentException(&quot;Type of executor registered must have a default constructor&quot;, nameof(executorType));
+
+        CustomExecutors.Add(new SaveExecutorHolder
+        {
+            Element = element,
+            ExecutorType = executorType,
+            Options = options
+        });
+    }
+
+    public static void UnregisterExecutor&lt;T&gt;() where T : SaveExecutor, new()
+    {
+        var tType = typeof(T);
+        CustomExecutors.RemoveAll(x =&gt; x.ExecutorType == tType);
+    }
+
+    private static void OnPluginUnload(Assembly pluginAsm)
+    {
+        CustomExecutors.RemoveAll(x =&gt; x.ExecutorType.Assembly == pluginAsm);
+    }
+
+    private static EventExecutor executor = new EventExecutor();
+    private static OS os = null;
+
+    static SaveLoader()
+    {
+        EventManager.onPluginUnload += OnPluginUnload;
+
+        executor.RegisterExecutor(&quot;HacknetSave&quot;, (exec, info) =&gt;
+        {
+            MissionGenerator.generationCount = info.Attributes.GetInt(&quot;generatedMissionCount&quot;, 100);
+            os.username = os.defaultUser.name = info.Attributes.GetString(&quot;Username&quot;);
+            os.LanguageCreatedIn = info.Attributes.GetString(&quot;Language&quot;, &quot;en-us&quot;);
+            os.IsInDLCMode = info.Attributes.GetBool(&quot;DLCMode&quot;) &amp;&amp; Settings.EnableDLC;
+            os.DisableEmailIcon = info.Attributes.GetBool(&quot;DisableMailIcon&quot;) &amp;&amp; Settings.EnableDLC;
+
+            if (os.LanguageCreatedIn != Settings.ActiveLocale)
+            {
+                LocaleActivator.ActivateLocale(os.LanguageCreatedIn, os.content);
+                Settings.ActiveLocale = os.LanguageCreatedIn;
+            }
+        });
+        executor.RegisterExecutor(&quot;HacknetSave.DLC&quot;, (exec, info) =&gt;
+        {
+            os.IsDLCSave = true;
+
+            os.IsInDLCMode = info.Attributes.GetBool(&quot;Active&quot;);
+            os.HasLoadedDLCContent = info.Attributes.GetBool(&quot;LoadedContent&quot;);
+
+            if (os.HasLoadedDLCContent &amp;&amp; !DLC1SessionUpgrader.HasDLC1Installed)
+            {
+                MainMenu.AccumErrors = &quot;LOAD ERROR: Save &quot; + os.SaveGameUserName +
+                    &quot; is configured for Labyrinths DLC, but it is not installed on this computer.\n\n\n&quot;;
+                os.ExitScreen();
+                os.IsExiting = true;
+            }
+        });
+        executor.RegisterExecutor(&quot;HacknetSave.DLC.Flags&quot;,
+            (exec, info) =&gt; os.PreDLCFaction = info.Attributes.GetString(&quot;OriginalFaction&quot;));
+        executor.RegisterExecutor(&quot;HacknetSave.DLC.OriginalVisibleNodes&quot;,
+            (exec, info) =&gt; os.PreDLCVisibleNodesCache = info.Content ?? &quot;&quot;,
+            ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;HacknetSave.DLC.ConditionalActions&quot;,
+            (exec, info) =&gt; os.ConditionalActions = ActionsLoader.LoadActionSets(info), 
+            ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;HacknetSave.Flags&quot;, (exec, info) =&gt;
+        {
+            os.Flags.Flags.Clear();
+
+            foreach (var flag in info.Content?.Split(new[] {','}, StringSplitOptions.RemoveEmptyEntries) ?? new string[0])
+            {
+                os.Flags.Flags.Add(flag
+                    .Replace(&quot;[%%COMMAREPLACED%%]&quot;, &quot;,&quot;)
+                    .Replace(&quot;décrypté&quot;, &quot;decypher&quot;));
+            }
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;HacknetSave.NetworkMap&quot;,
+            (exec, info) =&gt; { Enum.TryParse(info.Attributes.GetString(&quot;sort&quot;), out os.netMap.SortingAlgorithm); });
+        executor.RegisterExecutor(&quot;HacknetSave.NetworkMap&quot;, (exec, info) =&gt;
+        {
+            foreach (var daemon in os.netMap.nodes.SelectMany(x =&gt; x.daemons))
+                daemon.loadInit();
+        }, ParseOption.FireOnEnd);
+        executor.RegisterExecutor(&quot;HacknetSave.NetworkMap.network.computer&quot;, (exec, info) =&gt;
+            {
+                var comp = LoadComputer(info, os);
+                if (comp != null)
+                    os.netMap.nodes.Add(comp);
+            },
+            ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;HacknetSave.NetworkMap.visible&quot;, (exec, info) =&gt;
+        {
+            foreach (var node in info.Content.Split((char[]) null, StringSplitOptions.RemoveEmptyEntries))
+            {
+                os.netMap.visibleNodes.Add(int.Parse(node));
+            }
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;HacknetSave.mission&quot;, (exec, info) =&gt; os.currentMission = LoadMission(info));
+        executor.RegisterExecutor(&quot;HacknetSave.AllFactions&quot;, (exec, info) =&gt;
+        {
+            os.allFactions = new AllFactions
+            {
+                currentFaction = info.Attributes.GetString(&quot;current&quot;, null)
+            };
+
+            foreach (var factionInfo in info.Children)
+            {
+                var faction = ReplacementsCommon.LoadFaction(factionInfo);
+                os.allFactions.factions.Add(faction.idName, faction);
+            }
+
+            if (os.allFactions.currentFaction != null)
+                os.allFactions.setCurrentFaction(os.allFactions.currentFaction, os);
+        }, ParseOption.ParseInterior);
+        executor.RegisterExecutor(&quot;HacknetSave.other&quot;, (exec, info) =&gt;
+        {
+            MusicManager.playSongImmediatley(info.Attributes.GetString(&quot;music&quot;, null));
+            os.homeNodeID = info.Attributes.GetString(&quot;homeNode&quot;, os.homeNodeID);
+            os.homeAssetServerID = info.Attributes.GetString(&quot;homeAssetsNode&quot;, os.homeAssetServerID);
+        });
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(OS), nameof(OS.loadSaveFile))]
+    internal static bool SaveLoadReplacementPrefix(ref OS __instance)
+    {
+        __instance.FirstTimeStartup = false;
+
+        Stream saveStream = __instance.ForceLoadOverrideStream ??
+            SaveFileManager.GetSaveReadStream(__instance.SaveGameUserName);
+        if (saveStream == null)
+        {
+            return false;
+        }
+
+        os = __instance;
+
+        executor.SetText(new StreamReader(saveStream).ReadToEnd(), false);
+
+        foreach (var custom in CustomExecutors)
+        {
+            var customInstance = (SaveExecutor)Activator.CreateInstance(custom.ExecutorType);
+            customInstance.Init(os);
+            executor.RegisterTempExecutor(custom.Element, customInstance.Execute, custom.Options);
+        }
+
+        executor.Parse();
+
+        return false;
+    }
+
+    public static Computer LoadComputer(ElementInfo info, OS os)
+    {
+        var name = info.Attributes.GetString(&quot;name&quot;);
+        var ip = info.Attributes.GetString(&quot;ip&quot;);
+        var type = info.Attributes.GetByte(&quot;type&quot;);
+        var spec = info.Attributes.GetString(&quot;spec&quot;);
+
+        var location = info.Children.GetElement(&quot;location&quot;);
+
+        var security = info.Children.GetElement(&quot;security&quot;);
+        var level = security.Attributes.GetInt(&quot;level&quot;);
+
+        Firewall firewall = null;
+        if (info.Children.TryGetElement(&quot;firewall&quot;, out var firewallInfo))
+        {
+            firewall = new Firewall(
+                firewallInfo.Attributes.GetInt(&quot;complexity&quot;),
+                firewallInfo.Attributes.GetString(&quot;solution&quot;, null),
+                firewallInfo.Attributes.GetFloat(&quot;additionalDelay&quot;)
+            );
+        }
+
+        ReplacementsCommon.isPathfinderComputer = true;
+        var comp = new Computer(name, ip, location.Attributes.GetVector(&quot;x&quot;, &quot;y&quot;, Vector2.Zero).Value, level, type, os)
+        {
+            idName = info.Attributes.GetString(&quot;id&quot;),
+            attatchedDeviceIDs = info.Attributes.GetString(&quot;devices&quot;, null),
+            icon = info.Attributes.GetString(&quot;icon&quot;, null),
+            HasTracker = info.Attributes.GetBool(&quot;tracker&quot;),
+            firewall = firewall,
+            traceTime = security.Attributes.GetFloat(&quot;traceTime&quot;),
+            portsNeededForCrack = security.Attributes.GetInt(&quot;portsToCrack&quot;),
+            adminIP = security.Attributes.GetString(&quot;adminIP&quot;)
+        };
+        ReplacementsCommon.isPathfinderComputer = false;
+
+        var proxyTime = security.Attributes.GetFloat(&quot;proxyTime&quot;);
+        if (proxyTime &gt; 0)
+        {
+            comp.addProxy(proxyTime);
+        }
+        else
+        {
+            comp.hasProxy = false;
+            comp.proxyActive = false;
+        }
+
+        if (info.Children.TryGetElement(&quot;admin&quot;, out var adminInfo))
+        {
+            Administrator.AdministratorManager.LoadAdministrator(adminInfo, comp, os);
+        }
+
+        foreach (var link in info.Children.GetElement(&quot;links&quot;).Content?
+                     .Split((char[]) null, StringSplitOptions.RemoveEmptyEntries) ?? new string[0])
+        {
+            comp.links.Add(int.Parse(link));
+        }
+
+        if (info.Children.TryGetElement(&quot;portsOpen&quot;, out var portsOpen))
+            PortManager.LoadPortsFromStringVanilla(comp, portsOpen.Content);
+
+        if (info.Children.TryGetElement(&quot;portRemap&quot;, out var remap))
+            PortManager.LoadPortRemapsFromStringVanilla(comp, remap.Content);
+
+        if (info.Children.TryGetElement(&quot;ports&quot;, out var ports))
+        {
+            if (ports.Content != null)
+                foreach (var port in ports.Content.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    var parts = port.Split(':');
+                    var record = PortManager.GetPortRecordFromProtocol(parts[0]);
+                    var displayName = parts[3].Replace('_', ' ');
+                    var portNum = int.Parse(parts[2]);
+                    if(record == null)
+                    {
+                        PortManager.RegisterPort(record = new PortRecord(
+                            parts[0],
+                            displayName,
+                            portNum,
+                            int.Parse(parts[1])
+                        ));
+                    }
+
+                    comp.AddPort(record.CreateState(
+                        comp,
+                        displayName,
+                        portNum
+                    ));
+                }
+
+            foreach (var port in ports.Children)
+            {
+                var record = PortManager.GetPortRecordFromProtocol(port.Name);
+                var displayName = port.Children.GetElement(&quot;Display&quot;).Content;
+                var portNum = int.Parse(port.Children.GetElement(&quot;Number&quot;).Content);
+                if(record == null)
+                {
+                    PortManager.RegisterPort(record = new PortRecord(
+                        port.Name,
+                        displayName,
+                        portNum,
+                        int.Parse(port.Children.GetElement(&quot;Original&quot;).Content)
+                    ));
+                }
+                comp.AddPort(record.CreateState(
+                    comp,
+                    displayName,
+                    portNum
+                ));
+            }
+        }
+
+        comp.users.Clear();
+        if (info.Children.TryGetElement(&quot;users&quot;, out var users))
+        {
+            foreach (var user in users.Children.Where(x =&gt; x.Name == &quot;user&quot;))
+            {
+                var username = user.Attributes.GetString(&quot;name&quot;);
+                var pass = user.Attributes.GetString(&quot;pass&quot;);
+
+                var userDetail = new UserDetail(
+                    username,
+                    pass,
+                    user.Attributes.GetByte(&quot;type&quot;)
+                )
+                {
+                    known = user.Attributes.GetBool(&quot;known&quot;)
+                };
+
+                if (username.ToLower() == &quot;admin&quot;)
+                    comp.adminPass = pass;
+
+                comp.users.Add(userDetail);
+            }
+        }
+
+        if (info.Children.TryGetElement(&quot;Memory&quot;, out var memory))
+            comp.Memory = ReplacementsCommon.LoadMemoryContents(memory);
+
+        #region Daemons
+
+        if (info.Children.TryGetElement(&quot;daemons&quot;, out var daemons))
+        {
+            foreach (var daemon in daemons.Children)
+            {
+                if (Daemon.DaemonManager.TryLoadCustomDaemon(daemon, comp, os))
+                    continue;
+
+                switch (daemon.Name)
+                {
+                    case &quot;MailServer&quot;:
+                        var mailserver = new MailServer(comp, daemon.Attributes.GetString(&quot;name&quot;), os);
+                        if (daemon.Attributes.TryGetValue(&quot;color&quot;, out var mail_color))
+                        {
+                            mailserver.setThemeColor(Utils.convertStringToColor(mail_color));
+                        }
+
+                        comp.daemons.Add(mailserver);
+                        break;
+                    case &quot;MissionListingServer&quot;:
+                        var listing_name = daemon.Attributes.GetString(&quot;name&quot;);
+                        var listing_group = daemon.Attributes.GetString(&quot;group&quot;);
+                        var listing_isPublic = daemon.Attributes.GetBool(&quot;public&quot;);
+                        var listing_isAssigner = daemon.Attributes.GetBool(&quot;assign&quot;);
+                        var listing_articles = daemon.Attributes.GetString(&quot;articles&quot;);
+
+                        MissionListingServer listingserver;
+                        if (daemon.Attributes.TryGetValue(&quot;icon&quot;, out var listing_icon) &amp;&amp;
+                            daemon.Attributes.TryGetValue(&quot;color&quot;, out var listing_color))
+                        {
+                            listingserver = new MissionListingServer(comp, listing_name, listing_icon,
+                                listing_articles,
+                                Utils.convertStringToColor(listing_color), os, listing_isPublic,
+                                listing_isAssigner);
+                        }
+                        else
+                        {
+                            listingserver = new MissionListingServer(comp, name, listing_group, os,
+                                listing_isPublic, listing_isAssigner);
+                        }
+
+                        comp.daemons.Add(listingserver);
+                        break;
+                    case &quot;AddEmailServer&quot;:
+                        comp.daemons.Add(new AddEmailDaemon(comp, daemon.Attributes.GetString(&quot;name&quot;), os));
+                        break;
+                    case &quot;MessageBoard&quot;:
+                        var messageboard = new MessageBoardDaemon(comp, os);
+                        messageboard.name = daemon.Attributes.GetString(&quot;name&quot;);
+                        messageboard.BoardName =
+                            daemon.Attributes.GetString(&quot;boardName&quot;, messageboard.BoardName);
+                        comp.daemons.Add(messageboard);
+                        break;
+                    case &quot;WebServer&quot;:
+                        comp.daemons.Add(new WebServerDaemon(
+                            comp,
+                            daemon.Attributes.GetString(&quot;name&quot;),
+                            os,
+                            daemon.Attributes.GetString(&quot;url&quot;)
+                        ));
+                        break;
+                    case &quot;OnlineWebServer&quot;:
+                        var onlinewebserver =
+                            new OnlineWebServerDaemon(comp, daemon.Attributes.GetString(&quot;name&quot;), os);
+                        onlinewebserver.setURL(daemon.Attributes.GetString(&quot;url&quot;));
+                        comp.daemons.Add(onlinewebserver);
+                        break;
+                    case &quot;AcademicDatabse&quot;:
+                        comp.daemons.Add(new AcademicDatabaseDaemon(
+                            comp,
+                            daemon.Attributes.GetString(&quot;name&quot;),
+                            os
+                        ));
+                        break;
+                    case &quot;MissionHubServer&quot;:
+                        comp.daemons.Add(new MissionHubServer(comp, &quot;unknown&quot;, &quot;unknown&quot;, os));
+                        break;
+                    case &quot;DeathRowDatabase&quot;:
+                        comp.daemons.Add(new DeathRowDatabaseDaemon(comp, &quot;Death Row Database&quot;, os));
+                        break;
+                    case &quot;MedicalDatabase&quot;:
+                        comp.daemons.Add(new MedicalDatabaseDaemon(comp, os));
+                        break;
+                    case &quot;HeartMonitor&quot;:
+                        var heartmon = new HeartMonitorDaemon(comp, os);
+                        heartmon.PatientID = daemon.Attributes.GetString(&quot;patient&quot;, &quot;UNKNOWN&quot;);
+                        comp.daemons.Add(heartmon);
+                        break;
+                    case &quot;PointClicker&quot;:
+                        comp.daemons.Add(new PointClickerDaemon(comp, &quot;Point Clicker!&quot;, os));
+                        break;
+                    case &quot;ispSystem&quot;:
+                        comp.daemons.Add(new ISPDaemon(comp, os));
+                        break;
+                    case &quot;porthackheart&quot;:
+                        comp.daemons.Add(new PorthackHeartDaemon(comp, os));
+                        break;
+                    case &quot;SongChangerDaemon&quot;:
+                        comp.daemons.Add(new SongChangerDaemon(comp, os));
+                        break;
+                    case &quot;UploadServerDaemon&quot;:
+                        var uploadserver = new UploadServerDaemon(
+                            comp,
+                            daemon.Attributes.GetString(&quot;name&quot;),
+                            daemon.Attributes.GetColor(&quot;color&quot;, Color.White).Value,
+                            os,
+                            daemon.Attributes.GetString(&quot;foldername&quot;),
+                            daemon.Attributes.GetBool(&quot;needsAuh&quot;)
+                        );
+                        uploadserver.hasReturnViewButton = daemon.Attributes.GetBool(&quot;hasReturnViewButton&quot;);
+                        comp.daemons.Add(uploadserver);
+                        break;
+                    case &quot;DHSDaemon&quot;:
+                        comp.daemons.Add(new DLCHubServer(comp, &quot;unknown&quot;, &quot;unknown&quot;, os));
+                        break;
+                    case &quot;CustomConnectDisplayDaemon&quot;:
+                        comp.daemons.Add(new CustomConnectDisplayDaemon(comp, os));
+                        break;
+                    case &quot;DatabaseDaemon&quot;:
+                        var databaseserver = new DatabaseDaemon(
+                            comp,
+                            os,
+                            daemon.Attributes.GetString(&quot;Name&quot;, null),
+                            daemon.Attributes.GetString(&quot;Permissions&quot;),
+                            daemon.Attributes.GetString(&quot;DataType&quot;),
+                            daemon.Attributes.GetString(&quot;Foldername&quot;),
+                            daemon.Attributes.GetColor(&quot;Color&quot;)
+                        );
+                        databaseserver.adminResetEmailHostID = daemon.Attributes.GetString(&quot;AdminEmailHostID&quot;, null);
+                        databaseserver.adminResetPassEmailAccount = daemon.Attributes.GetString(&quot;AdminEmailAccount&quot;, null);
+                        comp.daemons.Add(databaseserver);
+                        break;
+                    case &quot;WhitelistAuthenticatorDaemon&quot;:
+                        var whitelistserver = new WhitelistConnectionDaemon(comp, os);
+                        whitelistserver.AuthenticatesItself = daemon.Attributes.GetBool(&quot;SelfAuthenticating&quot;, true);
+                        comp.daemons.Add(whitelistserver);
+                        break;
+                    case &quot;IRCDaemon&quot;:
+                        comp.daemons.Add(new IRCDaemon(comp, os, &quot;LOAD ERROR&quot;));
+                        break;
+                    case &quot;MarkovTextDaemon&quot;:
+                        comp.daemons.Add(new MarkovTextDaemon(
+                            comp,
+                            os,
+                            daemon.Attributes.GetString(&quot;Name&quot;, null),
+                            daemon.Attributes.GetString(&quot;SourceFilesContentFolder&quot;, null)
+                        ));
+                        break;
+                    case &quot;AircraftDaemon&quot;:
+                        comp.daemons.Add(new AircraftDaemon(
+                            comp,
+                            os,
+                            daemon.Attributes.GetString(&quot;Name&quot;, &quot;Pacific Charter Flight&quot;),
+                            daemon.Attributes.GetVector(&quot;OriginX&quot;, &quot;OriginY&quot;, Vector2.Zero).Value,
+                            daemon.Attributes.GetVector(&quot;DestX&quot;, &quot;DestY&quot;, Vector2.One * 0.5f).Value,
+                            daemon.Attributes.GetFloat(&quot;Progress&quot;)
+                        ));
+                        break;
+                    case &quot;LogoCustomConnectDisplayDaemon&quot;:
+                        comp.daemons.Add(new LogoCustomConnectDisplayDaemon(
+                            comp,
+                            os,
+                            daemon.Attributes.GetString(&quot;logo&quot;, null),
+                            daemon.Attributes.GetString(&quot;title&quot;, null),
+                            daemon.Attributes.GetBool(&quot;overdrawLogo&quot;),
+                            daemon.Attributes.GetString(&quot;buttonAlignment&quot;, null)
+                        ));
+                        break;
+                    case &quot;LogoDaemon&quot;:
+                        comp.daemons.Add(new LogoDaemon(
+                            comp,
+                            os,
+                            name,
+                            daemon.Attributes.GetBool(&quot;ShowsTitle&quot;, true),
+                            daemon.Attributes.GetString(&quot;LogoImagePath&quot;)
+                        )
+                        {
+                            TextColor = daemon.Attributes.GetColor(&quot;TextColor&quot;, Color.White).Value
+                        });
+                        break;
+                    case &quot;DLCCredits&quot;:
+                        DLCCreditsDaemon dlcdaemon = null;
+                        if (daemon.Attributes.TryGetValue(&quot;Title&quot;, out var credits_title) |
+                            daemon.Attributes.TryGetValue(&quot;Button&quot;, out var credits_button))
+                            dlcdaemon = new DLCCreditsDaemon(comp, os, credits_title, credits_button);
+                        else
+                            dlcdaemon = new DLCCreditsDaemon(comp, os);
+                        dlcdaemon.ConditionalActionsToLoadOnButtonPress = daemon.Attributes.GetString(&quot;Action&quot;, null);
+                        comp.daemons.Add(dlcdaemon);
+                        break;
+                    case &quot;FastActionHost&quot;:
+                        comp.daemons.Add(new FastActionHost(comp, os, name));
+                        break;
+                }
+            }
+        }
+
+        #endregion
+
+        comp.files = new FileSystem(true)
+        {
+            root = LoadFolder(info.Children.GetElement(&quot;filesystem&quot;).Children.GetElement(&quot;folder&quot;))
+        };
+
+        switch (spec)
+        {
+            case &quot;player&quot;:
+                os.thisComputer = comp;
+                break;
+            case &quot;mail&quot;:
+                os.netMap.mailServer = comp;
+                break;
+            case &quot;academic&quot;:
+                os.netMap.academicDatabase = comp;
+                break;
+        }
+
+        if (EventManager&lt;SaveComputerLoadedEvent&gt;.InvokeAll(new SaveComputerLoadedEvent(os, comp, info)).Cancelled)
+        {
+            return null;
+        }
+
+        ComputerLookup.Add(comp);
+        return comp;
+    }
+
+    public static Folder LoadFolder(ElementInfo info)
+    {
+        var result = new Folder(info.Attributes.GetString(&quot;name&quot;));
+        foreach (var child in info.Children)
+        {
+            switch (child.Name)
+            {
+                case &quot;folder&quot;:
+                    result.folders.Add(LoadFolder(child));
+                    break;
+                case &quot;file&quot;:
+                    if (child.Attributes.GetBool(&quot;EduSafe&quot;, true) || !Settings.EducationSafeBuild)
+                    {
+                        result.files.Add(new FileEntry(child.Content, child.Attributes.GetString(&quot;name&quot;)));
+                    }
+                    break;
+            }
+        }
+
+        return result;
+    }
+
+    public static ActiveMission LoadMission(ElementInfo root)
+    {
+        var next = root.Attributes.GetString(&quot;next&quot;, null);
+        if (next == &quot;NULL_MISSION&quot;)
+            return null;
+
+        if (root.Attributes.TryGetValue(&quot;genTarget&quot;, out MissionGenerationParser.Comp))
+        {
+            MissionGenerationParser.File = root.Attributes.GetString(&quot;genFile&quot;, null);
+            MissionGenerationParser.Path = root.Attributes.GetString(&quot;genPath&quot;, null);
+            MissionGenerationParser.Target = root.Attributes.GetString(&quot;genTargetName&quot;, null);
+            MissionGenerationParser.Other = root.Attributes.GetString(&quot;genOther&quot;, null);
+        }
+
+        var goalsFile = root.Attributes.GetOrThrow(&quot;goals&quot;, &quot;Invalid goals file for active mission&quot;, StringExtensions.ContentFileExists).ContentFilePath();
+        return MissionLoader.LoadContentMission(goalsFile);
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

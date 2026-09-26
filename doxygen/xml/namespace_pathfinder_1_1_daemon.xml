@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_daemon" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Daemon</compoundname>
+    <innerclass refid="class_pathfinder_1_1_daemon_1_1_base_daemon" prot="public">Pathfinder::Daemon::BaseDaemon</innerclass>
+    <innerclass refid="class_pathfinder_1_1_daemon_1_1_daemon_manager" prot="public">Pathfinder::Daemon::DaemonManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Daemon/BaseDaemon.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

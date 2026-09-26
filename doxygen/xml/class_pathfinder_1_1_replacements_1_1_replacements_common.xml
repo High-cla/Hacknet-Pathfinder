@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_replacements_common" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Replacements::ReplacementsCommon</compoundname>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_replacements_common_1ab4d24ffcda6ea44007888be37dea03dc" prot="package" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Replacements.ReplacementsCommon.isPathfinderComputer</definition>
+        <argsstring></argsstring>
+        <name>isPathfinderComputer</name>
+        <qualifiedname>Pathfinder.Replacements.ReplacementsCommon.isPathfinderComputer</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ReplacementsCommon.cs" line="108" column="26" bodyfile="PathfinderAPI/Replacements/ReplacementsCommon.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_replacements_1_1_replacements_common_1a1cbb15cb16bd61813c9ca758f0a7b014" prot="package" static="yes" mutable="no">
+        <type>readonly List&lt; <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref> &gt;</type>
+        <definition>readonly List&lt;ElementInfo&gt; Pathfinder.Replacements.ReplacementsCommon.defaultPorts</definition>
+        <argsstring></argsstring>
+        <name>defaultPorts</name>
+        <qualifiedname>Pathfinder.Replacements.ReplacementsCommon.defaultPorts</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref>&gt;
+    {
+        new <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref>() { Name = &quot;web&quot; },
+        new <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref>() { Name = &quot;smtp&quot; },
+        new <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref>() { Name = &quot;ftp&quot; },
+        new <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref>() { Name = &quot;ssh&quot; }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ReplacementsCommon.cs" line="110" column="35" bodyfile="PathfinderAPI/Replacements/ReplacementsCommon.cs" bodystart="110" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_replacements_common_1a187899b4ab604457a5fe6c2d72cc7291" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MemoryContents</type>
+        <definition>static MemoryContents Pathfinder.Replacements.ReplacementsCommon.LoadMemoryContents</definition>
+        <argsstring>(ElementInfo info)</argsstring>
+        <name>LoadMemoryContents</name>
+        <qualifiedname>Pathfinder.Replacements.ReplacementsCommon.LoadMemoryContents</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ReplacementsCommon.cs" line="14" column="34" bodyfile="PathfinderAPI/Replacements/ReplacementsCommon.cs" bodystart="14" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_replacements_common_1aaa87519911066f07965d67b155a53abe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Faction</type>
+        <definition>static Faction Pathfinder.Replacements.ReplacementsCommon.LoadFaction</definition>
+        <argsstring>(ElementInfo info)</argsstring>
+        <name>LoadFaction</name>
+        <qualifiedname>Pathfinder.Replacements.ReplacementsCommon.LoadFaction</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ReplacementsCommon.cs" line="65" column="27" bodyfile="PathfinderAPI/Replacements/ReplacementsCommon.cs" bodystart="65" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_replacements_common_1a9468af5c71e91097ed4b66fee3625773" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Replacements.ReplacementsCommon.LoadDefaultPortsIfReplacement</definition>
+        <argsstring>(Computer __instance)</argsstring>
+        <name>LoadDefaultPortsIfReplacement</name>
+        <qualifiedname>Pathfinder.Replacements.ReplacementsCommon.LoadDefaultPortsIfReplacement</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/ReplacementsCommon.cs" line="120" column="25" bodyfile="PathfinderAPI/Replacements/ReplacementsCommon.cs" bodystart="120" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/ReplacementsCommon.cs" line="12" column="15" bodyfile="PathfinderAPI/Replacements/ReplacementsCommon.cs" bodystart="13" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_replacements_common_1a1cbb15cb16bd61813c9ca758f0a7b014" prot="package" virt="non-virtual"><scope>Pathfinder::Replacements::ReplacementsCommon</scope><name>defaultPorts</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_replacements_common_1ab4d24ffcda6ea44007888be37dea03dc" prot="package" virt="non-virtual"><scope>Pathfinder::Replacements::ReplacementsCommon</scope><name>isPathfinderComputer</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_replacements_common_1a9468af5c71e91097ed4b66fee3625773" prot="private" virt="non-virtual"><scope>Pathfinder::Replacements::ReplacementsCommon</scope><name>LoadDefaultPortsIfReplacement</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_replacements_common_1aaa87519911066f07965d67b155a53abe" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ReplacementsCommon</scope><name>LoadFaction</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_replacements_common_1a187899b4ab604457a5fe6c2d72cc7291" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::ReplacementsCommon</scope><name>LoadMemoryContents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

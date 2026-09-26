@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_prevent_skipping_e_t_a_s" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::PreventSkippingETAS</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_prevent_skipping_e_t_a_s_1a3b034d5a2d9f2c4cfae9ef192296cd00" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.BaseGameFixes.PreventSkippingETAS.RebootPrefix</definition>
+        <argsstring>(string[] args, OS os)</argsstring>
+        <name>RebootPrefix</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.PreventSkippingETAS.RebootPrefix</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/PreventSkippingETAS.cs" line="12" column="26" bodyfile="PathfinderAPI/BaseGameFixes/PreventSkippingETAS.cs" bodystart="12" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_prevent_skipping_e_t_a_s_1a2e99426ff807087c44fbc16450021f53" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.PreventSkippingETAS.ETASGameover</definition>
+        <argsstring>(OS __instance)</argsstring>
+        <name>ETASGameover</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.PreventSkippingETAS.ETASGameover</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/PreventSkippingETAS.cs" line="25" column="26" bodyfile="PathfinderAPI/BaseGameFixes/PreventSkippingETAS.cs" bodystart="25" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/PreventSkippingETAS.cs" line="8" column="17" bodyfile="PathfinderAPI/BaseGameFixes/PreventSkippingETAS.cs" bodystart="9" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_prevent_skipping_e_t_a_s_1a2e99426ff807087c44fbc16450021f53" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::PreventSkippingETAS</scope><name>ETASGameover</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_prevent_skipping_e_t_a_s_1a3b034d5a2d9f2c4cfae9ef192296cd00" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::PreventSkippingETAS</scope><name>RebootPrefix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

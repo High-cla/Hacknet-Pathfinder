@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::FixedSizeCacheDict</compoundname>
+    <templateparamlist>
+      <param>
+        <type>K</type>
+      </param>
+      <param>
+        <type>V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1a759bb9c98baaaf251541d8c292eb5ae7" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int Pathfinder.Util.FixedSizeCacheDict&lt; K, V &gt;.Max</definition>
+        <argsstring></argsstring>
+        <name>Max</name>
+        <qualifiedname>Pathfinder.Util.FixedSizeCacheDict.Max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="13" column="25" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1aee09e547a3471f60391f575ca7fbc82b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node" kindref="compound">LRUCacheLinkedListNode</ref>&lt; K, V &gt;</type>
+        <definition>LRUCacheLinkedListNode&lt;K, V&gt; Pathfinder.Util.FixedSizeCacheDict&lt; K, V &gt;.BackingListHead</definition>
+        <argsstring></argsstring>
+        <name>BackingListHead</name>
+        <qualifiedname>Pathfinder.Util.FixedSizeCacheDict.BackingListHead</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="14" column="35" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1a12bde78e1a44ae6c1359ad21d1a9b35f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node" kindref="compound">LRUCacheLinkedListNode</ref>&lt; K, V &gt;</type>
+        <definition>LRUCacheLinkedListNode&lt;K,V&gt; Pathfinder.Util.FixedSizeCacheDict&lt; K, V &gt;.BackingListTail</definition>
+        <argsstring></argsstring>
+        <name>BackingListTail</name>
+        <qualifiedname>Pathfinder.Util.FixedSizeCacheDict.BackingListTail</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="15" column="35" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1a4e5594d3d13332586402793ebfeea098" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; K, <ref refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node" kindref="compound">LRUCacheLinkedListNode</ref>&lt; K, V &gt; &gt;</type>
+        <definition>readonly Dictionary&lt;K, LRUCacheLinkedListNode&lt;K,V&gt; &gt; Pathfinder.Util.FixedSizeCacheDict&lt; K, V &gt;.FastAccessDict</definition>
+        <argsstring></argsstring>
+        <name>FastAccessDict</name>
+        <qualifiedname>Pathfinder.Util.FixedSizeCacheDict.FastAccessDict</qualifiedname>
+        <initializer>= new Dictionary&lt;K, <ref refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node" kindref="compound">LRUCacheLinkedListNode</ref>&lt;K,V&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="16" column="33" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1a496a2e8241bc541f474fc6e717608b04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Util.FixedSizeCacheDict&lt; K, V &gt;.FixedSizeCacheDict</definition>
+        <argsstring>(int maxSize)</argsstring>
+        <name>FixedSizeCacheDict</name>
+        <qualifiedname>Pathfinder.Util.FixedSizeCacheDict.FixedSizeCacheDict</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="18" column="12" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="18" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1a0797c7ad11aa613b70d03b7a0bafe34f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.FixedSizeCacheDict&lt; K, V &gt;.Register</definition>
+        <argsstring>(K key, V item)</argsstring>
+        <name>Register</name>
+        <qualifiedname>Pathfinder.Util.FixedSizeCacheDict.Register</qualifiedname>
+        <param>
+          <type>K</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>V</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="55" column="17" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="55" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1ad54740a063de982aab1b1191df4976f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pathfinder.Util.FixedSizeCacheDict&lt; K, V &gt;.TryGetCached</definition>
+        <argsstring>(K key, out V val)</argsstring>
+        <name>TryGetCached</name>
+        <qualifiedname>Pathfinder.Util.FixedSizeCacheDict.TryGetCached</qualifiedname>
+        <param>
+          <type>K</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>out V</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="87" column="17" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="87" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1aaa1502c923701116a2341db4ca8ceeb4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.FixedSizeCacheDict&lt; K, V &gt;.touch</definition>
+        <argsstring>(LRUCacheLinkedListNode&lt; K, V &gt; node)</argsstring>
+        <name>touch</name>
+        <qualifiedname>Pathfinder.Util.FixedSizeCacheDict.touch</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node" kindref="compound">LRUCacheLinkedListNode</ref>&lt; K, V &gt;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="38" column="18" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="38" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/FixedSizeCacheDict.cs" line="11" column="7" bodyfile="PathfinderAPI/Util/FixedSizeCacheDict.cs" bodystart="12" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1aee09e547a3471f60391f575ca7fbc82b" prot="public" virt="non-virtual"><scope>Pathfinder::Util::FixedSizeCacheDict</scope><name>BackingListHead</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1a12bde78e1a44ae6c1359ad21d1a9b35f" prot="public" virt="non-virtual"><scope>Pathfinder::Util::FixedSizeCacheDict</scope><name>BackingListTail</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1a4e5594d3d13332586402793ebfeea098" prot="private" virt="non-virtual"><scope>Pathfinder::Util::FixedSizeCacheDict</scope><name>FastAccessDict</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1a496a2e8241bc541f474fc6e717608b04" prot="public" virt="non-virtual"><scope>Pathfinder::Util::FixedSizeCacheDict</scope><name>FixedSizeCacheDict</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1a759bb9c98baaaf251541d8c292eb5ae7" prot="public" virt="non-virtual"><scope>Pathfinder::Util::FixedSizeCacheDict</scope><name>Max</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1a0797c7ad11aa613b70d03b7a0bafe34f" prot="public" virt="non-virtual"><scope>Pathfinder::Util::FixedSizeCacheDict</scope><name>Register</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1aaa1502c923701116a2341db4ca8ceeb4" prot="private" virt="non-virtual"><scope>Pathfinder::Util::FixedSizeCacheDict</scope><name>touch</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_fixed_size_cache_dict_1ad54740a063de982aab1b1191df4976f3" prot="public" virt="non-virtual"><scope>Pathfinder::Util::FixedSizeCacheDict</scope><name>TryGetCached</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

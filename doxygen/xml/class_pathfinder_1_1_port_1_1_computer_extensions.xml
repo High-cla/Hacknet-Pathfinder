@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_port_1_1_computer_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Port::ComputerExtensions</compoundname>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a03ec0977c028246758fac83f506873d1" prot="package" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; string, <ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref> &gt;</type>
+        <definition>readonly Dictionary&lt;string, PortRecord&gt; Pathfinder.Port.ComputerExtensions.OGPorts</definition>
+        <argsstring></argsstring>
+        <name>OGPorts</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.OGPorts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="84" column="41" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_port_1_1_computer_extensions_1af902834a25c061c4175c7c1ffab8dd49" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; int, string &gt;</type>
+        <definition>readonly Dictionary&lt;int, string&gt; Pathfinder.Port.ComputerExtensions.OGPortToProto</definition>
+        <argsstring></argsstring>
+        <name>OGPortToProto</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.OGPortToProto</qualifiedname>
+        <initializer>= new Dictionary&lt;int, string&gt;()
+    {
+        {22, &quot;ssh&quot;},
+        {21, &quot;ftp&quot;},
+        {25, &quot;smtp&quot;},
+        {80, &quot;web&quot;},
+        {1433, &quot;sql&quot;},
+        {104, &quot;medical&quot;},
+        {6881, &quot;torrent&quot;},
+        {443, &quot;ssl&quot;},
+        {192, &quot;pacific&quot;},
+        {554, &quot;rtsp&quot;},
+        
+        {211, &quot;transfer&quot;},
+        {9418, &quot;version&quot;},
+        {3724, &quot;blizzard&quot;},
+        {3659, &quot;eos&quot;},
+        
+        {32, &quot;sigscramble&quot;}
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="85" column="40" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="85" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a6435111ea1bbb32e661f7f5d1bae59d4" prot="private" static="yes" mutable="no">
+        <type>readonly ConditionalWeakTable&lt; Computer, Dictionary&lt; string, <ref refid="class_pathfinder_1_1_port_1_1_port_state" kindref="compound">PortState</ref> &gt; &gt;</type>
+        <definition>readonly ConditionalWeakTable&lt;Computer, Dictionary&lt;string, PortState&gt; &gt; Pathfinder.Port.ComputerExtensions.PortTable</definition>
+        <argsstring></argsstring>
+        <name>PortTable</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.PortTable</qualifiedname>
+        <initializer>= new ConditionalWeakTable&lt;Computer, Dictionary&lt;string, <ref refid="class_pathfinder_1_1_port_1_1_port_state" kindref="compound">PortState</ref>&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="116" column="50" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a005d81bf09ca40fdf78aef0d0875fdd9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Port.ComputerExtensions.ComputerExtensions</definition>
+        <argsstring>()</argsstring>
+        <name>ComputerExtensions</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.ComputerExtensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="106" column="12" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="106" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1ab42ff798f877cdbb05558f44261a7f6b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.OpenPortPrefix</definition>
+        <argsstring>(Computer __instance, int portNum, string ipFrom)</argsstring>
+        <name>OpenPortPrefix</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.OpenPortPrefix</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>portNum</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ipFrom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="237" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="237" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a0cebec617870abe21791a272934f2d91" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.OpenPortsPrefix</definition>
+        <argsstring>(Computer __instance)</argsstring>
+        <name>OpenPortsPrefix</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.OpenPortsPrefix</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="255" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="255" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a38fd3ddcaa9c6cf7f45b8998ff0b13f9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.ClosePortPrefix</definition>
+        <argsstring>(Computer __instance, int portNum, string ipFrom)</argsstring>
+        <name>ClosePortPrefix</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.ClosePortPrefix</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>portNum</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ipFrom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="275" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="275" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1adee7cac40ac4dbe2306e219f4a21f174" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.IsPortOpenPrefix</definition>
+        <argsstring>(Computer __instance, int portNum, out bool __result)</argsstring>
+        <name>IsPortOpenPrefix</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.IsPortOpenPrefix</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>portNum</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="298" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="298" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1aaeb232946ded5d1c2ca22b9437a1660e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.DisplayToCodePrefix</definition>
+        <argsstring>(Computer __instance, int displayPort, out int __result)</argsstring>
+        <name>DisplayToCodePrefix</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.DisplayToCodePrefix</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>displayPort</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="313" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="313" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1ae869b1d27993a50015f109e88d1869d2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.CodeToDisplayPrefix</definition>
+        <argsstring>(Computer __instance, int codePort, out int __result)</argsstring>
+        <name>CodeToDisplayPrefix</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.CodeToDisplayPrefix</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>codePort</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="321" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="321" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a31a143bae247849d497a70351dccd6fb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.FixCommandProbe</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>FixCommandProbe</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.FixCommandProbe</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="329" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="329" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1ad9104cddb6d14db143dcc5de49ade397" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.FixDisplayProbe</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>FixDisplayProbe</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.FixDisplayProbe</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="368" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="368" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a384be1f59ee37c9fe781919a45441059" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.ResetPortsFastPostfix</definition>
+        <argsstring>(FastBasicAdministrator __instance, Computer c, OS os)</argsstring>
+        <name>ResetPortsFastPostfix</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.ResetPortsFastPostfix</qualifiedname>
+        <param>
+          <type>FastBasicAdministrator</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>Computer</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="420" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="420" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1aab9ecd6bde3d7d1853af18b2af423c50" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.ResetPortsProgressOnlyPostfix</definition>
+        <argsstring>(Computer c)</argsstring>
+        <name>ResetPortsProgressOnlyPostfix</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.ResetPortsProgressOnlyPostfix</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="434" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="434" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1aeb0ff93f86f5a62e22aa79ee8b66b4c0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.ResetPortsBasicPostfix</definition>
+        <argsstring>(Computer c, OS os)</argsstring>
+        <name>ResetPortsBasicPostfix</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.ResetPortsBasicPostfix</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="442" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="442" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a6fe39bb0e7ff2ea7b985b01ee3eead02" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.FixPortCrackers</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>FixPortCrackers</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.FixPortCrackers</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="453" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="453" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a6bb5e8da31bd413076c230e63eb03b87" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.FixPortHack</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>FixPortHack</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.FixPortHack</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="483" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="483" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1ac0c59897f5344b4e72dea5e2980f9cf8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.LoadPortsIntoComputerReplacement</definition>
+        <argsstring>(string portsList, object computer_obj)</argsstring>
+        <name>LoadPortsIntoComputerReplacement</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.LoadPortsIntoComputerReplacement</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>portsList</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>computer_obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="505" column="25" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="505" bodyend="509"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a126c3b0c86e75db172ca4e42cc36402a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.AddPort</definition>
+        <argsstring>(this Computer comp, string protocol, int portNum, string displayName)</argsstring>
+        <name>AddPort</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.AddPort</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>portNum</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="118" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="118" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1af09f395459f17b951945e8f4e78d0b8b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.AddPort</definition>
+        <argsstring>(this Computer comp, PortData port)</argsstring>
+        <name>AddPort</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.AddPort</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_data" kindref="compound">PortData</ref></type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="126" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="126" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a60dd10a650cf7fbbcda27b6633274c68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.AddPort</definition>
+        <argsstring>(this Computer comp, PortRecord record)</argsstring>
+        <name>AddPort</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.AddPort</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref></type>
+          <declname>record</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="133" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="133" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a3934c22f992d2927bc503539439dce81" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.AddPort</definition>
+        <argsstring>(this Computer comp, PortState port)</argsstring>
+        <name>AddPort</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.AddPort</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_state" kindref="compound">PortState</ref></type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="144" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="144" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1afdd58cce40627a5eed01c0f044c67014" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.RemovePort</definition>
+        <argsstring>(this Computer comp, string protocol)</argsstring>
+        <name>RemovePort</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.RemovePort</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="169" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="169" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a82d7f3bfff1e58eeed47de64a45755f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.RemovePort</definition>
+        <argsstring>(this Computer comp, PortRecord record)</argsstring>
+        <name>RemovePort</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.RemovePort</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref></type>
+          <declname>record</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="174" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a5129e4239b294fe7b2a3f366a7d6fac0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pathfinder_1_1_port_1_1_port_state" kindref="compound">PortState</ref></type>
+        <definition>static PortState Pathfinder.Port.ComputerExtensions.GetPortState</definition>
+        <argsstring>(this Computer comp, string protocol)</argsstring>
+        <name>GetPortState</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.GetPortState</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="179" column="29" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="179" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a376ef7de96143a689d12c858ebc083ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pathfinder_1_1_port_1_1_port_data" kindref="compound">PortData</ref></type>
+        <definition>static PortData Pathfinder.Port.ComputerExtensions.GetPort</definition>
+        <argsstring>(this Computer comp, string protocol)</argsstring>
+        <name>GetPort</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.GetPort</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="186" column="28" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1ad9ce36e30b04ebdb4492d563bacf07d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_pathfinder_1_1_port_1_1_port_state" kindref="compound">PortState</ref> &gt;</type>
+        <definition>static List&lt; PortState &gt; Pathfinder.Port.ComputerExtensions.GetAllPortStates</definition>
+        <argsstring>(this Computer comp)</argsstring>
+        <name>GetAllPortStates</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.GetAllPortStates</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="191" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1aef1e545d7166e7470ead7763801ea4c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_pathfinder_1_1_port_1_1_port_data" kindref="compound">PortData</ref> &gt;</type>
+        <definition>static List&lt; PortData &gt; Pathfinder.Port.ComputerExtensions.GetAllPorts</definition>
+        <argsstring>(this Computer comp)</argsstring>
+        <name>GetAllPorts</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.GetAllPorts</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="197" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="197" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a5f0d85d6a8f077a298ef20a7015fac5e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_pathfinder_1_1_port_1_1_port_state" kindref="compound">PortState</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, PortState &gt; Pathfinder.Port.ComputerExtensions.GetPortStateDict</definition>
+        <argsstring>(this Computer comp)</argsstring>
+        <name>GetPortStateDict</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.GetPortStateDict</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="202" column="30" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a3784c26bec09b4de534d47a8978c1ea6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_pathfinder_1_1_port_1_1_port_data" kindref="compound">PortData</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, PortData &gt; Pathfinder.Port.ComputerExtensions.GetPortDict</definition>
+        <argsstring>(this Computer comp)</argsstring>
+        <name>GetPortDict</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.GetPortDict</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="208" column="30" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="208" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a74d7b63ff370d3a088fde9d7e65b6c7e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.HasInitializedPorts</definition>
+        <argsstring>(Computer comp)</argsstring>
+        <name>HasInitializedPorts</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.HasInitializedPorts</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="215" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a5b3ec4918a74b183532083b21925d8d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Pathfinder.Port.ComputerExtensions.CountOpenPorts</definition>
+        <argsstring>(this Computer comp)</argsstring>
+        <name>CountOpenPorts</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.CountOpenPorts</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="217" column="23" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="217" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a1ec873aa55b3217ef849890ee2d3c1f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.openPort</definition>
+        <argsstring>(this Computer comp, string protocol, string ipFrom)</argsstring>
+        <name>openPort</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.openPort</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ipFrom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="222" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="222" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1aad509759b2e13c422a4aa06e5359ea0f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.closePort</definition>
+        <argsstring>(this Computer comp, string protocol, string ipFrom)</argsstring>
+        <name>closePort</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.closePort</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ipFrom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="260" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="260" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1aef4b76099d7e4fc926251614d7a5202b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.ComputerExtensions.isPortOpen</definition>
+        <argsstring>(this Computer comp, string protocol)</argsstring>
+        <name>isPortOpen</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.isPortOpen</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="291" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="291" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_computer_extensions_1a13ee7cb64c498c9ca99db11c1746f56d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.ComputerExtensions.ClearPorts</definition>
+        <argsstring>(this Computer comp)</argsstring>
+        <name>ClearPorts</name>
+        <qualifiedname>Pathfinder.Port.ComputerExtensions.ClearPorts</qualifiedname>
+        <param>
+          <type>this Computer</type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="306" column="24" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="306" bodyend="309"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Port/ComputerExtensions.cs" line="82" column="15" bodyfile="PathfinderAPI/Port/ComputerExtensions.cs" bodystart="83" bodyend="510"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a126c3b0c86e75db172ca4e42cc36402a" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>AddPort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1af09f395459f17b951945e8f4e78d0b8b" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>AddPort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a60dd10a650cf7fbbcda27b6633274c68" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>AddPort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a3934c22f992d2927bc503539439dce81" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>AddPort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a13ee7cb64c498c9ca99db11c1746f56d" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>ClearPorts</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1aad509759b2e13c422a4aa06e5359ea0f" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>closePort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a38fd3ddcaa9c6cf7f45b8998ff0b13f9" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>ClosePortPrefix</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1ae869b1d27993a50015f109e88d1869d2" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>CodeToDisplayPrefix</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a005d81bf09ca40fdf78aef0d0875fdd9" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>ComputerExtensions</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a5b3ec4918a74b183532083b21925d8d7" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>CountOpenPorts</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1aaeb232946ded5d1c2ca22b9437a1660e" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>DisplayToCodePrefix</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a31a143bae247849d497a70351dccd6fb" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>FixCommandProbe</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1ad9104cddb6d14db143dcc5de49ade397" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>FixDisplayProbe</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a6fe39bb0e7ff2ea7b985b01ee3eead02" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>FixPortCrackers</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a6bb5e8da31bd413076c230e63eb03b87" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>FixPortHack</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1aef1e545d7166e7470ead7763801ea4c5" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>GetAllPorts</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1ad9ce36e30b04ebdb4492d563bacf07d9" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>GetAllPortStates</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a376ef7de96143a689d12c858ebc083ba" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>GetPort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a3784c26bec09b4de534d47a8978c1ea6" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>GetPortDict</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a5129e4239b294fe7b2a3f366a7d6fac0" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>GetPortState</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a5f0d85d6a8f077a298ef20a7015fac5e" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>GetPortStateDict</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a74d7b63ff370d3a088fde9d7e65b6c7e" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>HasInitializedPorts</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1aef4b76099d7e4fc926251614d7a5202b" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>isPortOpen</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1adee7cac40ac4dbe2306e219f4a21f174" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>IsPortOpenPrefix</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1ac0c59897f5344b4e72dea5e2980f9cf8" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>LoadPortsIntoComputerReplacement</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a03ec0977c028246758fac83f506873d1" prot="package" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>OGPorts</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1af902834a25c061c4175c7c1ffab8dd49" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>OGPortToProto</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a1ec873aa55b3217ef849890ee2d3c1f4" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>openPort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1ab42ff798f877cdbb05558f44261a7f6b" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>OpenPortPrefix</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a0cebec617870abe21791a272934f2d91" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>OpenPortsPrefix</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a6435111ea1bbb32e661f7f5d1bae59d4" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>PortTable</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1afdd58cce40627a5eed01c0f044c67014" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>RemovePort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a82d7f3bfff1e58eeed47de64a45755f2" prot="public" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>RemovePort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1aeb0ff93f86f5a62e22aa79ee8b66b4c0" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>ResetPortsBasicPostfix</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1a384be1f59ee37c9fe781919a45441059" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>ResetPortsFastPostfix</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_computer_extensions_1aab9ecd6bde3d7d1853af18b2af423c50" prot="private" virt="non-virtual"><scope>Pathfinder::Port::ComputerExtensions</scope><name>ResetPortsProgressOnlyPostfix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

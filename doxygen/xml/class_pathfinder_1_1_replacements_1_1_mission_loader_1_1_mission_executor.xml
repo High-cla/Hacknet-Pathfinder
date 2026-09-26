@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Replacements::MissionLoader::MissionExecutor</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_1ad148d138f1c749bca31698c451293c02" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Replacements.MissionLoader.MissionExecutor.Os</definition>
+        <argsstring></argsstring>
+        <name>Os</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.MissionExecutor.Os</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="18" column="19" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_1a1daff18a710f62c09871219943ebf45a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>ActiveMission</type>
+        <definition>ActiveMission Pathfinder.Replacements.MissionLoader.MissionExecutor.Mission</definition>
+        <argsstring></argsstring>
+        <name>Mission</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.MissionExecutor.Mission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="19" column="30" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_1a34dcc12cfb8b5cb5148641c3e63f9f37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Replacements.MissionLoader.MissionExecutor.Init</definition>
+        <argsstring>(OS os, ref ActiveMission mission)</argsstring>
+        <name>Init</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.MissionExecutor.Init</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>ref ActiveMission</type>
+          <declname>mission</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="21" column="29" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_1a65734957c3b04f2c6e237183ed70ba62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Replacements.MissionLoader.MissionExecutor.Execute</definition>
+        <argsstring>(EventExecutor exec, ElementInfo info)</argsstring>
+        <name>Execute</name>
+        <qualifiedname>Pathfinder.Replacements.MissionLoader.MissionExecutor.Execute</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref></type>
+          <declname>exec</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="27" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Replacements/MissionLoader.cs" line="16" column="21" bodyfile="PathfinderAPI/Replacements/MissionLoader.cs" bodystart="17" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_1a65734957c3b04f2c6e237183ed70ba62" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader::MissionExecutor</scope><name>Execute</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_1a34dcc12cfb8b5cb5148641c3e63f9f37" prot="public" virt="virtual"><scope>Pathfinder::Replacements::MissionLoader::MissionExecutor</scope><name>Init</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_1a1daff18a710f62c09871219943ebf45a" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader::MissionExecutor</scope><name>Mission</name></member>
+      <member refid="class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_1ad148d138f1c749bca31698c451293c02" prot="public" virt="non-virtual"><scope>Pathfinder::Replacements::MissionLoader::MissionExecutor</scope><name>Os</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

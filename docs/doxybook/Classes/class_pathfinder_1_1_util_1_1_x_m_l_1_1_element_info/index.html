@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Pathfinder::Util::XML::ElementInfo - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Pathfinder::Util::XML::ElementInfo";
+        var mkdocs_page_input_path = "doxybook/Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Files/">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Pathfinder::Util::XML::ElementInfo</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderutilxmlelementinfo">Pathfinder::Util::XML::ElementInfo</h1>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-elementinfo">ElementInfo</a></strong>()</td>
+</tr>
+<tr>
+<td></td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-elementinfo">ElementInfo</a></strong>(string name, string content =null, Dictionary&lt; string, string &gt; attributes =null, List&lt; <a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a> &gt; children =null, <a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a> parent =null)</td>
+</tr>
+<tr>
+<td>override string</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-tostring">ToString</a></strong>()</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-trycontentasboolean">TryContentAsBoolean</a></strong>(out bool result)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-trycontentasint">TryContentAsInt</a></strong>(out int result)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-trycontentasfloat">TryContentAsFloat</a></strong>(out float result)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-getcontentasboolean">GetContentAsBoolean</a></strong>(bool defaultVal =default) =default</td>
+</tr>
+<tr>
+<td>int</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-getcontentasint">GetContentAsInt</a></strong>(int defaultVal =default) =default</td>
+</tr>
+<tr>
+<td>float</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-getcontentasfloat">GetContentAsFloat</a></strong>(float defaultVal =default) =default</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-contentasboolean">ContentAsBoolean</a></strong>()</td>
+</tr>
+<tr>
+<td>int</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-contentasint">ContentAsInt</a></strong>()</td>
+</tr>
+<tr>
+<td>float</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-contentasfloat">ContentAsFloat</a></strong>()</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-tryattributeasboolean">TryAttributeAsBoolean</a></strong>(string attribName, out bool result)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-tryattributeasint">TryAttributeAsInt</a></strong>(string attribName, out int result)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-tryattributeasfloat">TryAttributeAsFloat</a></strong>(string attribName, out float result)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-getattributeasboolean">GetAttributeAsBoolean</a></strong>(string attribName, bool defaultVal =default) =default</td>
+</tr>
+<tr>
+<td>int</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-getattributeasint">GetAttributeAsInt</a></strong>(string attribName, int defaultVal =default) =default</td>
+</tr>
+<tr>
+<td>float</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-getattributeasfloat">GetAttributeAsFloat</a></strong>(string attribName, float defaultVal =default) =default</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-attributeasboolean">AttributeAsBoolean</a></strong>(string attribName)</td>
+</tr>
+<tr>
+<td>int</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-attributeasint">AttributeAsInt</a></strong>(string attribName)</td>
+</tr>
+<tr>
+<td>float</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-attributeasfloat">AttributeAsFloat</a></strong>(string attribName)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-tryaddchild">TryAddChild</a></strong>(<a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a> info)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-trysetparent">TrySetParent</a></strong>(<a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a> info)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-trysetattribute">TrySetAttribute</a></strong>(string key, string value)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-trygetattribute">TryGetAttribute</a></strong>(string key, ref string value)</td>
+</tr>
+<tr>
+<td><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a></td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-addchild">AddChild</a></strong>(<a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a> info)</td>
+</tr>
+<tr>
+<td><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a></td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-setparent">SetParent</a></strong>(<a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a> info)</td>
+</tr>
+<tr>
+<td><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a></td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-setattribute">SetAttribute</a></strong>(string key, string value)</td>
+</tr>
+<tr>
+<td>string</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-getattribute">GetAttribute</a></strong>(string key, string defaultValue =null)</td>
+</tr>
+<tr>
+<td>void</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-writetoxml">WriteToXML</a></strong>(XmlWriter writer)</td>
+</tr>
+<tr>
+<td>XElement</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-converttoxelement">ConvertToXElement</a></strong>()</td>
+</tr>
+<tr>
+<td><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a></td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#function-fromtext">FromText</a></strong>(string input)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-properties">Public Properties</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>string</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#property-name">Name</a></strong></td>
+</tr>
+<tr>
+<td>string</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#property-content">Content</a></strong></td>
+</tr>
+<tr>
+<td><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a></td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#property-parent">Parent</a></strong></td>
+</tr>
+<tr>
+<td>Dictionary&lt; string, string &gt;</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#property-attributes">Attributes</a></strong></td>
+</tr>
+<tr>
+<td>List&lt; <a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/">ElementInfo</a> &gt;</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#property-children">Children</a></strong></td>
+</tr>
+<tr>
+<td>ulong</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#property-nodeid">NodeID</a></strong></td>
+</tr>
+<tr>
+<td>XmlNodeType</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#property-type">Type</a></strong></td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/#property-istext">IsText</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-elementinfo">function ElementInfo</h3>
+<pre><code class="language-csharp">ElementInfo()
+</code></pre>
+<h3 id="function-elementinfo_1">function ElementInfo</h3>
+<pre><code class="language-csharp">ElementInfo(
+    string name,
+    string content =null,
+    Dictionary&lt; string, string &gt; attributes =null,
+    List&lt; ElementInfo &gt; children =null,
+    ElementInfo parent =null
+)
+</code></pre>
+<h3 id="function-tostring">function ToString</h3>
+<pre><code class="language-csharp">override string ToString()
+</code></pre>
+<h3 id="function-trycontentasboolean">function TryContentAsBoolean</h3>
+<pre><code class="language-csharp">bool TryContentAsBoolean(
+    out bool result
+)
+</code></pre>
+<h3 id="function-trycontentasint">function TryContentAsInt</h3>
+<pre><code class="language-csharp">bool TryContentAsInt(
+    out int result
+)
+</code></pre>
+<h3 id="function-trycontentasfloat">function TryContentAsFloat</h3>
+<pre><code class="language-csharp">bool TryContentAsFloat(
+    out float result
+)
+</code></pre>
+<h3 id="function-getcontentasboolean">function GetContentAsBoolean</h3>
+<pre><code class="language-csharp">bool GetContentAsBoolean(
+    bool defaultVal =default
+) =default
+</code></pre>
+<h3 id="function-getcontentasint">function GetContentAsInt</h3>
+<pre><code class="language-csharp">int GetContentAsInt(
+    int defaultVal =default
+) =default
+</code></pre>
+<h3 id="function-getcontentasfloat">function GetContentAsFloat</h3>
+<pre><code class="language-csharp">float GetContentAsFloat(
+    float defaultVal =default
+) =default
+</code></pre>
+<h3 id="function-contentasboolean">function ContentAsBoolean</h3>
+<pre><code class="language-csharp">bool ContentAsBoolean()
+</code></pre>
+<h3 id="function-contentasint">function ContentAsInt</h3>
+<pre><code class="language-csharp">int ContentAsInt()
+</code></pre>
+<h3 id="function-contentasfloat">function ContentAsFloat</h3>
+<pre><code class="language-csharp">float ContentAsFloat()
+</code></pre>
+<h3 id="function-tryattributeasboolean">function TryAttributeAsBoolean</h3>
+<pre><code class="language-csharp">bool TryAttributeAsBoolean(
+    string attribName,
+    out bool result
+)
+</code></pre>
+<h3 id="function-tryattributeasint">function TryAttributeAsInt</h3>
+<pre><code class="language-csharp">bool TryAttributeAsInt(
+    string attribName,
+    out int result
+)
+</code></pre>
+<h3 id="function-tryattributeasfloat">function TryAttributeAsFloat</h3>
+<pre><code class="language-csharp">bool TryAttributeAsFloat(
+    string attribName,
+    out float result
+)
+</code></pre>
+<h3 id="function-getattributeasboolean">function GetAttributeAsBoolean</h3>
+<pre><code class="language-csharp">bool GetAttributeAsBoolean(
+    string attribName,
+    bool defaultVal =default
+) =default
+</code></pre>
+<h3 id="function-getattributeasint">function GetAttributeAsInt</h3>
+<pre><code class="language-csharp">int GetAttributeAsInt(
+    string attribName,
+    int defaultVal =default
+) =default
+</code></pre>
+<h3 id="function-getattributeasfloat">function GetAttributeAsFloat</h3>
+<pre><code class="language-csharp">float GetAttributeAsFloat(
+    string attribName,
+    float defaultVal =default
+) =default
+</code></pre>
+<h3 id="function-attributeasboolean">function AttributeAsBoolean</h3>
+<pre><code class="language-csharp">bool AttributeAsBoolean(
+    string attribName
+)
+</code></pre>
+<h3 id="function-attributeasint">function AttributeAsInt</h3>
+<pre><code class="language-csharp">int AttributeAsInt(
+    string attribName
+)
+</code></pre>
+<h3 id="function-attributeasfloat">function AttributeAsFloat</h3>
+<pre><code class="language-csharp">float AttributeAsFloat(
+    string attribName
+)
+</code></pre>
+<h3 id="function-tryaddchild">function TryAddChild</h3>
+<pre><code class="language-csharp">bool TryAddChild(
+    ElementInfo info
+)
+</code></pre>
+<h3 id="function-trysetparent">function TrySetParent</h3>
+<pre><code class="language-csharp">bool TrySetParent(
+    ElementInfo info
+)
+</code></pre>
+<h3 id="function-trysetattribute">function TrySetAttribute</h3>
+<pre><code class="language-csharp">bool TrySetAttribute(
+    string key,
+    string value
+)
+</code></pre>
+<h3 id="function-trygetattribute">function TryGetAttribute</h3>
+<pre><code class="language-csharp">bool TryGetAttribute(
+    string key,
+    ref string value
+)
+</code></pre>
+<h3 id="function-addchild">function AddChild</h3>
+<pre><code class="language-csharp">ElementInfo AddChild(
+    ElementInfo info
+)
+</code></pre>
+<h3 id="function-setparent">function SetParent</h3>
+<pre><code class="language-csharp">ElementInfo SetParent(
+    ElementInfo info
+)
+</code></pre>
+<h3 id="function-setattribute">function SetAttribute</h3>
+<pre><code class="language-csharp">ElementInfo SetAttribute(
+    string key,
+    string value
+)
+</code></pre>
+<h3 id="function-getattribute">function GetAttribute</h3>
+<pre><code class="language-csharp">string GetAttribute(
+    string key,
+    string defaultValue =null
+)
+</code></pre>
+<h3 id="function-writetoxml">function WriteToXML</h3>
+<pre><code class="language-csharp">void WriteToXML(
+    XmlWriter writer
+)
+</code></pre>
+<h3 id="function-converttoxelement">function ConvertToXElement</h3>
+<pre><code class="language-csharp">XElement ConvertToXElement()
+</code></pre>
+<h3 id="function-fromtext">function FromText</h3>
+<pre><code class="language-csharp">static ElementInfo FromText(
+    string input
+)
+</code></pre>
+<h2 id="public-property-documentation">Public Property Documentation</h2>
+<h3 id="property-name">property Name</h3>
+<pre><code class="language-csharp">string Name;
+</code></pre>
+<h3 id="property-content">property Content</h3>
+<pre><code class="language-csharp">string Content = null;
+</code></pre>
+<h3 id="property-parent">property Parent</h3>
+<pre><code class="language-csharp">ElementInfo Parent;
+</code></pre>
+<h3 id="property-attributes">property Attributes</h3>
+<pre><code class="language-csharp">Dictionary&lt; string, string &gt; Attributes = new Dictionary&lt;string, string&gt;();
+</code></pre>
+<h3 id="property-children">property Children</h3>
+<pre><code class="language-csharp">List&lt; ElementInfo &gt; Children = new List&lt;ElementInfo&gt;();
+</code></pre>
+<h3 id="property-nodeid">property NodeID</h3>
+<pre><code class="language-csharp">ulong NodeID = freeId++;
+</code></pre>
+<h3 id="property-type">property Type</h3>
+<pre><code class="language-csharp">XmlNodeType Type;
+</code></pre>
+<h3 id="property-istext">property IsText</h3>
+<pre><code class="language-csharp">bool IsText;
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

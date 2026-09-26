@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_options_1_1_pathfinder_options_menu" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::Options::PathfinderOptionsMenu</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1a4c1039a8ee6a695189accbf2fb78f916" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Options.PathfinderOptionsMenu.isInPathfinderMenu</definition>
+        <argsstring></argsstring>
+        <name>isInPathfinderMenu</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptionsMenu.isInPathfinderMenu</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptionsMenu.cs" line="15" column="25" bodyfile="PathfinderAPI/Options/PathfinderOptionsMenu.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1ad8e8263573c23aff54b937f7e135f9ef" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Options.PathfinderOptionsMenu.currentTabName</definition>
+        <argsstring></argsstring>
+        <name>currentTabName</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptionsMenu.currentTabName</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptionsMenu.cs" line="16" column="27" bodyfile="PathfinderAPI/Options/PathfinderOptionsMenu.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1a81394e67fc56f57a7739200538779d2c" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+        <definition>PFButton Pathfinder.Options.PathfinderOptionsMenu.ReturnButton</definition>
+        <argsstring></argsstring>
+        <name>ReturnButton</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptionsMenu.ReturnButton</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(10, 10, 220, 54, &quot;Back to Options&quot;, Color.Yellow)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptionsMenu.cs" line="18" column="29" bodyfile="PathfinderAPI/Options/PathfinderOptionsMenu.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1a850f90417923aeac792cce99c1411114" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+        <definition>PFButton Pathfinder.Options.PathfinderOptionsMenu.EnterButton</definition>
+        <argsstring></argsstring>
+        <name>EnterButton</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptionsMenu.EnterButton</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(240, 10, 220, 54, &quot;Pathfinder Options&quot;, Color.Yellow)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptionsMenu.cs" line="76" column="29" bodyfile="PathfinderAPI/Options/PathfinderOptionsMenu.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1a06f9b3c5a794e4be5fa1c49f42ccc134" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Options.PathfinderOptionsMenu.Draw</definition>
+        <argsstring>(ref OptionsMenu __instance, GameTime gameTime)</argsstring>
+        <name>Draw</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptionsMenu.Draw</qualifiedname>
+        <param>
+          <type>ref OptionsMenu</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>GameTime</type>
+          <declname>gameTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptionsMenu.cs" line="22" column="26" bodyfile="PathfinderAPI/Options/PathfinderOptionsMenu.cs" bodystart="22" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1a8665480817b284441b5c1510070627a0" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Options.PathfinderOptionsMenu.BeforeEndDrawOptions</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>BeforeEndDrawOptions</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptionsMenu.BeforeEndDrawOptions</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptionsMenu.cs" line="80" column="26" bodyfile="PathfinderAPI/Options/PathfinderOptionsMenu.cs" bodystart="80" bodyend="93"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Options/PathfinderOptionsMenu.cs" line="13" column="17" bodyfile="PathfinderAPI/Options/PathfinderOptionsMenu.cs" bodystart="14" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1a8665480817b284441b5c1510070627a0" prot="package" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptionsMenu</scope><name>BeforeEndDrawOptions</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1ad8e8263573c23aff54b937f7e135f9ef" prot="private" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptionsMenu</scope><name>currentTabName</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1a06f9b3c5a794e4be5fa1c49f42ccc134" prot="package" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptionsMenu</scope><name>Draw</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1a850f90417923aeac792cce99c1411114" prot="private" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptionsMenu</scope><name>EnterButton</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1a4c1039a8ee6a695189accbf2fb78f916" prot="private" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptionsMenu</scope><name>isInPathfinderMenu</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_menu_1a81394e67fc56f57a7739200538779d2c" prot="private" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptionsMenu</scope><name>ReturnButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

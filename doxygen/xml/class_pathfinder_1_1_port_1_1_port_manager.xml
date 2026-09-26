@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_port_1_1_port_manager" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Port::PortManager</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_port_1_1_port_manager_1a8870ff7a6e943bbb78fec7070578ce40" prot="private" static="yes" mutable="no">
+        <type>readonly <ref refid="class_pathfinder_1_1_util_1_1_assembly_associated_list" kindref="compound">AssemblyAssociatedList</ref>&lt; <ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref> &gt;</type>
+        <definition>readonly AssemblyAssociatedList&lt;PortRecord&gt; Pathfinder.Port.PortManager.CustomPorts</definition>
+        <argsstring></argsstring>
+        <name>CustomPorts</name>
+        <qualifiedname>Pathfinder.Port.PortManager.CustomPorts</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_util_1_1_assembly_associated_list" kindref="compound">AssemblyAssociatedList</ref>&lt;<ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="14" column="52" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1a0f45423b7c3b639d47a5b53a2beaef0a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Port.PortManager.PortManager</definition>
+        <argsstring>()</argsstring>
+        <name>PortManager</name>
+        <qualifiedname>Pathfinder.Port.PortManager.PortManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="16" column="12" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1a1d6161e730a9ba644e529006b65c6e53" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.PortManager.OnPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.Port.PortManager.OnPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="21" column="25" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1a766ee5e8bca51fcc7f9001ca13b2d685" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.PortManager.RegisterPort</definition>
+        <argsstring>(string protocol, string displayName, int defaultPort=-1)</argsstring>
+        <name>RegisterPort</name>
+        <qualifiedname>Pathfinder.Port.PortManager.RegisterPort</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>defaultPort</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="27" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1a340eadf697de1840960b707ba397d951" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.PortManager.RegisterPort</definition>
+        <argsstring>(PortData info)</argsstring>
+        <name>RegisterPort</name>
+        <qualifiedname>Pathfinder.Port.PortManager.RegisterPort</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_data" kindref="compound">PortData</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="30" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1a5f74e5a6dc47f0f777260871d20030e5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.PortManager.RegisterPort</definition>
+        <argsstring>(PortRecord record)</argsstring>
+        <name>RegisterPort</name>
+        <qualifiedname>Pathfinder.Port.PortManager.RegisterPort</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref></type>
+          <declname>record</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="32" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1a634311651d16a8eadc0124bd21f6f960" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.PortManager.UnregisterPort</definition>
+        <argsstring>(string protocol, Assembly pluginAsm=null)</argsstring>
+        <name>UnregisterPort</name>
+        <qualifiedname>Pathfinder.Port.PortManager.UnregisterPort</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="40" column="24" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1a500fe77b0a6a1657ea997efd291e08ac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.PortManager.IsPortRecordRegistered</definition>
+        <argsstring>(PortRecord record)</argsstring>
+        <name>IsPortRecordRegistered</name>
+        <qualifiedname>Pathfinder.Port.PortManager.IsPortRecordRegistered</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref></type>
+          <declname>record</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="47" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1abe40a73ab911aa4a6457137d3281d99a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Port.PortManager.IsPortRegistered</definition>
+        <argsstring>(string protocol)</argsstring>
+        <name>IsPortRegistered</name>
+        <qualifiedname>Pathfinder.Port.PortManager.IsPortRegistered</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>protocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="50" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1ac0856011f9735504c026031d8815c8b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref></type>
+        <definition>static PortRecord Pathfinder.Port.PortManager.GetPortRecordFromProtocol</definition>
+        <argsstring>(string proto)</argsstring>
+        <name>GetPortRecordFromProtocol</name>
+        <qualifiedname>Pathfinder.Port.PortManager.GetPortRecordFromProtocol</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>proto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="53" column="30" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="53" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1ae1bed79a22f2d546dce027655b079ede" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref></type>
+        <definition>static PortRecord Pathfinder.Port.PortManager.GetPortRecordFromNumber</definition>
+        <argsstring>(int num)</argsstring>
+        <name>GetPortRecordFromNumber</name>
+        <qualifiedname>Pathfinder.Port.PortManager.GetPortRecordFromNumber</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="62" column="30" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1aacf2c23fa7f8c5e47dd918c69db19ce1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pathfinder_1_1_port_1_1_port_data" kindref="compound">PortData</ref></type>
+        <definition>static PortData Pathfinder.Port.PortManager.GetPortDataFromProtocol</definition>
+        <argsstring>(string proto)</argsstring>
+        <name>GetPortDataFromProtocol</name>
+        <qualifiedname>Pathfinder.Port.PortManager.GetPortDataFromProtocol</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>proto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="71" column="28" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1ad3de8023220796990936d2d3e9b0ca29" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pathfinder_1_1_port_1_1_port_data" kindref="compound">PortData</ref></type>
+        <definition>static PortData Pathfinder.Port.PortManager.GetPortDataFromNumber</definition>
+        <argsstring>(int num)</argsstring>
+        <name>GetPortDataFromNumber</name>
+        <qualifiedname>Pathfinder.Port.PortManager.GetPortDataFromNumber</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="77" column="28" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1adc193f01428d13055a9ad464786319b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.PortManager.LoadPortsFromChildren</definition>
+        <argsstring>(Computer comp, IEnumerable&lt; ElementInfo &gt; children, bool clearAll)</argsstring>
+        <name>LoadPortsFromChildren</name>
+        <qualifiedname>Pathfinder.Port.PortManager.LoadPortsFromChildren</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; <ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref> &gt;</type>
+          <declname>children</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>clearAll</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="82" column="24" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="82" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1af4c8650262ac616a847f67dde8dbfd1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.PortManager.LoadPortsFromString</definition>
+        <argsstring>(Computer comp, string portString, bool clearExisting)</argsstring>
+        <name>LoadPortsFromString</name>
+        <qualifiedname>Pathfinder.Port.PortManager.LoadPortsFromString</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>portString</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>clearExisting</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="132" column="24" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="132" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1a5f4cab3753b413e88fa688f18eaf43a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.PortManager.LoadPortsFromStringVanilla</definition>
+        <argsstring>(Computer comp, string portsList)</argsstring>
+        <name>LoadPortsFromStringVanilla</name>
+        <qualifiedname>Pathfinder.Port.PortManager.LoadPortsFromStringVanilla</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>portsList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="178" column="24" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="178" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1aaaa6fabd7275011058fb48bb6eb5fdba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.PortManager.LoadPortRemapsFromStringVanilla</definition>
+        <argsstring>(Computer comp, string remap)</argsstring>
+        <name>LoadPortRemapsFromStringVanilla</name>
+        <qualifiedname>Pathfinder.Port.PortManager.LoadPortRemapsFromStringVanilla</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>remap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="197" column="24" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="197" bodyend="216"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_port_1_1_port_manager_1aab4404a831ebb544ef975dbd5264325f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Port.PortManager.RegisterPortInternal</definition>
+        <argsstring>(PortRecord info, Assembly portAsm)</argsstring>
+        <name>RegisterPortInternal</name>
+        <qualifiedname>Pathfinder.Port.PortManager.RegisterPortInternal</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_port_1_1_port_record" kindref="compound">PortRecord</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>Assembly</type>
+          <declname>portAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Port/PortManager.cs" line="34" column="26" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Port/PortManager.cs" line="12" column="15" bodyfile="PathfinderAPI/Port/PortManager.cs" bodystart="13" bodyend="217"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1a8870ff7a6e943bbb78fec7070578ce40" prot="private" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>CustomPorts</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1ad3de8023220796990936d2d3e9b0ca29" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>GetPortDataFromNumber</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1aacf2c23fa7f8c5e47dd918c69db19ce1" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>GetPortDataFromProtocol</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1ae1bed79a22f2d546dce027655b079ede" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>GetPortRecordFromNumber</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1ac0856011f9735504c026031d8815c8b2" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>GetPortRecordFromProtocol</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1a500fe77b0a6a1657ea997efd291e08ac" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>IsPortRecordRegistered</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1abe40a73ab911aa4a6457137d3281d99a" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>IsPortRegistered</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1aaaa6fabd7275011058fb48bb6eb5fdba" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>LoadPortRemapsFromStringVanilla</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1adc193f01428d13055a9ad464786319b2" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>LoadPortsFromChildren</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1af4c8650262ac616a847f67dde8dbfd1a" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>LoadPortsFromString</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1a5f4cab3753b413e88fa688f18eaf43a3" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>LoadPortsFromStringVanilla</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1a1d6161e730a9ba644e529006b65c6e53" prot="private" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1a0f45423b7c3b639d47a5b53a2beaef0a" prot="private" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>PortManager</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1a766ee5e8bca51fcc7f9001ca13b2d685" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>RegisterPort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1a340eadf697de1840960b707ba397d951" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>RegisterPort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1a5f74e5a6dc47f0f777260871d20030e5" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>RegisterPort</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1aab4404a831ebb544ef975dbd5264325f" prot="package" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>RegisterPortInternal</name></member>
+      <member refid="class_pathfinder_1_1_port_1_1_port_manager_1a634311651d16a8eadc0124bd21f6f960" prot="public" virt="non-virtual"><scope>Pathfinder::Port::PortManager</scope><name>UnregisterPort</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

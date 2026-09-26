@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_38fd49a41aff99fc4e137df9b9aebf6a" kind="dir">
+    <compoundname>PathfinderAPI/BaseGameFixes/Performance</compoundname>
+    <innerfile refid="_cat_module_rendering_8cs">CatModuleRendering.cs</innerfile>
+    <innerfile refid="_node_lookup_8cs">NodeLookup.cs</innerfile>
+    <innerfile refid="_theme_caching_8cs">ThemeCaching.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/Performance/"/>
+  </compounddef>
+</doxygen>

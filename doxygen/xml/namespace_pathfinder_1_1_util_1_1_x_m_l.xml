@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_util_1_1_x_m_l" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Util::XML</compoundname>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" prot="public">Pathfinder::Util::XML::ElementInfo</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions" prot="public">Pathfinder::Util::XML::ElementInfoDictionaryExtensions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_list_extensions" prot="public">Pathfinder::Util::XML::ElementInfoListExtensions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions" prot="public">Pathfinder::Util::XML::ElementInfoStringExtensions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" prot="public">Pathfinder::Util::XML::EventExecutor</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader" prot="public">Pathfinder::Util::XML::EventReader</innerclass>
+    <innerclass refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_list_extensions" prot="public">Pathfinder::Util::XML::ListExtensions</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dc" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ParseOption</name>
+        <qualifiedname>Pathfinder.Util.XML.ParseOption</qualifiedname>
+        <enumvalue id="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dca6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dca495f91ed08876794fc1afe16c0c52897" prot="public">
+          <name>ParseInterior</name>
+          <initializer>= 0b1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dcaef8d7a839bf775a28ab68b2b27748571" prot="public">
+          <name>FireOnEnd</name>
+          <initializer>= 0b10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_pathfinder_1_1_util_1_1_x_m_l_1aa2c719b749b384c3b3639a9975c9b4dca9c29e59aba80e7f7e278544cbb5e0694" prot="public">
+          <name>DontAllowOthers</name>
+          <initializer>= 0b100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventExecutor.cs" line="8" column="7" bodyfile="PathfinderAPI/Util/XML/EventExecutor.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_pathfinder_1_1_util_1_1_x_m_l_1a32d0cb4080ab398042039ebfa187e88e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Pathfinder.Util.XML.ReadExecution</definition>
+        <argsstring>(EventExecutor exec, ElementInfo info)</argsstring>
+        <name>ReadExecution</name>
+        <qualifiedname>Pathfinder.Util.XML.ReadExecution</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" kindref="compound">EventExecutor</ref></type>
+          <declname>exec</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventExecutor.cs" line="5" column="22" declfile="PathfinderAPI/Util/XML/EventExecutor.cs" declline="5" declcolumn="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

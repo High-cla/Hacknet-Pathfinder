@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_executable_1_1_executable_manager" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Executable::ExecutableManager</compoundname>
+    <innerclass refid="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info" prot="public">Pathfinder::Executable::ExecutableManager::CustomExeInfo</innerclass>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a4aef6dd7179cdf2c24499efd144e6f46" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; <ref refid="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info" kindref="compound">CustomExeInfo</ref> &gt;</type>
+        <definition>readonly List&lt;CustomExeInfo&gt; Pathfinder.Executable.ExecutableManager._customExes</definition>
+        <argsstring></argsstring>
+        <name>_customExes</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager._customExes</qualifiedname>
+        <initializer>= new List&lt;<ref refid="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info" kindref="compound">CustomExeInfo</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="25" column="34" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_executable_1_1_executable_manager_1aa86a81004c16899d905596708a6c5dd8" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IReadOnlyList&lt; <ref refid="struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info" kindref="compound">CustomExeInfo</ref> &gt;</type>
+        <definition>IReadOnlyList&lt;CustomExeInfo&gt; Pathfinder.Executable.ExecutableManager.AllCustomExes</definition>
+        <argsstring></argsstring>
+        <name>AllCustomExes</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.AllCustomExes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="27" column="33" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a40a8365df3c92f73c4ee3ea007bc97b1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Executable.ExecutableManager.ExecutableManager</definition>
+        <argsstring>()</argsstring>
+        <name>ExecutableManager</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.ExecutableManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="30" column="12" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a5f5783b5b91c4e32e38388e468a108ce" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.GetTextReplacementExe</definition>
+        <argsstring>(TextReplaceEvent e)</argsstring>
+        <name>GetTextReplacementExe</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.GetTextReplacementExe</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_loading_1_1_text_replace_event" kindref="compound">TextReplaceEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="38" column="25" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a055885d76719d9597a026af47c6d55a9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.OnExeExecute</definition>
+        <argsstring>(ExecutableExecuteEvent e)</argsstring>
+        <name>OnExeExecute</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.OnExeExecute</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_execute_event" kindref="compound">ExecutableExecuteEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="45" column="25" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="45" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a6bb15a0af71092ad2004e6ad2d664849" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.OnPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.OnPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="65" column="25" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a5ea2d723c92092136f2bb6b7cf4dc0f2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Executable.ExecutableManager.AddExePrefix</definition>
+        <argsstring>(OS __instance, ExeModule exe)</argsstring>
+        <name>AddExePrefix</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.AddExePrefix</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>ExeModule</type>
+          <declname>exe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="154" column="25" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="154" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a9f79121aca91532a35a113d41114d171" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.OnExecutableList</definition>
+        <argsstring>(ExecutableListEvent e)</argsstring>
+        <name>OnExecutableList</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.OnExecutableList</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event" kindref="compound">ExecutableListEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="165" column="25" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="165" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1aa377221b03b50215fc1a48a5f96ed8c4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.onOSUpdate</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>onOSUpdate</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.onOSUpdate</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="176" column="25" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="176" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a7e5e2dd846a066c2e1ecc2099e77c2a6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.programsKillFix</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>programsKillFix</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.programsKillFix</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="200" column="25" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="200" bodyend="231"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a4ada31e753b8a37fa756ae355766b44f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.RegisterExecutable&lt; T &gt;</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>RegisterExecutable&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.RegisterExecutable&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="70" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1aa437ce73c09879015f7b0a258e32f0f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.RegisterExecutable</definition>
+        <argsstring>(Type executableType, string xmlName)</argsstring>
+        <name>RegisterExecutable</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.RegisterExecutable</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>executableType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="71" column="24" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="71" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a51d17f38c386db3bda7c66ba2dab30a3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Executable.ExecutableManager.IsXmlId</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>IsXmlId</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.IsXmlId</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="85" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a6c2cf90a143c5248a8b76d1c50f44ad8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Executable.ExecutableManager.IsExeData</definition>
+        <argsstring>(string exeData)</argsstring>
+        <name>IsExeData</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.IsExeData</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>exeData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="88" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a521fd6ac6eb24c3983dcada9b07246e1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Executable.ExecutableManager.IsRegistered&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>IsRegistered&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.IsRegistered&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="91" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a2c68e6e30024ca7600902847150ea6fa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Executable.ExecutableManager.IsRegistered</definition>
+        <argsstring>(Type exeType)</argsstring>
+        <name>IsRegistered</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.IsRegistered</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>exeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="93" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a243fb6b9811fe786c0a003887c2c9b71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Pathfinder.Executable.ExecutableManager.GetCustomExeData</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>GetCustomExeData</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.GetCustomExeData</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="96" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a6da6261d100604bdf7d0f155c33ef2ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.UnregisterExecutable</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>UnregisterExecutable</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.UnregisterExecutable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="98" column="24" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a6fe8efbeb4f0010632094b92b71b9f38" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.UnregisterExecutable&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>UnregisterExecutable&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.UnregisterExecutable&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="102" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a4536eca8d51541e6558387aa4a229abd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.UnregisterExecutable</definition>
+        <argsstring>(Type exeType)</argsstring>
+        <name>UnregisterExecutable</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.UnregisterExecutable</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>exeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="103" column="24" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1ad6f9188bf02e2168c6b5c9ea0ba90e69" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.AddGameExecutable</definition>
+        <argsstring>(this OS os, GameExecutable exe, Rectangle location, string[] args)</argsstring>
+        <name>AddGameExecutable</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.AddGameExecutable</qualifiedname>
+        <param>
+          <type>this OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_executable_1_1_game_executable" kindref="compound">GameExecutable</ref></type>
+          <declname>exe</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="108" column="24" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="108" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_executable_1_1_executable_manager_1a3b833d435e367bcb5d85477735c50f82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Executable.ExecutableManager.AddGameExecutable</definition>
+        <argsstring>(this OS os, GameExecutable exe)</argsstring>
+        <name>AddGameExecutable</name>
+        <qualifiedname>Pathfinder.Executable.ExecutableManager.AddGameExecutable</qualifiedname>
+        <param>
+          <type>this OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_executable_1_1_game_executable" kindref="compound">GameExecutable</ref></type>
+          <declname>exe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="113" column="24" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="113" bodyend="150"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Executable/ExecutableManager.cs" line="16" column="15" bodyfile="PathfinderAPI/Executable/ExecutableManager.cs" bodystart="17" bodyend="232"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a4aef6dd7179cdf2c24499efd144e6f46" prot="private" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>_customExes</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a5ea2d723c92092136f2bb6b7cf4dc0f2" prot="private" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>AddExePrefix</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1ad6f9188bf02e2168c6b5c9ea0ba90e69" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>AddGameExecutable</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a3b833d435e367bcb5d85477735c50f82" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>AddGameExecutable</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1aa86a81004c16899d905596708a6c5dd8" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>AllCustomExes</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a40a8365df3c92f73c4ee3ea007bc97b1" prot="private" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>ExecutableManager</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a243fb6b9811fe786c0a003887c2c9b71" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>GetCustomExeData</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a5f5783b5b91c4e32e38388e468a108ce" prot="private" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>GetTextReplacementExe</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a6c2cf90a143c5248a8b76d1c50f44ad8" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>IsExeData</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a2c68e6e30024ca7600902847150ea6fa" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>IsRegistered</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a521fd6ac6eb24c3983dcada9b07246e1" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>IsRegistered&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a51d17f38c386db3bda7c66ba2dab30a3" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>IsXmlId</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a9f79121aca91532a35a113d41114d171" prot="private" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>OnExecutableList</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a055885d76719d9597a026af47c6d55a9" prot="private" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>OnExeExecute</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1aa377221b03b50215fc1a48a5f96ed8c4" prot="private" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>onOSUpdate</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a6bb15a0af71092ad2004e6ad2d664849" prot="private" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a7e5e2dd846a066c2e1ecc2099e77c2a6" prot="private" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>programsKillFix</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1aa437ce73c09879015f7b0a258e32f0f8" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>RegisterExecutable</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a4ada31e753b8a37fa756ae355766b44f" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>RegisterExecutable&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a6da6261d100604bdf7d0f155c33ef2ff" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>UnregisterExecutable</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a4536eca8d51541e6558387aa4a229abd" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>UnregisterExecutable</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_executable_manager_1a6fe8efbeb4f0010632094b92b71b9f38" prot="public" virt="non-virtual"><scope>Pathfinder::Executable::ExecutableManager</scope><name>UnregisterExecutable&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

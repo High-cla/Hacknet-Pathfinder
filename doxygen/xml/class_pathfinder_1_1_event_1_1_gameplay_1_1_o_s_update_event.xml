@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::Gameplay::OSUpdateEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public" virt="non-virtual">Pathfinder.Event.PathfinderEvent</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a30177fe7c21559e1137b6096c37296f3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Event.Gameplay.OSUpdateEvent.OS</definition>
+        <argsstring></argsstring>
+        <name>OS</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.OSUpdateEvent.OS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs" line="10" column="15" bodyfile="PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a0a58b62aa64072e702073ee1c2fbe6a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>GameTime</type>
+        <definition>GameTime Pathfinder.Event.Gameplay.OSUpdateEvent.GameTime</definition>
+        <argsstring></argsstring>
+        <name>GameTime</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.OSUpdateEvent.GameTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs" line="11" column="21" bodyfile="PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a3c540f941c44de787e6784804f634d86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Gameplay.OSUpdateEvent.OSUpdateEvent</definition>
+        <argsstring>(OS os, GameTime gameTime)</argsstring>
+        <name>OSUpdateEvent</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.OSUpdateEvent.OSUpdateEvent</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a30177fe7c21559e1137b6096c37296f3" kindref="member">OS</ref></type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a0a58b62aa64072e702073ee1c2fbe6a7" kindref="member">GameTime</ref></type>
+          <declname>gameTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs" line="13" column="12" bodyfile="PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a2c28def3cb730d18e4cf1d2bf7fece8b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Event.Gameplay.OSUpdateEvent.OSUpdatePostfix</definition>
+        <argsstring>(OS __instance, GameTime gameTime)</argsstring>
+        <name>OSUpdatePostfix</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.OSUpdateEvent.OSUpdatePostfix</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a30177fe7c21559e1137b6096c37296f3" kindref="member">OS</ref></type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a0a58b62aa64072e702073ee1c2fbe6a7" kindref="member">GameTime</ref></type>
+          <declname>gameTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs" line="21" column="25" bodyfile="PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.Gameplay.OSUpdateEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Event.Gameplay.OSUpdateEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs" line="8" column="7" bodyfile="PathfinderAPI/Event/Gameplay/OSUpdateEvent.cs" bodystart="9" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::OSUpdateEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::OSUpdateEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a0a58b62aa64072e702073ee1c2fbe6a7" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::OSUpdateEvent</scope><name>GameTime</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a30177fe7c21559e1137b6096c37296f3" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::OSUpdateEvent</scope><name>OS</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a3c540f941c44de787e6784804f634d86" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::OSUpdateEvent</scope><name>OSUpdateEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event_1a2c28def3cb730d18e4cf1d2bf7fece8b" prot="private" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::OSUpdateEvent</scope><name>OSUpdatePostfix</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::OSUpdateEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

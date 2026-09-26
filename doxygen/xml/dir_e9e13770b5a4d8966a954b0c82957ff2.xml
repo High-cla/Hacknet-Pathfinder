@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_e9e13770b5a4d8966a954b0c82957ff2" kind="dir">
+    <compoundname>PathfinderAPI/Event/Loading</compoundname>
+    <innerfile refid="_extension_load_event_8cs">ExtensionLoadEvent.cs</innerfile>
+    <innerfile refid="_o_s_loaded_event_8cs">OSLoadedEvent.cs</innerfile>
+    <innerfile refid="_save_computer_loaded_event_8cs">SaveComputerLoadedEvent.cs</innerfile>
+    <innerfile refid="_text_replace_event_8cs">TextReplaceEvent.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/Loading/"/>
+  </compounddef>
+</doxygen>

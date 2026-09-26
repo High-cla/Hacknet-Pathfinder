@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/dir_8864d67b635af673ee3aa248f9329144/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/BaseGameFixes - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/BaseGameFixes";
+        var mkdocs_page_input_path = "doxybook/Files/dir_8864d67b635af673ee3aa248f9329144.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/dir_8864d67b635af673ee3aa248f9329144/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/BaseGameFixes</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapibasegamefixes">PathfinderAPI/BaseGameFixes</h1>
+<h2 id="directories">Directories</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Files/dir_38fd49a41aff99fc4e137df9b9aebf6a/#dir-pathfinderapi/basegamefixes/performance">PathfinderAPI/BaseGameFixes/Performance</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="files">Files</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Files/_auto_clear_missions_on_single_complete_8cs/#file-autoclearmissionsonsinglecomplete.cs">PathfinderAPI/BaseGameFixes/AutoClearMissionsOnSingleComplete.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_avoid_null_deref_on_theme_change_8cs/#file-avoidnullderefonthemechange.cs">PathfinderAPI/BaseGameFixes/AvoidNullDerefOnThemeChange.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_clear_post_load_actions_8cs/#file-clearpostloadactions.cs">PathfinderAPI/BaseGameFixes/ClearPostLoadActions.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_dont_lose_player_comp_admin_8cs/#file-dontloseplayercompadmin.cs">PathfinderAPI/BaseGameFixes/DontLosePlayerCompAdmin.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_fix_extension_tests_8cs/#file-fixextensiontests.cs">PathfinderAPI/BaseGameFixes/FixExtensionTests.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_fix_tutorial_startup_8cs/#file-fixtutorialstartup.cs">PathfinderAPI/BaseGameFixes/FixTutorialStartup.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_flickering_text_report_null_8cs/#file-flickeringtextreportnull.cs">PathfinderAPI/BaseGameFixes/FlickeringTextReportNull.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_h_h_b_s_8cs/#file-hhbs.cs">PathfinderAPI/BaseGameFixes/HHBS.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_keep_branches_on_mail_mission_completion_8cs/#file-keepbranchesonmailmissioncompletion.cs">PathfinderAPI/BaseGameFixes/KeepBranchesOnMailMissionCompletion.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_kill_exe_check_identifier_name_8cs/#file-killexecheckidentifiername.cs">PathfinderAPI/BaseGameFixes/KillExeCheckIdentifierName.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_listing_server_fixes_8cs/#file-listingserverfixes.cs">PathfinderAPI/BaseGameFixes/ListingServerFixes.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_load_builtin_themes_8cs/#file-loadbuiltinthemes.cs">PathfinderAPI/BaseGameFixes/LoadBuiltinThemes.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_mission_listing_server_load_time_8cs/#file-missionlistingserverloadtime.cs">PathfinderAPI/BaseGameFixes/MissionListingServerLoadTime.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_needs_mission_complete_8cs/#file-needsmissioncomplete.cs">PathfinderAPI/BaseGameFixes/NeedsMissionComplete.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_prevent_skipping_e_t_a_s_8cs/#file-preventskippingetas.cs">PathfinderAPI/BaseGameFixes/PreventSkippingETAS.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_random_i_p_no_repeats_8cs/#file-randomipnorepeats.cs">PathfinderAPI/BaseGameFixes/RandomIPNoRepeats.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_reload_extension_nodes_8cs/#file-reloadextensionnodes.cs">PathfinderAPI/BaseGameFixes/ReloadExtensionNodes.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_self_authenticating_host_whitelist_display_8cs/#file-selfauthenticatinghostwhitelistdisplay.cs">PathfinderAPI/BaseGameFixes/SelfAuthenticatingHostWhitelistDisplay.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_send_email_mission_8cs/#file-sendemailmission.cs">PathfinderAPI/BaseGameFixes/SendEmailMission.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_sequencer_node_dimming_fix_8cs/#file-sequencernodedimmingfix.cs">PathfinderAPI/BaseGameFixes/SequencerNodeDimmingFix.cs</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Files/_starting_actions_after_nodes_8cs/#file-startingactionsafternodes.cs">PathfinderAPI/BaseGameFixes/StartingActionsAfterNodes.cs</a></strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

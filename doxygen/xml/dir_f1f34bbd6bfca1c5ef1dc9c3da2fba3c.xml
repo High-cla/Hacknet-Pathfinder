@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_f1f34bbd6bfca1c5ef1dc9c3da2fba3c" kind="dir">
+    <compoundname>BepInEx.Hacknet</compoundname>
+    <innerfile refid="_console_logger_8cs">ConsoleLogger.cs</innerfile>
+    <innerfile refid="_entrypoint_8cs">Entrypoint.cs</innerfile>
+    <innerfile refid="_hacknet_chainloader_8cs">HacknetChainloader.cs</innerfile>
+    <innerfile refid="_hacknet_plugin_8cs">HacknetPlugin.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BepInEx.Hacknet/"/>
+  </compounddef>
+</doxygen>

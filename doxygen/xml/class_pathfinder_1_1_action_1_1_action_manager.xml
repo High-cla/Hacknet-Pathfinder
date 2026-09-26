@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_action_1_1_action_manager" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Action::ActionManager</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_action_1_1_action_manager_1a5888ef1a42bd8fd9bfe9d55bd5c65884" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; string, Type &gt;</type>
+        <definition>readonly Dictionary&lt;string, Type&gt; Pathfinder.Action.ActionManager.CustomActions</definition>
+        <argsstring></argsstring>
+        <name>CustomActions</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.CustomActions</qualifiedname>
+        <initializer>= new Dictionary&lt;string, Type&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="15" column="40" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_action_1_1_action_manager_1a7b2c282140856c6875a4aac7216f4480" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Type, string &gt;</type>
+        <definition>readonly Dictionary&lt;Type, string&gt; Pathfinder.Action.ActionManager.XmlNames</definition>
+        <argsstring></argsstring>
+        <name>XmlNames</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.XmlNames</qualifiedname>
+        <initializer>= new Dictionary&lt;Type, string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="16" column="40" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_manager_1a8059454b0bfa96871c527e26bf013569" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Action.ActionManager.ActionManager</definition>
+        <argsstring>()</argsstring>
+        <name>ActionManager</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.ActionManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="18" column="12" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_manager_1aa535690b4f478c6ab2d20aaa54a2ef36" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Action.ActionManager.OnPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.OnPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="36" column="25" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="36" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_manager_1a1b193a55b7fc869e494e6b64f1874450" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Action.ActionManager.TryLoadCustomAction</definition>
+        <argsstring>(ElementInfo info, out PathfinderAction action)</argsstring>
+        <name>TryLoadCustomAction</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.TryLoadCustomAction</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>out <ref refid="class_pathfinder_1_1_action_1_1_pathfinder_action" kindref="compound">PathfinderAction</ref></type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="23" column="26" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="23" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_manager_1ab137656222844153e57b30f769c0734f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Action.ActionManager.GetSaveStringOverridePrefix</definition>
+        <argsstring>(SerializableAction __instance, ref string __result)</argsstring>
+        <name>GetSaveStringOverridePrefix</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.GetSaveStringOverridePrefix</qualifiedname>
+        <param>
+          <type>SerializableAction</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>ref string</type>
+          <declname>__result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="85" column="26" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="85" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_manager_1afbf7ec06a52eb655ddad443026e2260f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Action.ActionManager.RegisterAction&lt; T &gt;</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>RegisterAction&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.RegisterAction&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="45" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_manager_1ae1a7385fd15f5bc6f40dcf4fac74588e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Action.ActionManager.RegisterAction</definition>
+        <argsstring>(Type actionType, string xmlName)</argsstring>
+        <name>RegisterAction</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.RegisterAction</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>actionType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="46" column="24" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="46" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_manager_1a8413e9f2313a167b04fcb5a1e717c8b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Action.ActionManager.UnregisterAction&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>UnregisterAction&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.UnregisterAction&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="54" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_manager_1aedb2f415747a01a395df1b956f669a85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Action.ActionManager.UnregisterAction</definition>
+        <argsstring>(Type actionType)</argsstring>
+        <name>UnregisterAction</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.UnregisterAction</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="55" column="24" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_manager_1ad378a4016ce7288d2b58c81893cba693" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Action.ActionManager.UnregisterAction</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>UnregisterAction</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.UnregisterAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="62" column="24" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="62" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_action_1_1_action_manager_1a41cbf072a5ed882d3b818cd69217cc03" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Pathfinder.Action.ActionManager.GetXmlNameFor</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>GetXmlNameFor</name>
+        <qualifiedname>Pathfinder.Action.ActionManager.GetXmlNameFor</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Action/ActionManager.cs" line="77" column="26" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="77" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Action/ActionManager.cs" line="13" column="15" bodyfile="PathfinderAPI/Action/ActionManager.cs" bodystart="14" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1a8059454b0bfa96871c527e26bf013569" prot="private" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>ActionManager</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1a5888ef1a42bd8fd9bfe9d55bd5c65884" prot="private" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>CustomActions</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1ab137656222844153e57b30f769c0734f" prot="package" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>GetSaveStringOverridePrefix</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1a41cbf072a5ed882d3b818cd69217cc03" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>GetXmlNameFor</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1aa535690b4f478c6ab2d20aaa54a2ef36" prot="private" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1ae1a7385fd15f5bc6f40dcf4fac74588e" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>RegisterAction</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1afbf7ec06a52eb655ddad443026e2260f" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>RegisterAction&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1a1b193a55b7fc869e494e6b64f1874450" prot="package" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>TryLoadCustomAction</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1aedb2f415747a01a395df1b956f669a85" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>UnregisterAction</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1ad378a4016ce7288d2b58c81893cba693" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>UnregisterAction</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1a8413e9f2313a167b04fcb5a1e717c8b2" prot="public" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>UnregisterAction&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_action_1_1_action_manager_1a7b2c282140856c6875a4aac7216f4480" prot="private" virt="non-virtual"><scope>Pathfinder::Action::ActionManager</scope><name>XmlNames</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

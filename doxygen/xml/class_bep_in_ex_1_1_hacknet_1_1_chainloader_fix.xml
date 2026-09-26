@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix" kind="class" language="C#" prot="package">
+    <compoundname>BepInEx::Hacknet::ChainloaderFix</compoundname>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix_1a358906b629fc78e180466bc4b48d4c27" prot="package" static="yes" mutable="no">
+        <type>Dictionary&lt; string, Assembly &gt;</type>
+        <definition>Dictionary&lt;string, Assembly&gt; BepInEx.Hacknet.ChainloaderFix.Remaps</definition>
+        <argsstring></argsstring>
+        <name>Remaps</name>
+        <qualifiedname>BepInEx.Hacknet.ChainloaderFix.Remaps</qualifiedname>
+        <initializer>= new Dictionary&lt;string, Assembly&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="218" column="32" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix_1a94494706e6e71a53897e1cd04e442a9e" prot="package" static="yes" mutable="no">
+        <type>Dictionary&lt; string, AssemblyDefinition &gt;</type>
+        <definition>Dictionary&lt;string, AssemblyDefinition&gt; BepInEx.Hacknet.ChainloaderFix.RemapDefinitions</definition>
+        <argsstring></argsstring>
+        <name>RemapDefinitions</name>
+        <qualifiedname>BepInEx.Hacknet.ChainloaderFix.RemapDefinitions</qualifiedname>
+        <initializer>= new Dictionary&lt;string, AssemblyDefinition&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="219" column="32" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix_1a1848ad4e8f87c5a8e41dc9b602b839e3" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.ChainloaderFix.PluginCecilHacks</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>PluginCecilHacks</name>
+        <qualifiedname>BepInEx.Hacknet.ChainloaderFix.PluginCecilHacks</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="223" column="26" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="223" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix_1afcccdb6bbe2bc95495f41d43371bc003" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BepInEx.Hacknet.ChainloaderFix.ClearRemaps</definition>
+        <argsstring>()</argsstring>
+        <name>ClearRemaps</name>
+        <qualifiedname>BepInEx.Hacknet.ChainloaderFix.ClearRemaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="282" column="26" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="282" bodyend="288"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BepInEx.Hacknet/HacknetChainloader.cs" line="216" column="17" bodyfile="BepInEx.Hacknet/HacknetChainloader.cs" bodystart="217" bodyend="289"/>
+    <listofallmembers>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix_1afcccdb6bbe2bc95495f41d43371bc003" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::ChainloaderFix</scope><name>ClearRemaps</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix_1a1848ad4e8f87c5a8e41dc9b602b839e3" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::ChainloaderFix</scope><name>PluginCecilHacks</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix_1a94494706e6e71a53897e1cd04e442a9e" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::ChainloaderFix</scope><name>RemapDefinitions</name></member>
+      <member refid="class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix_1a358906b629fc78e180466bc4b48d4c27" prot="package" virt="non-virtual"><scope>BepInEx::Hacknet::ChainloaderFix</scope><name>Remaps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

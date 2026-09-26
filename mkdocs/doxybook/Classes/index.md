@@ -1,0 +1,268 @@
+---
+title: Classes
+
+---
+
+# Classes
+
+
+
+
+* **namespace [BepInEx](../Namespaces/namespace_bep_in_ex/)** 
+    * **namespace [Hacknet](../Namespaces/namespace_bep_in_ex_1_1_hacknet/)** 
+        * **class [ChainloaderFix](../Classes/class_bep_in_ex_1_1_hacknet_1_1_chainloader_fix/)** 
+        * **class [ConsoleLogger](../Classes/class_bep_in_ex_1_1_hacknet_1_1_console_logger/)** 
+        * **class [Entrypoint](../Classes/class_bep_in_ex_1_1_hacknet_1_1_entrypoint/)** 
+        * **class [ExtensionPluginPatches](../Classes/class_bep_in_ex_1_1_hacknet_1_1_extension_plugin_patches/)** 
+        * **class [HacknetChainloader](../Classes/class_bep_in_ex_1_1_hacknet_1_1_hacknet_chainloader/)** 
+        * **class [HacknetPlugin](../Classes/class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin/)** 
+        * **class [LoadBepInEx](../Classes/class_bep_in_ex_1_1_hacknet_1_1_load_bep_in_ex/)** 
+        * **class [LogWriteLineToDisk](../Classes/class_bep_in_ex_1_1_hacknet_1_1_log_write_line_to_disk/)** 
+        * **class [RenamedAssemblyResolver](../Classes/class_bep_in_ex_1_1_hacknet_1_1_renamed_assembly_resolver/)** 
+* **namespace [BepInEx::Bootstrap](../Namespaces/namespace_bep_in_ex_1_1_bootstrap/)** 
+* **namespace [BepInEx::Configuration](../Namespaces/namespace_bep_in_ex_1_1_configuration/)** 
+* **namespace [BepInEx::Logging](../Namespaces/namespace_bep_in_ex_1_1_logging/)** 
+* **namespace [ExampleMod2](../Namespaces/namespace_example_mod2/)** 
+    * **class [ExampleModPlugin2](../Classes/class_example_mod2_1_1_example_mod_plugin2/)** 
+    * **class [PatchClass2](../Classes/class_example_mod2_1_1_patch_class2/)** 
+    * **class [TestAction](../Classes/class_example_mod2_1_1_test_action/)** 
+    * **class [TestAdministrator](../Classes/class_example_mod2_1_1_test_administrator/)** 
+    * **class [TestComputerExecutor](../Classes/class_example_mod2_1_1_test_computer_executor/)** 
+    * **class [TestCondition](../Classes/class_example_mod2_1_1_test_condition/)** 
+    * **class [TestDaemon](../Classes/class_example_mod2_1_1_test_daemon/)** 
+    * **class [TestExe](../Classes/class_example_mod2_1_1_test_exe/)** 
+    * **class [TestGoal](../Classes/class_example_mod2_1_1_test_goal/)** 
+* **namespace [HN](../Namespaces/namespace_h_n/)** 
+* **namespace [Hacknet](../Namespaces/namespace_hacknet/)** 
+* **namespace [Hacknet::Effects](../Namespaces/namespace_hacknet_1_1_effects/)** 
+* **namespace [Hacknet::Extensions](../Namespaces/namespace_hacknet_1_1_extensions/)** 
+* **namespace [Hacknet::Factions](../Namespaces/namespace_hacknet_1_1_factions/)** 
+* **namespace [Hacknet::Gui](../Namespaces/namespace_hacknet_1_1_gui/)** 
+* **namespace [Hacknet::Localization](../Namespaces/namespace_hacknet_1_1_localization/)** 
+* **namespace [Hacknet::Misc](../Namespaces/namespace_hacknet_1_1_misc/)** 
+* **namespace [Hacknet::Mission](../Namespaces/namespace_hacknet_1_1_mission/)** 
+* **namespace [Hacknet::PlatformAPI::Storage](../Namespaces/namespace_hacknet_1_1_platform_a_p_i_1_1_storage/)** 
+* **namespace [Hacknet::Screens](../Namespaces/namespace_hacknet_1_1_screens/)** 
+* **namespace [Hacknet::Security](../Namespaces/namespace_hacknet_1_1_security/)** 
+* **namespace [HarmonyLib](../Namespaces/namespace_harmony_lib/)** 
+* **namespace [Microsoft::Build::Framework](../Namespaces/namespace_microsoft_1_1_build_1_1_framework/)** 
+* **namespace [Microsoft::Build::Utilities](../Namespaces/namespace_microsoft_1_1_build_1_1_utilities/)** 
+* **namespace [Microsoft::Xna::Framework](../Namespaces/namespace_microsoft_1_1_xna_1_1_framework/)** 
+* **namespace [Microsoft::Xna::Framework::Graphics](../Namespaces/namespace_microsoft_1_1_xna_1_1_framework_1_1_graphics/)** 
+* **namespace [Mono::Cecil](../Namespaces/namespace_mono_1_1_cecil/)** 
+* **namespace [Mono::Cecil::Cil](../Namespaces/namespace_mono_1_1_cecil_1_1_cil/)** 
+* **namespace [MonoMod::Cil](../Namespaces/namespace_mono_mod_1_1_cil/)** 
+* **namespace [MonoMod::Utils](../Namespaces/namespace_mono_mod_1_1_utils/)** 
+* **namespace [Newtonsoft::Json::Linq](../Namespaces/namespace_newtonsoft_1_1_json_1_1_linq/)** 
+* **namespace [Pathfinder](../Namespaces/namespace_pathfinder/)** 
+    * **namespace [Action](../Namespaces/namespace_pathfinder_1_1_action/)** 
+        * **class [ActionDelayDecorator](../Classes/class_pathfinder_1_1_action_1_1_action_delay_decorator/)** 
+        * **class [ActionManager](../Classes/class_pathfinder_1_1_action_1_1_action_manager/)** 
+        * **class [ConditionManager](../Classes/class_pathfinder_1_1_action_1_1_condition_manager/)** 
+        * **class [DelayablePathfinderAction](../Classes/class_pathfinder_1_1_action_1_1_delayable_pathfinder_action/)** 
+        * **class [PathfinderAction](../Classes/class_pathfinder_1_1_action_1_1_pathfinder_action/)** 
+        * **class [PathfinderCondition](../Classes/class_pathfinder_1_1_action_1_1_pathfinder_condition/)** 
+    * **namespace [Administrator](../Namespaces/namespace_pathfinder_1_1_administrator/)** 
+        * **class [AdministratorManager](../Classes/class_pathfinder_1_1_administrator_1_1_administrator_manager/)** 
+        * **class [BaseAdministrator](../Classes/class_pathfinder_1_1_administrator_1_1_base_administrator/)** 
+    * **namespace [BaseGameFixes](../Namespaces/namespace_pathfinder_1_1_base_game_fixes/)** 
+        * **class [AutoClearMissionsOnSingleComplete](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_auto_clear_missions_on_single_complete/)** 
+        * **class [AvoidNullDerefOnThemeChange](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_avoid_null_deref_on_theme_change/)** 
+        * **class [ClearPostLoadActions](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_clear_post_load_actions/)** 
+        * **class [DontLosePlayerCompAdmin](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_dont_lose_player_comp_admin/)** 
+        * **class [FixExtensionTests](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_fix_extension_tests/)** 
+        * **class [FixTutorialStartup](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_fix_tutorial_startup/)** 
+        * **class [FlickeringTextReportNull](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_flickering_text_report_null/)** 
+        * **class [HHBS](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_h_h_b_s/)** 
+        * **class [KeepBranchesOnMailMissionCompletion](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_keep_branches_on_mail_mission_completion/)** 
+        * **class [KillExeCheckIdentifierName](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_kill_exe_check_identifier_name/)** 
+        * **class [ListingServerFixes](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_listing_server_fixes/)** 
+        * **class [LoadBuiltinThemes](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_load_builtin_themes/)** 
+        * **class [MissionListingServerLoadTime](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_mission_listing_server_load_time/)** 
+        * **class [NeedsMissionComplete](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_needs_mission_complete/)** 
+        * **namespace [Performance](../Namespaces/namespace_pathfinder_1_1_base_game_fixes_1_1_performance/)** 
+            * **class [CatModuleRendering](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_cat_module_rendering/)** 
+            * **class [NodeLookup](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_node_lookup/)** 
+            * **class [ThemeCaching](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_performance_1_1_theme_caching/)** 
+        * **class [PreventSkippingETAS](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_prevent_skipping_e_t_a_s/)** 
+        * **class [RandomIPNoRepeats](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_random_i_p_no_repeats/)** 
+        * **class [ReloadExtensionNodes](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_reload_extension_nodes/)** 
+        * **class [SelfAuthenticatingHostWhitelistDisplay](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_self_authenticating_host_whitelist_display/)** 
+        * **class [SendEmailMission](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_send_email_mission/)** 
+        * **class [SequencerNodeDimmingFix](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_sequencer_node_dimming_fix/)** 
+        * **class [StartingActionsAfterNodes](../Classes/class_pathfinder_1_1_base_game_fixes_1_1_starting_actions_after_nodes/)** 
+    * **namespace [Command](../Namespaces/namespace_pathfinder_1_1_command/)** 
+        * **class [CommandManager](../Classes/class_pathfinder_1_1_command_1_1_command_manager/)** 
+            * **struct [CustomCommand](../Classes/struct_pathfinder_1_1_command_1_1_command_manager_1_1_custom_command/)** 
+        * **class [DebugCommands](../Classes/class_pathfinder_1_1_command_1_1_debug_commands/)** 
+    * **namespace [Daemon](../Namespaces/namespace_pathfinder_1_1_daemon/)** 
+        * **class [BaseDaemon](../Classes/class_pathfinder_1_1_daemon_1_1_base_daemon/)** 
+        * **class [DaemonManager](../Classes/class_pathfinder_1_1_daemon_1_1_daemon_manager/)** 
+    * **namespace [Event](../Namespaces/namespace_pathfinder_1_1_event/)** 
+        * **namespace [BepInEx](../Namespaces/namespace_pathfinder_1_1_event_1_1_bep_in_ex/)** 
+            * **class [LoadEvent](../Classes/class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_load_event/)** 
+            * **class [PostLoadEvent](../Classes/class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_post_load_event/)** 
+            * **class [UnloadEvent](../Classes/class_pathfinder_1_1_event_1_1_bep_in_ex_1_1_unload_event/)** 
+        * **class [EventHandler](../Classes/class_pathfinder_1_1_event_1_1_event_handler/)** 
+        * **struct [EventHandlerOptions](../Classes/struct_pathfinder_1_1_event_1_1_event_handler_options/)** 
+        * **class [EventManager](../Classes/class_pathfinder_1_1_event_1_1_event_manager/)** <br>Manager for PathfinderEvent handlers. 
+        * **namespace [Gameplay](../Namespaces/namespace_pathfinder_1_1_event_1_1_gameplay/)** 
+            * **class [CommandExecuteEvent](../Classes/class_pathfinder_1_1_event_1_1_gameplay_1_1_command_execute_event/)** 
+            * **class [ExecutableExecuteEvent](../Classes/class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_execute_event/)** 
+            * **class [ExecutableListEvent](../Classes/class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event/)** 
+            * **class [OSUpdateEvent](../Classes/class_pathfinder_1_1_event_1_1_gameplay_1_1_o_s_update_event/)** 
+        * **namespace [Loading](../Namespaces/namespace_pathfinder_1_1_event_1_1_loading/)** 
+            * **class [ExtensionLoadEvent](../Classes/class_pathfinder_1_1_event_1_1_loading_1_1_extension_load_event/)** 
+            * **class [OSLoadedEvent](../Classes/class_pathfinder_1_1_event_1_1_loading_1_1_o_s_loaded_event/)** 
+            * **class [SaveComputerLoadedEvent](../Classes/class_pathfinder_1_1_event_1_1_loading_1_1_save_computer_loaded_event/)** 
+            * **class [TextReplaceEvent](../Classes/class_pathfinder_1_1_event_1_1_loading_1_1_text_replace_event/)** 
+        * **namespace [Menu](../Namespaces/namespace_pathfinder_1_1_event_1_1_menu/)** 
+            * **class [DrawMainMenuButtonEvent](../Classes/class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event/)** 
+                * **class [ButtonData](../Classes/class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data/)** 
+            * **class [DrawMainMenuEvent](../Classes/class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event/)** 
+            * **class [DrawMainMenuTitlesEvent](../Classes/class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event/)** 
+                * **class [TitleData](../Classes/class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_titles_event_1_1_title_data/)** 
+            * **class [MainMenuEvent](../Classes/class_pathfinder_1_1_event_1_1_menu_1_1_main_menu_event/)** 
+        * **namespace [Options](../Namespaces/namespace_pathfinder_1_1_event_1_1_options/)** 
+            * **class [CustomOptionsSaveEvent](../Classes/class_pathfinder_1_1_event_1_1_options_1_1_custom_options_save_event/)** 
+        * **namespace [Pathfinder](../Namespaces/namespace_pathfinder_1_1_event_1_1_pathfinder/)** 
+            * **class [BuildAutocompletesEvent](../Classes/class_pathfinder_1_1_event_1_1_pathfinder_1_1_build_autocompletes_event/)** 
+        * **class [PathfinderEvent](../Classes/class_pathfinder_1_1_event_1_1_pathfinder_event/)** 
+        * **namespace [Saving](../Namespaces/namespace_pathfinder_1_1_event_1_1_saving/)** 
+            * **class [SaveComputerEvent](../Classes/class_pathfinder_1_1_event_1_1_saving_1_1_save_computer_event/)** 
+            * **class [SaveEvent](../Classes/class_pathfinder_1_1_event_1_1_saving_1_1_save_event/)** 
+    * **namespace [Executable](../Namespaces/namespace_pathfinder_1_1_executable/)** 
+        * **class [BaseExecutable](../Classes/class_pathfinder_1_1_executable_1_1_base_executable/)** 
+        * **class [ExeModuleExtensions](../Classes/class_pathfinder_1_1_executable_1_1_exe_module_extensions/)** 
+        * **class [ExecutableManager](../Classes/class_pathfinder_1_1_executable_1_1_executable_manager/)** 
+            * **struct [CustomExeInfo](../Classes/struct_pathfinder_1_1_executable_1_1_executable_manager_1_1_custom_exe_info/)** 
+        * **class [GameExecutable](../Classes/class_pathfinder_1_1_executable_1_1_game_executable/)** 
+    * **namespace [GUI](../Namespaces/namespace_pathfinder_1_1_g_u_i/)** 
+        * **class [ArbitraryCodeWarning](../Classes/class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning/)** 
+        * **class [ExtensionListScroll](../Classes/class_pathfinder_1_1_g_u_i_1_1_extension_list_scroll/)** 
+        * **class [PFButton](../Classes/class_pathfinder_1_1_g_u_i_1_1_p_f_button/)** 
+        * **class [PluginListScreen](../Classes/class_pathfinder_1_1_g_u_i_1_1_plugin_list_screen/)** 
+    * **class [Logger](../Classes/class_pathfinder_1_1_logger/)** 
+    * **namespace [Meta](../Namespaces/namespace_pathfinder_1_1_meta/)** 
+        * **namespace [Load](../Namespaces/namespace_pathfinder_1_1_meta_1_1_load/)** 
+            * **class [ActionAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_action_attribute/)** 
+            * **class [AdministratorAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_administrator_attribute/)** 
+            * **class [AttributeManager](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_attribute_manager/)** 
+            * **class [BaseAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute/)** 
+            * **class [CommandAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute/)** 
+            * **class [ComputerExecutorAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_computer_executor_attribute/)** 
+            * **class [ConditionAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute/)** 
+            * **class [DaemonAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute/)** 
+            * **class [EventAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_event_attribute/)** 
+            * **class [ExecutableAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_executable_attribute/)** 
+            * **class [ExtensionInfoExecutorAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute/)** 
+            * **class [GoalAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_goal_attribute/)** 
+            * **class [HacknetPluginExtensions](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions/)** 
+            * **class [IgnoreEventAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_ignore_event_attribute/)** 
+            * **class [IgnorePluginAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_ignore_plugin_attribute/)** 
+            * **class [MissionExecutorAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_mission_executor_attribute/)** 
+            * **class [OptionAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_option_attribute/)** 
+            * **class [OptionsTabAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute/)** 
+            * **class [PortAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_port_attribute/)** 
+            * **class [SaveExecutorAttribute](../Classes/class_pathfinder_1_1_meta_1_1_load_1_1_save_executor_attribute/)** 
+        * **class [PluginInfoAttribute](../Classes/class_pathfinder_1_1_meta_1_1_plugin_info_attribute/)** 
+        * **class [PluginWebsiteAttribute](../Classes/class_pathfinder_1_1_meta_1_1_plugin_website_attribute/)** 
+        * **class [UpdaterAttribute](../Classes/class_pathfinder_1_1_meta_1_1_updater_attribute/)** 
+    * **class [MiscPatches](../Classes/class_pathfinder_1_1_misc_patches/)** 
+    * **namespace [Mission](../Namespaces/namespace_pathfinder_1_1_mission/)** 
+        * **class [GoalManager](../Classes/class_pathfinder_1_1_mission_1_1_goal_manager/)** 
+        * **class [PathfinderGoal](../Classes/class_pathfinder_1_1_mission_1_1_pathfinder_goal/)** 
+    * **namespace [Options](../Namespaces/namespace_pathfinder_1_1_options/)** 
+        * **class [Option](../Classes/class_pathfinder_1_1_options_1_1_option/)** 
+        * **class [OptionCheckbox](../Classes/class_pathfinder_1_1_options_1_1_option_checkbox/)** 
+        * **class [OptionsManager](../Classes/class_pathfinder_1_1_options_1_1_options_manager/)** 
+        * **class [OptionsTab](../Classes/class_pathfinder_1_1_options_1_1_options_tab/)** 
+        * **class [PathfinderOptions](../Classes/class_pathfinder_1_1_options_1_1_pathfinder_options/)** 
+        * **class [PathfinderOptionsMenu](../Classes/class_pathfinder_1_1_options_1_1_pathfinder_options_menu/)** 
+    * **class [PathfinderAPIPlugin](../Classes/class_pathfinder_1_1_pathfinder_a_p_i_plugin/)** 
+    * **namespace [Port](../Namespaces/namespace_pathfinder_1_1_port/)** 
+        * **class [ComputerExtensions](../Classes/class_pathfinder_1_1_port_1_1_computer_extensions/)** 
+        * **class [PortData](../Classes/class_pathfinder_1_1_port_1_1_port_data/)** 
+        * **class [PortManager](../Classes/class_pathfinder_1_1_port_1_1_port_manager/)** 
+        * **class [PortRecord](../Classes/class_pathfinder_1_1_port_1_1_port_record/)** 
+        * **class [PortState](../Classes/class_pathfinder_1_1_port_1_1_port_state/)** 
+    * **namespace [Replacements](../Namespaces/namespace_pathfinder_1_1_replacements/)** 
+        * **class [ActionsLoader](../Classes/class_pathfinder_1_1_replacements_1_1_actions_loader/)** 
+        * **class [ContentLoader](../Classes/class_pathfinder_1_1_replacements_1_1_content_loader/)** 
+            * **class [ComputerExecutor](../Classes/class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor/)** 
+            * **struct [ComputerExecutorHolder](../Classes/struct_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_executor_holder/)** 
+            * **class [ComputerHolder](../Classes/class_pathfinder_1_1_replacements_1_1_content_loader_1_1_computer_holder/)** 
+        * **class [ExtensionInfoLoader](../Classes/class_pathfinder_1_1_replacements_1_1_extension_info_loader/)** 
+            * **class [ExtensionInfoExecutor](../Classes/class_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor/)** 
+            * **struct [ExtensionInfoExecutorHolder](../Classes/struct_pathfinder_1_1_replacements_1_1_extension_info_loader_1_1_extension_info_executor_holder/)** 
+        * **class [FileEncrypterReplacement](../Classes/class_pathfinder_1_1_replacements_1_1_file_encrypter_replacement/)** 
+        * **class [MissionLoader](../Classes/class_pathfinder_1_1_replacements_1_1_mission_loader/)** 
+            * **class [MissionExecutor](../Classes/class_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor/)** 
+            * **struct [MissionExecutorHolder](../Classes/struct_pathfinder_1_1_replacements_1_1_mission_loader_1_1_mission_executor_holder/)** 
+        * **class [ObjectSerializerReplacement](../Classes/class_pathfinder_1_1_replacements_1_1_object_serializer_replacement/)** 
+        * **class [ReplacementsCommon](../Classes/class_pathfinder_1_1_replacements_1_1_replacements_common/)** 
+        * **class [SaveLoader](../Classes/class_pathfinder_1_1_replacements_1_1_save_loader/)** 
+            * **class [SaveExecutor](../Classes/class_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor/)** 
+            * **struct [SaveExecutorHolder](../Classes/struct_pathfinder_1_1_replacements_1_1_save_loader_1_1_save_executor_holder/)** 
+        * **class [SaveWriter](../Classes/class_pathfinder_1_1_replacements_1_1_save_writer/)** 
+    * **class [SteamPatches](../Classes/class_pathfinder_1_1_steam_patches/)** 
+    * **namespace [Util](../Namespaces/namespace_pathfinder_1_1_util/)** 
+        * **class [AssemblyAssociatedList](../Classes/class_pathfinder_1_1_util_1_1_assembly_associated_list/)** 
+        * **class [CachedCustomTheme](../Classes/class_pathfinder_1_1_util_1_1_cached_custom_theme/)** 
+        * **class [ComputerLookup](../Classes/class_pathfinder_1_1_util_1_1_computer_lookup/)** 
+        * **class [DictionaryExtensions](../Classes/class_pathfinder_1_1_util_1_1_dictionary_extensions/)** 
+        * **class [EnumerableExtensions](../Classes/class_pathfinder_1_1_util_1_1_enumerable_extensions/)** 
+        * **class [ErrorHelper](../Classes/class_pathfinder_1_1_util_1_1_error_helper/)** 
+        * **class [FixedSizeCacheDict](../Classes/class_pathfinder_1_1_util_1_1_fixed_size_cache_dict/)** 
+        * **interface [IXmlName](../Classes/interface_pathfinder_1_1_util_1_1_i_xml_name/)** 
+        * **class [InitializeAttribute](../Classes/class_pathfinder_1_1_util_1_1_initialize_attribute/)** 
+        * **class [LRUCacheLinkedListNode](../Classes/class_pathfinder_1_1_util_1_1_l_r_u_cache_linked_list_node/)** 
+        * **class [StringExtensions](../Classes/class_pathfinder_1_1_util_1_1_string_extensions/)** 
+        * **namespace [XML](../Namespaces/namespace_pathfinder_1_1_util_1_1_x_m_l/)** 
+            * **class [ElementInfo](../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info/)** 
+            * **class [ElementInfoDictionaryExtensions](../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions/)** 
+            * **class [ElementInfoListExtensions](../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_list_extensions/)** 
+            * **class [ElementInfoStringExtensions](../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_string_extensions/)** 
+            * **class [EventExecutor](../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor/)** 
+                * **struct [ExecutorHolder](../Classes/struct_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1_1_executor_holder/)** 
+                * **struct [ExecutorState](../Classes/struct_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1_1_executor_state/)** 
+            * **class [EventReader](../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader/)** 
+            * **class [ListExtensions](../Classes/class_pathfinder_1_1_util_1_1_x_m_l_1_1_list_extensions/)** 
+        * **class [XMLStorageAttribute](../Classes/class_pathfinder_1_1_util_1_1_x_m_l_storage_attribute/)** 
+* **namespace [PathfinderUpdater](../Namespaces/namespace_pathfinder_updater/)** 
+    * **class [MainMenuOverride](../Classes/class_pathfinder_updater_1_1_main_menu_override/)** 
+    * **class [MonoRuntimeFixConfig](../Classes/class_pathfinder_updater_1_1_mono_runtime_fix_config/)** 
+    * **class [PathfinderUpdaterPlugin](../Classes/class_pathfinder_updater_1_1_pathfinder_updater_plugin/)** 
+    * **class [RestartPopupScreen](../Classes/class_pathfinder_updater_1_1_restart_popup_screen/)** 
+    * **class [Updater](../Classes/class_pathfinder_updater_1_1_updater/)** 
+* **namespace [SDL2](../Namespaces/namespace_s_d_l2/)** 
+* **namespace [SR](../Namespaces/namespace_s_r/)** 
+* **namespace [System](../Namespaces/namespace_system/)** 
+* **namespace [System::Collections](../Namespaces/namespace_system_1_1_collections/)** 
+* **namespace [System::Collections::Generic](../Namespaces/namespace_system_1_1_collections_1_1_generic/)** 
+* **namespace [System::Collections::ObjectModel](../Namespaces/namespace_system_1_1_collections_1_1_object_model/)** 
+* **namespace [System::ComponentModel](../Namespaces/namespace_system_1_1_component_model/)** 
+* **namespace [System::Configuration](../Namespaces/namespace_system_1_1_configuration/)** 
+* **namespace [System::Diagnostics](../Namespaces/namespace_system_1_1_diagnostics/)** 
+* **namespace [System::Globalization](../Namespaces/namespace_system_1_1_globalization/)** 
+* **namespace [System::IO](../Namespaces/namespace_system_1_1_i_o/)** 
+* **namespace [System::IO::Compression](../Namespaces/namespace_system_1_1_i_o_1_1_compression/)** 
+* **namespace [System::Linq](../Namespaces/namespace_system_1_1_linq/)** 
+* **namespace [System::Net](../Namespaces/namespace_system_1_1_net/)** 
+* **namespace [System::Net::Http](../Namespaces/namespace_system_1_1_net_1_1_http/)** 
+* **namespace [System::Net::Http::Headers](../Namespaces/namespace_system_1_1_net_1_1_http_1_1_headers/)** 
+* **namespace [System::Numerics](../Namespaces/namespace_system_1_1_numerics/)** 
+* **namespace [System::Reflection](../Namespaces/namespace_system_1_1_reflection/)** 
+* **namespace [System::Runtime::CompilerServices](../Namespaces/namespace_system_1_1_runtime_1_1_compiler_services/)** 
+* **namespace [System::Runtime::InteropServices](../Namespaces/namespace_system_1_1_runtime_1_1_interop_services/)** 
+* **namespace [System::Security](../Namespaces/namespace_system_1_1_security/)** 
+* **namespace [System::Text](../Namespaces/namespace_system_1_1_text/)** 
+* **namespace [System::Xml](../Namespaces/namespace_system_1_1_xml/)** 
+* **namespace [System::Xml::Linq](../Namespaces/namespace_system_1_1_xml_1_1_linq/)** 
+* **namespace [Version](../Namespaces/namespace_version/)** 
+
+
+
+-------------------------------
+
+Updated on 2026-09-26 at 01:20:08 +0000

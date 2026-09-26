@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::XML::ElementInfoDictionaryExtensions</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1ad0e8a7c81e3d259ef0002e376f9c8faf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Util.XML.ElementInfoDictionaryExtensions.TryAsBoolean</definition>
+        <argsstring>(this IDictionary&lt; string, string &gt; attribute, string key, out bool result)</argsstring>
+        <name>TryAsBoolean</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoDictionaryExtensions.TryAsBoolean</qualifiedname>
+        <param>
+          <type>this IDictionary&lt; string, string &gt;</type>
+          <declname>attribute</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="256" column="24" bodyfile="PathfinderAPI/Util/XML/ElementInfo.cs" bodystart="256" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1a093bf37fafe0a93ec9868ea09b5a4020" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Util.XML.ElementInfoDictionaryExtensions.TryAsInt</definition>
+        <argsstring>(this IDictionary&lt; string, string &gt; attribute, string key, out int result)</argsstring>
+        <name>TryAsInt</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoDictionaryExtensions.TryAsInt</qualifiedname>
+        <param>
+          <type>this IDictionary&lt; string, string &gt;</type>
+          <declname>attribute</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="262" column="24" bodyfile="PathfinderAPI/Util/XML/ElementInfo.cs" bodystart="262" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1a09d0025940f3d6a3d764b386b2eaff38" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Util.XML.ElementInfoDictionaryExtensions.TryAsFloat</definition>
+        <argsstring>(this IDictionary&lt; string, string &gt; attribute, string key, out float result)</argsstring>
+        <name>TryAsFloat</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoDictionaryExtensions.TryAsFloat</qualifiedname>
+        <param>
+          <type>this IDictionary&lt; string, string &gt;</type>
+          <declname>attribute</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="268" column="24" bodyfile="PathfinderAPI/Util/XML/ElementInfo.cs" bodystart="268" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1aa49def99461417a9e15116905198eac5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Util.XML.ElementInfoDictionaryExtensions.AsBoolean</definition>
+        <argsstring>(this IDictionary&lt; string, string &gt; attribute, string key, string dictName=&quot;attribute&quot;)</argsstring>
+        <name>AsBoolean</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoDictionaryExtensions.AsBoolean</qualifiedname>
+        <param>
+          <type>this IDictionary&lt; string, string &gt;</type>
+          <declname>attribute</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dictName</declname>
+          <defval>&quot;attribute&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="274" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1ae808ffca720c540464ba9750575645a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Pathfinder.Util.XML.ElementInfoDictionaryExtensions.AsInt</definition>
+        <argsstring>(this IDictionary&lt; string, string &gt; attribute, string key, string dictName=&quot;attribute&quot;)</argsstring>
+        <name>AsInt</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoDictionaryExtensions.AsInt</qualifiedname>
+        <param>
+          <type>this IDictionary&lt; string, string &gt;</type>
+          <declname>attribute</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dictName</declname>
+          <defval>&quot;attribute&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="276" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1a5507495f2da1222f33f87e8f1df405f1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Pathfinder.Util.XML.ElementInfoDictionaryExtensions.AsFloat</definition>
+        <argsstring>(this IDictionary&lt; string, string &gt; attribute, string key, string dictName=&quot;attribute&quot;)</argsstring>
+        <name>AsFloat</name>
+        <qualifiedname>Pathfinder.Util.XML.ElementInfoDictionaryExtensions.AsFloat</qualifiedname>
+        <param>
+          <type>this IDictionary&lt; string, string &gt;</type>
+          <declname>attribute</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dictName</declname>
+          <defval>&quot;attribute&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="278" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/XML/ElementInfo.cs" line="254" column="15" bodyfile="PathfinderAPI/Util/XML/ElementInfo.cs" bodystart="255" bodyend="280"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1aa49def99461417a9e15116905198eac5" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoDictionaryExtensions</scope><name>AsBoolean</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1a5507495f2da1222f33f87e8f1df405f1" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoDictionaryExtensions</scope><name>AsFloat</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1ae808ffca720c540464ba9750575645a1" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoDictionaryExtensions</scope><name>AsInt</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1ad0e8a7c81e3d259ef0002e376f9c8faf" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoDictionaryExtensions</scope><name>TryAsBoolean</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1a09d0025940f3d6a3d764b386b2eaff38" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoDictionaryExtensions</scope><name>TryAsFloat</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info_dictionary_extensions_1a093bf37fafe0a93ec9868ea09b5a4020" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::ElementInfoDictionaryExtensions</scope><name>TryAsInt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

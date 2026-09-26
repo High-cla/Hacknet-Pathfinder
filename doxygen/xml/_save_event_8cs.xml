@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_save_event_8cs" kind="file" language="C#">
+    <compoundname>SaveEvent.cs</compoundname>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event" prot="public">Pathfinder::Event::Saving::SaveEvent</innerclass>
+    <innernamespace refid="namespace_pathfinder">Pathfinder</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event">Pathfinder::Event</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_saving">Pathfinder::Event::Saving</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Xml.Linq;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_event_1_1_saving" kindref="compound">Pathfinder.Event.Saving</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event" kindref="compound">SaveEvent</ref><sp/>:<sp/><ref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" kindref="compound">PathfinderEvent</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>OS<sp/><ref refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a04de5e0c1d076e2fda7885f07c093372" kindref="member">Os</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>XElement<sp/><ref refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a71cf45aa49d13843ef9bef31078a4918" kindref="member">Save</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a561b90de9676760a91ef0155e53258de" kindref="member">Filename</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event" kindref="compound">SaveEvent</ref>(OS<sp/>os,<sp/>XElement<sp/>save,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>filename)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a04de5e0c1d076e2fda7885f07c093372" kindref="member">Os</ref><sp/>=<sp/>os;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a71cf45aa49d13843ef9bef31078a4918" kindref="member">Save</ref><sp/>=<sp/>save;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a561b90de9676760a91ef0155e53258de" kindref="member">Filename</ref><sp/>=<sp/>filename;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderAPI/Event/Saving/SaveEvent.cs"/>
+  </compounddef>
+</doxygen>

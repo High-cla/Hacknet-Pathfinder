@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_daemon_1_1_base_daemon" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Pathfinder::Daemon::BaseDaemon</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Hacknet.Daemon</basecompoundref>
+    <derivedcompoundref refid="class_example_mod2_1_1_test_daemon" prot="public" virt="non-virtual">ExampleMod2.TestDaemon</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_daemon_1_1_base_daemon_1a7582f6214230ece8d368faa1e56274ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>virtual string Pathfinder.Daemon.BaseDaemon.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <qualifiedname>Pathfinder.Daemon.BaseDaemon.Identifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/BaseDaemon.cs" line="15" column="27" bodyfile="PathfinderAPI/Daemon/BaseDaemon.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_base_daemon_1aea3c6761acaceecf4b1aa4c7982b2c1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Daemon.BaseDaemon.BaseDaemon</definition>
+        <argsstring>(Computer computer, string serviceName, OS opSystem)</argsstring>
+        <name>BaseDaemon</name>
+        <qualifiedname>Pathfinder.Daemon.BaseDaemon.BaseDaemon</qualifiedname>
+        <param>
+          <type>Computer</type>
+          <declname>computer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>serviceName</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>opSystem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/BaseDaemon.cs" line="10" column="12" bodyfile="PathfinderAPI/Daemon/BaseDaemon.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_base_daemon_1a1a66d4a6369b53c1bbd95dd234f9ef15" prot="public" static="no" const="no" explicit="no" inline="no" sealed="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Pathfinder.Daemon.BaseDaemon.getSaveString</definition>
+        <argsstring>()</argsstring>
+        <name>getSaveString</name>
+        <qualifiedname>Pathfinder.Daemon.BaseDaemon.getSaveString</qualifiedname>
+        <briefdescription>
+<para>DO NOT USE! This is a stubbed version of the base game method and is never saved by <ref refid="namespace_pathfinder" kindref="compound">Pathfinder</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns null always</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/BaseDaemon.cs" line="21" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_base_daemon_1a802d26abd1c5c0455215aefbc647242d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>XElement</type>
+        <definition>virtual XElement Pathfinder.Daemon.BaseDaemon.GetSaveElement</definition>
+        <argsstring>()</argsstring>
+        <name>GetSaveElement</name>
+        <qualifiedname>Pathfinder.Daemon.BaseDaemon.GetSaveElement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/BaseDaemon.cs" line="23" column="29" bodyfile="PathfinderAPI/Daemon/BaseDaemon.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_daemon_1_1_base_daemon_1aec473f284d64e4960fba8c3a72a8ab7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Daemon.BaseDaemon.LoadFromXml</definition>
+        <argsstring>(ElementInfo info)</argsstring>
+        <name>LoadFromXml</name>
+        <qualifiedname>Pathfinder.Daemon.BaseDaemon.LoadFromXml</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Daemon/BaseDaemon.cs" line="28" column="25" bodyfile="PathfinderAPI/Daemon/BaseDaemon.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ExampleMod2.TestDaemon</label>
+        <link refid="class_example_mod2_1_1_test_daemon"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Hacknet::Daemon</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Daemon.BaseDaemon</label>
+        <link refid="class_pathfinder_1_1_daemon_1_1_base_daemon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Hacknet::Daemon</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Daemon.BaseDaemon</label>
+        <link refid="class_pathfinder_1_1_daemon_1_1_base_daemon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Daemon/BaseDaemon.cs" line="8" column="17" bodyfile="PathfinderAPI/Daemon/BaseDaemon.cs" bodystart="9" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_daemon_1_1_base_daemon_1aea3c6761acaceecf4b1aa4c7982b2c1e" prot="public" virt="non-virtual"><scope>Pathfinder::Daemon::BaseDaemon</scope><name>BaseDaemon</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_base_daemon_1a802d26abd1c5c0455215aefbc647242d" prot="public" virt="virtual"><scope>Pathfinder::Daemon::BaseDaemon</scope><name>GetSaveElement</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_base_daemon_1a1a66d4a6369b53c1bbd95dd234f9ef15" prot="public" virt="non-virtual"><scope>Pathfinder::Daemon::BaseDaemon</scope><name>getSaveString</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_base_daemon_1a7582f6214230ece8d368faa1e56274ec" prot="public" virt="non-virtual"><scope>Pathfinder::Daemon::BaseDaemon</scope><name>Identifier</name></member>
+      <member refid="class_pathfinder_1_1_daemon_1_1_base_daemon_1aec473f284d64e4960fba8c3a72a8ab7c" prot="public" virt="virtual"><scope>Pathfinder::Daemon::BaseDaemon</scope><name>LoadFromXml</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

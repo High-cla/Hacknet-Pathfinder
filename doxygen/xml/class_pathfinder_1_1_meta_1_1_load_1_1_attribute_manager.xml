@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_load_1_1_attribute_manager" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::Meta::Load::AttributeManager</compoundname>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_attribute_manager_1a4d9b817af6285268b30e55183d439d28" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Meta.Load.AttributeManager.OnPluginLoadIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>OnPluginLoadIL</name>
+        <qualifiedname>Pathfinder.Meta.Load.AttributeManager.OnPluginLoadIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/AttributeManager.cs" line="14" column="25" bodyfile="PathfinderAPI/Meta/Load/AttributeManager.cs" bodystart="14" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_attribute_manager_1a7116b3c1bd0b54c45ad38fde9858aa05" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Meta.Load.AttributeManager.ReadAttributesOnType</definition>
+        <argsstring>(HacknetPlugin plugin, Type type)</argsstring>
+        <name>ReadAttributesOnType</name>
+        <qualifiedname>Pathfinder.Meta.Load.AttributeManager.ReadAttributesOnType</qualifiedname>
+        <param>
+          <type><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/AttributeManager.cs" line="39" column="25" bodyfile="PathfinderAPI/Meta/Load/AttributeManager.cs" bodystart="39" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_load_1_1_attribute_manager_1ab9bc37d68b7fcc5516fe601e46532a85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Meta.Load.AttributeManager.ReadAttributesFor</definition>
+        <argsstring>(HacknetPlugin plugin)</argsstring>
+        <name>ReadAttributesFor</name>
+        <qualifiedname>Pathfinder.Meta.Load.AttributeManager.ReadAttributesFor</qualifiedname>
+        <param>
+          <type><ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/Load/AttributeManager.cs" line="26" column="24" bodyfile="PathfinderAPI/Meta/Load/AttributeManager.cs" bodystart="26" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Meta/Load/AttributeManager.cs" line="10" column="17" bodyfile="PathfinderAPI/Meta/Load/AttributeManager.cs" bodystart="11" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_attribute_manager_1a4d9b817af6285268b30e55183d439d28" prot="private" virt="non-virtual"><scope>Pathfinder::Meta::Load::AttributeManager</scope><name>OnPluginLoadIL</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_attribute_manager_1ab9bc37d68b7fcc5516fe601e46532a85" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::Load::AttributeManager</scope><name>ReadAttributesFor</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_load_1_1_attribute_manager_1a7116b3c1bd0b54c45ad38fde9858aa05" prot="private" virt="non-virtual"><scope>Pathfinder::Meta::Load::AttributeManager</scope><name>ReadAttributesOnType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

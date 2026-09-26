@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_saving_1_1_save_event" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::Saving::SaveEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public" virt="non-virtual">Pathfinder.Event.PathfinderEvent</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a04de5e0c1d076e2fda7885f07c093372" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Event.Saving.SaveEvent.Os</definition>
+        <argsstring></argsstring>
+        <name>Os</name>
+        <qualifiedname>Pathfinder.Event.Saving.SaveEvent.Os</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Saving/SaveEvent.cs" line="8" column="15" bodyfile="PathfinderAPI/Event/Saving/SaveEvent.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a71cf45aa49d13843ef9bef31078a4918" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>XElement</type>
+        <definition>XElement Pathfinder.Event.Saving.SaveEvent.Save</definition>
+        <argsstring></argsstring>
+        <name>Save</name>
+        <qualifiedname>Pathfinder.Event.Saving.SaveEvent.Save</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Saving/SaveEvent.cs" line="9" column="21" bodyfile="PathfinderAPI/Event/Saving/SaveEvent.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a561b90de9676760a91ef0155e53258de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Event.Saving.SaveEvent.Filename</definition>
+        <argsstring></argsstring>
+        <name>Filename</name>
+        <qualifiedname>Pathfinder.Event.Saving.SaveEvent.Filename</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Saving/SaveEvent.cs" line="10" column="19" bodyfile="PathfinderAPI/Event/Saving/SaveEvent.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1adf291b28aebbc472a845d57165fedd96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Saving.SaveEvent.SaveEvent</definition>
+        <argsstring>(OS os, XElement save, string filename)</argsstring>
+        <name>SaveEvent</name>
+        <qualifiedname>Pathfinder.Event.Saving.SaveEvent.SaveEvent</qualifiedname>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>XElement</type>
+          <declname>save</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Saving/SaveEvent.cs" line="12" column="12" bodyfile="PathfinderAPI/Event/Saving/SaveEvent.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.Saving.SaveEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Event.Saving.SaveEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/Saving/SaveEvent.cs" line="6" column="7" bodyfile="PathfinderAPI/Event/Saving/SaveEvent.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a561b90de9676760a91ef0155e53258de" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveEvent</scope><name>Filename</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a04de5e0c1d076e2fda7885f07c093372" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveEvent</scope><name>Os</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1a71cf45aa49d13843ef9bef31078a4918" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveEvent</scope><name>Save</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_saving_1_1_save_event_1adf291b28aebbc472a845d57165fedd96" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveEvent</scope><name>SaveEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Saving::SaveEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

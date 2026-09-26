@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_plugin_website_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Meta::PluginWebsiteAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Attribute</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_meta_1_1_plugin_website_attribute_1aacdeb160086a3b54c2368394290b180f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.PluginWebsiteAttribute.WebsiteName</definition>
+        <argsstring></argsstring>
+        <name>WebsiteName</name>
+        <qualifiedname>Pathfinder.Meta.PluginWebsiteAttribute.WebsiteName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/PluginWebsiteAttribute.cs" line="6" column="19" bodyfile="PathfinderAPI/Meta/PluginWebsiteAttribute.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_meta_1_1_plugin_website_attribute_1a80655c1829540bddb723633220186199" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.PluginWebsiteAttribute.WebsiteUrl</definition>
+        <argsstring></argsstring>
+        <name>WebsiteUrl</name>
+        <qualifiedname>Pathfinder.Meta.PluginWebsiteAttribute.WebsiteUrl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/PluginWebsiteAttribute.cs" line="7" column="19" bodyfile="PathfinderAPI/Meta/PluginWebsiteAttribute.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_plugin_website_attribute_1a7014d49e8fa651eedcf17a6cbcce726c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Meta.PluginWebsiteAttribute.PluginWebsiteAttribute</definition>
+        <argsstring>(string websiteName, string websiteUrl)</argsstring>
+        <name>PluginWebsiteAttribute</name>
+        <qualifiedname>Pathfinder.Meta.PluginWebsiteAttribute.PluginWebsiteAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>websiteName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>websiteUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/PluginWebsiteAttribute.cs" line="9" column="12" bodyfile="PathfinderAPI/Meta/PluginWebsiteAttribute.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Meta.PluginWebsiteAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_plugin_website_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Attribute</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Meta.PluginWebsiteAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_plugin_website_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Attribute</label>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Meta/PluginWebsiteAttribute.cs" line="4" column="7" bodyfile="PathfinderAPI/Meta/PluginWebsiteAttribute.cs" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_plugin_website_attribute_1a7014d49e8fa651eedcf17a6cbcce726c" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::PluginWebsiteAttribute</scope><name>PluginWebsiteAttribute</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_plugin_website_attribute_1aacdeb160086a3b54c2368394290b180f" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::PluginWebsiteAttribute</scope><name>WebsiteName</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_plugin_website_attribute_1a80655c1829540bddb723633220186199" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::PluginWebsiteAttribute</scope><name>WebsiteUrl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

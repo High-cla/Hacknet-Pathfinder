@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_updater" kind="namespace" language="C#">
+    <compoundname>PathfinderUpdater</compoundname>
+    <innerclass refid="class_pathfinder_updater_1_1_main_menu_override" prot="package">PathfinderUpdater::MainMenuOverride</innerclass>
+    <innerclass refid="class_pathfinder_updater_1_1_mono_runtime_fix_config" prot="public">PathfinderUpdater::MonoRuntimeFixConfig</innerclass>
+    <innerclass refid="class_pathfinder_updater_1_1_pathfinder_updater_plugin" prot="public">PathfinderUpdater::PathfinderUpdaterPlugin</innerclass>
+    <innerclass refid="class_pathfinder_updater_1_1_restart_popup_screen" prot="package">PathfinderUpdater::RestartPopupScreen</innerclass>
+    <innerclass refid="class_pathfinder_updater_1_1_updater" prot="public">PathfinderUpdater::Updater</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderUpdater/MainMenuOverride.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

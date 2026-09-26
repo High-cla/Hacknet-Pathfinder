@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_misc_patches" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::MiscPatches</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_misc_patches_1a8e8230b3c17b8f581fd43b925c5fb48e" prot="private" static="yes" mutable="no">
+        <type>readonly ManualLogSource</type>
+        <definition>readonly ManualLogSource Pathfinder.MiscPatches.HacknetLogger</definition>
+        <argsstring></argsstring>
+        <name>HacknetLogger</name>
+        <qualifiedname>Pathfinder.MiscPatches.HacknetLogger</qualifiedname>
+        <initializer>= BepInEx.Logging.Logger.CreateLogSource(&quot;Hacknet&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/MiscPatches.cs" line="103" column="45" bodyfile="PathfinderAPI/MiscPatches.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_misc_patches_1aa174d8257a0f95d7a19ff3e4b470533c" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.MiscPatches.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>Pathfinder.MiscPatches.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/MiscPatches.cs" line="19" column="26" bodyfile="PathfinderAPI/MiscPatches.cs" bodystart="19" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_misc_patches_1a0204b58cd6e81a7da546605de8adab5b" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.MiscPatches.ChangeSaveDirIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>ChangeSaveDirIL</name>
+        <qualifiedname>Pathfinder.MiscPatches.ChangeSaveDirIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/MiscPatches.cs" line="33" column="26" bodyfile="PathfinderAPI/MiscPatches.cs" bodystart="33" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_misc_patches_1a0020b40c9ae9db907b36fd41213439b6" prot="package" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.MiscPatches.OnPluginUnload</definition>
+        <argsstring>(ref HacknetPlugin __instance)</argsstring>
+        <name>OnPluginUnload</name>
+        <qualifiedname>Pathfinder.MiscPatches.OnPluginUnload</qualifiedname>
+        <param>
+          <type>ref <ref refid="class_bep_in_ex_1_1_hacknet_1_1_hacknet_plugin" kindref="compound">HacknetPlugin</ref></type>
+          <declname>__instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/MiscPatches.cs" line="47" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_misc_patches_1ab1fb4c4b748d2e499545f3a227f68c28" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.MiscPatches.IncludeILOffsetInTrace</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>IncludeILOffsetInTrace</name>
+        <qualifiedname>Pathfinder.MiscPatches.IncludeILOffsetInTrace</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/MiscPatches.cs" line="49" column="26" bodyfile="PathfinderAPI/MiscPatches.cs" bodystart="49" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_misc_patches_1a8b10bc5b023d4855791af2032a11456e" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.MiscPatches.StopCatchingExceptionsIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>StopCatchingExceptionsIL</name>
+        <qualifiedname>Pathfinder.MiscPatches.StopCatchingExceptionsIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/MiscPatches.cs" line="78" column="26" bodyfile="PathfinderAPI/MiscPatches.cs" bodystart="78" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_misc_patches_1aaa7abcf314a6580afed9da8332966767" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.MiscPatches.FixSendRealWorldEmail</definition>
+        <argsstring>(string body)</argsstring>
+        <name>FixSendRealWorldEmail</name>
+        <qualifiedname>Pathfinder.MiscPatches.FixSendRealWorldEmail</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/MiscPatches.cs" line="97" column="26" bodyfile="PathfinderAPI/MiscPatches.cs" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_misc_patches_1a7abc7834c222d5619468a79014da18c5" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.MiscPatches.RedirectErrorLog</definition>
+        <argsstring>(string text)</argsstring>
+        <name>RedirectErrorLog</name>
+        <qualifiedname>Pathfinder.MiscPatches.RedirectErrorLog</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/MiscPatches.cs" line="107" column="26" bodyfile="PathfinderAPI/MiscPatches.cs" bodystart="107" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_misc_patches_1a111dbc491f1ef184d75d2b016a4606f5" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.MiscPatches.LogThreadedExceptions</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>LogThreadedExceptions</name>
+        <qualifiedname>Pathfinder.MiscPatches.LogThreadedExceptions</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/MiscPatches.cs" line="115" column="26" bodyfile="PathfinderAPI/MiscPatches.cs" bodystart="115" bodyend="127"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_misc_patches_1a9b5a4605da42ca7ec8695bf3624a5354" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.MiscPatches.CheckDebug</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>CheckDebug</name>
+        <qualifiedname>Pathfinder.MiscPatches.CheckDebug</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/MiscPatches.cs" line="131" column="25" bodyfile="PathfinderAPI/MiscPatches.cs" bodystart="131" bodyend="135"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/MiscPatches.cs" line="16" column="17" bodyfile="PathfinderAPI/MiscPatches.cs" bodystart="17" bodyend="136"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_misc_patches_1a0204b58cd6e81a7da546605de8adab5b" prot="package" virt="non-virtual"><scope>Pathfinder::MiscPatches</scope><name>ChangeSaveDirIL</name></member>
+      <member refid="class_pathfinder_1_1_misc_patches_1a9b5a4605da42ca7ec8695bf3624a5354" prot="private" virt="non-virtual"><scope>Pathfinder::MiscPatches</scope><name>CheckDebug</name></member>
+      <member refid="class_pathfinder_1_1_misc_patches_1aaa7abcf314a6580afed9da8332966767" prot="package" virt="non-virtual"><scope>Pathfinder::MiscPatches</scope><name>FixSendRealWorldEmail</name></member>
+      <member refid="class_pathfinder_1_1_misc_patches_1a8e8230b3c17b8f581fd43b925c5fb48e" prot="private" virt="non-virtual"><scope>Pathfinder::MiscPatches</scope><name>HacknetLogger</name></member>
+      <member refid="class_pathfinder_1_1_misc_patches_1ab1fb4c4b748d2e499545f3a227f68c28" prot="package" virt="non-virtual"><scope>Pathfinder::MiscPatches</scope><name>IncludeILOffsetInTrace</name></member>
+      <member refid="class_pathfinder_1_1_misc_patches_1aa174d8257a0f95d7a19ff3e4b470533c" prot="package" virt="non-virtual"><scope>Pathfinder::MiscPatches</scope><name>Initialize</name></member>
+      <member refid="class_pathfinder_1_1_misc_patches_1a111dbc491f1ef184d75d2b016a4606f5" prot="package" virt="non-virtual"><scope>Pathfinder::MiscPatches</scope><name>LogThreadedExceptions</name></member>
+      <member refid="class_pathfinder_1_1_misc_patches_1a0020b40c9ae9db907b36fd41213439b6" prot="package" virt="non-virtual"><scope>Pathfinder::MiscPatches</scope><name>OnPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_misc_patches_1a7abc7834c222d5619468a79014da18c5" prot="package" virt="non-virtual"><scope>Pathfinder::MiscPatches</scope><name>RedirectErrorLog</name></member>
+      <member refid="class_pathfinder_1_1_misc_patches_1a8b10bc5b023d4855791af2032a11456e" prot="package" virt="non-virtual"><scope>Pathfinder::MiscPatches</scope><name>StopCatchingExceptionsIL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

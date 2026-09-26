@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_options_1_1_pathfinder_options" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::Options::PathfinderOptions</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_pathfinder_options_1a698c9c2a8cc8335d2904efa8269bedc9" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string Pathfinder.Options.PathfinderOptions.OPTION_TAG</definition>
+        <argsstring></argsstring>
+        <name>OPTION_TAG</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptions.OPTION_TAG</qualifiedname>
+        <initializer>= &quot;Pathfinder&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptions.cs" line="8" column="26" bodyfile="PathfinderAPI/Options/PathfinderOptions.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_pathfinder_options_1aff37c1dd2e48870daa1b2a8a1efefb82" prot="package" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref></type>
+        <definition>OptionCheckbox Pathfinder.Options.PathfinderOptions.PreloadAllThemes</definition>
+        <argsstring></argsstring>
+        <name>PreloadAllThemes</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptions.PreloadAllThemes</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref>(&quot;Preload All Themes&quot;,
+        &quot;Preload all themes at extension start\nimproves performance at the cost of memory&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptions.cs" line="10" column="36" bodyfile="PathfinderAPI/Options/PathfinderOptions.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_pathfinder_options_1a5c452176daa10c86ceea8f2f5d9d6b6a" prot="package" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref></type>
+        <definition>OptionCheckbox Pathfinder.Options.PathfinderOptions.DisableSteamCloudError</definition>
+        <argsstring></argsstring>
+        <name>DisableSteamCloudError</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptions.DisableSteamCloudError</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_options_1_1_option_checkbox" kindref="compound">OptionCheckbox</ref>(&quot;Disable Steam Cloud Message&quot;, 
+        &quot;Disables the Steam Cloud disabled message on the main menu&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptions.cs" line="13" column="36" bodyfile="PathfinderAPI/Options/PathfinderOptions.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_pathfinder_options_1a039937301523619e27fa580c2f791084" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Options.PathfinderOptions.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptions.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptions.cs" line="17" column="17" bodyfile="PathfinderAPI/Options/PathfinderOptions.cs" bodystart="17" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_pathfinder_options_1a3cb861488a843531f66ee75db7d78c14" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Options.PathfinderOptions.initConfig</definition>
+        <argsstring>()</argsstring>
+        <name>initConfig</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptions.initConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptions.cs" line="25" column="25" bodyfile="PathfinderAPI/Options/PathfinderOptions.cs" bodystart="25" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_pathfinder_options_1a63de6467a8b63d56313ba3710a390d13" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Options.PathfinderOptions.onOptionsSave</definition>
+        <argsstring>(CustomOptionsSaveEvent _)</argsstring>
+        <name>onOptionsSave</name>
+        <qualifiedname>Pathfinder.Options.PathfinderOptions.onOptionsSave</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_options_1_1_custom_options_save_event" kindref="compound">CustomOptionsSaveEvent</ref></type>
+          <declname>_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/PathfinderOptions.cs" line="33" column="25" bodyfile="PathfinderAPI/Options/PathfinderOptions.cs" bodystart="33" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>Option</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option"/>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Options.PathfinderOptions</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>DisableSteamCloudError</edgelabel>
+          <edgelabel>PreloadAllThemes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pathfinder.Options.OptionCheckbox</label>
+        <link refid="class_pathfinder_1_1_options_1_1_option_checkbox"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Options/PathfinderOptions.cs" line="6" column="17" bodyfile="PathfinderAPI/Options/PathfinderOptions.cs" bodystart="7" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_1a5c452176daa10c86ceea8f2f5d9d6b6a" prot="package" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptions</scope><name>DisableSteamCloudError</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_1a3cb861488a843531f66ee75db7d78c14" prot="private" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptions</scope><name>initConfig</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_1a039937301523619e27fa580c2f791084" prot="private" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptions</scope><name>Initialize</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_1a63de6467a8b63d56313ba3710a390d13" prot="private" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptions</scope><name>onOptionsSave</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_1a698c9c2a8cc8335d2904efa8269bedc9" prot="private" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptions</scope><name>OPTION_TAG</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_pathfinder_options_1aff37c1dd2e48870daa1b2a8a1efefb82" prot="package" virt="non-virtual"><scope>Pathfinder::Options::PathfinderOptions</scope><name>PreloadAllThemes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_mission_listing_server_load_time" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::MissionListingServerLoadTime</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_mission_listing_server_load_time_1a0c5d2fef3a01c1c78f6aa70db2c622db" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.MissionListingServerLoadTime.FixMissionLoadTimes</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>FixMissionLoadTimes</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.MissionListingServerLoadTime.FixMissionLoadTimes</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/MissionListingServerLoadTime.cs" line="14" column="26" bodyfile="PathfinderAPI/BaseGameFixes/MissionListingServerLoadTime.cs" bodystart="14" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/MissionListingServerLoadTime.cs" line="10" column="17" bodyfile="PathfinderAPI/BaseGameFixes/MissionListingServerLoadTime.cs" bodystart="11" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_mission_listing_server_load_time_1a0c5d2fef3a01c1c78f6aa70db2c622db" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::MissionListingServerLoadTime</scope><name>FixMissionLoadTimes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

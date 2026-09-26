@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_pathfinder_1_1_meta_1_1_load" kind="namespace" language="C#">
+    <compoundname>Pathfinder::Meta::Load</compoundname>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_action_attribute" prot="public">Pathfinder::Meta::Load::ActionAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_administrator_attribute" prot="public">Pathfinder::Meta::Load::AdministratorAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_attribute_manager" prot="package">Pathfinder::Meta::Load::AttributeManager</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_base_attribute" prot="public">Pathfinder::Meta::Load::BaseAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_command_attribute" prot="public">Pathfinder::Meta::Load::CommandAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_computer_executor_attribute" prot="public">Pathfinder::Meta::Load::ComputerExecutorAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_condition_attribute" prot="public">Pathfinder::Meta::Load::ConditionAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_daemon_attribute" prot="public">Pathfinder::Meta::Load::DaemonAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_event_attribute" prot="public">Pathfinder::Meta::Load::EventAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_executable_attribute" prot="public">Pathfinder::Meta::Load::ExecutableAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_extension_info_executor_attribute" prot="public">Pathfinder::Meta::Load::ExtensionInfoExecutorAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_goal_attribute" prot="public">Pathfinder::Meta::Load::GoalAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_hacknet_plugin_extensions" prot="public">Pathfinder::Meta::Load::HacknetPluginExtensions</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_ignore_event_attribute" prot="public">Pathfinder::Meta::Load::IgnoreEventAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_ignore_plugin_attribute" prot="public">Pathfinder::Meta::Load::IgnorePluginAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_mission_executor_attribute" prot="public">Pathfinder::Meta::Load::MissionExecutorAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_option_attribute" prot="public">Pathfinder::Meta::Load::OptionAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_options_tab_attribute" prot="public">Pathfinder::Meta::Load::OptionsTabAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_port_attribute" prot="public">Pathfinder::Meta::Load::PortAttribute</innerclass>
+    <innerclass refid="class_pathfinder_1_1_meta_1_1_load_1_1_save_executor_attribute" prot="public">Pathfinder::Meta::Load::SaveExecutorAttribute</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Meta/Load/ActionAttribute.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

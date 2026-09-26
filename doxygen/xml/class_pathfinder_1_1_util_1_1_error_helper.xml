@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_error_helper" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::ErrorHelper</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_error_helper_1a3084149d32b05e55be29b66d2bef2bec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Util.ErrorHelper.ThrowNotInherit</definition>
+        <argsstring>(this Type type, string typeRefName, Type parentType, string extra=null)</argsstring>
+        <name>ThrowNotInherit</name>
+        <qualifiedname>Pathfinder.Util.ErrorHelper.ThrowNotInherit</qualifiedname>
+        <param>
+          <type>this Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>typeRefName</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>parentType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extra</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/ErrorHelper.cs" line="7" column="24" bodyfile="PathfinderAPI/Util/ErrorHelper.cs" bodystart="7" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_error_helper_1a90a2955ee57180f5d29df464a63c380f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Util.ErrorHelper.ThrowNotInherit&lt; InheritT &gt;</definition>
+        <argsstring>(this Type type, string typeRefName, string extra=null)</argsstring>
+        <name>ThrowNotInherit&lt; InheritT &gt;</name>
+        <qualifiedname>Pathfinder.Util.ErrorHelper.ThrowNotInherit&lt; InheritT &gt;</qualifiedname>
+        <param>
+          <type>this Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>typeRefName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extra</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/ErrorHelper.cs" line="13" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_error_helper_1af0b064e36f306bb2de188a7a7fe4754a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Util.ErrorHelper.ThrowNoDefaultCtor</definition>
+        <argsstring>(this Type type, string nameOf)</argsstring>
+        <name>ThrowNoDefaultCtor</name>
+        <qualifiedname>Pathfinder.Util.ErrorHelper.ThrowNoDefaultCtor</qualifiedname>
+        <param>
+          <type>this Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nameOf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/ErrorHelper.cs" line="16" column="24" bodyfile="PathfinderAPI/Util/ErrorHelper.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_error_helper_1a5a997d319b6e0b3a66f0985c44c49d6f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Util.ErrorHelper.ThrowNull&lt; T &gt;</definition>
+        <argsstring>(this T check, string nameOf)</argsstring>
+        <name>ThrowNull&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Util.ErrorHelper.ThrowNull&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this T</type>
+          <declname>check</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nameOf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/ErrorHelper.cs" line="22" column="19" bodyfile="PathfinderAPI/Util/ErrorHelper.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_error_helper_1a141aa1e1ab3bba24befafc9647c30c74" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Util.ErrorHelper.ThrowNull&lt; T &gt;</definition>
+        <argsstring>(this T check, string nameOf, string msg)</argsstring>
+        <name>ThrowNull&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Util.ErrorHelper.ThrowNull&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this T</type>
+          <declname>check</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nameOf</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/ErrorHelper.cs" line="28" column="19" bodyfile="PathfinderAPI/Util/ErrorHelper.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_error_helper_1a009c64569d32a2163f5b7cd2dc068af0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Util.ErrorHelper.ThrowOutOfRange</definition>
+        <argsstring>(this int check, string nameOf, int lowerLimit=int.MinValue, int upperLimit=int.MaxValue)</argsstring>
+        <name>ThrowOutOfRange</name>
+        <qualifiedname>Pathfinder.Util.ErrorHelper.ThrowOutOfRange</qualifiedname>
+        <param>
+          <type>this int</type>
+          <declname>check</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nameOf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lowerLimit</declname>
+          <defval>int.MinValue</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>upperLimit</declname>
+          <defval>int.MaxValue</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/ErrorHelper.cs" line="34" column="24" bodyfile="PathfinderAPI/Util/ErrorHelper.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_error_helper_1a42bfa72e5836066986ebe60a64329f08" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Util.ErrorHelper.ThrowNotSameSizeAs</definition>
+        <argsstring>(this ICollection left, string leftNameOf, ICollection right, string rightNameOf)</argsstring>
+        <name>ThrowNotSameSizeAs</name>
+        <qualifiedname>Pathfinder.Util.ErrorHelper.ThrowNotSameSizeAs</qualifiedname>
+        <param>
+          <type>this ICollection</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>leftNameOf</declname>
+        </param>
+        <param>
+          <type>ICollection</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>rightNameOf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/ErrorHelper.cs" line="40" column="24" bodyfile="PathfinderAPI/Util/ErrorHelper.cs" bodystart="40" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/ErrorHelper.cs" line="5" column="15" bodyfile="PathfinderAPI/Util/ErrorHelper.cs" bodystart="6" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_error_helper_1af0b064e36f306bb2de188a7a7fe4754a" prot="public" virt="non-virtual"><scope>Pathfinder::Util::ErrorHelper</scope><name>ThrowNoDefaultCtor</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_error_helper_1a3084149d32b05e55be29b66d2bef2bec" prot="public" virt="non-virtual"><scope>Pathfinder::Util::ErrorHelper</scope><name>ThrowNotInherit</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_error_helper_1a90a2955ee57180f5d29df464a63c380f" prot="public" virt="non-virtual"><scope>Pathfinder::Util::ErrorHelper</scope><name>ThrowNotInherit&lt; InheritT &gt;</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_error_helper_1a42bfa72e5836066986ebe60a64329f08" prot="public" virt="non-virtual"><scope>Pathfinder::Util::ErrorHelper</scope><name>ThrowNotSameSizeAs</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_error_helper_1a5a997d319b6e0b3a66f0985c44c49d6f" prot="public" virt="non-virtual"><scope>Pathfinder::Util::ErrorHelper</scope><name>ThrowNull&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_error_helper_1a141aa1e1ab3bba24befafc9647c30c74" prot="public" virt="non-virtual"><scope>Pathfinder::Util::ErrorHelper</scope><name>ThrowNull&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_error_helper_1a009c64569d32a2163f5b7cd2dc068af0" prot="public" virt="non-virtual"><scope>Pathfinder::Util::ErrorHelper</scope><name>ThrowOutOfRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

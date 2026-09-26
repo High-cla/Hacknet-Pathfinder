@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Util::XML::EventReader</compoundname>
+    <derivedcompoundref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor" prot="public" virt="non-virtual">Pathfinder.Util.XML.EventExecutor</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a7e3ac06a4d2d8614f5086a2f4999a2d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>XmlReader</type>
+        <definition>XmlReader Pathfinder.Util.XML.EventReader.Reader</definition>
+        <argsstring></argsstring>
+        <name>Reader</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.Reader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="14" column="22" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a6b19dc3d2fb3037859ac16fbbe068689" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Util.XML.EventReader.CurrentNamespace</definition>
+        <argsstring></argsstring>
+        <name>CurrentNamespace</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.CurrentNamespace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="16" column="19" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a2753bb0f6aa083d0dbbf6dfc79d0659d" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Pathfinder.Util.XML.EventReader.ParentNames</definition>
+        <argsstring></argsstring>
+        <name>ParentNames</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.ParentNames</qualifiedname>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="15" column="17" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1ab6f7f88f397423332cde662cc21f4885" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Util.XML.EventReader.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.Text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="18" column="22" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a1e646d5ff27912035d28d3f115c73ced" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Pathfinder.Util.XML.EventReader.Read</definition>
+        <argsstring>()</argsstring>
+        <name>Read</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.Read</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="7" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1ab1de1f8380c5cc35d3a0d54e01828690" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Pathfinder.Util.XML.EventReader.ReadDocument</definition>
+        <argsstring>()</argsstring>
+        <name>ReadDocument</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.ReadDocument</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="8" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1aeda01b92beba5b934901dda5a2c894d8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Util.XML.EventReader.ReadElement</definition>
+        <argsstring>(Dictionary&lt; string, string &gt; attributes)</argsstring>
+        <name>ReadElement</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.ReadElement</qualifiedname>
+        <reimplementedby refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1a4d3131edb431be68228ddc7476707362">ReadElement</reimplementedby>
+        <param>
+          <type>Dictionary&lt; string, string &gt;</type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="9" column="28" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1acc7a03abd1ed03836a712e8b65fd3613" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Util.XML.EventReader.ReadEndElement</definition>
+        <argsstring>()</argsstring>
+        <name>ReadEndElement</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.ReadEndElement</qualifiedname>
+        <reimplementedby refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1a65ecbafa9207d61a08180c5164b312a4">ReadEndElement</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="10" column="28" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1abd33d81e6612fff4258c7a3fd963daae" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Util.XML.EventReader.ReadText</definition>
+        <argsstring>()</argsstring>
+        <name>ReadText</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.ReadText</qualifiedname>
+        <reimplementedby refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1abf5e70b9e1b56bd01fd25b75c79f6e21">ReadText</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="11" column="28" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a8eb78be47c684de818c345dc612c8d5f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pathfinder.Util.XML.EventReader.EndRead</definition>
+        <argsstring>()</argsstring>
+        <name>EndRead</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.EndRead</qualifiedname>
+        <reimplementedby refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor_1a4e502423d0dedaa6689e1ed6aa8fd7a5">EndRead</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="12" column="28" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1ad1cf37de86abdc4241b140541347847c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Util.XML.EventReader.EventReader</definition>
+        <argsstring>()</argsstring>
+        <name>EventReader</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.EventReader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="20" column="12" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1af513362b6976782875bce00250912a24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Util.XML.EventReader.EventReader</definition>
+        <argsstring>(string text, bool isPath)</argsstring>
+        <name>EventReader</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.EventReader</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="22" column="12" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a23837957b74c54a3db2e66dbe55d335b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Util.XML.EventReader.EventReader</definition>
+        <argsstring>(XmlReader rdr)</argsstring>
+        <name>EventReader</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.EventReader</qualifiedname>
+        <param>
+          <type>XmlReader</type>
+          <declname>rdr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="27" column="12" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a89813eff2a566995b5ca63407b83ba6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.XML.EventReader.SetText</definition>
+        <argsstring>(string text, bool isPath)</argsstring>
+        <name>SetText</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.SetText</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="32" column="17" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1afce7403be2cf777afa577a3835f15641" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pathfinder.Util.XML.EventReader.Parse</definition>
+        <argsstring>()</argsstring>
+        <name>Parse</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.Parse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="37" column="17" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="37" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a96a522679283221ef2a4f8ac49bed627" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pathfinder.Util.XML.EventReader.TryParse</definition>
+        <argsstring>(out Exception exception)</argsstring>
+        <name>TryParse</name>
+        <qualifiedname>Pathfinder.Util.XML.EventReader.TryParse</qualifiedname>
+        <param>
+          <type>out Exception</type>
+          <declname>exception</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Util/XML/EventReader.cs" line="98" column="17" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="98" bodyend="111"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Util.XML.EventReader</label>
+        <link refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader"/>
+      </node>
+      <node id="2">
+        <label>Pathfinder.Util.XML.EventExecutor</label>
+        <link refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_executor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="PathfinderAPI/Util/XML/EventReader.cs" line="5" column="7" bodyfile="PathfinderAPI/Util/XML/EventReader.cs" bodystart="6" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a6b19dc3d2fb3037859ac16fbbe068689" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>CurrentNamespace</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a8eb78be47c684de818c345dc612c8d5f" prot="protected" virt="virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>EndRead</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1ad1cf37de86abdc4241b140541347847c" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>EventReader</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1af513362b6976782875bce00250912a24" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>EventReader</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a23837957b74c54a3db2e66dbe55d335b" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>EventReader</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a2753bb0f6aa083d0dbbf6dfc79d0659d" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>ParentNames</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1afce7403be2cf777afa577a3835f15641" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>Parse</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a1e646d5ff27912035d28d3f115c73ced" prot="protected" virt="virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>Read</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1ab1de1f8380c5cc35d3a0d54e01828690" prot="protected" virt="virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>ReadDocument</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1aeda01b92beba5b934901dda5a2c894d8" prot="protected" virt="virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>ReadElement</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1acc7a03abd1ed03836a712e8b65fd3613" prot="protected" virt="virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>ReadEndElement</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a7e3ac06a4d2d8614f5086a2f4999a2d9" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>Reader</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1abd33d81e6612fff4258c7a3fd963daae" prot="protected" virt="virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>ReadText</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a89813eff2a566995b5ca63407b83ba6e" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>SetText</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1ab6f7f88f397423332cde662cc21f4885" prot="protected" virt="non-virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>Text</name></member>
+      <member refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_event_reader_1a96a522679283221ef2a4f8ac49bed627" prot="public" virt="non-virtual"><scope>Pathfinder::Util::XML::EventReader</scope><name>TryParse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

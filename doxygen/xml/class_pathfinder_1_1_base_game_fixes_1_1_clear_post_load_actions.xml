@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_clear_post_load_actions" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::ClearPostLoadActions</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_clear_post_load_actions_1a0b5db968bda29a5e531b9bb6e4a12f79" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.ClearPostLoadActions.ClearComputerPostLoadActionsPostfix</definition>
+        <argsstring>()</argsstring>
+        <name>ClearComputerPostLoadActionsPostfix</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.ClearPostLoadActions.ClearComputerPostLoadActionsPostfix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/ClearPostLoadActions.cs" line="11" column="26" bodyfile="PathfinderAPI/BaseGameFixes/ClearPostLoadActions.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/ClearPostLoadActions.cs" line="7" column="9" bodyfile="PathfinderAPI/BaseGameFixes/ClearPostLoadActions.cs" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_clear_post_load_actions_1a0b5db968bda29a5e531b9bb6e4a12f79" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::ClearPostLoadActions</scope><name>ClearComputerPostLoadActionsPostfix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

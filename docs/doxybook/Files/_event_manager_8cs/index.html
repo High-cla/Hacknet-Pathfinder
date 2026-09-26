@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_event_manager_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Event/EventManager.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Event/EventManager.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_event_manager_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_event_manager_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Event/EventManager.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapieventeventmanagercs">PathfinderAPI/Event/EventManager.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_event/">Pathfinder::Event</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>struct</td>
+<td><strong><a href="../Classes/struct_pathfinder_1_1_event_1_1_event_handler_options/">Pathfinder::Event::EventHandlerOptions</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_event_1_1_event_manager/">Pathfinder::Event::EventManager</a></strong> <br>Manager for PathfinderEvent handlers.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using System.Reflection;
+using HarmonyLib;
+using System.Runtime.CompilerServices;
+using Pathfinder.Util;
+
+namespace Pathfinder.Event;
+
+public struct EventHandlerOptions
+{
+    public int? Priority;
+    public int PrioritySafe =&gt; Priority.GetValueOrDefault(0);
+    public bool ContinueOnCancel;
+    public bool ContinueOnThrow;
+}
+
+internal class EventHandler&lt;T&gt; : IComparable&lt;EventHandler&lt;T&gt;&gt;, IEquatable&lt;EventHandler&lt;T&gt;&gt;, IEquatable&lt;MethodInfo&gt; where T : PathfinderEvent
+{
+    internal readonly Action&lt;T&gt; HandlerAction;
+    internal readonly MethodInfo HandlerInfo;
+    internal readonly EventHandlerOptions Options;
+
+    internal EventHandler(Action&lt;T&gt; handlerAction, EventHandlerOptions options)
+    {
+        HandlerAction = handlerAction;
+        Options = options;
+
+        HandlerInfo = handlerAction.Method;
+    }
+
+    public int CompareTo(EventHandler&lt;T&gt; other) =&gt; Options.PrioritySafe.CompareTo(other.Options.PrioritySafe);
+
+    public bool Equals(EventHandler&lt;T&gt; other) =&gt; HandlerInfo.Equals(other?.HandlerInfo);
+
+    public bool Equals(MethodInfo other) =&gt; HandlerInfo.Equals(other);
+}
+
+public static class EventManager
+{
+    internal static readonly List&lt;object&gt; Instances = new List&lt;object&gt;();
+    internal static void AddEventManagerInstance(object managerObj)
+    {
+        Instances.Add(managerObj);
+    }
+    internal delegate void RemoveOnUnload(Assembly unloadedAssembly);
+    internal static event RemoveOnUnload onPluginUnload;
+    internal static void InvokeOnPluginUnload(Assembly pluginAsm) =&gt; onPluginUnload?.Invoke(pluginAsm);
+
+    [MethodImpl(MethodImplOptions.NoInlining)]
+    public static void AddHandler(Type pathfinderEvent, MethodInfo handler, EventHandlerOptions options = default)
+    {
+        pathfinderEvent.ThrowNotInherit&lt;PathfinderEvent&gt;(nameof(pathfinderEvent));
+        var parameters = handler.GetParameters();
+        if (parameters.Length != 1 || parameters[0].ParameterType != pathfinderEvent)
+        {
+            throw new ArgumentException(&quot;Handler method must have one parameter of the same type of event you're subscribing to!&quot;, nameof(handler));
+        }
+
+        object handlerDelegate = typeof(AccessTools)
+            .GetMethod(&quot;MethodDelegate&quot;)
+            .MakeGenericMethod(typeof(Action&lt;&gt;).MakeGenericType(pathfinderEvent))
+            .Invoke(null, new object[] { handler, null, true });
+
+        object eventHandler = Activator.CreateInstance(
+            typeof(EventHandler&lt;&gt;).MakeGenericType(pathfinderEvent),
+            AccessTools.all,
+            default,
+            new object[] { handlerDelegate, options },
+            default
+        );
+
+        var eventManagerType = typeof(EventManager&lt;&gt;).MakeGenericType(pathfinderEvent);
+
+        object instance = eventManagerType.GetProperty(&quot;Instance&quot;).GetGetMethod().Invoke(null, null);
+
+        eventManagerType
+            .GetMethod(&quot;AddHandlerInternal&quot;, AccessTools.all)
+            .Invoke(instance, new object[] { eventHandler, handler.Module.Assembly });
+    }
+}
+
+public class EventManager&lt;T&gt; where T : PathfinderEvent
+{
+    private readonly AssemblyAssociatedList&lt;EventHandler&lt;T&gt;&gt; handlers = new AssemblyAssociatedList&lt;EventHandler&lt;T&gt;&gt;();
+
+    private static EventManager&lt;T&gt; _instance = null;
+
+    public static EventManager&lt;T&gt; Instance =&gt; _instance ?? (_instance = new EventManager&lt;T&gt;());
+
+    private EventManager()
+    {
+        EventManager.AddEventManagerInstance(this);
+        EventManager.onPluginUnload += OnPluginUnload;
+    }
+
+    [MethodImpl(MethodImplOptions.NoInlining)]
+    public static void AddHandler(Action&lt;T&gt; handler, EventHandlerOptions options = default)
+    {
+        Instance.AddHandlerInternal(new EventHandler&lt;T&gt;(handler, options), Assembly.GetCallingAssembly());
+    }
+    private void AddHandlerInternal(EventHandler&lt;T&gt; handler, Assembly eventAssembly)
+    {
+        handlers.Add(handler, eventAssembly);
+    }
+
+    [MethodImpl(MethodImplOptions.NoInlining)]
+    public static void RemoveHandler(Action&lt;T&gt; handler, Assembly eventAssembly = null)
+    {
+        Instance.RemoveHandlerInternal(handler.Method, eventAssembly ?? Assembly.GetCallingAssembly());
+    }
+    private void RemoveHandlerInternal(MethodInfo handler, Assembly eventAssembly)
+    {
+        handlers.RemoveAll(x =&gt; x.Equals(handler), eventAssembly);
+    }
+
+    public static int HandlerCount =&gt; Instance.handlers.AllItems.Count;
+
+    private void OnPluginUnload(Assembly pluginAsm)
+    {
+        handlers.RemoveAssembly(pluginAsm, out _);
+    }
+
+    private static T InvokeOn(IEnumerable&lt;EventHandler&lt;T&gt;&gt; list, T eventArgs)
+    {
+        foreach (var handler in list)
+        {
+            try
+            {
+                if ((handler.Options.ContinueOnThrow || !eventArgs.Thrown) &amp;&amp; (handler.Options.ContinueOnCancel || !eventArgs.Cancelled))
+                    handler.HandlerAction(eventArgs);
+            }
+            catch (Exception e)
+            {
+                Logger.Log(global::BepInEx.Logging.LogLevel.Error, $&quot;{handler.HandlerInfo.DeclaringType.FullName}::{handler.HandlerInfo.FullDescription()}&quot;);
+                Logger.Log(global::BepInEx.Logging.LogLevel.Error, e);
+                eventArgs.Thrown = true;
+            }
+        }
+        return eventArgs;
+    }
+
+    public static T InvokeAll(T eventArgs)
+    {
+        var allHandlers = Instance.handlers.AllItems.ToList();
+        allHandlers.Sort();
+        return InvokeOn(allHandlers, eventArgs);
+    }
+
+    public static T InvokeAssembly(Assembly asm, T eventArgs)
+    {
+        var asmHandlers = Instance.handlers[asm].ToList();
+        asmHandlers.Sort();
+        return InvokeOn(asmHandlers, eventArgs);
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

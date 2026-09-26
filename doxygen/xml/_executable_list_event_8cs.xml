@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_executable_list_event_8cs" kind="file" language="C#">
+    <compoundname>ExecutableListEvent.cs</compoundname>
+    <innerclass refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event" prot="public">Pathfinder::Event::Gameplay::ExecutableListEvent</innerclass>
+    <innernamespace refid="namespace_pathfinder">Pathfinder</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event">Pathfinder::Event</innernamespace>
+    <innernamespace refid="namespace_pathfinder_1_1_event_1_1_gameplay">Pathfinder::Event::Gameplay</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Hacknet;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">HarmonyLib;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pathfinder_1_1_event_1_1_gameplay" kindref="compound">Pathfinder.Event.Gameplay</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">[HarmonyPatch]</highlight></codeline>
+<codeline lineno="7" refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event" kindref="compound">ExecutableListEvent</ref><sp/>:<sp/><ref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" kindref="compound">PathfinderEvent</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1ae59bd6898f15d91061fb9be605008f5e" kindref="member">OS</ref><sp/><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1ae59bd6898f15d91061fb9be605008f5e" kindref="member">OS</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;string&gt;<sp/><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1adc33b44955869a530d267ae4260b662a" kindref="member">EmbeddedExes</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;string&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;PortHack&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;ForkBomb&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Shell&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Tutorial&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Dictionary&lt;FileEntry,<sp/>bool&gt;<sp/><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1abe7522356548d809674f846091273f40" kindref="member">BinExes</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event" kindref="compound">ExecutableListEvent</ref>(<ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1ae59bd6898f15d91061fb9be605008f5e" kindref="member">OS</ref><sp/>os,<sp/>Dictionary&lt;FileEntry,<sp/>bool&gt;<sp/>binExes)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1ae59bd6898f15d91061fb9be605008f5e" kindref="member">OS</ref><sp/>=<sp/>os;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1abe7522356548d809674f846091273f40" kindref="member">BinExes</ref><sp/>=<sp/>binExes;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyPrefix]</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>[HarmonyPatch(typeof(Programs),<sp/>nameof(Programs.execute))]</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ProgramsExecuteReplacement(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[]<sp/>args,<sp/><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1ae59bd6898f15d91061fb9be605008f5e" kindref="member">OS</ref><sp/>os){</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>binFiles<sp/>=<sp/>os.thisComputer.files.root.searchForFolder(</highlight><highlight class="stringliteral">&quot;bin&quot;</highlight><highlight class="normal">).files;<sp/></highlight><highlight class="comment">//<sp/>folders[2].files;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>binExes<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Dictionary&lt;FileEntry,<sp/>bool&gt;();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(FileEntry<sp/>exeFile<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>binFiles)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>binExes[exeFile]<sp/>=</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PortExploits.crackExeData<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Any(x<sp/>=&gt;<sp/>x.Value<sp/>==<sp/>exeFile.data)<sp/>||</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PortExploits.crackExeDataLocalRNG.Any(x<sp/>=&gt;<sp/>x.Value<sp/>==<sp/>exeFile.data);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>programsExecute<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event" kindref="compound">ExecutableListEvent</ref>(os,<sp/>binExes);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pathfinder_1_1_event_1_1_event_manager" kindref="compound">EventManager&lt;ExecutableListEvent&gt;</ref>.<ref refid="class_pathfinder_1_1_event_1_1_event_manager_1a28fe5b808e19e961eeb9c3e6807a6221" kindref="member">InvokeAll</ref>(programsExecute);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os.write(</highlight><highlight class="stringliteral">&quot;Available<sp/>Executables:\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>embedded<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>programsExecute.EmbeddedExes)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os.write(embedded);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(FileEntry<sp/>file<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>binFiles.Where(x<sp/>=&gt;<sp/>binExes[x]))</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os.write(file.name.Replace(</highlight><highlight class="stringliteral">&quot;.exe&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os.write(</highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs"/>
+  </compounddef>
+</doxygen>

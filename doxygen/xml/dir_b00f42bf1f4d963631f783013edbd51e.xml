@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_b00f42bf1f4d963631f783013edbd51e" kind="dir">
+    <compoundname>PathfinderAPI/Util/XML</compoundname>
+    <innerfile refid="_element_info_8cs">ElementInfo.cs</innerfile>
+    <innerfile refid="_event_executor_8cs">EventExecutor.cs</innerfile>
+    <innerfile refid="_event_reader_8cs">EventReader.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Util/XML/"/>
+  </compounddef>
+</doxygen>

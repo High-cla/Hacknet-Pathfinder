@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_administrator_1_1_administrator_manager" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Administrator::AdministratorManager</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1aa93c885fa5b55ecf0c8d9c335d738ae4" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; string, Type &gt;</type>
+        <definition>readonly Dictionary&lt;string, Type&gt; Pathfinder.Administrator.AdministratorManager.CustomAdministrators</definition>
+        <argsstring></argsstring>
+        <name>CustomAdministrators</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.CustomAdministrators</qualifiedname>
+        <initializer>= new Dictionary&lt;string, Type&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="11" column="40" bodyfile="PathfinderAPI/Administrator/AdministratorManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1af2e0b0cb59f2ab00165f32c9628d77ac" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Pathfinder.Administrator.AdministratorManager.AdministratorManager</definition>
+        <argsstring>()</argsstring>
+        <name>AdministratorManager</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.AdministratorManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="13" column="12" bodyfile="PathfinderAPI/Administrator/AdministratorManager.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a3b99e12afbd05492f6387c57e853836a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Administrator.AdministratorManager.onPluginUnload</definition>
+        <argsstring>(Assembly pluginAsm)</argsstring>
+        <name>onPluginUnload</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.onPluginUnload</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>pluginAsm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="55" column="25" bodyfile="PathfinderAPI/Administrator/AdministratorManager.cs" bodystart="55" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a7567c872f0174ee59681534ab155a361" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Administrator.AdministratorManager.LoadAdministrator</definition>
+        <argsstring>(ElementInfo info, Computer comp, OS os)</argsstring>
+        <name>LoadAdministrator</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.LoadAdministrator</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_util_1_1_x_m_l_1_1_element_info" kindref="compound">ElementInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>Computer</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="18" column="26" bodyfile="PathfinderAPI/Administrator/AdministratorManager.cs" bodystart="18" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a3205ea83e754649e225af186c56003fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Administrator.AdministratorManager.RegisterAdministrator&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>RegisterAdministrator&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.RegisterAdministrator&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="61" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1aa26e56c8c08ebfdf5e8aab14ca7771e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Administrator.AdministratorManager.RegisterAdministrator</definition>
+        <argsstring>(Type adminType)</argsstring>
+        <name>RegisterAdministrator</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.RegisterAdministrator</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>adminType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="62" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a76f3f338286918d14199850de6c525d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Administrator.AdministratorManager.RegisterAdministrator&lt; T &gt;</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>RegisterAdministrator&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.RegisterAdministrator&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="63" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a7dde207f6d52f720b78780628e8bb074" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Administrator.AdministratorManager.RegisterAdministrator</definition>
+        <argsstring>(Type adminType, string xmlName)</argsstring>
+        <name>RegisterAdministrator</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.RegisterAdministrator</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>adminType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="64" column="24" bodyfile="PathfinderAPI/Administrator/AdministratorManager.cs" bodystart="64" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1aa5ca509016e1d93e0176982a2bf0cd36" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Administrator.AdministratorManager.UnregisterAdministrator&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>UnregisterAdministrator&lt; T &gt;</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.UnregisterAdministrator&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="70" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a2178eadd56e8e7b85d95bb691ac03805" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Administrator.AdministratorManager.UnregisterAdministrator</definition>
+        <argsstring>(Type adminType)</argsstring>
+        <name>UnregisterAdministrator</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.UnregisterAdministrator</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>adminType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="71" column="24" bodyfile="PathfinderAPI/Administrator/AdministratorManager.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a41d35f6714036ae603fd95dcd973ae57" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.Administrator.AdministratorManager.UnregisterAdministrator</definition>
+        <argsstring>(string xmlName)</argsstring>
+        <name>UnregisterAdministrator</name>
+        <qualifiedname>Pathfinder.Administrator.AdministratorManager.UnregisterAdministrator</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="77" column="24" bodyfile="PathfinderAPI/Administrator/AdministratorManager.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Administrator/AdministratorManager.cs" line="9" column="15" bodyfile="PathfinderAPI/Administrator/AdministratorManager.cs" bodystart="10" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1af2e0b0cb59f2ab00165f32c9628d77ac" prot="private" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>AdministratorManager</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1aa93c885fa5b55ecf0c8d9c335d738ae4" prot="private" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>CustomAdministrators</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a7567c872f0174ee59681534ab155a361" prot="package" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>LoadAdministrator</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a3b99e12afbd05492f6387c57e853836a" prot="private" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>onPluginUnload</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1aa26e56c8c08ebfdf5e8aab14ca7771e0" prot="public" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>RegisterAdministrator</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a7dde207f6d52f720b78780628e8bb074" prot="public" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>RegisterAdministrator</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a3205ea83e754649e225af186c56003fd" prot="public" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>RegisterAdministrator&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a76f3f338286918d14199850de6c525d4" prot="public" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>RegisterAdministrator&lt; T &gt;</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a2178eadd56e8e7b85d95bb691ac03805" prot="public" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>UnregisterAdministrator</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1a41d35f6714036ae603fd95dcd973ae57" prot="public" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>UnregisterAdministrator</name></member>
+      <member refid="class_pathfinder_1_1_administrator_1_1_administrator_manager_1aa5ca509016e1d93e0176982a2bf0cd36" prot="public" virt="non-virtual"><scope>Pathfinder::Administrator::AdministratorManager</scope><name>UnregisterAdministrator&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

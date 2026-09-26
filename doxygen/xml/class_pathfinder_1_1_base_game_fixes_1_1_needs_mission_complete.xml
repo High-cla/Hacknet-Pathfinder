@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_base_game_fixes_1_1_needs_mission_complete" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::BaseGameFixes::NeedsMissionComplete</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_needs_mission_complete_1a548c4fcdf531f285df7137056da62806" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.NeedsMissionComplete.ActiveMissionNullCheckIL</definition>
+        <argsstring>(ILContext il)</argsstring>
+        <name>ActiveMissionNullCheckIL</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.NeedsMissionComplete.ActiveMissionNullCheckIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/NeedsMissionComplete.cs" line="13" column="26" bodyfile="PathfinderAPI/BaseGameFixes/NeedsMissionComplete.cs" bodystart="13" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_base_game_fixes_1_1_needs_mission_complete_1ace7ed3ed4e22b4e4d69bd89c476a9bae" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.BaseGameFixes.NeedsMissionComplete.ActiveMissionLogicFixIL</definition>
+        <argsstring>(ILContext il, ILLabel retLabel)</argsstring>
+        <name>ActiveMissionLogicFixIL</name>
+        <qualifiedname>Pathfinder.BaseGameFixes.NeedsMissionComplete.ActiveMissionLogicFixIL</qualifiedname>
+        <param>
+          <type>ILContext</type>
+          <declname>il</declname>
+        </param>
+        <param>
+          <type>ILLabel</type>
+          <declname>retLabel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/BaseGameFixes/NeedsMissionComplete.cs" line="27" column="26" bodyfile="PathfinderAPI/BaseGameFixes/NeedsMissionComplete.cs" bodystart="27" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/BaseGameFixes/NeedsMissionComplete.cs" line="9" column="17" bodyfile="PathfinderAPI/BaseGameFixes/NeedsMissionComplete.cs" bodystart="10" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_needs_mission_complete_1ace7ed3ed4e22b4e4d69bd89c476a9bae" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::NeedsMissionComplete</scope><name>ActiveMissionLogicFixIL</name></member>
+      <member refid="class_pathfinder_1_1_base_game_fixes_1_1_needs_mission_complete_1a548c4fcdf531f285df7137056da62806" prot="package" virt="non-virtual"><scope>Pathfinder::BaseGameFixes::NeedsMissionComplete</scope><name>ActiveMissionNullCheckIL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning" kind="class" language="C#" prot="package">
+    <compoundname>Pathfinder::GUI::ArbitraryCodeWarning</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a932589821f0d3062fa8867ed258e9104" prot="private" static="yes" mutable="no">
+        <type>ExtensionInfo</type>
+        <definition>ExtensionInfo Pathfinder.GUI.ArbitraryCodeWarning.needsApproval</definition>
+        <argsstring></argsstring>
+        <name>needsApproval</name>
+        <qualifiedname>Pathfinder.GUI.ArbitraryCodeWarning.needsApproval</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="16" column="34" bodyfile="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a54b5da2909b4abbc58e6f35c3b4be48f" prot="private" static="yes" mutable="no">
+        <type>ExtensionInfo</type>
+        <definition>ExtensionInfo Pathfinder.GUI.ArbitraryCodeWarning.approvedInfo</definition>
+        <argsstring></argsstring>
+        <name>approvedInfo</name>
+        <qualifiedname>Pathfinder.GUI.ArbitraryCodeWarning.approvedInfo</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="17" column="34" bodyfile="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1af57af24744e3cd0bcc8cb190417f22a4" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.GUI.ArbitraryCodeWarning.messages</definition>
+        <argsstring></argsstring>
+        <name>messages</name>
+        <qualifiedname>Pathfinder.GUI.ArbitraryCodeWarning.messages</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="18" column="27" bodyfile="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1ac54124c88b838bc6ebe4a4ee1400541d" prot="private" static="yes" mutable="no">
+        <type>ExtensionsMenuScreen</type>
+        <definition>ExtensionsMenuScreen Pathfinder.GUI.ArbitraryCodeWarning.screen</definition>
+        <argsstring></argsstring>
+        <name>screen</name>
+        <qualifiedname>Pathfinder.GUI.ArbitraryCodeWarning.screen</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="19" column="41" bodyfile="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a8a24cce93e2ea64e6e6ccabd1dba925c" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+        <definition>PFButton Pathfinder.GUI.ArbitraryCodeWarning.Continue</definition>
+        <argsstring></argsstring>
+        <name>Continue</name>
+        <qualifiedname>Pathfinder.GUI.ArbitraryCodeWarning.Continue</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(650, 0, 130, 20, &quot;Continue&quot;, new Color(255, 110, 110))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="27" column="29" bodyfile="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a4ef3d71b8a9c9c2cacbb7b80e5b68409" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref></type>
+        <definition>PFButton Pathfinder.GUI.ArbitraryCodeWarning.Cancel</definition>
+        <argsstring></argsstring>
+        <name>Cancel</name>
+        <qualifiedname>Pathfinder.GUI.ArbitraryCodeWarning.Cancel</qualifiedname>
+        <initializer>= new <ref refid="class_pathfinder_1_1_g_u_i_1_1_p_f_button" kindref="compound">PFButton</ref>(800, 0, 130, 20, &quot;Cancel&quot;, new Color(50, 50, 50))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="28" column="29" bodyfile="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a686db813fad56d886eb72147e98e879a" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.GUI.ArbitraryCodeWarning.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>Pathfinder.GUI.ArbitraryCodeWarning.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="22" column="26" bodyfile="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a89b5619793d92dfcb643b630a4af5a43" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pathfinder.GUI.ArbitraryCodeWarning.OnDrawMainMenu</definition>
+        <argsstring>(DrawMainMenuEvent args)</argsstring>
+        <name>OnDrawMainMenu</name>
+        <qualifiedname>Pathfinder.GUI.ArbitraryCodeWarning.OnDrawMainMenu</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_event" kindref="compound">DrawMainMenuEvent</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="30" column="25" bodyfile="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" bodystart="30" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a6add34590dee8dc0d92cca7a9a428487" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.GUI.ArbitraryCodeWarning.ShowArbitraryWarning</definition>
+        <argsstring>(ExtensionsMenuScreen __instance, ExtensionInfo info)</argsstring>
+        <name>ShowArbitraryWarning</name>
+        <qualifiedname>Pathfinder.GUI.ArbitraryCodeWarning.ShowArbitraryWarning</qualifiedname>
+        <param>
+          <type>ExtensionsMenuScreen</type>
+          <declname>__instance</declname>
+        </param>
+        <param>
+          <type>ExtensionInfo</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="63" column="25" bodyfile="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" bodystart="63" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" line="14" column="17" bodyfile="PathfinderAPI/GUI/ArbitraryCodeWarning.cs" bodystart="15" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a54b5da2909b4abbc58e6f35c3b4be48f" prot="private" virt="non-virtual"><scope>Pathfinder::GUI::ArbitraryCodeWarning</scope><name>approvedInfo</name></member>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a4ef3d71b8a9c9c2cacbb7b80e5b68409" prot="private" virt="non-virtual"><scope>Pathfinder::GUI::ArbitraryCodeWarning</scope><name>Cancel</name></member>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a8a24cce93e2ea64e6e6ccabd1dba925c" prot="private" virt="non-virtual"><scope>Pathfinder::GUI::ArbitraryCodeWarning</scope><name>Continue</name></member>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a686db813fad56d886eb72147e98e879a" prot="package" virt="non-virtual"><scope>Pathfinder::GUI::ArbitraryCodeWarning</scope><name>Initialize</name></member>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1af57af24744e3cd0bcc8cb190417f22a4" prot="private" virt="non-virtual"><scope>Pathfinder::GUI::ArbitraryCodeWarning</scope><name>messages</name></member>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a932589821f0d3062fa8867ed258e9104" prot="private" virt="non-virtual"><scope>Pathfinder::GUI::ArbitraryCodeWarning</scope><name>needsApproval</name></member>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a89b5619793d92dfcb643b630a4af5a43" prot="private" virt="non-virtual"><scope>Pathfinder::GUI::ArbitraryCodeWarning</scope><name>OnDrawMainMenu</name></member>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1ac54124c88b838bc6ebe4a4ee1400541d" prot="private" virt="non-virtual"><scope>Pathfinder::GUI::ArbitraryCodeWarning</scope><name>screen</name></member>
+      <member refid="class_pathfinder_1_1_g_u_i_1_1_arbitrary_code_warning_1a6add34590dee8dc0d92cca7a9a428487" prot="private" virt="non-virtual"><scope>Pathfinder::GUI::ArbitraryCodeWarning</scope><name>ShowArbitraryWarning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

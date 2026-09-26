@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_pathfinder_1_1_event_1_1_event_handler_options" kind="struct" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::EventHandlerOptions</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pathfinder_1_1_event_1_1_event_handler_options_1a8947c7d40f466eaa2c602afa45707b46" prot="public" static="no" mutable="no">
+        <type>int?</type>
+        <definition>int? Pathfinder.Event.EventHandlerOptions.Priority</definition>
+        <argsstring></argsstring>
+        <name>Priority</name>
+        <qualifiedname>Pathfinder.Event.EventHandlerOptions.Priority</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="10" column="16" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_event_1_1_event_handler_options_1aaab8de6d827c9da1b17476c4c1dc9d4b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Event.EventHandlerOptions.ContinueOnCancel</definition>
+        <argsstring></argsstring>
+        <name>ContinueOnCancel</name>
+        <qualifiedname>Pathfinder.Event.EventHandlerOptions.ContinueOnCancel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="12" column="17" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pathfinder_1_1_event_1_1_event_handler_options_1afb42ebd7a395b7fb69b3107461e726e1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Event.EventHandlerOptions.ContinueOnThrow</definition>
+        <argsstring></argsstring>
+        <name>ContinueOnThrow</name>
+        <qualifiedname>Pathfinder.Event.EventHandlerOptions.ContinueOnThrow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="13" column="17" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="struct_pathfinder_1_1_event_1_1_event_handler_options_1af581ffc239fd84f3ebe5433b0fc02bd6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Event.EventHandlerOptions.PrioritySafe</definition>
+        <argsstring></argsstring>
+        <name>PrioritySafe</name>
+        <qualifiedname>Pathfinder.Event.EventHandlerOptions.PrioritySafe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/EventManager.cs" line="11" column="16" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Event/EventManager.cs" line="8" column="7" bodyfile="PathfinderAPI/Event/EventManager.cs" bodystart="9" bodyend="14"/>
+    <listofallmembers>
+      <member refid="struct_pathfinder_1_1_event_1_1_event_handler_options_1aaab8de6d827c9da1b17476c4c1dc9d4b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventHandlerOptions</scope><name>ContinueOnCancel</name></member>
+      <member refid="struct_pathfinder_1_1_event_1_1_event_handler_options_1afb42ebd7a395b7fb69b3107461e726e1" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventHandlerOptions</scope><name>ContinueOnThrow</name></member>
+      <member refid="struct_pathfinder_1_1_event_1_1_event_handler_options_1a8947c7d40f466eaa2c602afa45707b46" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventHandlerOptions</scope><name>Priority</name></member>
+      <member refid="struct_pathfinder_1_1_event_1_1_event_handler_options_1af581ffc239fd84f3ebe5433b0fc02bd6" prot="public" virt="non-virtual"><scope>Pathfinder::Event::EventHandlerOptions</scope><name>PrioritySafe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

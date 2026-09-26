@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Files/_draw_main_menu_button_event_8cs/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs";
+        var mkdocs_page_input_path = "doxybook/Files/_draw_main_menu_button_event_8cs.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Files/_draw_main_menu_button_event_8cs/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Classes/">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderapieventmenudrawmainmenubuttoneventcs">PathfinderAPI/Event/Menu/DrawMainMenuButtonEvent.cs</h1>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder/">Pathfinder</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_event/">Pathfinder::Event</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="../Namespaces/namespace_pathfinder_1_1_event_1_1_menu/">Pathfinder::Event::Menu</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event/">Pathfinder::Event::Menu::DrawMainMenuButtonEvent</a></strong></td>
+</tr>
+<tr>
+<td>class</td>
+<td><strong><a href="../Classes/class_pathfinder_1_1_event_1_1_menu_1_1_draw_main_menu_button_event_1_1_button_data/">Pathfinder::Event::Menu::DrawMainMenuButtonEvent::ButtonData</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code class="language-csharp">using Hacknet;
+using Hacknet.Gui;
+using HarmonyLib;
+using Microsoft.Xna.Framework;
+using Mono.Cecil.Cil;
+using MonoMod.Cil;
+
+namespace Pathfinder.Event.Menu;
+
+public enum MainMenuButtonType : int
+{
+    Undefined = -1,
+    Unknown = 0,
+    NewSession = 1,
+    Continue = 1102,
+    Login = 11,
+    Settings = 3,
+    StartRelayServer = 4,
+    Extensions = 5,
+    NewLabyrinthSession = 7,
+    Exit = 15,
+}
+
+[HarmonyPatch]
+public class DrawMainMenuButtonEvent : MainMenuEvent
+{
+    delegate bool ButtonDrawDelegate(int id, int x, int y, int width, int height, string text, Color color, MainMenu self);
+
+    public ButtonData Data { get; }
+
+    public DrawMainMenuButtonEvent(MainMenu mainMenu, ButtonData data) : base(mainMenu)
+    {
+        Data = data;
+    }
+
+    [HarmonyILManipulator]
+    [HarmonyPatch(typeof(MainMenu), nameof(MainMenu.drawMainMenuButtons))]
+    private static void AfterMainMenuDraw(ILContext il)
+    {
+        ILCursor c = new ILCursor(il);
+
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchLdcI4(450),
+            x =&gt; x.MatchLdcI4(50),
+            x =&gt; x.MatchLdstr(&quot;New Session&quot;),
+            x =&gt; x.MatchCall(typeof(LocaleTerms), nameof(LocaleTerms.Loc)),
+            x =&gt; x.MatchLdsfld(typeof(MainMenu), nameof(MainMenu.buttonColor))
+        );
+        c.Remove();
+        c.Remove();
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldloca_S, (byte)0);
+        c.Emit(OpCodes.Ldloca_S, (byte)4);
+        c.EmitDelegate(ButtonDrawExecution);
+
+        // Continue Session Button
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchLdfld(typeof(MainMenu), &quot;canLoad&quot;),
+            x =&gt; x.MatchBrtrue(out var _),
+            x =&gt; x.MatchCall(typeof(Color), &quot;get_Black&quot;),
+            x =&gt; x.MatchBr(out var _),
+            x =&gt; x.MatchLdsfld(typeof(MainMenu), nameof(MainMenu.buttonColor)),
+            x =&gt; x.MatchNop()
+        );
+        c.Remove();
+        c.Remove();
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldloca_S, (byte)0);
+        c.Emit(OpCodes.Ldloca_S, (byte)4);
+        c.EmitDelegate(ButtonDrawExecution);
+
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchLdstr(&quot;Login&quot;),
+            x =&gt; x.MatchCall(typeof(LocaleTerms), nameof(LocaleTerms.Loc)),
+            x =&gt; x.MatchLdloc(1),
+            x =&gt; x.MatchBrtrue(out var _),
+            x =&gt; x.MatchCall(typeof(Color), &quot;get_Black&quot;),
+            x =&gt; x.MatchBr(out var _),
+            x =&gt; x.MatchLdsfld(typeof(MainMenu), nameof(MainMenu.buttonColor)),
+            x =&gt; x.MatchNop()
+        );
+        c.Remove();
+        c.Remove();
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldloca_S, (byte)0);
+        c.Emit(OpCodes.Ldloca_S, (byte)4);
+        c.EmitDelegate(ButtonDrawExecution);
+
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchLdstr(&quot;Settings&quot;),
+            x =&gt; x.MatchCall(typeof(LocaleTerms), nameof(LocaleTerms.Loc)),
+            x =&gt; x.MatchLdsfld(typeof(MainMenu), nameof(MainMenu.buttonColor))
+        );
+        c.Remove();
+        c.Remove();
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldloca_S, (byte)0);
+        c.Emit(OpCodes.Ldloca_S, (byte)4);
+        c.EmitDelegate(ButtonDrawExecution);
+
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchLdstr(&quot;Start Relay Server&quot;),
+            x =&gt; x.MatchLdsfld(typeof(MainMenu), nameof(MainMenu.buttonColor))
+        );
+        c.Remove();
+        c.Remove();
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldloca_S, (byte)0);
+        c.Emit(OpCodes.Ldloca_S, (byte)4);
+        c.EmitDelegate(ButtonDrawExecution);
+
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchLdstr(&quot;Extensions&quot;),
+            x =&gt; x.MatchLdsfld(typeof(MainMenu), nameof(MainMenu.buttonColor))
+        );
+        c.Remove();
+        c.Remove();
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldloca_S, (byte)0);
+        c.Emit(OpCodes.Ldloca_S, (byte)4);
+        c.EmitDelegate(ButtonDrawExecution);
+
+        // New Labyrinth Session Button
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchCall(typeof(Utils), nameof(Utils.rand)),
+            x =&gt; x.MatchSub(),
+            x =&gt; x.MatchCall(typeof(Color), nameof(Color.Lerp))
+        );
+        c.Remove();
+        c.Remove();
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldloca_S, (byte)0);
+        c.Emit(OpCodes.Ldloca_S, (byte)4);
+        c.EmitDelegate(ButtonDrawExecution);
+
+        c.GotoNext(MoveType.After,
+            x =&gt; x.MatchLdstr(&quot;Exit&quot;),
+            x =&gt; x.MatchCall(typeof(LocaleTerms), nameof(LocaleTerms.Loc)),
+            x =&gt; x.MatchLdsfld(typeof(MainMenu), nameof(MainMenu.exitButtonColor))
+        );
+        c.Remove();
+        c.Remove();
+        c.Emit(OpCodes.Ldarg_0);
+        c.Emit(OpCodes.Ldloca_S, (byte)0);
+        c.Emit(OpCodes.Ldloca_S, (byte)4);
+        c.EmitDelegate(ButtonDrawExecution);
+    }
+
+    // I have no idea why it was implemented with two Y position indexers and fixing it would kind of be pointless, just gonna keep them equal
+    // If I don't do this at least two buttons could overlap
+    public static bool ButtonDrawExecution(int id, int x, int y, int width, int height, string text, Color color, MainMenu self, ref int yPosIndexOne, ref int yPostIndexTwo)
+    {
+        var loadButtonData = new ButtonData(id, x, y, width, height, text, color, Math.Max(yPosIndexOne, yPostIndexTwo));
+        var drawMainMenuButton = new DrawMainMenuButtonEvent(self, loadButtonData);
+        EventManager&lt;DrawMainMenuButtonEvent&gt;.InvokeAll(drawMainMenuButton);
+        yPosIndexOne = yPostIndexTwo = loadButtonData.YPositionIndex;
+
+        if(!drawMainMenuButton.Cancelled)
+            return Button.doButton(
+                loadButtonData.Id,
+                loadButtonData.X,
+                loadButtonData.Y,
+                loadButtonData.Width,
+                loadButtonData.Height,
+                loadButtonData.Text,
+                loadButtonData.Color
+            );
+        return false;
+    }
+
+    public class ButtonData
+    {
+        public const int DefaultButtonTopPadding = 15;
+
+        public int Id;
+        public int X;
+        public int Y;
+        public int Width;
+        public int Height;
+        public string Text;
+        public Color Color;
+        public int YPositionIndex;
+
+        private MainMenuButtonType _buttonType = MainMenuButtonType.Undefined;
+        public MainMenuButtonType ButtonType
+        {
+            get
+            {
+                if(_buttonType == MainMenuButtonType.Undefined)
+                {
+                    if(Enum.IsDefined(typeof(MainMenuButtonType), Id))
+                        _buttonType = (MainMenuButtonType)Id;
+                    else _buttonType = MainMenuButtonType.Unknown;
+                }
+                return _buttonType;
+            }
+        }
+
+        public ButtonData(int id, int x, int y, int width, int height, string text, Color color, int yPosIndex)
+        {
+            Id = id;
+            X = x;
+            Y = y;
+            Width = width;
+            Height = height;
+            Text = text;
+            Color = color;
+            YPositionIndex = yPosIndex;
+        }
+
+        public bool Is(MainMenuButtonType button) =&gt; ButtonType == button;
+    }
+}
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:08 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

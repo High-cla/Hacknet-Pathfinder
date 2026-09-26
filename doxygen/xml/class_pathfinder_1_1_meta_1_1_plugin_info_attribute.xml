@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_plugin_info_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Meta::PluginInfoAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Attribute</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_meta_1_1_plugin_info_attribute_1a0efe0a995994aa58076c25411028f173" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.PluginInfoAttribute.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>Pathfinder.Meta.PluginInfoAttribute.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/PluginInfoAttribute.cs" line="5" column="19" bodyfile="PathfinderAPI/Meta/PluginInfoAttribute.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_meta_1_1_plugin_info_attribute_1ae72758d29c5fe371d3bc095e2b7f617d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.PluginInfoAttribute.ImageName</definition>
+        <argsstring></argsstring>
+        <name>ImageName</name>
+        <qualifiedname>Pathfinder.Meta.PluginInfoAttribute.ImageName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/PluginInfoAttribute.cs" line="6" column="19" bodyfile="PathfinderAPI/Meta/PluginInfoAttribute.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_meta_1_1_plugin_info_attribute_1a7aaa87560836b0c8c1247a2da55324d0" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] Pathfinder.Meta.PluginInfoAttribute.Authors</definition>
+        <argsstring></argsstring>
+        <name>Authors</name>
+        <qualifiedname>Pathfinder.Meta.PluginInfoAttribute.Authors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/PluginInfoAttribute.cs" line="7" column="19" bodyfile="PathfinderAPI/Meta/PluginInfoAttribute.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_meta_1_1_plugin_info_attribute_1aefaaccad107d80c951444c14f42b7ae1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.PluginInfoAttribute.TeamName</definition>
+        <argsstring></argsstring>
+        <name>TeamName</name>
+        <qualifiedname>Pathfinder.Meta.PluginInfoAttribute.TeamName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/PluginInfoAttribute.cs" line="8" column="19" bodyfile="PathfinderAPI/Meta/PluginInfoAttribute.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_plugin_info_attribute_1a3c1217bc0b591392579d362a0e765066" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Meta.PluginInfoAttribute.PluginInfoAttribute</definition>
+        <argsstring>(string description, string teamName=null, string author=null)</argsstring>
+        <name>PluginInfoAttribute</name>
+        <qualifiedname>Pathfinder.Meta.PluginInfoAttribute.PluginInfoAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>teamName</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>author</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/PluginInfoAttribute.cs" line="10" column="12" bodyfile="PathfinderAPI/Meta/PluginInfoAttribute.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Meta.PluginInfoAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_plugin_info_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Attribute</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Meta.PluginInfoAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_plugin_info_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Attribute</label>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Meta/PluginInfoAttribute.cs" line="3" column="7" bodyfile="PathfinderAPI/Meta/PluginInfoAttribute.cs" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_plugin_info_attribute_1a7aaa87560836b0c8c1247a2da55324d0" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::PluginInfoAttribute</scope><name>Authors</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_plugin_info_attribute_1a0efe0a995994aa58076c25411028f173" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::PluginInfoAttribute</scope><name>Description</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_plugin_info_attribute_1ae72758d29c5fe371d3bc095e2b7f617d" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::PluginInfoAttribute</scope><name>ImageName</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_plugin_info_attribute_1a3c1217bc0b591392579d362a0e765066" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::PluginInfoAttribute</scope><name>PluginInfoAttribute</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_plugin_info_attribute_1aefaaccad107d80c951444c14f42b7ae1" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::PluginInfoAttribute</scope><name>TeamName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

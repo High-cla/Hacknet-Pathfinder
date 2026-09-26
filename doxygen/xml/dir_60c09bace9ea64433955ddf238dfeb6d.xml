@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_60c09bace9ea64433955ddf238dfeb6d" kind="dir">
+    <compoundname>PathfinderAPI/Options</compoundname>
+    <innerfile refid="_options_8cs">Options.cs</innerfile>
+    <innerfile refid="_options_manager_8cs">OptionsManager.cs</innerfile>
+    <innerfile refid="_pathfinder_options_8cs">PathfinderOptions.cs</innerfile>
+    <innerfile refid="_pathfinder_options_menu_8cs">PathfinderOptionsMenu.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Options/"/>
+  </compounddef>
+</doxygen>

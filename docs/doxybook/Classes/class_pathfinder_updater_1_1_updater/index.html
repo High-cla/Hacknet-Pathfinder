@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://arkhist.github.io/Hacknet-Pathfinder/doxybook/Classes/class_pathfinder_updater_1_1_updater/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>PathfinderUpdater::Updater - Hacknet Pathfinder Documentation</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PathfinderUpdater::Updater";
+        var mkdocs_page_input_path = "doxybook/Classes/class_pathfinder_updater_1_1_updater.md";
+        var mkdocs_page_url = "/Hacknet-Pathfinder/doxybook/Classes/class_pathfinder_updater_1_1_updater/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Hacknet Pathfinder Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Pathfinder</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mod Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/start/">Getting started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/actions/">Actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/administrators/">Administrators</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/conditions/">Conditions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/daemons/">Daemons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/executables/">Executables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/missions/">Missions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../mod/ports/">Ports</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pathfinder Development</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contributing/">Contributing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hacknet Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hndocs/gui/">GUI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Development Guides</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guides/guibasics/">GUI Basics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Classes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Namespaces/">Namespaces</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Modules/">Modules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Files/">Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Pages/">Related Pages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Examples/">Examples</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Hacknet Pathfinder Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PathfinderUpdater::Updater</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pathfinderupdaterupdater">PathfinderUpdater::Updater</h1>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../Classes/class_pathfinder_updater_1_1_updater/">Updater</a></td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-create&lt;-plugint-&gt;">Create&lt; PluginT &gt;</a></strong>(string githubApiUrl, string assetFile, string zipPath, bool includePrereleases =false)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-trycreate">TryCreate</a></strong>(Type pluginType, out <a href="../Classes/class_pathfinder_updater_1_1_updater/">Updater</a> updater, bool canSupportUpdaterData =false)</td>
+</tr>
+<tr>
+<td>void</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-forceresetallreleasedata">ForceResetAllReleaseData</a></strong>()</td>
+</tr>
+<tr>
+<td>async Task</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-forceresetallreleasedataasync">ForceResetAllReleaseDataAsync</a></strong>()</td>
+</tr>
+<tr>
+<td>delegate Task&lt; <a href="../Files/_hacknet_chainloader_8cs/#using-version">Version</a> &gt;</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-findversionaction">FindVersionAction</a></strong>()</td>
+</tr>
+<tr>
+<td>delegate Task&lt; Stream &gt;</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-getupdatestreamaction">GetUpdateStreamAction</a></strong>(<a href="../Files/_hacknet_chainloader_8cs/#using-version">Version</a> latest)</td>
+</tr>
+<tr>
+<td>delegate Task&lt; string &gt;</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-handlestreamdownloadaction">HandleStreamDownloadAction</a></strong>(Stream stream)</td>
+</tr>
+<tr>
+<td></td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-updater">Updater</a></strong>(Type pluginType, <a href="../Classes/class_pathfinder_updater_1_1_updater/#function-findversionaction">FindVersionAction</a> findVersion, <a href="../Classes/class_pathfinder_updater_1_1_updater/#function-getupdatestreamaction">GetUpdateStreamAction</a> getUpdateStream =null, <a href="../Classes/class_pathfinder_updater_1_1_updater/#function-handlestreamdownloadaction">HandleStreamDownloadAction</a> handeStreamDownload =null)</td>
+</tr>
+<tr>
+<td></td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-updater">Updater</a></strong>(Type pluginType, string githubApiUrl, string assetFileName, string zipEntryPath, bool includePrerelease =false)</td>
+</tr>
+<tr>
+<td></td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-updater">Updater</a></strong>(Type pluginType)</td>
+</tr>
+<tr>
+<td>async Task&lt; bool &gt;</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-checkforupdate">CheckForUpdate</a></strong>()</td>
+</tr>
+<tr>
+<td>async Task</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-performdownload">PerformDownload</a></strong>()</td>
+</tr>
+<tr>
+<td>void</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-performupdate">PerformUpdate</a></strong>()</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-trydeletedownloadedtempfile">TryDeleteDownloadedTempFile</a></strong>()</td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-trydeletedlltempfile">TryDeleteDllTempFile</a></strong>()</td>
+</tr>
+<tr>
+<td>HttpResponseMessage</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-forceresetreleasedata">ForceResetReleaseData</a></strong>()</td>
+</tr>
+<tr>
+<td>async Task&lt; HttpResponseMessage &gt;</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-forceresetreleasedataasync">ForceResetReleaseDataAsync</a></strong>()</td>
+</tr>
+<tr>
+<td>async Task&lt; <a href="../Files/_hacknet_chainloader_8cs/#using-version">Version</a> &gt;</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-findversiondefault">FindVersionDefault</a></strong>()</td>
+</tr>
+<tr>
+<td>async Task&lt; Stream &gt;</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-getupdatestreamdefault">GetUpdateStreamDefault</a></strong>(<a href="../Files/_hacknet_chainloader_8cs/#using-version">Version</a> latest)</td>
+</tr>
+<tr>
+<td>async Task&lt; string &gt;</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-handlestreamdownloaddefault">HandleStreamDownloadDefault</a></strong>(Stream stream)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-properties">Public Properties</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-plugintype">PluginType</a></strong></td>
+</tr>
+<tr>
+<td><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-findversionaction">FindVersionAction</a></td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-findversion">FindVersion</a></strong></td>
+</tr>
+<tr>
+<td><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-getupdatestreamaction">GetUpdateStreamAction</a></td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-getupdatestream">GetUpdateStream</a></strong></td>
+</tr>
+<tr>
+<td><a href="../Classes/class_pathfinder_updater_1_1_updater/#function-handlestreamdownloadaction">HandleStreamDownloadAction</a></td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-handlestreamdownload">HandleStreamDownload</a></strong></td>
+</tr>
+<tr>
+<td>string</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-githubapiurl">GithubApiUrl</a></strong></td>
+</tr>
+<tr>
+<td>string</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-assetfilename">AssetFileName</a></strong></td>
+</tr>
+<tr>
+<td>string</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-zipentrypath">ZipEntryPath</a></strong></td>
+</tr>
+<tr>
+<td>bool</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-includeprerelease">IncludePrerelease</a></strong></td>
+</tr>
+<tr>
+<td>string</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-currentversion">CurrentVersion</a></strong></td>
+</tr>
+<tr>
+<td><a href="../Files/_hacknet_chainloader_8cs/#using-version">Version</a></td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-latestversion">LatestVersion</a></strong></td>
+</tr>
+<tr>
+<td>string</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-pathtoupdate">PathToUpdate</a></strong></td>
+</tr>
+<tr>
+<td>string</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-downloadedtemppath">DownloadedTempPath</a></strong></td>
+</tr>
+<tr>
+<td>ManualLogSource</td>
+<td><strong><a href="../Classes/class_pathfinder_updater_1_1_updater/#property-log">Log</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-create-plugint">function Create&lt; PluginT &gt;</h3>
+<pre><code class="language-csharp">static Updater Create&lt; PluginT &gt;(
+    string githubApiUrl,
+    string assetFile,
+    string zipPath,
+    bool includePrereleases =false
+)
+</code></pre>
+<h3 id="function-trycreate">function TryCreate</h3>
+<pre><code class="language-csharp">static bool TryCreate(
+    Type pluginType,
+    out Updater updater,
+    bool canSupportUpdaterData =false
+)
+</code></pre>
+<h3 id="function-forceresetallreleasedata">function ForceResetAllReleaseData</h3>
+<pre><code class="language-csharp">static void ForceResetAllReleaseData()
+</code></pre>
+<h3 id="function-forceresetallreleasedataasync">function ForceResetAllReleaseDataAsync</h3>
+<pre><code class="language-csharp">static async Task ForceResetAllReleaseDataAsync()
+</code></pre>
+<h3 id="function-findversionaction">function FindVersionAction</h3>
+<pre><code class="language-csharp">delegate Task&lt; Version &gt; FindVersionAction()
+</code></pre>
+<h3 id="function-getupdatestreamaction">function GetUpdateStreamAction</h3>
+<pre><code class="language-csharp">delegate Task&lt; Stream &gt; GetUpdateStreamAction(
+    Version latest
+)
+</code></pre>
+<h3 id="function-handlestreamdownloadaction">function HandleStreamDownloadAction</h3>
+<pre><code class="language-csharp">delegate Task&lt; string &gt; HandleStreamDownloadAction(
+    Stream stream
+)
+</code></pre>
+<h3 id="function-updater">function Updater</h3>
+<pre><code class="language-csharp">Updater(
+    Type pluginType,
+    FindVersionAction findVersion,
+    GetUpdateStreamAction getUpdateStream =null,
+    HandleStreamDownloadAction handeStreamDownload =null
+)
+</code></pre>
+<h3 id="function-updater_1">function Updater</h3>
+<pre><code class="language-csharp">Updater(
+    Type pluginType,
+    string githubApiUrl,
+    string assetFileName,
+    string zipEntryPath,
+    bool includePrerelease =false
+)
+</code></pre>
+<h3 id="function-updater_2">function Updater</h3>
+<pre><code class="language-csharp">Updater(
+    Type pluginType
+)
+</code></pre>
+<h3 id="function-checkforupdate">function CheckForUpdate</h3>
+<pre><code class="language-csharp">async Task&lt; bool &gt; CheckForUpdate()
+</code></pre>
+<h3 id="function-performdownload">function PerformDownload</h3>
+<pre><code class="language-csharp">async Task PerformDownload()
+</code></pre>
+<h3 id="function-performupdate">function PerformUpdate</h3>
+<pre><code class="language-csharp">void PerformUpdate()
+</code></pre>
+<h3 id="function-trydeletedownloadedtempfile">function TryDeleteDownloadedTempFile</h3>
+<pre><code class="language-csharp">bool TryDeleteDownloadedTempFile()
+</code></pre>
+<h3 id="function-trydeletedlltempfile">function TryDeleteDllTempFile</h3>
+<pre><code class="language-csharp">bool TryDeleteDllTempFile()
+</code></pre>
+<h3 id="function-forceresetreleasedata">function ForceResetReleaseData</h3>
+<pre><code class="language-csharp">HttpResponseMessage ForceResetReleaseData()
+</code></pre>
+<h3 id="function-forceresetreleasedataasync">function ForceResetReleaseDataAsync</h3>
+<pre><code class="language-csharp">async Task&lt; HttpResponseMessage &gt; ForceResetReleaseDataAsync()
+</code></pre>
+<h3 id="function-findversiondefault">function FindVersionDefault</h3>
+<pre><code class="language-csharp">async Task&lt; Version &gt; FindVersionDefault()
+</code></pre>
+<h3 id="function-getupdatestreamdefault">function GetUpdateStreamDefault</h3>
+<pre><code class="language-csharp">async Task&lt; Stream &gt; GetUpdateStreamDefault(
+    Version latest
+)
+</code></pre>
+<h3 id="function-handlestreamdownloaddefault">function HandleStreamDownloadDefault</h3>
+<pre><code class="language-csharp">async Task&lt; string &gt; HandleStreamDownloadDefault(
+    Stream stream
+)
+</code></pre>
+<h2 id="public-property-documentation">Public Property Documentation</h2>
+<h3 id="property-plugintype">property PluginType</h3>
+<pre><code class="language-csharp">Type PluginType;
+</code></pre>
+<h3 id="property-findversion">property FindVersion</h3>
+<pre><code class="language-csharp">FindVersionAction FindVersion;
+</code></pre>
+<h3 id="property-getupdatestream">property GetUpdateStream</h3>
+<pre><code class="language-csharp">GetUpdateStreamAction GetUpdateStream;
+</code></pre>
+<h3 id="property-handlestreamdownload">property HandleStreamDownload</h3>
+<pre><code class="language-csharp">HandleStreamDownloadAction HandleStreamDownload;
+</code></pre>
+<h3 id="property-githubapiurl">property GithubApiUrl</h3>
+<pre><code class="language-csharp">string GithubApiUrl;
+</code></pre>
+<h3 id="property-assetfilename">property AssetFileName</h3>
+<pre><code class="language-csharp">string AssetFileName;
+</code></pre>
+<h3 id="property-zipentrypath">property ZipEntryPath</h3>
+<pre><code class="language-csharp">string ZipEntryPath;
+</code></pre>
+<h3 id="property-includeprerelease">property IncludePrerelease</h3>
+<pre><code class="language-csharp">bool IncludePrerelease;
+</code></pre>
+<h3 id="property-currentversion">property CurrentVersion</h3>
+<pre><code class="language-csharp">string CurrentVersion;
+</code></pre>
+<h3 id="property-latestversion">property LatestVersion</h3>
+<pre><code class="language-csharp">Version LatestVersion;
+</code></pre>
+<h3 id="property-pathtoupdate">property PathToUpdate</h3>
+<pre><code class="language-csharp">string PathToUpdate;
+</code></pre>
+<h3 id="property-downloadedtemppath">property DownloadedTempPath</h3>
+<pre><code class="language-csharp">string DownloadedTempPath;
+</code></pre>
+<h3 id="property-log">property Log</h3>
+<pre><code class="language-csharp">ManualLogSource Log;
+</code></pre>
+<hr />
+<p>Updated on 2026-09-26 at 01:20:07 +0000</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

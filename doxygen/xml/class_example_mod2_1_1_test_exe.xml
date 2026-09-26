@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_example_mod2_1_1_test_exe" kind="class" language="C#" prot="public">
+    <compoundname>ExampleMod2::TestExe</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_executable_1_1_base_executable" prot="public" virt="non-virtual">Pathfinder.Executable.BaseExecutable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_example_mod2_1_1_test_exe_1a3ce3f67818c632dbb1664f1636799e0d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ExampleMod2.TestExe.total</definition>
+        <argsstring></argsstring>
+        <name>total</name>
+        <qualifiedname>ExampleMod2.TestExe.total</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="78" column="19" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_example_mod2_1_1_test_exe_1af079bdf9f1c7707edda32b47dccd60fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ExampleMod2.TestExe.TestExe</definition>
+        <argsstring>(Rectangle location, OS operatingSystem, string[] args)</argsstring>
+        <name>TestExe</name>
+        <qualifiedname>ExampleMod2.TestExe.TestExe</qualifiedname>
+        <param>
+          <type>Rectangle</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>OS</type>
+          <declname>operatingSystem</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="61" column="12" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_example_mod2_1_1_test_exe_1afa7c1f2e29ddfe4cf09724f350156e86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ExampleMod2.TestExe.LoadContent</definition>
+        <argsstring>()</argsstring>
+        <name>LoadContent</name>
+        <qualifiedname>ExampleMod2.TestExe.LoadContent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="63" column="26" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_example_mod2_1_1_test_exe_1a6bd7b87522d95628f1549b330c95f1f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ExampleMod2.TestExe.Draw</definition>
+        <argsstring>(float t)</argsstring>
+        <name>Draw</name>
+        <qualifiedname>ExampleMod2.TestExe.Draw</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="70" column="26" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="70" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_example_mod2_1_1_test_exe_1a8e464cc8321c48804424fdca8fc1e8ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ExampleMod2.TestExe.Update</definition>
+        <argsstring>(float t)</argsstring>
+        <name>Update</name>
+        <qualifiedname>ExampleMod2.TestExe.Update</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ExampleMod/ExampleModPlugin.cs" line="79" column="26" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="79" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ExampleMod2.TestExe</label>
+        <link refid="class_example_mod2_1_1_test_exe"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ExeModule</label>
+      </node>
+      <node id="2">
+        <label>Pathfinder::Executable::BaseExecutable</label>
+        <link refid="class_pathfinder_1_1_executable_1_1_base_executable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ExampleMod2.TestExe</label>
+        <link refid="class_example_mod2_1_1_test_exe"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ExeModule</label>
+      </node>
+      <node id="2">
+        <label>Pathfinder::Executable::BaseExecutable</label>
+        <link refid="class_pathfinder_1_1_executable_1_1_base_executable"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ExampleMod/ExampleModPlugin.cs" line="59" column="7" bodyfile="ExampleMod/ExampleModPlugin.cs" bodystart="60" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_executable_1_1_base_executable_1af32dafdcbb5ec900be0c9d99e451defe" prot="public" virt="non-virtual"><scope>ExampleMod2::TestExe</scope><name>Args</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_base_executable_1a165d0b6fc47dc62b662ef18efaabc668" prot="public" virt="non-virtual"><scope>ExampleMod2::TestExe</scope><name>BaseExecutable</name></member>
+      <member refid="class_example_mod2_1_1_test_exe_1a6bd7b87522d95628f1549b330c95f1f7" prot="public" virt="non-virtual"><scope>ExampleMod2::TestExe</scope><name>Draw</name></member>
+      <member refid="class_pathfinder_1_1_executable_1_1_base_executable_1a23717a2e6bf0e5301fc861eebada2c7b" prot="public" virt="virtual"><scope>ExampleMod2::TestExe</scope><name>GetIdentifier</name></member>
+      <member refid="class_example_mod2_1_1_test_exe_1afa7c1f2e29ddfe4cf09724f350156e86" prot="public" virt="non-virtual"><scope>ExampleMod2::TestExe</scope><name>LoadContent</name></member>
+      <member refid="class_example_mod2_1_1_test_exe_1af079bdf9f1c7707edda32b47dccd60fc" prot="public" virt="non-virtual"><scope>ExampleMod2::TestExe</scope><name>TestExe</name></member>
+      <member refid="class_example_mod2_1_1_test_exe_1a3ce3f67818c632dbb1664f1636799e0d" prot="private" virt="non-virtual"><scope>ExampleMod2::TestExe</scope><name>total</name></member>
+      <member refid="class_example_mod2_1_1_test_exe_1a8e464cc8321c48804424fdca8fc1e8ca" prot="public" virt="non-virtual"><scope>ExampleMod2::TestExe</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

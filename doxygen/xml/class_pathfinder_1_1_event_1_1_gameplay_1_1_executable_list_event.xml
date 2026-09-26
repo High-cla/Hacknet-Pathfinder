@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Event::Gameplay::ExecutableListEvent</compoundname>
+    <basecompoundref refid="class_pathfinder_1_1_event_1_1_pathfinder_event" prot="public" virt="non-virtual">Pathfinder.Event.PathfinderEvent</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1ae59bd6898f15d91061fb9be605008f5e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>OS</type>
+        <definition>OS Pathfinder.Event.Gameplay.ExecutableListEvent.OS</definition>
+        <argsstring></argsstring>
+        <name>OS</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.ExecutableListEvent.OS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" line="9" column="15" bodyfile="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1adc33b44955869a530d267ae4260b662a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Pathfinder.Event.Gameplay.ExecutableListEvent.EmbeddedExes</definition>
+        <argsstring></argsstring>
+        <name>EmbeddedExes</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.ExecutableListEvent.EmbeddedExes</qualifiedname>
+        <initializer>= new List&lt;string&gt;
+    {
+        &quot;PortHack&quot;, &quot;ForkBomb&quot;, &quot;Shell&quot;, &quot;Tutorial&quot;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" line="11" column="17" bodyfile="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1abe7522356548d809674f846091273f40" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; FileEntry, bool &gt;</type>
+        <definition>Dictionary&lt;FileEntry, bool&gt; Pathfinder.Event.Gameplay.ExecutableListEvent.BinExes</definition>
+        <argsstring></argsstring>
+        <name>BinExes</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.ExecutableListEvent.BinExes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" line="15" column="23" bodyfile="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1a169c12da52489b2f1e3725fde9bfc416" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Event.Gameplay.ExecutableListEvent.ExecutableListEvent</definition>
+        <argsstring>(OS os, Dictionary&lt; FileEntry, bool &gt; binExes)</argsstring>
+        <name>ExecutableListEvent</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.ExecutableListEvent.ExecutableListEvent</qualifiedname>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1ae59bd6898f15d91061fb9be605008f5e" kindref="member">OS</ref></type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; FileEntry, bool &gt;</type>
+          <declname>binExes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" line="17" column="12" bodyfile="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1a631996f20c930a908162e62607add6f4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pathfinder.Event.Gameplay.ExecutableListEvent.ProgramsExecuteReplacement</definition>
+        <argsstring>(string[] args, OS os)</argsstring>
+        <name>ProgramsExecuteReplacement</name>
+        <qualifiedname>Pathfinder.Event.Gameplay.ExecutableListEvent.ProgramsExecuteReplacement</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1ae59bd6898f15d91061fb9be605008f5e" kindref="member">OS</ref></type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" line="25" column="25" bodyfile="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" bodystart="25" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Pathfinder.Event.Gameplay.ExecutableListEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pathfinder.Event.Gameplay.ExecutableListEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PathfinderEvent</label>
+        <link refid="class_pathfinder_1_1_event_1_1_pathfinder_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" line="7" column="7" bodyfile="PathfinderAPI/Event/Gameplay/ExecutableListEvent.cs" bodystart="8" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1abe7522356548d809674f846091273f40" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::ExecutableListEvent</scope><name>BinExes</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1ae2756a88cd83322a110c45f05d4166cd" prot="package" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::ExecutableListEvent</scope><name>cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1a03602be6f53e695bfb1f498a227e174f" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::ExecutableListEvent</scope><name>Cancelled</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1adc33b44955869a530d267ae4260b662a" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::ExecutableListEvent</scope><name>EmbeddedExes</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1a169c12da52489b2f1e3725fde9bfc416" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::ExecutableListEvent</scope><name>ExecutableListEvent</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1ae59bd6898f15d91061fb9be605008f5e" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::ExecutableListEvent</scope><name>OS</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_gameplay_1_1_executable_list_event_1a631996f20c930a908162e62607add6f4" prot="private" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::ExecutableListEvent</scope><name>ProgramsExecuteReplacement</name></member>
+      <member refid="class_pathfinder_1_1_event_1_1_pathfinder_event_1aef8114f48a482b0968d9305cbd01398b" prot="public" virt="non-virtual"><scope>Pathfinder::Event::Gameplay::ExecutableListEvent</scope><name>Thrown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

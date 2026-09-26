@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_options_1_1_options_tab" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Options::OptionsTab</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_options_tab_1aca281aef0ae1b63bba447a3b73dbec9f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Options.OptionsTab.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>Pathfinder.Options.OptionsTab.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/OptionsManager.cs" line="23" column="19" bodyfile="PathfinderAPI/Options/OptionsManager.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_options_tab_1a0ec2f2d9180e09200e2e27a371e97e6e" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_pathfinder_1_1_options_1_1_option" kindref="compound">Option</ref> &gt;</type>
+        <definition>List&lt;Option&gt; Pathfinder.Options.OptionsTab.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <qualifiedname>Pathfinder.Options.OptionsTab.Options</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_pathfinder_1_1_options_1_1_option" kindref="compound">Option</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/OptionsManager.cs" line="25" column="17" bodyfile="PathfinderAPI/Options/OptionsManager.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_pathfinder_1_1_options_1_1_options_tab_1a659a514ccb5d14e6ba0020f9b5cdb565" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pathfinder.Options.OptionsTab.ButtonID</definition>
+        <argsstring></argsstring>
+        <name>ButtonID</name>
+        <qualifiedname>Pathfinder.Options.OptionsTab.ButtonID</qualifiedname>
+        <initializer>= PFButton.GetNextID()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/OptionsManager.cs" line="27" column="18" bodyfile="PathfinderAPI/Options/OptionsManager.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_options_1_1_options_tab_1aff360be1fba153414e5d098fbe29e90d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Options.OptionsTab.OptionsTab</definition>
+        <argsstring>(string name)</argsstring>
+        <name>OptionsTab</name>
+        <qualifiedname>Pathfinder.Options.OptionsTab.OptionsTab</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Options/OptionsManager.cs" line="29" column="12" bodyfile="PathfinderAPI/Options/OptionsManager.cs" bodystart="29" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PathfinderAPI/Options/OptionsManager.cs" line="21" column="7" bodyfile="PathfinderAPI/Options/OptionsManager.cs" bodystart="22" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_options_1_1_options_tab_1a659a514ccb5d14e6ba0020f9b5cdb565" prot="package" virt="non-virtual"><scope>Pathfinder::Options::OptionsTab</scope><name>ButtonID</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_options_tab_1aca281aef0ae1b63bba447a3b73dbec9f" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionsTab</scope><name>Name</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_options_tab_1a0ec2f2d9180e09200e2e27a371e97e6e" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionsTab</scope><name>Options</name></member>
+      <member refid="class_pathfinder_1_1_options_1_1_options_tab_1aff360be1fba153414e5d098fbe29e90d" prot="public" virt="non-virtual"><scope>Pathfinder::Options::OptionsTab</scope><name>OptionsTab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

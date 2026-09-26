@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_pathfinder_1_1_meta_1_1_updater_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Pathfinder::Meta::UpdaterAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_updater_attribute_1a14c78d8fac8b304686ac0c2a633bf4e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.UpdaterAttribute.GithubApiUrl</definition>
+        <argsstring></argsstring>
+        <name>GithubApiUrl</name>
+        <qualifiedname>Pathfinder.Meta.UpdaterAttribute.GithubApiUrl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/UpdaterAttribute.cs" line="5" column="19" bodyfile="PathfinderAPI/Meta/UpdaterAttribute.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_updater_attribute_1a6bad7d3f89f1d9191de20838cf57ca3f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.UpdaterAttribute.AssetFileName</definition>
+        <argsstring></argsstring>
+        <name>AssetFileName</name>
+        <qualifiedname>Pathfinder.Meta.UpdaterAttribute.AssetFileName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/UpdaterAttribute.cs" line="6" column="19" bodyfile="PathfinderAPI/Meta/UpdaterAttribute.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_updater_attribute_1a55438bf41386c2c17318b159bb3217aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Pathfinder.Meta.UpdaterAttribute.ZipEntryPath</definition>
+        <argsstring></argsstring>
+        <name>ZipEntryPath</name>
+        <qualifiedname>Pathfinder.Meta.UpdaterAttribute.ZipEntryPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/UpdaterAttribute.cs" line="7" column="19" bodyfile="PathfinderAPI/Meta/UpdaterAttribute.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_pathfinder_1_1_meta_1_1_updater_attribute_1ac39f67494056bcb67637f71c578a1f9a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Pathfinder.Meta.UpdaterAttribute.IncludePrerelease</definition>
+        <argsstring></argsstring>
+        <name>IncludePrerelease</name>
+        <qualifiedname>Pathfinder.Meta.UpdaterAttribute.IncludePrerelease</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/UpdaterAttribute.cs" line="8" column="17" bodyfile="PathfinderAPI/Meta/UpdaterAttribute.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pathfinder_1_1_meta_1_1_updater_attribute_1ab1a2983938ff4eb9aff7900c78172510" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pathfinder.Meta.UpdaterAttribute.UpdaterAttribute</definition>
+        <argsstring>(string apiUrl, string assetName, string zipPath=null, bool includePrerlease=false)</argsstring>
+        <name>UpdaterAttribute</name>
+        <qualifiedname>Pathfinder.Meta.UpdaterAttribute.UpdaterAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>apiUrl</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>assetName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>zipPath</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includePrerlease</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PathfinderAPI/Meta/UpdaterAttribute.cs" line="10" column="12" bodyfile="PathfinderAPI/Meta/UpdaterAttribute.cs" bodystart="10" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.UpdaterAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_updater_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Pathfinder.Meta.UpdaterAttribute</label>
+        <link refid="class_pathfinder_1_1_meta_1_1_updater_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PathfinderAPI/Meta/UpdaterAttribute.cs" line="3" column="7" bodyfile="PathfinderAPI/Meta/UpdaterAttribute.cs" bodystart="4" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1a6bad7d3f89f1d9191de20838cf57ca3f" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::UpdaterAttribute</scope><name>AssetFileName</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1a14c78d8fac8b304686ac0c2a633bf4e9" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::UpdaterAttribute</scope><name>GithubApiUrl</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1ac39f67494056bcb67637f71c578a1f9a" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::UpdaterAttribute</scope><name>IncludePrerelease</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1ab1a2983938ff4eb9aff7900c78172510" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::UpdaterAttribute</scope><name>UpdaterAttribute</name></member>
+      <member refid="class_pathfinder_1_1_meta_1_1_updater_attribute_1a55438bf41386c2c17318b159bb3217aa" prot="public" virt="non-virtual"><scope>Pathfinder::Meta::UpdaterAttribute</scope><name>ZipEntryPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
