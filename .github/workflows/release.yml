@@ -123,8 +123,8 @@ jobs:
       - name: Generate Doxybook2
         run: |
           doxybook2 \
-            --input ./docs/doxygen/xml
-            --output ./docs/mkdocs/doxybook
+            --input ./docs/doxygen/xml \
+            --output ./docs/mkdocs/doxybook \
             --config ./docs/doxybook-config.json
           cd ./docs
           mkdocs build
