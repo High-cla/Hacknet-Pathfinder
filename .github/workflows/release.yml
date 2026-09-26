@@ -118,6 +118,7 @@ jobs:
       - name: Generate Doxygen
         run: |
           doxygen ./docs/Doxyfile
+          rm -rf ./docs/doxygen
           mv ./doxygen ./docs/
 
       - name: Generate Doxybook2
